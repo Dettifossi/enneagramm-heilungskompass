@@ -266,6 +266,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Oprah Winfrey – Selbsterhaltender Typ 2",
     teaser:"SE2w3 · geb. 1954. Moderatorin, Unternehmerin, Philanthropin. Vom Trauma zum Medienimperium – Fürsorge im großen Maßstab, unternehmerischer Wille ohne Kompromiss. Tierentsprechung: Flusspferd.",
     tags:["Medien","Wirtschaft"] , gender:"f"},
+  { route:"beruehmte-jesus-christus", name:"Jesus Christus", added:"2026-07-31", subtyp:"SO2w1",
+    heading:"Jesus Christus – Sozialer Typ 2",
+    teaser:"SO2w1 · ca. 4 v. Chr.–30/33 n. Chr. Wanderprediger, Religionsstifter. Bedingungslose Liebe als Gebot für alle, unerbittlicher Anspruch an das eigene Selbstopfer – der Golden Retriever, dessen Hingabe zum Fundament einer Weltreligion wurde. Tierentsprechung: Golden Retriever.",
+    tags:["Religion","Geschichte"] , gender:"m"},
   { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
     heading:"Prof. Dr. Sucharit Bhakdi – Sozialer Typ 2",
     teaser:"SO2w1 · geb. 1946. Mikrobiologe, Hochschullehrer, Wissenschaftler und unermüdlicher Mahner. Der Golden Retriever, der Alarm schlägt – weil er die Gesellschaft liebt. Tierentsprechung: Golden Retriever.",
@@ -16063,6 +16067,89 @@ function hundertwasserPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Porträt: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Porträt: Iga Świątek (SX9w1)"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Schaubild: Architektur & Raumgestaltung der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
+function jesusChristusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jesus-christus-portrait.jpg" alt="Jesus Christus" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jesus Christus</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Sozialer Typ 2 mit Einserflügel</p>
+        <p class="krim-portrait-subtitle">Wanderprediger &amp; Religionsstifter, ca. 4 v. Chr.&ndash;30/33 n. Chr. &ndash; Tierentsprechung: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Golden Retriever</strong> ist das Tier der sozialen Zwei &ndash; ein Tier, das seine ganze Existenz auf Zugehörigkeit und Fürsorge für das Rudel ausrichtet, ohne Berechnung, ohne Kalkül, aus einem inneren Bedürfnis heraus, gebraucht zu werden und zu geben. Kein Zufallstier für eine Gestalt, deren zentrales Gebot lautete: &bdquo;Liebe deinen Nächsten wie dich selbst&ldquo; &ndash; und die genau diesen Satz zum Fundament einer Weltreligion machte, die heute über zwei Milliarden Menschen prägt.</p>
+          <p class="vb-intro">Wo die sexuelle Zwei die eine Person verführt und die selbsterhaltende Zwei die eigene Familie versorgt, richtet sich die soziale Zwei an die Gemeinschaft insgesamt &ndash; an alle, nicht an einzelne. Genau das ist die Struktur des Wirkens Jesu: kein privates Anliegen, keine Beziehung im engeren Sinn, sondern eine Botschaft, die explizit an &bdquo;alle Völker&ldquo; gerichtet war (Matthäus 28,19). Der Golden Retriever, dessen Zuneigung sich nicht auf einen Menschen beschränkt, sondern jedem gilt, der ihm begegnet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Zwei: Liebe als universaler Auftrag</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Zwei (SO2)</strong> sucht Zugehörigkeit nicht über die eine besondere Beziehung, sondern über die Rolle innerhalb der Gemeinschaft &ndash; über das Gebrauchtwerden für ein größeres Ganzes. Naranjo beschreibt diesen Subtyp treffend als denjenigen mit dem stärksten missionarischen Zug aller Zweier-Subtypen: Er will nicht nur einzelnen Menschen helfen, er will die Gemeinschaft selbst prägen, ihr dienen, sie führen &ndash; im Wissen, dass wahre Liebe alle einschließen muss, nicht nur die Nächsten.</p>
+          <p class="vb-intro">Jesu gesamtes öffentliches Wirken folgt dieser Logik. Er zieht nicht zurückgezogen mit wenigen Vertrauten durchs Land, sondern sucht die Menge: die Bergpredigt vor Tausenden, die Speisung der Fünftausend, die offene Zuwendung zu Aussätzigen, Zöllnern, Prostituierten &ndash; Randgruppen, die von der etablierten Gesellschaft ausgeschlossen wurden. Die soziale Zwei erkennt sich selbst darin, wer übersehen wird, und macht es zu ihrer Aufgabe, genau diese Menschen wieder einzuschließen. &bdquo;Nicht die Starken bedürfen des Arztes, sondern die Kranken&ldquo; (Markus 2,17) &ndash; ein Satz, der die gesamte SO2-Haltung in einem Vers zusammenfasst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Einserflügel: Gesetz erfüllen, nicht abschaffen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Einserflügel (w1)</strong> gibt der sozialen Zwei etwas, das die reine Zwei selten in dieser Schärfe zeigt: einen unbedingten moralischen Maßstab. Jesus betont ausdrücklich: &bdquo;Ich bin nicht gekommen, das Gesetz aufzulösen, sondern zu erfüllen&ldquo; (Matthäus 5,17) &ndash; und verschärft es zugleich radikal, etwa wenn er nicht nur den Mord, sondern schon den Zorn im Herzen verurteilt, nicht nur den Ehebruch, sondern schon das begehrliche Ansehen. Keine Abschaffung von Prinzipien, sondern deren Vertiefung bis in die Gesinnung hinein &ndash; die charakteristische Handschrift des Einserflügels: Liebe wird zur ethischen Forderung, nicht nur zum Gefühl.</p>
+          <p class="vb-intro">Diese Kombination erklärt auch die scheinbaren Widersprüche in Jesu Auftreten: die sanfte Zuwendung zur Ehebrecherin (&bdquo;Wer von euch ohne Sünde ist, werfe den ersten Stein&ldquo;, Johannes 8,7) neben der scharfen Tempelreinigung, bei der er die Händler mit einer Geißel aus Stricken vertreibt (Johannes 2,15). Fürsorge und Prinzipientreue in derselben Gestalt &ndash; die soziale Zwei, die liebt, aber nicht duldet, was dem Menschen und der Gemeinschaft schadet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Versuchung in der Wüste: Widerstand gegen die Abkürzung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Vierzig Tage fastet Jesus in der Wüste, bevor der Versucher ihm dreimal eine Abkürzung anbietet: Steine zu Brot machen, sich vom Tempel stürzen und von Engeln retten lassen, alle Reiche der Welt im Tausch gegen Anbetung. Aus Sicht der Subtypenlehre ist das die Versuchung, die der sozialen Zwei am gefährlichsten ist &ndash; nicht persönliche Gier, sondern die Möglichkeit, Einfluss und Zuwendung der Massen durch Macht statt durch Dienst zu gewinnen. Jesus lehnt alle drei Angebote ab, weil sie den Kern seines Auftrags verraten würden: Liebe, die sich erzwingt, ist keine Liebe mehr.</p>
+          <p class="vb-intro">Diese Szene zeigt die reifste Form des Einserflügels: Prinzipientreue nicht als starre Regel, sondern als bewusste Entscheidung gegen den leichteren Weg. Die soziale Zwei, die verführt werden könnte, alle zu retten, indem sie über sie herrscht &ndash; und die sich stattdessen für den langsameren, verletzlicheren Weg des Dienens entscheidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Das letzte Abendmahl: Gemeinschaft als Vermächtnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Am Vorabend seines Todes versammelt Jesus seine Jünger ein letztes Mal und gibt ihnen ein Ritual, das seine gesamte Botschaft in eine wiederholbare Handlung übersetzt: Brot und Wein, geteilt als Zeichen von Leib und Blut. Kein Testament im juristischen Sinn, sondern ein Vermächtnis der sozialen Zwei in Reinform &ndash; die Gemeinschaft soll auch nach dem eigenen Tod weiterbestehen, weiter zusammenkommen, weiter teilen. &bdquo;Tut dies zu meinem Gedächtnis&ldquo; (Lukas 22,19) ist kein Wunsch nach persönlichem Andenken, sondern der Auftrag, das Ritual der Verbundenheit fortzuführen.</p>
+          <p class="vb-intro">Bezeichnend auch: Jesus weiß um seinen bevorstehenden Verrat und benennt ihn am selben Tisch, ohne den Kreis zu sprengen. Die soziale Zwei hält die Gemeinschaft zusammen, selbst wenn sie weiß, dass sie von innen verwundet wird &ndash; weil das Zusammenhalten wichtiger ist als die eigene Verletzung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Kreuzweg: Neun Stationen der Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Kreuzweg Jesu lässt sich in neun biblisch bezeugten Stationen nachzeichnen &ndash; von der Verurteilung über das Tragen des Kreuzes, die Begegnung mit den weinenden Frauen, bis zur Kreuzigung und Grablegung. Auffällig ist, wie durchgängig sich in diesem Weg die soziale Zwei zeigt: Selbst im eigenen Todesgang wendet Jesus sich noch anderen zu. Den weinenden Frauen sagt er, sie sollten nicht um ihn, sondern um sich selbst und ihre Kinder weinen (Lukas 23,28) &ndash; im eigenen größten Leid bleibt der Blick nach außen gerichtet, auf das Wohl der anderen.</p>
+          <p class="vb-intro">Am Kreuz selbst bittet er für seine Peiniger: &bdquo;Vater, vergib ihnen, denn sie wissen nicht, was sie tun&ldquo; (Lukas 23,34) &ndash; die äußerste Konsequenz der SO2-Haltung: Vergebung als letzter Liebesdienst an einer Gemeinschaft, die ihn gerade zerstört. Und noch im Sterben sorgt er für seine Mutter, indem er sie in die Obhut des Jüngers Johannes gibt (Johannes 19,26&ndash;27) &ndash; Fürsorge bis zum letzten Atemzug, keine Sekunde für sich selbst reklamiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Licht und Schatten der sozialen Zwei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO2 ist ihre Fähigkeit, Liebe so weit zu denken, dass sie niemanden ausschließt &ndash; eine radikale Gleichwertigkeit, die zur Zeit Jesu gesellschaftlich revolutionär war: Frauen, Kinder, Kranke, Fremde, Feinde, alle eingeschlossen in dasselbe Gebot der Liebe. &bdquo;Liebet eure Feinde&ldquo; (Matthäus 5,44) ist der radikalste Satz dieser Haltung &ndash; die soziale Zwei, die die Grenze zwischen &bdquo;uns&ldquo; und &bdquo;ihnen&ldquo; grundsätzlich infrage stellt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Zwei ist der <strong>Stolz</strong> &ndash; und bei der SO2 zeigt er sich nicht als Eitelkeit, sondern als die stille Gewissheit, unentbehrlich für das Heil der Gemeinschaft zu sein. Genau diesen Vorwurf machten Jesu Gegner ihm: Anmaßung, Gotteslästerung, der Anspruch, selbst der Weg zum Vater zu sein (Johannes 14,6). Ob man diesen Anspruch theologisch bejaht oder nicht &ndash; strukturell zeigt er die äußerste Form des SO2-Stolzes: sich selbst zur einzigen Rettung der Gemeinschaft zu erklären.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Kreuzigung und Tod: Das Opfer als letzte Konsequenz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Im Garten Gethsemane, kurz vor seiner Verhaftung, zeigt sich ein selten beachteter Moment: Jesus ringt im Gebet mit der Angst vor dem, was kommt &ndash; &bdquo;Meine Seele ist zu Tode betrübt&ldquo; (Matthäus 26,38) &ndash; und bittet dreimal, der Kelch möge an ihm vorübergehen, bevor er sich fügt: &bdquo;Doch nicht wie ich will, sondern wie du willst.&ldquo; Das ist keine Schwäche, sondern die menschlichste Stelle des gesamten Wegs: Auch die stärkste soziale Zwei zahlt einen echten, spürbaren Preis für ihre Hingabe &ndash; sie verdrängt die Angst nicht, sie überwindet sie im Dienst an der größeren Sache.</p>
+          <p class="vb-intro">Die Kreuzigung selbst ist die konsequenteste Form des SO2-Selbstopfers, die sich denken lässt: der eigene Tod als Rettung für andere, freiwillig angenommen, obwohl Fluchtmöglichkeiten angedeutet werden (&bdquo;Meinst du nicht, dass ich meinen Vater bitten könnte und er würde mir mehr als zwölf Legionen Engel schicken?&ldquo;, Matthäus 26,53). Die soziale Zwei, die die Macht zur Rettung ihrer selbst hätte &ndash; und sie nicht nutzt, weil das Ziel nie die eigene Rettung war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Auferstehung: Die neun Stufen des Weges</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Leben Jesu lässt sich in neun Stufen nachzeichnen, die zugleich als universelles Entwicklungsmuster des Bewusstseins gelesen werden können: von der Taufe über die Versuchung, die Verklärung, das letzte Abendmahl, das Gebet am Ölberg, die Kreuzigung, bis zu Kreuzestod, Auferstehung und Himmelfahrt. Was diesen Bogen trägt, ist eine durchgängige Bewegung von der Ankündigung eines Auftrags hin zu dessen vollständiger Einlösung &ndash; ein Muster, das sich, bewusst oder unbewusst, in jedem menschlichen Reifungsweg wiederfindet.</p>
+          <p class="vb-intro">Die Auferstehung schließt diesen Kreis: aus Sterblichkeit wird, in der christlichen Erzählung, Unsterblichkeit. Für die soziale Zwei ist das die letzte und größte Konsequenz ihrer Logik &ndash; die Gemeinschaft, für die sie lebte und starb, erhält die Zusicherung, dass die Verbindung über den Tod hinaus bestehen bleibt. Kein privates Wunder, sondern, in der Lesart des Neuen Testaments, ein Versprechen an alle: Der Golden Retriever, dessen letzte Geste nicht die eigene Erhöhung ist, sondern die bleibende Zusage, niemanden zurückzulassen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so2", label:"SO2 – Der Golden Retriever: Subtyp-Profil"},
+        {route:"beruehmte-sucharit-bhakdi", label:"Porträt: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
+        {route:"beruehmte-barack-obama", label:"Porträt: Barack Obama (SO2w1)"},
       ])}
     </div>
   `);
@@ -43457,6 +43544,7 @@ function render() {
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
+      "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,

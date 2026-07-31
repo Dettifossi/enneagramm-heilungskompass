@@ -617,6 +617,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sahra Wagenknecht – Social Type 3",
     teaser:"SO3w2 · born 1969. Politician, author, founder of the BSW. The analyst of the popular – the cheetah who not only sprints, but also knows where to go. Animal correspondence: Cheetah.",
     tags:["Politics","Medien"] , gender:"f"},
+  { route:"beruehmte-jesus-christus", name:"Jesus Christ", added:"2026-07-31", subtyp:"SO2w1",
+    heading:"Jesus Christ – Social Type 2",
+    teaser:"SO2w1 · c. 4 BCE–30/33 CE. Itinerant preacher, founder of a world religion. Unconditional love as a commandment for all, an uncompromising demand for one's own self-sacrifice – the Golden Retriever whose devotion became the foundation of a world religion. Animal correspondence: Golden Retriever.",
+    tags:["Religion","History"] , gender:"m"},
   { route:"beruehmte-sucharit-bhakdi", name:"Prof. Dr. Sucharit Bhakdi", added:"2026-07-20", subtyp:"SO2w1",
     heading:"Prof. Dr. Sucharit Bhakdi – Social Type 2",
     teaser:"SO2w1 · born 1946. Microbiologist, university lecturer, scientist and tireless admonisher. The Golden Retriever who sounds the alarm – because he loves company. Animal correspondence: Golden Retriever.",
@@ -15692,6 +15696,89 @@ function hundertwasserPortraitPage() {
         {route:"beruehmte-keanu-reeves", label:"Portrait: Keanu Reeves (SX9w1)"},
         {route:"beruehmte-iga-swiatek", label:"Portrait: Iga \u015awi\u0105tek (SX9w1)"},
         {route:"architektur-raumgestaltung-der-9-typen", label:"Chart: Architecture & Interior Design of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
+function jesusChristusPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jesus-christus-portrait.jpg" alt="Jesus Christ" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jesus Christ</p>
+        <p class="krim-portrait-typ">SO2w1 &middot; Social Type 2 with One-wing</p>
+        <p class="krim-portrait-subtitle">Itinerant preacher &amp; founder of a world religion, c. 4 BCE&ndash;30/33 CE &ndash; Animal correspondence: Golden Retriever</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Golden Retriever</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Golden Retriever</strong> is the animal of the social Two &ndash; an animal that orients its entire existence toward belonging to and caring for the pack, without calculation, out of an inner need to be needed and to give. No accidental animal for a figure whose central commandment was: "Love your neighbor as yourself" &ndash; and who made exactly this sentence the foundation of a world religion that today shapes over two billion people.</p>
+          <p class="vb-intro">Where the sexual Two pursues the one person and the self-preservation Two provides for its own family, the social Two turns toward the community as a whole &ndash; toward everyone, not toward individuals. This is precisely the structure of Jesus's ministry: not a private concern, not a relationship in the narrow sense, but a message explicitly directed at "all nations" (Matthew 28:19). The Golden Retriever whose affection is not confined to one person, but extends to everyone it encounters.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Two: Love as a Universal Mandate</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Two (SO2)</strong> seeks belonging not through the one special relationship, but through its role within the community &ndash; through being needed for something larger. Naranjo aptly describes this subtype as having the strongest missionary drive of all Two subtypes: it wants not only to help individuals, it wants to shape the community itself, to serve it, to lead it &ndash; knowing that true love must include everyone, not just those closest to it.</p>
+          <p class="vb-intro">Jesus's entire public ministry follows this logic. He does not withdraw through the countryside with a few confidants, but seeks out the crowd: the Sermon on the Mount before thousands, the feeding of the five thousand, the open turning toward lepers, tax collectors, prostitutes &ndash; groups excluded by established society. The social Two recognizes itself in whoever is overlooked, and makes it its task to include exactly these people again. "It is not the healthy who need a physician, but the sick" (Mark 2:17) &ndash; a sentence that condenses the entire SO2 stance into a single verse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The One-Wing: Fulfilling the Law, Not Abolishing It</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>One-wing (w1)</strong> gives the social Two something the pure Two rarely shows with this sharpness: an unconditional moral standard. Jesus explicitly states: "I have not come to abolish the Law, but to fulfill it" (Matthew 5:17) &ndash; and at the same time radically deepens it, for instance condemning not only murder but already anger in the heart, not only adultery but already the lustful gaze. Not the abolition of principles, but their intensification down into inner disposition &ndash; the characteristic signature of the One-wing: love becomes an ethical demand, not merely a feeling.</p>
+          <p class="vb-intro">This combination also explains the apparent contradictions in Jesus's conduct: the gentle turning toward the woman caught in adultery ("Let him who is without sin cast the first stone," John 8:7) alongside the sharp cleansing of the Temple, where he drives out the merchants with a whip of cords (John 2:15). Care and principled rigor in the same figure &ndash; the social Two who loves, but does not tolerate what harms the person and the community.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Temptation in the Desert: Resisting the Shortcut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus fasts for forty days in the desert before the tempter offers him three shortcuts: turning stones into bread, throwing himself from the Temple and being rescued by angels, and receiving all the kingdoms of the world in exchange for worship. From the perspective of subtype theory, this is the temptation most dangerous to the social Two &ndash; not personal greed, but the possibility of winning the masses' devotion through power instead of through service. Jesus rejects all three offers because they would betray the core of his mission: love that forces itself is no longer love.</p>
+          <p class="vb-intro">This scene shows the most mature form of the One-wing: principled rigor not as a rigid rule, but as a conscious decision against the easier path. The social Two who could be tempted to save everyone by ruling over them &ndash; and who instead chooses the slower, more vulnerable path of service.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Last Supper: Community as Legacy</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">On the eve of his death, Jesus gathers his disciples one last time and gives them a ritual that translates his entire message into a repeatable act: bread and wine, shared as a sign of body and blood. Not a testament in the legal sense, but a legacy of the social Two in its purest form &ndash; the community is meant to continue after his own death, to keep gathering, to keep sharing. "Do this in remembrance of me" (Luke 22:19) is not a wish for personal memory, but the mandate to carry on the ritual of connection.</p>
+          <p class="vb-intro">Also telling: Jesus knows of his impending betrayal and names it at the same table, without breaking the circle apart. The social Two holds the community together even when it knows it is being wounded from within &ndash; because holding together matters more than its own injury.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Way of the Cross: Nine Stations of Devotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Jesus's way of the cross can be traced through nine biblically attested stations &ndash; from the condemnation through carrying the cross, the encounter with the weeping women, to the crucifixion and burial. What stands out is how consistently the social Two shows itself along this path: even on his own way to death, Jesus keeps turning toward others. To the weeping women he says they should not weep for him, but for themselves and their children (Luke 23:28) &ndash; even in his own greatest suffering, his gaze remains turned outward, toward the wellbeing of others.</p>
+          <p class="vb-intro">On the cross itself he asks forgiveness for his tormentors: "Father, forgive them, for they know not what they do" (Luke 23:34) &ndash; the most extreme consequence of the SO2 stance: forgiveness as a final act of love toward a community that is destroying him at that very moment. And even while dying he provides for his mother, entrusting her to the care of the disciple John (John 19:26&ndash;27) &ndash; care to the last breath, not a single second claimed for himself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">7. Light and Shadow of the Social Two</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO2 is its capacity to think love so expansively that it excludes no one &ndash; a radical equality that was socially revolutionary in Jesus's time: women, children, the sick, strangers, enemies, all included in the same commandment of love. "Love your enemies" (Matthew 5:44) is the most radical sentence of this stance &ndash; the social Two that fundamentally questions the boundary between "us" and "them".</p>
+          <p class="vb-intro">The Two's fateful pattern is <strong>pride</strong> &ndash; and in the SO2 it shows up not as vanity, but as the quiet certainty of being indispensable to the community's salvation. This was exactly the accusation Jesus's opponents leveled at him: presumption, blasphemy, the claim to be the way to the Father himself (John 14:6). Whether one affirms this claim theologically or not &ndash; structurally it shows the most extreme form of SO2 pride: declaring oneself the community's only salvation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">8. Crucifixion and Death: Sacrifice as Final Consequence</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In the Garden of Gethsemane, shortly before his arrest, a rarely noted moment appears: Jesus wrestles in prayer with fear of what is coming &ndash; "My soul is sorrowful, even unto death" (Matthew 26:38) &ndash; and asks three times that the cup might pass from him, before submitting: "Yet not as I will, but as you will." This is not weakness, but the most human moment of the entire path: even the strongest social Two pays a real, palpable price for its devotion &ndash; it does not suppress the fear, it overcomes it in service to the larger cause.</p>
+          <p class="vb-intro">The crucifixion itself is the most consistent form of SO2 self-sacrifice imaginable: one's own death as salvation for others, freely accepted even though escape routes are hinted at ("Do you think I cannot appeal to my Father, and he will at once send me more than twelve legions of angels?", Matthew 26:53). The social Two who holds the power to save itself &ndash; and does not use it, because the goal was never its own salvation.</p>
+        </blockquote>
+
+        <h2 class="vb-section">9. Resurrection: The Nine Stages of the Path</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The life of Jesus can be traced through nine stages that can also be read as a universal pattern of consciousness development: from baptism through temptation, transfiguration, the Last Supper, the prayer at the Mount of Olives, the crucifixion, to death on the cross, resurrection, and ascension. What carries this arc is a consistent movement from the announcement of a mission to its complete fulfillment &ndash; a pattern that, consciously or unconsciously, recurs in every human journey of maturation.</p>
+          <p class="vb-intro">The resurrection closes this circle: mortality becomes, in the Christian narrative, immortality. For the social Two, this is the final and greatest consequence of its logic &ndash; the community it lived and died for receives the assurance that the connection endures beyond death. Not a private miracle, but, in the reading of the New Testament, a promise to everyone: the Golden Retriever whose final gesture is not its own exaltation, but the lasting pledge to leave no one behind.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – protective patterns, passions, and the path to essence.", "Who You Really Are – Volume 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and paths to healing from therapeutic practice.", "The Hidden Dynamics of the 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "The 27 Personalities of the Enneagram")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
+        {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
+        {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
       ])}
     </div>
   `);
@@ -40549,6 +40636,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
       "beruehmte-rasputin": rasputinPortraitPage,
       "beruehmte-hundertwasser": hundertwasserPortraitPage,
+      "beruehmte-jesus-christus": jesusChristusPortraitPage,
       "beruehmte-elvis-presley": elvisPresleyPortraitPage,
       "beruehmte-robbie-williams": robbieWilliamsPortraitPage,
       "beruehmte-marie-kondo": marieKondoPortraitPage,
