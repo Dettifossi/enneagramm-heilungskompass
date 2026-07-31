@@ -326,6 +326,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru – Selbsterhaltender Typ 3",
     teaser:"SE3w2 · geb. 1957. Yogi, Guru, Bestsellerautor. Gründer der Isha Foundation. Neun Millionen Freiwillige, 'Inner Engineering', Save Soil – der Waschbär, der die Wüste bepflanzt.",
     tags:["Sonstiges"] , gender:"m"},
+  { route:"beruehmte-penelope-cruz", name:"Penélope Cruz", added:"2026-07-31", subtyp:"SE3w2",
+    heading:"Penélope Cruz – Selbsterhaltender Typ 3",
+    teaser:"SE3w2 · geb. 1974. Oscar-prämierte Schauspielerin, jahrzehntelange Zusammenarbeit mit Almodóvar. Handwerk statt Rampenlicht, Verwandlungskunst als Beruf – der Waschbär, der in jeder Rolle verschwindet und doch niemals verloren geht. Tierentsprechung: Waschbär.",
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-david-l-rathmer", name:"David L. Rathmer", added:"2026-07-20", subtyp:"SE3w4",
     heading:"David L. Rathmer – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 2003 in Münster. Enneagramm-Profiler, Gründer der Ennea Scholars Academy, jüngster Wirtschaftssenator des Europäischen Wirtschaftssenats. Mitentwickler des Heilungskompass. Der Waschbär, der das Enneagramm ins digitale Zeitalter überführt. Tierentsprechung: Waschbär.",
@@ -334,6 +338,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Kathrin Bauerfeind – Selbsterhaltender Typ 3",
     teaser:"SE3w4 · geb. 1981. Journalistin, Moderatorin, Autorin, Entertainerin. Vielseitig, präzise, unverwechselbar – der Waschbär, der aus Können Sicherheit macht.",
     tags:["Medien"] , gender:"f"},
+  { route:"beruehmte-osho", name:"Osho", added:"2026-07-31", subtyp:"SE3w4",
+    heading:"Osho – Selbsterhaltender Typ 3",
+    teaser:"SE3w4 · 1931–1990. Mystiker, Kommune-Gründer, Autor von über 600 Büchern. Vom Ashram in Poona zur Utopie-Stadt Rajneeshpuram – der Waschbär, der Systeme baut, während die Vier alle Konventionen infrage stellt. Tierentsprechung: Waschbär.",
+    tags:["Sonstiges"] , gender:"m"},
   { route:"beruehmte-sahra-wagenknecht", name:"Sahra Wagenknecht", added:"2026-07-20", subtyp:"SO3w2",
     heading:"Sahra Wagenknecht – Sozialer Typ 3",
     teaser:"SO3w2 · geb. 1969. Politikerin, Buchautorin, Gründerin des BSW. Die Analytikerin des Populären – der Gepard, der nicht nur sprintet, sondern auch weiß, wohin. Tierentsprechung: Gepard.",
@@ -342,6 +350,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Cristiano Ronaldo – Sozialer Typ 3",
     teaser:"SO3w2 · geb. 1985. Fünf Weltfußballer-Titel, fünf Champions-League-Siege, über 900 Karrieretore. Der Gepard, der nie aufhört zu rennen – und der trotzdem weiß, wo er herkommt.",
     tags:["Sport"] , gender:"m"},
+  { route:"beruehmte-pharrell-williams", name:"Pharrell Williams", added:"2026-07-31", subtyp:"SO3w2",
+    heading:"Pharrell Williams – Sozialer Typ 3",
+    teaser:"SO3w2 · geb. 1973. Musikproduzent (The Neptunes), Musiker, Kreativdirektor bei Louis Vuitton. Über 400 Hit-Produktionen, Weltsingle „Happy“ – der Gepard, der ständig die Richtung wechselt und in jeder gewinnt. Tierentsprechung: Gepard.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-karl-lagerfeld", name:"Karl Lagerfeld", added:"2026-07-20", subtyp:"SO3w4",
     heading:"Karl Lagerfeld – Sozialer Typ 3",
     teaser:"SO3w4 · 1933–2019. Mode-Ikone, Creative Director von Chanel und Fendi. Der Gepard, der sich selbst in ein Symbol verwandelt hat – und dahinter ein Leben aus Büchern, Ästhetik und verborgener Tiefe führte.",
@@ -17073,6 +17085,75 @@ function cristianoRonaldoPortraitPage() {
 }
 
 
+function pharrellWilliamsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-pharrell-williams-portrait.jpg" alt="Pharrell Williams" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pharrell Williams</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Sozialer Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Musikproduzent, Musiker &amp; Modedesigner, geb. 1973 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, gebaut nicht für Kraft, sondern für Tempo und Präzision. Der Gepard jagt nicht in einem einzigen Revier: Er passt sich an, wechselt die Richtung mit atemberaubender Wendigkeit, sobald sich das Ziel bewegt. Genau diese Anpassungsgeschwindigkeit macht ihn zum schnellsten, nicht zum stärksten Jäger der Savanne.</p>
+          <p class="vb-intro">Pharrell Williams verkörpert dieses Tempo über Jahrzehnte und über Genregrenzen hinweg: Als eine Hälfte der Neptunes prägte er mit Chad Hugo den Sound der 2000er-Jahre &ndash; von Jay-Z über Britney Spears bis Nelly &ndash;, gründete mit N.E.R.D. eine eigene Band, produzierte, schrieb, sang, rappte, und wechselte parallel ins Modegeschäft, wo er heute Kreativdirektor für Herrenmode bei Louis Vuitton ist. Kein anderer Künstler seiner Generation ist so vielen Spuren gleichzeitig nachgejagt &ndash; und auf fast jeder gewonnen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Erfolg über mehrere Bühnen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei: Anerkennung ist für sie kein Nebeneffekt, sondern der eigentliche Treibstoff. Die SO3 fragt nicht nur <em>Habe ich etwas erreicht?</em>, sondern <em>Sieht die Welt, was ich erreicht habe?</em> &ndash; und sucht dabei bevorzugt mehrere Bühnen zugleich, um sicherzustellen, dass diese Sichtbarkeit nicht von einem einzigen Feld abhängt.</p>
+          <p class="vb-intro">Bei Pharrell zeigt sich das in einer geradezu systematischen Diversifikation der eigenen Reichweite. Über 400 Nummer-eins- und Top-Ten-Produktionen, ein Oscar-nominierter Welthit mit „Happy", zwei Solo-Alben, Mode-Labels wie Billionaire Boys Club und ICECREAM, schließlich die Kreativleitung bei einem der prestigeträchtigsten Modehäuser der Welt. Jede neue Bühne bestätigt aufs Neue: Dieser Mann ist relevant &ndash; nicht nur in der Musik, sondern überall, wo Kultur entsteht.</p>
+          <p class="vb-intro">Charakteristisch für die SO3 ist auch das Gespür dafür, was gerade kollektiv gebraucht wird. „Happy" (2013) wurde nicht zufällig zur meistverkauften Single des Jahres &ndash; Pharrell traf einen Nerv seiner Zeit, ein universelles Bedürfnis nach Leichtigkeit, und positionierte sich als dessen Stimme. Die soziale Drei liest die Bühne, bevor sie sie betritt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Erfolg als Teamsport</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sozialen Drei eine kollaborative Wärme, die reine Selbstinszenierung übersteigt. Wo die reine SO3 den eigenen Namen ins Zentrum stellen könnte, sucht die SO3w2 den Erfolg gemeinsam mit anderen &ndash; und fühlt sich durch das Fördern fremder Karrieren selbst bestätigt.</p>
+          <p class="vb-intro">Pharrells gesamte Karriere ist ohne diesen Zweierflügel kaum denkbar: Die Neptunes waren nie ein Soloprojekt, sondern eine über zwanzig Jahre gewachsene Partnerschaft mit Chad Hugo. Als Produzent hat er unzählige Karrieren mitgeprägt oder überhaupt erst ermöglicht &ndash; von frühen Beats für Kelis und Snoop Dogg bis zur Wiederentdeckung von Daft Punk mit „Get Lucky". Er tritt selten als alleiniger Star auf, sondern immer als jemand, der andere ins Rampenlicht mitnimmt.</p>
+          <p class="vb-intro">Auch sein soziales Engagement trägt diese Handschrift: Mit der Stiftung „From One Hand to AnOTHER" und der Yellow-Schule in seiner Heimatstadt Virginia Beach investiert er gezielt in benachteiligte Kinder &ndash; Bildung, Kunst, Selbstwert. Die SO3w2 will nicht nur bewundert werden. Sie will, dass andere durch die eigene Plattform tatsächlich wachsen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Beat zum Laufsteg: Neuerfindung als Prinzip</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Gepard wechselt die Richtung, sobald sich das Ziel bewegt &ndash; und Pharrells Karriere liest sich wie eine Kette solcher Richtungswechsel. Vom Hip-Hop-Produzenten der frühen 2000er über den Rockstar mit N.E.R.D., den Popkomponisten hinter „Blurred Lines" und „Happy", bis zum Streetwear-Pionier mit Billionaire Boys Club und schließlich zum Kreativdirektor bei Louis Vuitton, ernannt 2023 &ndash; eine Position, die traditionell für Modeinsider reserviert schien.</p>
+          <p class="vb-intro">Diese Neuerfindungen sind keine Zufälle, sondern die SO3-Logik in Reinform: Sichtbarkeit über mehrere Felder hinweg sichert Relevanz gegen den Verfall einer einzelnen Trendwelle ab. Wo ein Musikproduzent altmodisch werden kann, bleibt ein kultureller Tastemaker unangreifbar. Pharrell hat früh verstanden, dass sein eigentliches Produkt nicht der einzelne Song oder die einzelne Kollektion ist &ndash; sondern ein Geschmacksurteil, das über Ländergrenzen hinweg trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihre Fähigkeit, Trends nicht nur zu erkennen, sondern zu setzen &ndash; und dabei ganze Branchen mitzuprägen. Pharrells Einfluss auf Pop, Hip-Hop und Streetwear-Mode ist so umfassend, dass er kaum noch auf eine einzelne Rolle zu reduzieren ist: Produzent, Sänger, Designer, Philanthrop &ndash; jede Facette verstärkt die anderen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SO3 sichtbar als die permanente Notwendigkeit, relevant zu bleiben, aktuell zu wirken, niemals aus der Zeit zu fallen. Pharrells vielbesprochenes, jahrzehntelang kaum gealtertes Erscheinungsbild wurde von der Öffentlichkeit fast schon als Running Gag behandelt &ndash; und trifft doch einen wunden Punkt der SO3: die Angst, mit dem Älterwerden an kultureller Sichtbarkeit zu verlieren.</p>
+          <p class="vb-intro">Der Zweierflügel bringt sein eigenes Schattenmuster: Das Bedürfnis, gebraucht und geschätzt zu werden, kann sich mit dem SO3-Drang nach Anerkennung zu einer Dynamik verbinden, in der Großzügigkeit auch strategisch lesbar wird &ndash; als Investition in das eigene Netzwerk, nicht nur als reine Fürsorge. Wo genau Geben endet und Imagepflege beginnt, bleibt für die SO3w2 eine offene Frage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Relevanz zur Ruhe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Bin ich noch relevant?</em> zur Erkenntnis <em>Ich bin &ndash; unabhängig von der nächsten Trendwelle.</em> Für die SO3 bedeutet das, den eigenen Wert nicht mehr an die Frage zu knüpfen, ob die Welt gerade hinschaut.</p>
+          <p class="vb-intro">Pharrells zunehmender Fokus auf Bildung und Förderung junger Talente &ndash; die Yellow-Schule, sein Engagement für unterversorgte Communities in Virginia Beach &ndash; deutet einen Weg an, der über die eigene Sichtbarkeit hinausweist: Erfolg nicht mehr als Beweis der eigenen Bedeutung, sondern als etwas, das man weitergibt, damit es größer wird als man selbst. Der Gepard, der irgendwann nicht mehr rennen muss, um zu beweisen, dass er der Schnellste ist &ndash; sondern anderen beibringt, wie man läuft.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
+        {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function kathrinBauerfeindPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -17198,6 +17279,74 @@ function davidLRathmerPortraitPage() {
         {route:"subtype/se3", label:"SE3 &ndash; Der Waschbär: Subtyp-Profil"},
         {route:"beruehmte-wolodymyr-selenskyj", label:"Porträt: Wolodymyr Selenskyj (SE3w2)"},
         {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+function oshoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Osho</p>
+        <p class="krim-portrait-typ">SE3w4 &middot; Selbsterhaltender Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Mystiker &amp; Kommune-Gründer, 1931&ndash;1990 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das seine Umgebung mit wachen Pfoten abtastet, jede Ritze auf Nutzen prüft und aus begrenzten Mitteln funktionierende Systeme baut. Kein lautes Tier, aber ein außerordentlich findiges: Es überlebt nicht durch Kraft, sondern durch Cleverness und die Fähigkeit, sich jeder Umgebung anzuverwandeln.</p>
+          <p class="vb-intro">Osho, geboren als Chandra Mohan Jain, baute innerhalb weniger Jahre aus einem staubigen Grundstück in Poona einen internationalen Kommune-Betrieb auf &ndash; und wenig später, in der Wüste von Oregon, binnen vier Jahren eine funktionierende Stadt mit eigenem Flughafen, Krankenhaus, Kläranlage und Bustransportsystem für Zehntausende Besucher. Der Waschbär, der aus nacktem Land ein funktionierendes System macht &ndash; mit einer Effizienz, die selbst Kritiker verblüffte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Der Guru als Systembauer</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie sucht ihren Wert nicht in der öffentlichen Selbstinszenierung, sondern im funktionierenden Ergebnis. Wo die soziale Drei die Bühne braucht und die sexuelle Drei die Anziehung, richtet die SE3 ihre Energie auf das, was trägt &ndash; auf Struktur, Sicherheit, ein System, das auch ohne ständige Aufmerksamkeit läuft.</p>
+          <p class="vb-intro">Bei Osho zeigt sich das gerade nicht in Bescheidenheit, sondern in einer anderen SE3-Spielart: dem obsessiven Aufbau von Infrastruktur. Über 600 Bücher, transkribiert aus täglichen Vorträgen, ein weltweites Netz an Meditationszentren, ein straff organisierter innerer Kreis engster Mitarbeiterinnen, der den gesamten operativen Betrieb führte, während Osho selbst sprach, schwieg oder sich zurückzog. Die SE3-Logik: Nicht der Guru muss überall präsent sein &ndash; das System muss funktionieren, auch wenn er es nicht ist.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet sich auf Kontrolle über die materiellen Grundlagen der eigenen Existenz. Oshos berühmte Sammlung von schließlich 93 Rolls-Royce-Limousinen wirkt auf den ersten Blick wie das Gegenteil von Bescheidenheit &ndash; und ist doch, aus SE3-Perspektive gelesen, auch ein Sicherheitssystem: ein Statussymbol, das Spendenbereitschaft, mediale Aufmerksamkeit und die materielle Basis der Kommune absicherte. Funktion, verkleidet als Verschwendung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Tiefe, Provokation, Individualität</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der selbsterhaltenden Drei eine Dimension, die reine Effizienz übersteigt: den Hunger nach Authentizität, nach dem, was unter der Oberfläche liegt, nach der eigenen, unverwechselbaren Stimme. Die Vier verweigert sich der Konvention nicht aus Trotz, sondern weil das Konventionelle ihr nie tief genug ist.</p>
+          <p class="vb-intro">Oshos gesamtes Denken kreist um genau dieses Thema: radikale Individualität. „Ich lehre nicht, ich helfe euch, ihr selbst zu werden", wiederholte er in unzähligen Varianten. Seine Vorträge verwoben Sufi-Poesie, Zen-Anekdoten, Nietzsche, Freud und Tantra zu einer eigenwilligen, oft schockierenden Synthese &ndash; besonders seine offene Thematisierung von Sexualität als spirituellem Weg, die ihm den Beinamen „Sex-Guru" der westlichen Presse einbrachte. Kein anderer spiritueller Lehrer seiner Zeit provozierte so bewusst die bürgerliche Moral &ndash; die Vier, die den Tabubruch als Weg zur Tiefe versteht.</p>
+          <p class="vb-intro">Auch seine ästhetische Inszenierung trug diese Handschrift: die aufwendigen Roben, der sorgsam kuratierte Blick, die minutenlangen Schweigepausen vor jedem Vortrag. Kein Zufall, sondern die Vier, die weiß, dass Form und Tiefe zusammengehören &ndash; dass die Art, wie etwas erscheint, bereits Teil dessen ist, was es bedeutet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rajneeshpuram: Die Utopie als Bauprojekt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1981 verlegte Osho seine Kommune auf eine 26 Quadratkilometer große Ranch in Oregon. Was folgte, war eines der ambitioniertesten Kommune-Bauprojekte des 20. Jahrhunderts: Innerhalb weniger Jahre entstand Rajneeshpuram &ndash; mit eigener Landwirtschaft, eigener Polizei, eigenem Rundfunksender und Platz für über 7.000 Bewohner. Die SE3w4-Vision in Reinform: eine ideale Gesellschaft, gebaut nicht als Theorie, sondern als funktionierender Ort.</p>
+          <p class="vb-intro">Der Konflikt mit der lokalen Bevölkerung eskalierte zu einer der größten Bioterror-Attacken in der Geschichte der USA: 1984 vergifteten Führungsmitglieder der Kommune Salatbars in umliegenden Restaurants mit Salmonellen, um die lokale Wahl zu beeinflussen &ndash; über 750 Menschen erkrankten. 1985 wurde Osho selbst wegen Einwanderungsbetrugs verhaftet und aus den USA ausgewiesen. Die Utopie, die als perfekt funktionierendes System gedacht war, brach an genau dem zusammen, was sie ausblendete: der Frage, wie viel Kontrolle ein System verträgt, bevor es sich selbst zerstört.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre Fähigkeit, Vision in funktionierende Realität zu übersetzen. Was bei anderen spirituellen Lehrern bei der Idee bleibt, wurde bei Osho zu Infrastruktur: Zentren, Verlagen, einer eigenen Sprache aus über 600 Büchern, die bis heute in Dutzenden Ländern gelesen werden. Millionen Menschen fanden über seine pragmatisch aufbereiteten Meditationstechniken &ndash; etwa die „Dynamische Meditation" &ndash; einen Zugang zu innerer Erfahrung, den abstraktere Lehren ihnen verwehrt hätten.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3 subtiler als bei den anderen Dreier-Subtypen, aber bei Osho durch den Viererflügel verschärft: die Behauptung radikaler Bindungslosigkeit bei gleichzeitigem Aufbau eines der straffsten hierarchischen Systeme seiner Zeit. „Ich besitze nichts" bei gleichzeitiger Sammlung von 93 Rolls-Royce &ndash; ein Widerspruch, den Kritiker als Heuchelei lasen, den Anhänger als bewusste Provokation gegen materialistisches Denken verteidigten. Die Wahrheit liegt vermutlich dazwischen: Die SE3 braucht die materielle Absicherung, die Vier braucht die Geste, die alles infrage stellt &ndash; beides zugleich ist schwer zu halten, ohne dass eines das andere täuscht.</p>
+          <p class="vb-intro">Der Viererflügel bringt sein eigenes Schattenmuster: die Inszenierung von Einzigartigkeit kann zur Isolation führen, die selbst dem engsten Kreis den Zugang zum realen Menschen hinter der Rolle verwehrt. Oshos letzte Lebensjahre, geprägt von gesundheitlichem Verfall und dem Zerfall der Kommune, blieben nach außen von derselben unerschütterlichen Inszenierung begleitet, mit der alles begonnen hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom System zur Stille</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich aufgebaut?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne das System, das ich errichtet habe.</em> Für die SE3w4 bedeutet das, den Wert nicht länger an die Kontrolle über eine funktionierende Struktur zu binden &ndash; und die Tiefe nicht länger als etwas zu behandeln, das inszeniert werden muss, um sichtbar zu sein.</p>
+          <p class="vb-intro">In seinen letzten Lebensjahren, nach dem Zusammenbruch von Rajneeshpuram, verlegte Osho den Schwerpunkt zunehmend auf reine Stille &ndash; „Nur Zuhören" nannte er es, Vorträge ohne feste Lehre, oft nur Musik und Schweigen. Ob dies echte Reifung war oder eine letzte Neuerfindung, bleibt umstritten. Der Waschbär, der ein Leben lang Systeme baute, endete mit der Geste, alle Systeme loszulassen &ndash; und genau darin liegt die eigentliche Heilungsfrage seines Weges: ob das Loslassen selbst noch einmal eine Maske war, oder das erste Mal keine.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Porträt: Kathrin Bauerfeind (SE3w4)"},
       ])}
     </div>
   `);
@@ -17330,6 +17479,74 @@ function sadhguruPortraitPage() {
   `);
 }
 
+
+function penelopeCruzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-penelope-cruz-portrait.jpg" alt="Penélope Cruz" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Penélope Cruz</p>
+        <p class="krim-portrait-typ">SE3w2 &middot; Selbsterhaltender Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1974 &ndash; Tierentsprechung: Waschbär</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Waschbär</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Waschbär</strong> ist das Tier der selbsterhaltenden Drei &ndash; ein Tier, das nicht durch Auftritt beeindruckt, sondern durch Geschicklichkeit. Er trägt eine natürliche Maske, verändert sich mit seiner Umgebung, findet in jeder Nische einen Weg &ndash; leise, funktional, ohne Aufhebens um sich selbst zu machen.</p>
+          <p class="vb-intro">Penélope Cruz debütierte mit fünfzehn Jahren im spanischen Fernsehen, drehte mit siebzehn ihren ersten Kinofilm und ist seither, über mehr als drei Jahrzehnte hinweg, präsent geblieben &ndash; als einzige spanische Schauspielerin mit einem Oscar, in Hollywood-Großproduktionen ebenso wie im spanischen Autorenkino. Und doch ist ihr öffentliches Bild bemerkenswert unspektakulär: kein Dauerskandal, keine inszenierte Selbstdarstellung, sondern ein Werk, das für sich spricht. Der Waschbär, der sich in jede Rolle, jede Sprache, jedes Filmset einfügt &ndash; und dabei doch niemals verschwindet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Drei: Handwerk statt Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Drei (SE3)</strong> gilt als Kontratyp der Drei: Sie zeigt am wenigsten von dem, was man landläufig mit dem Bild der Drei verbindet. Statt Selbstinszenierung sucht sie Sicherheit über nachweisbare Kompetenz &ndash; über das, was tatsächlich geleistet wird, nicht über das, was behauptet wird. Naranjo beschreibt diesen Subtyp als denjenigen, der Arbeit selbst zum Statussymbol macht: Nicht Glanz zählt, sondern das solide Fundament, das man sich erarbeitet hat.</p>
+          <p class="vb-intro">Cruz' Karriere trägt diese Handschrift deutlich. Sie ließ sich in klassischem Ballett und dramatischer Kunst ausbilden, bevor sie überhaupt vor die Kamera trat &ndash; jahrelanges Training als Fundament, nicht als Fußnote. Sie drehte in vier Sprachen, arbeitete mit Regisseuren wie Almodóvar, Bigas Luna, Fernando Trueba, Woody Allen und Michael Mann, wechselte zwischen unabhängigem Kino und Milliarden-Franchises &ndash; und blieb dabei bemerkenswert konsequent bei der Sache: dem Handwerk. Kein öffentliches Ringen um Deutungshoheit über die eigene Person, sondern eine stille Verlässlichkeit, Film für Film.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Drei auf das Konkrete: auf die eigene Familie, auf finanzielle und berufliche Stabilität, auf ein Leben, das trägt. Cruz ist bekannt dafür, das Privatleben mit Javier Bardem und ihren beiden Kindern konsequent aus der Öffentlichkeit herauszuhalten &ndash; keine Homestory, keine inszenierte Familienidylle. Der Waschbär baut sein Nest dort, wo niemand hinsieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Loyalität und Wärme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der selbsterhaltenden Drei eine Wärme, die die reine SE3 selten in dieser Deutlichkeit zeigt. Wo die reine Drei sich in Funktionalität erschöpfen könnte, bringt der Zweierflügel den Wunsch nach echter Verbindung, nach Zugehörigkeit zu Menschen, denen man vertraut &ndash; und die Bereitschaft, sich für sie einzusetzen.</p>
+          <p class="vb-intro">Diese Loyalität zeigt sich am deutlichsten in Cruz' Zusammenarbeit mit Pedro Almodóvar: Über sechs Spielfilme hinweg, beginnend mit <em>Fessle mich!</em> 1990 (in einer Nebenrolle) bis zu <em>Parallele Mütter</em>, für den sie ihre zweite Oscar-Nominierung erhielt, hat sie sich immer wieder demselben Regisseur anvertraut &ndash; nicht aus Kalkül, sondern aus einer über Jahrzehnte gewachsenen, fast familiären Bindung. Almodóvar selbst beschreibt sie als eine, die sich vollständig gibt, sobald Vertrauen besteht.</p>
+          <p class="vb-intro">Auch ihr humanitäres Engagement trägt diese Handschrift: langjährige Unterstützung für UNHCR, für Bildungsprojekte in Indien und Uganda, für Hilfsprogramme in Krisenregionen &ndash; meist ohne große mediale Inszenierung. Die SE3w2 will nicht nur funktionieren. Sie will, dass die Menschen, für die sie sich einsetzt, tatsächlich etwas davon haben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Verwandlungskünstlerin: Masken als Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Waschbär trägt eine Maske &ndash; und genau das ist Cruz' auffälligstes schauspielerisches Merkmal: die Fähigkeit, in jeder Rolle vollständig zu verschwinden. Die versoffene Nachbarin in <em>Volver</em>, die eifersüchtige Künstlerin in <em>Vicky Cristina Barcelona</em>, die verzweifelte Mutter in <em>Madres Paralelas</em>, die glamouröse Sängerin in <em>Nine</em> &ndash; kaum eine Rolle gleicht der anderen, und doch bleibt jede glaubwürdig bis in die kleinste Geste.</p>
+          <p class="vb-intro">Das ist keine Zurschaustellung von Vielseitigkeit als Selbstzweck, sondern die SE3-Logik in ihrer reinsten Form: Kompetenz beweist sich durch das Ergebnis, nicht durch die Ankündigung. Cruz spricht selten öffentlich über ihre Vorbereitungsmethoden oder ihr &bdquo;Verfahren&ldquo; &ndash; sie liefert stattdessen das fertige Werk und lässt es für sich sprechen. Der Waschbär, der die Maske nicht trägt, um zu täuschen, sondern weil sie das Werkzeug ist, mit dem er arbeitet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE3 ist ihre Fähigkeit, Talent in dauerhafte, überprüfbare Substanz zu verwandeln. Über drei Jahrzehnte, mehr als sechzig Filme, ein Oscar, zwei weitere Nominierungen, ein Stern auf dem Walk of Fame &ndash; eine Karriere, die nicht auf einem einzigen Höhepunkt beruht, sondern auf beständiger, wiederholter Leistung. Das ist die Drei als Aufbaukraft: nicht der eine große Wurf, sondern die verlässliche Konstante.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SE3 subtiler als bei den anderen Dreier-Subtypen, aber nicht abwesend: das Bedürfnis, durch reine Funktionalität unangreifbar zu erscheinen. Der beharrliche Rückzug aus dem Privaten kann selbst zur Maske werden &ndash; eine Form der Kontrolle über das eigene Bild, die genauso viel Inszenierung erfordert wie das Gegenteil. &bdquo;Ich rede nicht über mich&ldquo; ist am Ende auch eine Aussage über sich selbst.</p>
+          <p class="vb-intro">Der Zweierflügel bringt sein eigenes Schattenmuster mit: die Sorge, ohne den Dienst an anderen &ndash; an Regisseuren, an Kollegen, an den eigenen Kindern &ndash; nicht genug zu sein. Funktionieren und Geben verschmelzen dann zu einer Identität, die kaum noch Raum für ein Ich lässt, das einfach nur da ist, ohne zu leisten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Funktionieren zum Sein</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Was habe ich geleistet?</em> zur Erkenntnis <em>Ich bin &ndash; unabhängig davon, was ich vorweisen kann.</em> Für die SE3 bedeutet das, den eigenen Wert nicht länger an das nächste Projekt, die nächste bewiesene Kompetenz zu knüpfen.</p>
+          <p class="vb-intro">Cruz hat in Interviews wiederholt betont, dass sie mit den Jahren gelernt habe, Rollen auszuwählen, die ihr wirklich etwas bedeuten, statt jeder Gelegenheit nachzujagen &ndash; ein leiser, aber deutlicher Schritt vom Zwang zum Funktionieren hin zu bewusster Auswahl. Der Waschbär, der irgendwann nicht mehr jede Nische füllen muss, um sich seines Wertes sicher zu sein &ndash; sondern wählt, wo er wirklich hingehört, und darin ruht.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se3", label:"SE3 – Der Waschbär: Subtyp-Profil"},
+        {route:"beruehmte-sadhguru", label:"Porträt: Sadhguru (SE3w2)"},
+        {route:"beruehmte-wolodymyr-selenskyj", label:"Porträt: Wolodymyr Selenskyj (SE3w2)"},
+      ])}
+    </div>
+  `);
+}
 
 function monikaGruberPortraitPage() {
   return shell(`
@@ -43569,10 +43786,13 @@ function render() {
       "beruehmte-wolodymyr-selenskyj": wolodymyrSelenskyjPortraitPage,
       "beruehmte-david-l-rathmer": davidLRathmerPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
+      "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
+      "beruehmte-osho": oshoPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
+      "beruehmte-pharrell-williams": pharrellWilliamsPortraitPage,
       "beruehmte-bella-thorne": bellaThornePage,
       "kriminalpsychologie": kriminalpsychologiePage,
       "kriminalpsychologie-fritz-haarmann": fritzHaarmannPortraitPage,

@@ -264,14 +264,26 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sadhguru – Self-Preservation Type 3",
     teaser:"SP3w2 · born 1957. Yogi, guru, bestselling author. Founder of the Isha Foundation. Nine million volunteers, 'Inner Engineering', Save Soil – the raccoon that plants the desert.",
     tags:["Sonstiges"] },
+  { route:"beruehmte-penelope-cruz", name:"Penélope Cruz", added:"2026-07-31", subtyp:"SE3w2",
+    heading:"Penélope Cruz – Self-Preservation Type 3",
+    teaser:"SP3w2 · born 1974. Oscar-winning actress, decades-long collaboration with Almodóvar. Craft over spotlight, transformation as a profession – the raccoon that vanishes into every role and never gets lost. Animal correspondence: Raccoon.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-kathrin-bauerfeind", name:"Kathrin Bauerfeind", subtyp:"SE3w4",
     heading:"Kathrin Bauerfeind – Self-Preservation Type 3",
     teaser:"SP3w4 · born 1981. Journalist, presenter, author, entertainer. Versatile, precise, unmistakable – the raccoon that turns skill into security.",
     tags:["Medien"] },
+  { route:"beruehmte-osho", name:"Osho", added:"2026-07-31", subtyp:"SE3w4",
+    heading:"Osho – Self-Preservation Type 3",
+    teaser:"SP3w4 · 1931–1990. Mystic, commune founder, author of over 600 books. From the Poona ashram to the utopian city of Rajneeshpuram – the raccoon that builds systems while the Four questions every convention. Animal correspondence: Raccoon.",
+    tags:["Sonstiges"] },
   { route:"beruehmte-cristiano-ronaldo", name:"Cristiano Ronaldo", subtyp:"SO3w2",
     heading:"Cristiano Ronaldo – Social Type 3",
     teaser:"SO3w2 · born 1985. Five FIFA Best awards, five Champions League titles, over 900 career goals. The cheetah that never stops running – and yet always knows where he comes from.",
     tags:["Sport"] },
+  { route:"beruehmte-pharrell-williams", name:"Pharrell Williams", added:"2026-07-31", subtyp:"SO3w2",
+    heading:"Pharrell Williams – Social Type 3",
+    teaser:"SO3w2 · born 1973. Music producer (The Neptunes), musician, creative director at Louis Vuitton. Over 400 hit productions, the world hit \"Happy\" – the cheetah that keeps changing direction and wins every time. Animal correspondence: Cheetah.",
+    tags:["Musik"] },
   { route:"beruehmte-bella-thorne", name:"Bella Thorne", subtyp:"SO3w4",
     heading:"Bella Thorne – Social Type 3",
     teaser:"SO3w4 · born 1997. Actress, director, social media star. From Disney child star to director – the cheetah that not only sprints but also knows the darkness.",
@@ -21447,6 +21459,142 @@ function cristianoRonaldoPortraitPage() {
 }
 
 
+function pharrellWilliamsPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-pharrell-williams-portrait.jpg" alt="Pharrell Williams" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Pharrell Williams</p>
+        <p class="krim-portrait-typ">SO3w2 &middot; Social Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Music Producer, Musician &amp; Fashion Designer, born 1973 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three &ndash; the fastest animal on Earth, built not for strength but for speed and precision. The cheetah does not hunt a single territory: it adapts, changes direction with breathtaking agility the moment the target moves. It is exactly this speed of adaptation that makes it the fastest, not the strongest, hunter of the savanna.</p>
+          <p class="vb-intro">Pharrell Williams embodies this speed across decades and across genre boundaries: as one half of The Neptunes, he and Chad Hugo shaped the sound of the 2000s &ndash; from Jay-Z to Britney Spears to Nelly &ndash; founded his own band with N.E.R.D., produced, wrote, sang, rapped, and simultaneously moved into fashion, where he now serves as men&#39;s creative director at Louis Vuitton. No other artist of his generation has chased so many tracks at once &ndash; and won on almost every one.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: Success Across Multiple Stages</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> is the amplification type of the Three: recognition is not a side effect for it, but the actual fuel. The SO3 asks not only <em>Have I achieved something?</em> but <em>Does the world see what I have achieved?</em> &ndash; and prefers to pursue several stages at once, to ensure that this visibility does not depend on a single field.</p>
+          <p class="vb-intro">In Pharrell this shows as a near-systematic diversification of his own reach. Over 400 number-one and top-ten productions, an Oscar-nominated global hit with &bdquo;Happy,&ldquo; two solo albums, fashion labels such as Billionaire Boys Club and ICECREAM, and finally the creative directorship at one of the world&#39;s most prestigious fashion houses. Each new stage confirms anew: this man is relevant &ndash; not only in music, but wherever culture is being made.</p>
+          <p class="vb-intro">Also characteristic of the SO3 is a sense for what is collectively needed at a given moment. &bdquo;Happy&ldquo; (2013) did not become the best-selling single of the year by accident &ndash; Pharrell struck a nerve of his time, a universal need for lightness, and positioned himself as its voice. The social Three reads the stage before stepping onto it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Success as a Team Sport</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the social Three a collaborative warmth that goes beyond pure self-staging. Where the pure SO3 might put its own name at the center, the SO3w2 seeks success together with others &ndash; and feels affirmed through advancing other people&#39;s careers.</p>
+          <p class="vb-intro">Pharrell&#39;s entire career is hardly conceivable without this Two-wing: The Neptunes were never a solo project, but a partnership with Chad Hugo grown over more than twenty years. As a producer he has shaped or outright enabled countless careers &ndash; from early beats for Kelis and Snoop Dogg to the rediscovery of Daft Punk with &bdquo;Get Lucky.&ldquo; He rarely appears as the sole star, but always as someone who brings others into the spotlight with him.</p>
+          <p class="vb-intro">His social engagement carries the same signature: with the foundation &bdquo;From One Hand to AnOTHER&ldquo; and the Yellow school in his hometown of Virginia Beach, he invests specifically in disadvantaged children &ndash; education, art, self-worth. The SO3w2 does not only want to be admired. It wants others to genuinely grow through its own platform.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Beat to Runway: Reinvention as Principle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The cheetah changes direction the moment the target moves &ndash; and Pharrell&#39;s career reads like a chain of such changes in direction. From the hip-hop producer of the early 2000s, through the rock star with N.E.R.D., the pop composer behind &bdquo;Blurred Lines&ldquo; and &bdquo;Happy,&ldquo; to the streetwear pioneer with Billionaire Boys Club, and finally to creative director at Louis Vuitton, appointed in 2023 &ndash; a position that traditionally seemed reserved for fashion insiders.</p>
+          <p class="vb-intro">These reinventions are no accidents, but SO3 logic in its purest form: visibility across multiple fields secures relevance against the decline of any single trend wave. Where a music producer can become dated, a cultural tastemaker remains untouchable. Pharrell understood early that his actual product is not the individual song or the individual collection &ndash; but a judgment of taste that carries across genre boundaries.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO3 is its ability not only to spot trends but to set them &ndash; and in doing so to shape entire industries. Pharrell&#39;s influence on pop, hip-hop, and streetwear fashion is so comprehensive that he can hardly be reduced to a single role anymore: producer, singer, designer, philanthropist &ndash; each facet reinforces the others.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; visible in the SO3 as the permanent need to remain relevant, to appear current, never to fall out of time. Pharrell&#39;s much-discussed, decades-long near-ageless appearance was treated by the public almost as a running joke &ndash; and yet it touches a sore point of the SO3: the fear of losing cultural visibility with age.</p>
+          <p class="vb-intro">The Two-wing brings its own shadow pattern: the need to be needed and appreciated can merge with the SO3&#39;s drive for recognition into a dynamic in which generosity also becomes strategically legible &ndash; as an investment in one&#39;s own network, not only as pure care. Exactly where giving ends and image management begins remains, for the SO3w2, an open question.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Relevance to Rest</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>Am I still relevant?</em> to the insight <em>I am &ndash; independent of the next trend wave.</em> For the SO3 this means no longer tying one&#39;s own worth to whether the world happens to be looking.</p>
+          <p class="vb-intro">Pharrell&#39;s growing focus on education and the fostering of young talent &ndash; the Yellow school, his engagement for underserved communities in Virginia Beach &ndash; points to a path that reaches beyond his own visibility: success no longer as proof of one&#39;s own significance, but as something one passes on so that it grows larger than oneself. The cheetah that at some point no longer needs to run to prove it is the fastest &ndash; but teaches others how to run.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function oshoPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-osho-portrait.jpg" alt="Osho" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Osho</p>
+        <p class="krim-portrait-typ">SP3w4 &middot; Self-Preservation Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Mystic &amp; Commune Founder, 1931&ndash;1990 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that probes its surroundings with alert paws, checks every crack for usefulness, and builds functioning systems out of limited means. Not a loud animal, but an extraordinarily resourceful one: it survives not through strength but through cleverness and the ability to adapt to any environment.</p>
+          <p class="vb-intro">Osho, born Chandra Mohan Jain, built an international commune operation out of a dusty plot in Poona within a few years &ndash; and shortly after, in the Oregon desert, a functioning city within four years, complete with its own airport, hospital, sewage treatment plant, and bus transit system for tens of thousands of visitors. The raccoon that turns bare land into a functioning system &ndash; with an efficiency that stunned even critics.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: The Guru as System Builder</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the counter-type of the Three: it seeks its worth not in public self-staging but in the functioning result. Where the social Three needs the stage and the sexual Three needs attraction, the SP3 directs its energy toward what holds &ndash; toward structure, security, a system that runs even without constant attention.</p>
+          <p class="vb-intro">In Osho this shows not as modesty but as a different SP3 variant: the obsessive building of infrastructure. Over 600 books, transcribed from daily talks, a worldwide network of meditation centers, a tightly organized inner circle of closest collaborators who ran the entire operation while Osho himself spoke, fell silent, or withdrew. The SP3 logic: the guru does not need to be present everywhere &ndash; the system must function, even when he is not.</p>
+          <p class="vb-intro">The self-preservation instinct focuses on control over the material foundations of one&#39;s own existence. Osho&#39;s famous collection of eventually 93 Rolls-Royce limousines looks at first glance like the opposite of modesty &ndash; and yet, read through an SP3 lens, it is also a security system: a status symbol that secured donations, media attention, and the material basis of the commune. Function, disguised as extravagance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: Depth, Provocation, Individuality</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the self-preservation Three a dimension that goes beyond pure efficiency: a hunger for authenticity, for what lies beneath the surface, for one&#39;s own unmistakable voice. The Four does not refuse convention out of defiance, but because the conventional is never deep enough for it.</p>
+          <p class="vb-intro">Osho&#39;s entire thinking circles around exactly this theme: radical individuality. &bdquo;I don&#39;t teach, I help you become yourselves,&ldquo; he repeated in countless variations. His talks wove Sufi poetry, Zen anecdotes, Nietzsche, Freud, and Tantra into an idiosyncratic, often shocking synthesis &ndash; especially his open treatment of sexuality as a spiritual path, which earned him the Western press&#39;s nickname &bdquo;sex guru.&ldquo; No other spiritual teacher of his time provoked bourgeois morality so deliberately &ndash; the Four, who understands breaking taboos as a path to depth.</p>
+          <p class="vb-intro">His aesthetic staging carried the same signature: the elaborate robes, the carefully curated gaze, the minutes-long silences before every talk. No coincidence, but the Four, who knows that form and depth belong together &ndash; that the way something appears is already part of what it means.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Rajneeshpuram: Utopia as a Building Project</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1981 Osho moved his commune to a 26-square-kilometer ranch in Oregon. What followed was one of the most ambitious commune-building projects of the 20th century: within a few years Rajneeshpuram emerged &ndash; with its own agriculture, its own police force, its own radio station, and room for over 7,000 residents. The SP3w4 vision in its purest form: an ideal society, built not as theory but as a functioning place.</p>
+          <p class="vb-intro">The conflict with the local population escalated into one of the largest bioterror attacks in US history: in 1984, leading members of the commune poisoned salad bars in nearby restaurants with salmonella to influence a local election &ndash; over 750 people fell ill. In 1985 Osho himself was arrested for immigration fraud and deported from the United States. The utopia, conceived as a perfectly functioning system, collapsed at exactly the point it had ignored: the question of how much control a system can bear before it destroys itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3 is its ability to translate vision into functioning reality. What remains an idea for other spiritual teachers became infrastructure with Osho: centers, publishing houses, a language of over 600 books still read in dozens of countries today. Millions of people found access to inner experience through his pragmatically packaged meditation techniques &ndash; such as &bdquo;Dynamic Meditation&ldquo; &ndash; that more abstract teachings would have denied them.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; subtler in the SP3 than in the other Three subtypes, but sharpened in Osho by the Four-wing: the claim of radical non-attachment alongside the building of one of the tightest hierarchical systems of his time. &bdquo;I own nothing&ldquo; alongside a collection of 93 Rolls-Royces &ndash; a contradiction critics read as hypocrisy, and followers defended as deliberate provocation against materialist thinking. The truth probably lies in between: the SP3 needs material security, the Four needs the gesture that questions everything &ndash; holding both at once is hard without one deceiving the other.</p>
+          <p class="vb-intro">The Four-wing brings its own shadow pattern: the staging of uniqueness can lead to an isolation that denies even the innermost circle access to the real person behind the role. Osho&#39;s final years, marked by physical decline and the collapse of the commune, remained outwardly accompanied by the same unshaken staging with which everything had begun.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From System to Stillness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I built?</em> to the insight <em>I am &ndash; even without the system I erected.</em> For the SP3w4 this means no longer tying one&#39;s worth to control over a functioning structure &ndash; and no longer treating depth as something that must be staged to be visible.</p>
+          <p class="vb-intro">In his final years, after the collapse of Rajneeshpuram, Osho increasingly shifted the emphasis to pure stillness &ndash; &bdquo;Just Listening,&ldquo; he called it, talks without fixed teaching, often only music and silence. Whether this was genuine maturation or one last reinvention remains disputed. The raccoon that built systems all his life ended with the gesture of letting all systems go &ndash; and in that lies the real healing question of his path: whether the letting go was itself one more mask, or the first time it wasn&#39;t.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-kathrin-bauerfeind", label:"Portrait: Kathrin Bauerfeind (SP3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+
 function kathrinBauerfeindPortraitPage() {
   return shell(`
     <div class="page-container">
@@ -21565,6 +21713,74 @@ function sadhguruPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
         {route:"beruehmte-friedrich-merz", label:"Portrait: Friedrich Merz (SO1w9)"},
+      ])}
+    </div>
+  `);
+}
+
+
+function penelopeCruzPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-penelope-cruz-portrait.jpg" alt="Pen&eacute;lope Cruz" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Penélope Cruz</p>
+        <p class="krim-portrait-typ">SP3w2 &middot; Self-Preservation Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actress, born 1974 &ndash; Animal correspondence: Raccoon</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Raccoon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Raccoon</strong> is the animal of the self-preservation Three &ndash; an animal that impresses not through performance but through dexterity. It wears a natural mask, adapts to its surroundings, finds a way through every niche &ndash; quietly, functionally, without making a fuss of itself.</p>
+          <p class="vb-intro">Penélope Cruz debuted on Spanish television at fifteen, shot her first feature film at seventeen, and has remained present ever since, across more than three decades &ndash; the only Spanish actress to hold an Oscar, equally at home in Hollywood blockbusters and Spanish auteur cinema. And yet her public image is remarkably unspectacular: no permanent scandal, no staged self-presentation, but a body of work that speaks for itself. The raccoon that fits into every role, every language, every film set &ndash; and yet never disappears.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Three: Craft Instead of Spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Three (SP3)</strong> is considered the counter-type of the Three: it shows the least of what is commonly associated with the image of the Three. Instead of self-staging, it seeks security through demonstrable competence &ndash; through what is actually accomplished, not what is claimed. Naranjo describes this subtype as the one that turns work itself into a status symbol: not shine that counts, but the solid foundation one has built.</p>
+          <p class="vb-intro">Cruz&#39;s career bears this signature clearly. She trained in classical ballet and dramatic art before ever stepping in front of a camera &ndash; years of training as a foundation, not a footnote. She has worked in four languages, with directors such as Almodóvar, Bigas Luna, Fernando Trueba, Woody Allen, and Michael Mann, moving between independent cinema and billion-dollar franchises &ndash; and remained remarkably consistent about the matter at hand: the craft. No public battle over the narrative of her own person, but a quiet reliability, film after film.</p>
+          <p class="vb-intro">The self-preservation instinct orients the Three toward the concrete: toward one&#39;s own family, toward financial and professional stability, toward a life that holds. Cruz is known for consistently keeping her private life with Javier Bardem and their two children out of the public eye &ndash; no home story, no staged family idyll. The raccoon builds its den where no one is looking.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Loyalty and Warmth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the self-preservation Three a warmth that the pure SP3 rarely shows this clearly. Where the pure Three could exhaust itself in functionality, the Two-wing brings the desire for genuine connection, for belonging to people one trusts &ndash; and the willingness to stand up for them.</p>
+          <p class="vb-intro">This loyalty shows most clearly in Cruz&#39;s collaboration with Pedro Almodóvar: across six feature films, beginning with a supporting role in <em>Tie Me Up! Tie Me Down!</em> in 1990 through to <em>Parallel Mothers</em>, for which she received her second Oscar nomination, she has repeatedly entrusted herself to the same director &ndash; not out of calculation, but out of an almost familial bond grown over decades. Almodóvar himself describes her as someone who gives herself completely once trust exists.</p>
+          <p class="vb-intro">Her humanitarian engagement carries the same signature: longstanding support for UNHCR, for education projects in India and Uganda, for aid programmes in crisis regions &ndash; mostly without much media staging. The SP3w2 does not only want to function. It wants the people it stands up for to actually benefit.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Shapeshifter: Masks as Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The raccoon wears a mask &ndash; and that is Cruz&#39;s most striking trait as an actress: the ability to disappear completely into every role. The drunken neighbor in <em>Volver</em>, the jealous artist in <em>Vicky Cristina Barcelona</em>, the desperate mother in <em>Parallel Mothers</em>, the glamorous singer in <em>Nine</em> &ndash; hardly one role resembles another, and yet each remains believable down to the smallest gesture.</p>
+          <p class="vb-intro">This is not versatility on display for its own sake, but SP3 logic in its purest form: competence proves itself through the result, not through the announcement. Cruz rarely speaks publicly about her preparation methods or her &bdquo;process&ldquo; &ndash; instead she delivers the finished work and lets it speak for itself. The raccoon that does not wear the mask to deceive, but because it is the tool it works with.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP3 is its ability to turn talent into lasting, verifiable substance. Across three decades, more than sixty films, one Oscar, two further nominations, a star on the Walk of Fame &ndash; a career built not on a single peak but on steady, repeated achievement. That is the Three as a building force: not the one great stroke, but the reliable constant.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; subtler in the SP3 than in the other Three subtypes, but not absent: the need to appear unassailable through sheer functionality. The persistent withdrawal from the private can itself become a mask &ndash; a form of control over one&#39;s own image that requires just as much staging as the opposite. &bdquo;I don&#39;t talk about myself&ldquo; is, in the end, also a statement about oneself.</p>
+          <p class="vb-intro">The Two-wing brings its own shadow pattern: the worry that without service to others &ndash; to directors, to colleagues, to one&#39;s own children &ndash; one is not enough. Functioning and giving then merge into an identity that leaves little room for a self that simply exists, without achieving.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Functioning to Being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>What have I achieved?</em> to the insight <em>I am &ndash; regardless of what I can show for it.</em> For the SP3 this means no longer tying one&#39;s own worth to the next project, the next proven competence.</p>
+          <p class="vb-intro">Cruz has repeatedly emphasized in interviews that over the years she has learned to choose roles that truly mean something to her, rather than chasing every opportunity &ndash; a quiet but clear step from the compulsion to function toward conscious choice. The raccoon that, at some point, no longer needs to fill every niche to be sure of its worth &ndash; but chooses where it truly belongs, and rests there.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se3", label:"SP3 – The Raccoon: Subtype Profile"},
+        {route:"beruehmte-sadhguru", label:"Portrait: Sadhguru (SP3w2)"},
       ])}
     </div>
   `);
@@ -40603,8 +40819,11 @@ function subtypeSchaubilderPage() {
       "beruehmte-milow": milowPortraitPage,
       "beruehmte-braco": bracoPortraitPage,
       "beruehmte-sadhguru": sadhguruPortraitPage,
+      "beruehmte-penelope-cruz": penelopeCruzPortraitPage,
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
+      "beruehmte-osho": oshoPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
+      "beruehmte-pharrell-williams": pharrellWilliamsPortraitPage,
       "beruehmte-bella-thorne": bellaThornePage,
       "beruehmte-adele-neuhauser": adeleNeuhauserPortraitPage,
       "beruehmte-angela-merkel": angelaMerkelPortraitPage,
