@@ -657,6 +657,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tim Bendzko – Self-Preservation Type 4",
     teaser:"SE4w3 · born 1985, Berlin. Singer, songwriter. \"Nur noch kurz die Welt retten\". Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht, die Menschen finden lässt, was sie selbst nicht aussprechen konnten.",
     tags:["Music"], gender:"m"},
+  { route:"beruehmte-adele", name:"Adele", added:"2026-07-31", subtyp:"SE4w3",
+    heading:"Adele – Self-Preservation Type 4",
+    teaser:"SE4w3 · born 1988. Singer, songwriter. 16 Grammys, an Oscar, over 120 million records sold. The dove that turns quiet heartbreak into global hits without ever putting it on public display. Animal correspondence: Dove.",
+    tags:["Musik"] , gender:"f"},
   { route:"beruehmte-uli-hoeness", name:"Uli Hoeneß", added:"2026-07-20", subtyp:"SE2w3",
     heading:"Uli Hoeneß – Self-Preservation Type 2",
     teaser:"SE2w3 · born 1952. World Cup winner in 1974, manager and president of FC Bayern Munich. Four decades of development work, tax affair and return. The hippo defends its territory - and comes back stronger than before after the fall. Animal correspondence: Hippo.",
@@ -15468,6 +15472,74 @@ function seanConneryPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
         {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function adelePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-adele-portrait.jpg" alt="Adele" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adele</p>
+        <p class="krim-portrait-typ">SP4w3 &middot; Self-Preservation Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">Singer &amp; Songwriter, born 1988 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> has been the symbol of peace for millennia &ndash; delicate at first glance, but resilient at its core. It carries messages over long distances and returns, even through storms. Not an animal of loud gestures, but one that works through persistence &ndash; and through what it carries in its beak.</p>
+          <p class="vb-intro">Adele Laurie Blue Adkins has spent over fifteen years turning private heartbreak into songs sung around the world &ndash; from &bdquo;Someone Like You&ldquo; to &bdquo;Easy on Me.&ldquo; None of these songs were calculated. They grew out of real pain that became a message reaching millions. The dove that carries its innermost self outward &ndash; not to be seen, but because the song needs to be carried out.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Pain as a Quiet World</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is the counter-type of the Four: it does not turn its inner life into dramatic self-display, but carries it quietly. Naranjo called this subtype <em>Recklessness</em> &ndash; not as harshness toward others, but as uncompromising harshness toward oneself. The SP4 fights with pain, but fights it out alone before showing it.</p>
+          <p class="vb-intro">Adele has repeatedly emphasized in interviews that in everyday life she is not the tragic figure her music might suggest &ndash; on the contrary: friends and colleagues describe her as funny, down-to-earth, direct, with a broad Cockney wit. The pain from which her greatest songs arise stays private &ndash; processed before it ever reaches the stage. That is SP4 logic: you don&#39;t complain in public. You write an album.</p>
+          <p class="vb-intro">The self-preservation instinct orients the Four toward its own survival and stability &ndash; visible in Adele&#39;s deliberate restraint from the constant media presence other pop stars seek. Long gaps between albums, retreat into private life with her son, no forced visibility &ndash; the SP4 that gathers its strength where no one is watching.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-wing: Carrying the Message Outward</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> gives the self-preservation Four something decisive: the ability to turn the inner world into impact. The pure SP4 could remain in its inner world &ndash; deeply feeling, but invisible. The Three-wing gives it the craft to pour that depth into a form that reaches millions.</p>
+          <p class="vb-intro">Adele&#39;s career is proof of this connection: 16 Grammys, an Oscar for &bdquo;Skyfall,&ldquo; over 120 million records sold &ndash; numbers that pure feeling alone could never have produced. The Three-wing brings the discipline, the sense of timing, the stage presence, and the commercial craft that turns a deeply personal song into a global hit. The SP4w3 knows: what I have lived through can be shaped into a form that carries others.</p>
+          <p class="vb-intro">This connection also shows in her live performances: a singer who speaks openly between songs about heartbreak and self-doubt &ndash; and in the next moment has an entire stadium laughing at a joke. Vulnerability and performance, not as a contradiction, but as two sides of the same force.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. &bdquo;21&ldquo;: From Heartbreak to Catharsis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2011 Adele released &bdquo;21,&ldquo; an album born entirely out of the collapse of a relationship &ndash; written in a few intense months during which she withdrew almost completely. The album became one of the best-selling albums of the 21st century, with over 31 million copies sold, and won six Grammys, including Album of the Year.</p>
+          <p class="vb-intro">What set &bdquo;21&ldquo; apart from other heartbreak albums was exactly this SP4w3 dynamic: no self-pity, no public accusation against the ex-partner, but an almost craftsmanlike precision in handling her own pain. Adele processed what she had lived through quietly before pouring it into songs formulated universally enough that millions of people recognized their own heartbreak in them. The dove that turned its own wound into a message everyone could read.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4 is its ability to turn genuine pain into something that helps others understand their own. Adele&#39;s music has accompanied millions of people through breakups, loss, and grief &ndash; not by giving advice, but by showing: <em>I know this too.</em></p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the deep feeling that others were given something one lacks oneself. In the SP4 this shows as a chronic sense of inadequacy that rarely becomes publicly visible. Adele has spoken openly about years of struggling with her body image and public criticism of it &ndash; an area where outside expectations and her own self-doubt intersected with particular pain.</p>
+          <p class="vb-intro">The Three-wing brings the risk of tying one&#39;s own worth to the next achievement. In 2022 Adele postponed her planned Las Vegas residency at short notice &ndash; one day before the first show, in tears, explaining that the result did not meet her own standard. A moment that shows how hard it is for the SP4w3 to present unfinished work to an audience, even at the cost of public criticism.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Enduring to Self-Acceptance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>What I am is enough &ndash; and it is unique.</em> For the SP4 this means no longer fighting the inner battle alone, but allowing its own vulnerability to be seen without it being declared weakness.</p>
+          <p class="vb-intro">Adele&#39;s public development shows exactly this movement: from the reserved young singer who processed her pain almost exclusively in songs, to a woman who speaks openly in interviews about therapy, divorce, and self-discovery &ndash; without losing her artistic power in the process. The dove that has learned to carry its messages not only for others, but increasingly for itself as well.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-lady-diana", label:"Portrait: Lady Diana (SP4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Portrait: Tim Bendzko (SP4w3)"},
       ])}
     </div>
   `);
@@ -41094,6 +41166,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sucharit-bhakdi": sucharitBhakdiPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
+      "beruehmte-adele": adelePortraitPage,
       "beruehmte-uli-hoeness": uliHoenessPortraitPage,
       "beruehmte-oprah-winfrey": oprahWinfreyPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,

@@ -398,6 +398,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Tim Bendzko – Selbsterhaltender Typ 4",
     teaser:"SE4w3 · geb. 1985, Berlin. Sänger, Songwriter. \"Nur noch kurz die Welt retten\". Die Taube, die das Gewicht des Lebens trägt – und daraus Musik macht, die Menschen finden lässt, was sie selbst nicht aussprechen konnten.",
     tags:["Musik"], gender:"m"},
+  { route:"beruehmte-adele", name:"Adele", added:"2026-07-31", subtyp:"SE4w3",
+    heading:"Adele – Selbsterhaltender Typ 4",
+    teaser:"SE4w3 · geb. 1988. Sängerin, Songwriterin. 16 Grammys, ein Oscar, über 120 Millionen verkaufte Tonträger. Die Taube, die stillen Herzschmerz in Welthits verwandelt, ohne ihn öffentlich auszubreiten. Tierentsprechung: Taube.",
+    tags:["Musik"] , gender:"f"},
   { route:"beruehmte-karoline-herfurth", name:"Karoline Herfurth", added:"2026-07-21", subtyp:"SE4w5",
     heading:"Karoline Herfurth – Selbsterhaltende Typ 4",
     teaser:"SE4w5 \xb7 geb. 1984, Berlin. Schauspielerin, Regisseurin. Die Taube, die beobachtet, bevor sie landet – innere Tiefe, k\xfcnstlerische Pr\xe4zision, und eine Menschlichkeit hinter der Kamera, die das Sch\xf6ne am Verletzlichen sucht.",
@@ -14542,6 +14546,74 @@ function ladyDianaPortraitPage() {
   `);
 }
 
+
+function adelePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-adele-portrait.jpg" alt="Adele" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Adele</p>
+        <p class="krim-portrait-typ">SE4w3 &middot; Selbsterhaltender Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin &amp; Songwriterin, geb. 1988 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist seit Jahrtausenden das Symbol des Friedens &ndash; zart im ersten Eindruck, aber zäh im Kern. Sie trägt Botschaften über weite Strecken und kehrt zurück, selbst durch Sturm. Kein Tier der lauten Geste, sondern eines, das durch Beharrlichkeit wirkt &ndash; und durch das, was es in seinem Schnabel trägt.</p>
+          <p class="vb-intro">Adele Laurie Blue Adkins verwandelt seit über fünfzehn Jahren private Herzschmerzen in Lieder, die auf der ganzen Welt gesungen werden &ndash; von &bdquo;Someone Like You&ldquo; bis &bdquo;Easy on Me&ldquo;. Keine dieser Songs entstand als Kalkül. Sie entstanden aus echtem Schmerz, der zur Botschaft wurde, die Millionen erreichte. Die Taube, die das Innerste nach außen trägt &ndash; nicht, um sich zu zeigen, sondern weil das Lied hinausgetragen werden muss.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Schmerz als stille Welt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zieht ihr Innenleben nicht in dramatische Selbstdarstellung, sondern trägt es still. Naranjo nannte diesen Subtyp <em>Rücksichtslosigkeit</em> &ndash; nicht als Härte gegenüber anderen, sondern als kompromisslose Härte sich selbst gegenüber. Die SE4 kämpft mit dem Schmerz, aber sie kämpft ihn allein aus, bevor sie ihn zeigt.</p>
+          <p class="vb-intro">Adele hat in Interviews wiederholt betont, dass sie im Alltag nicht die tragische Figur sei, die ihre Musik vermuten lässt &ndash; im Gegenteil: Freunde und Kollegen beschreiben sie als humorvoll, bodenständig, direkt, mit einem deftigen Londoner Cockney-Witz. Der Schmerz, aus dem ihre größten Songs entstehen, bleibt im Privaten &ndash; verarbeitet, bevor er auf die Bühne kommt. Das ist SE4-Logik: Man klagt nicht öffentlich. Man schreibt ein Album.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Vier auf das eigene Überleben und die eigene Stabilität &ndash; bei Adele sichtbar in ihrer bewussten Zurückhaltung gegenüber der ständigen Medienpräsenz, die andere Popstars suchen. Lange Pausen zwischen den Alben, Rückzug in ihr Privatleben mit ihrem Sohn, keine erzwungene Sichtbarkeit &ndash; die SE4, die ihre Kraft dort sammelt, wo niemand zusieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Die Botschaft nach außen tragen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der selbsterhaltenden Vier etwas Entscheidendes: die Fähigkeit, das Innere in Wirkung zu verwandeln. Die reine SE4 könnte in ihrer inneren Welt verharren &ndash; tief empfindend, aber unsichtbar. Der Dreierflügel gibt ihr das Handwerk, diese Tiefe in eine Form zu gießen, die Millionen erreicht.</p>
+          <p class="vb-intro">Adeles Karriere ist der Beweis für diese Verbindung: 16 Grammys, ein Oscar für &bdquo;Skyfall&ldquo;, über 120 Millionen verkaufte Tonträger &ndash; Zahlen, die aus reinem Gefühl allein nie entstanden wären. Der Dreierflügel bringt die Disziplin, das Gespür für Timing, die Bühnenpräsenz und das kommerzielle Handwerk, das aus einem zutiefst persönlichen Song einen Welthit macht. Die SE4w3 weiß: Was ich durchlebt habe, kann in eine Form gebracht werden, die andere trägt.</p>
+          <p class="vb-intro">Diese Verbindung zeigt sich auch in ihren Live-Auftritten: eine Sängerin, die zwischen den Songs offen über Herzschmerz und Selbstzweifel spricht &ndash; und im nächsten Moment das gesamte Stadion mit einem Scherz zum Lachen bringt. Verletzlichkeit und Performance, nicht als Widerspruch, sondern als zwei Seiten derselben Kraft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. „21": Vom Herzschmerz zur Katharsis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2011 veröffentlichte Adele mit &bdquo;21&ldquo; ein Album, das vollständig aus dem Zerbrechen einer Beziehung entstand &ndash; geschrieben in wenigen intensiven Monaten, in denen sie sich fast vollständig zurückzog. Das Album wurde mit über 31 Millionen verkauften Exemplaren zu einem der meistverkauften Alben des 21. Jahrhunderts und gewann sechs Grammys, darunter Album des Jahres.</p>
+          <p class="vb-intro">Was &bdquo;21&ldquo; von anderen Herzschmerz-Alben unterschied, war genau die SE4w3-Dynamik: kein Selbstmitleid, keine öffentliche Anklage gegen den Ex-Partner, sondern eine fast handwerkliche Präzision im Umgang mit dem eigenen Schmerz. Adele verarbeitete das Erlebte still, bevor sie es in Songs goss, die so universell formuliert waren, dass Millionen Menschen ihren eigenen Herzschmerz darin wiederfanden. Die Taube, die ihre eigene Wunde in eine Botschaft verwandelte, die für alle lesbar wurde.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4 ist ihre Fähigkeit, echten Schmerz in etwas zu verwandeln, das anderen hilft, ihren eigenen zu verstehen. Adeles Musik hat Millionen Menschen durch Trennungen, Verluste und Trauer begleitet &ndash; nicht, weil sie Ratschläge gab, sondern weil sie zeigte: <em>Ich kenne das auch.</em></p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das tiefe Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei der SE4 äußert sich das als chronisches Gefühl der Unzulänglichkeit, das öffentlich selten sichtbar wird. Adele sprach offen über jahrelange Kämpfe mit ihrem Körperbild und öffentlicher Kritik daran &ndash; ein Bereich, in dem sich fremde Erwartungen und eigene Selbstzweifel besonders schmerzhaft überschnitten.</p>
+          <p class="vb-intro">Der Dreierflügel bringt die Gefahr, den eigenen Wert an die nächste Leistung zu knüpfen. 2022 verschob Adele kurzfristig ihre geplante Las-Vegas-Residency &ndash; einen Tag vor der ersten Show, unter Tränen, mit der Begründung, das Ergebnis genüge ihrem eigenen Anspruch nicht. Ein Moment, der zeigt, wie schwer es der SE4w3 fällt, unfertige Arbeit vor Publikum zu zeigen, selbst um den Preis öffentlicher Kritik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Ausharren zur Selbstannahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Was ich bin, ist genug &ndash; und ist einmalig.</em> Für die SE4 bedeutet das, den inneren Kampf nicht länger allein auszufechten, sondern zuzulassen, dass auch die eigene Verletzlichkeit gesehen werden darf, ohne dass sie zur Schwäche erklärt wird.</p>
+          <p class="vb-intro">Adeles öffentliche Entwicklung zeigt genau diese Bewegung: von der zurückhaltenden jungen Sängerin, die ihren Schmerz fast ausschließlich in Songs verarbeitete, zu einer Frau, die in Interviews offen über Therapie, Scheidung und Selbstfindung spricht &ndash; ohne dabei die eigene künstlerische Kraft zu verlieren. Die Taube, die gelernt hat, ihre Botschaften nicht nur für andere, sondern zunehmend auch für sich selbst zu tragen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-lady-diana", label:"Porträt: Lady Diana (SE4w3)"},
+        {route:"beruehmte-tim-bendzko", label:"Porträt: Tim Bendzko (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
 
 function karolineHerfurthPortraitPage() {
   return shell(`
@@ -43961,6 +44033,7 @@ function render() {
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
+      "beruehmte-adele": adelePortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
