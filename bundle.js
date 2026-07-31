@@ -374,6 +374,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lena Meyer-Landrut – Sexueller Typ 3",
     teaser:"SX3w2 · geb. 1991. Sängerin, ESC-Gewinnerin 2010. Der Pfau, der nicht weiß, wie schön er ist – und gerade deshalb alle in den Bann zieht. Tierentsprechung: Pfau.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-brigitte-bardot", name:"Brigitte Bardot", added:"2026-07-31", subtyp:"SX3w2",
+    heading:"Brigitte Bardot – Sexueller Typ 3",
+    teaser:"SX3w2 · geb. 1934. Filmikone der 1950er/60er, seit 1973 Tierrechtsaktivistin. Vom Sinnbild sinnlicher Ausstrahlung zur Gründerin einer eigenen Stiftung – der Pfau, der sein Gefieder irgendwann für eine andere Sache einsetzt. Tierentsprechung: Pfau.",
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
     heading:"Meg Ryan – Sexueller Typ 3",
     teaser:"SX3w4 · geb. 1961. Schauspielerin, Regisseurin. Hollywoods Lieblingsperson der 1990er – der Pfau, der mehr wollte als seine Rolle. Tierentsprechung: Pfau.",
@@ -14847,6 +14851,74 @@ function kaiPflaumePortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx3", label:"SX3 – Der Strahlende: Subtyp-Profil"},
         {route:"kriminalpsychologie", label:"Kriminalpsychologie – Porträts"},
+      ])}
+    </div>
+  `);
+}
+
+function brigitteBardotPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-brigitte-bardot-portrait.jpg" alt="Brigitte Bardot" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brigitte Bardot</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Tierrechtsaktivistin, geb. 1934 &ndash; Tierentsprechung: Pfau</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Pfau</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Pfau</strong> ist das Tier der sexuellen Drei &ndash; ein Tier, das sein Gefieder nicht zur Berechnung entfaltet, sondern weil Pracht sein Wesen ist. Kein Tier der Bühne im großen Sinn, sondern eines der unmittelbaren Wirkung: Wer einem Pfau begegnet, kann sich seiner Präsenz nicht entziehen. Genau das ist keine Strategie &ndash; es ist Ausdruck.</p>
+          <p class="vb-intro">Brigitte Bardot wurde mit &bdquo;Und ewig lockt das Weib&ldquo; (1956) über Nacht zur internationalen Ikone &ndash; und zu einer Erschütterung der bürgerlichen Sittlichkeit ihrer Zeit. Kein Skandal um ihre Person allein, sondern die schiere Wirkung ihrer Präsenz auf der Leinwand veränderte, wie Weiblichkeit im europäischen Kino gezeigt werden durfte. Der Pfau, der ein ganzes Publikum verändert, allein durch das, was er ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Drei: Magnetismus als Lebensthema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Drei (SX3)</strong> macht persönliche Anziehungskraft zur Lebensaufgabe &ndash; nicht Erfolg vor der Masse wie die soziale Drei, sondern die unmittelbare, körperliche, direkte Resonanz mit dem Gegenüber. Claudio Naranjo nennt diesen Subtyp <em>Masculinity/Femininity</em>: die Verkörperung von Attraktivität in ihrer reinsten, intimsten Form. Die SX3 fragt nicht <em>Bewundert man mich?</em>, sondern <em>Begehrt man mich?</em></p>
+          <p class="vb-intro">Bardots gesamte Filmkarriere kreiste um genau diese Energie. Sie war nicht die klassisch geschliffene Schauspielerin ihrer Zeit &ndash; sie war eine Präsenz, eine Naturgewalt vor der Kamera, deren Ausstrahlung wichtiger war als jede Technik. Regisseur Roger Vadim baute &bdquo;Und ewig lockt das Weib&ldquo; buchstäblich um sie herum, weil er verstand: Diese Frau muss nicht spielen, sie muss nur sein. Genau das ist die reinste Form der SX3-Wirkung.</p>
+          <p class="vb-intro">Bardot wurde zum Sinnbild der sexuellen Befreiung der 1950er- und 60er-Jahre &ndash; nicht durch Provokation im politischen Sinn, sondern durch die schlichte Weigerung, ihre Sinnlichkeit zu verstecken. Die Presse prägte den Begriff „Sex-Kätzchen", doch das griff zu kurz: Was Bardot ausstrahlte, war keine Pose, sondern eine ungefilterte Selbstverständlichkeit im eigenen Körper.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Zweierflügel: Fürsorge statt Fassade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Zweierflügel (w2)</strong> gibt der sexuellen Drei eine Dimension, die über reinen Magnetismus hinausgeht: das echte Bedürfnis, sich um andere zu kümmern, Fürsorge zu geben, nicht nur Bewunderung zu empfangen. Die reine SX3 könnte in ihrer eigenen Wirkung aufgehen. Der Zweierflügel öffnet den Blick nach außen &ndash; auf die, die keine Stimme haben.</p>
+          <p class="vb-intro">Bei Bardot zeigt sich das am deutlichsten in ihrem Verhältnis zu Tieren, das bereits während ihrer Filmkarriere begann und sie zunehmend beschäftigte. Ihre Zuneigung war nie abstrakt oder repräsentativ &ndash; sie pflegte selbst verletzte und ausgesetzte Tiere auf ihrem Anwesen in Saint-Tropez, kümmerte sich persönlich, nicht nur symbolisch. Die SX3w2 gibt nicht aus der Ferne. Sie gibt mit den eigenen Händen.</p>
+          <p class="vb-intro">Diese Fürsorge stand oft im Widerspruch zu ihrem öffentlichen Image als unnahbare Verführerin &ndash; ein Widerspruch, der viele SX3w2er kennzeichnet: nach außen strahlend und begehrt, nach innen mit einem tiefen Bedürfnis, sich für etwas oder jemanden einzusetzen, der Schutz braucht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Filmstar zur Aktivistin: Die zweite Karriere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1973, auf dem Höhepunkt ihres Ruhms, mit knapp 39 Jahren, zog sich Bardot vollständig aus dem Filmgeschäft zurück &ndash; ein für die Branche fast beispielloser Schritt. Kein schleichender Abstieg, kein verzweifeltes Festhalten an der eigenen Jugendlichkeit, sondern ein bewusster, abrupter Schnitt. Die Frau, deren gesamte öffentliche Identität auf ihrer Ausstrahlung beruhte, entschied, dass diese Ausstrahlung nicht mehr das Zentrum ihres Lebens sein sollte.</p>
+          <p class="vb-intro">1986 gründete sie die Fondation Brigitte Bardot und widmete sich fortan mit derselben Intensität, mit der sie einst Filme gedreht hatte, dem Tierschutz &ndash; Kampagnen gegen die Robbenjagd, gegen den Pelzhandel, gegen den Stierkampf, gegen Massentierhaltung. Sie nutzte ihre verbliebene Berühmtheit als Werkzeug, nicht als Selbstzweck. Der Pfau, der sein Gefieder nicht mehr für sich selbst trägt, sondern es einsetzt, um Aufmerksamkeit auf etwas zu lenken, das ihm wichtiger geworden ist als er selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX3 ist ihre Fähigkeit, durch reine Präsenz zu wirken &ndash; und, wenn sie reift, diese Wirkung für etwas einzusetzen, das größer ist als die eigene Anziehungskraft. Bardots Lebenswerk im Tierschutz hat reale politische Veränderungen bewirkt, von EU-Importverboten für Robbenprodukte bis zu verschärften Tierschutzgesetzen in Frankreich.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; das Verwechseln der eigenen Identität mit der eigenen Wirkung. Bei Bardot zeigte sich dieses Muster in den späteren Lebensjahrzehnten anders als erwartet: nicht als Festhalten am eigenen Image, sondern als radikale Direktheit, die zunehmend in Provokation und mehrfach gerichtlich verurteilte Äußerungen zu Einwanderung und Islam umschlug. Der Pfau, der sein Leben lang gelernt hat, dass Aufsehen Aufmerksamkeit bedeutet, kann diese Logik auch dort anwenden, wo sie verletzt statt berührt.</p>
+          <p class="vb-intro">Der Zweierflügel bringt sein eigenes Schattenmuster: eine Fürsorge, die sich so vollständig auf ein Anliegen &ndash; hier: Tiere &ndash; konzentriert, dass sie an anderer Stelle blind werden kann für das Leid von Menschen. Diese Spannung zwischen radikaler Tierliebe und öffentlich verurteilten menschenfeindlichen Aussagen bleibt eine der schwierigsten Facetten von Bardots späterem Leben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Wirkung zur Hingabe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Werde ich begehrt?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne diese Wirkung.</em> Für die SX3w2 bedeutet das, die eigene Anziehungskraft nicht mehr als Zentrum der Identität zu behandeln, sondern als ein Werkzeug unter vielen, das man bewusst einsetzen oder loslassen kann.</p>
+          <p class="vb-intro">Bardots Rückzug aus dem Filmgeschäft war genau dieser Schritt in seiner radikalsten Form: die bewusste Entscheidung, nicht mehr von der eigenen Wirkung auf andere abhängig zu sein, sondern die verbleibende Energie einer Sache zu widmen, die keine Bewunderung zurückgibt. Der Pfau, der irgendwann nicht mehr fragt, ob man ihn ansieht &ndash; sondern wohin er selbst schaut.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx3", label:"SX3 – Der Pfau: Subtyp-Profil"},
+        {route:"beruehmte-kai-pflaume", label:"Porträt: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-lena-meyer-landrut", label:"Porträt: Lena Meyer-Landrut (SX3w2)"},
       ])}
     </div>
   `);
@@ -43746,6 +43818,7 @@ function render() {
       "beruehmte-dan-brown": danBrownPortraitPage,
       "beruehmte-ken-follett": kenFollettPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
+      "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-kai-pflaume": kaiPflaumePortraitPage,
       "beruehmte-meg-ryan": megRyanPortraitPage,
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,

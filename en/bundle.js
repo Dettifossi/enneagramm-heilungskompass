@@ -577,6 +577,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Lena Meyer-Landrut – Sexual Type 3",
     teaser:"SX3w2 · born 1991. Singer, ESC winner 2010. The peacock who doesn't know how beautiful he is - and that's precisely why he captivates everyone. Animal correspondence: Peacock.",
     tags:["Music"] , gender:"f"},
+  { route:"beruehmte-brigitte-bardot", name:"Brigitte Bardot", added:"2026-07-31", subtyp:"SX3w2",
+    heading:"Brigitte Bardot – Sexual Type 3",
+    teaser:"SX3w2 · born 1934. Film icon of the 1950s/60s, animal rights activist since 1973. From the embodiment of sensual allure to founder of her own foundation – the peacock that eventually puts its plumage to work for another cause. Animal correspondence: Peacock.",
+    tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-linda-leinweber", name:"Linda Leinweber", added:"2026-07-21", subtyp:"SX4w5",
     heading:"Linda Leinweber – Sexual Type 4",
     teaser:"SX4w5 \xb7 Psychologist, author, coach, founder of Poise. “Free but still connected”. The Chihuahua who has made his own pain precise - and teaches people to look before it's too late.",
@@ -15862,6 +15866,74 @@ function jesusChristusPortraitPage() {
         {route:"subtype/so2", label:"SO2 – The Golden Retriever: Subtype Profile"},
         {route:"beruehmte-sucharit-bhakdi", label:"Portrait: Prof. Dr. Sucharit Bhakdi (SO2w1)"},
         {route:"beruehmte-barack-obama", label:"Portrait: Barack Obama (SO2w1)"},
+      ])}
+    </div>
+  `);
+}
+
+function brigitteBardotPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-brigitte-bardot-portrait.jpg" alt="Brigitte Bardot" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Brigitte Bardot</p>
+        <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; Animal Rights Activist, born 1934 &ndash; Animal correspondence: Peacock</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Peacock</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Peacock</strong> is the animal of the sexual Three &ndash; an animal that does not unfurl its plumage out of calculation, but because splendor is its very nature. Not an animal of the stage in the broad sense, but one of immediate impact: whoever encounters a peacock cannot escape its presence. That is not a strategy &ndash; it is expression.</p>
+          <p class="vb-intro">Brigitte Bardot became an international icon overnight with <em>And God Created Woman</em> (1956) &ndash; and shook the bourgeois morality of her time. Not a scandal about her person alone, but the sheer impact of her presence on screen changed how femininity could be portrayed in European cinema. The peacock that transforms an entire audience simply by being what it is.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Three: Magnetism as Life&#39;s Theme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Three (SX3)</strong> makes personal attraction its life&#39;s work &ndash; not success before the masses as with the social Three, but immediate, physical, direct resonance with the person in front of it. Claudio Naranjo called this subtype <em>Masculinity/Femininity</em>: the embodiment of attractiveness in its purest, most intimate form. The SX3 does not ask <em>Am I admired?</em> but <em>Am I desired?</em></p>
+          <p class="vb-intro">Bardot&#39;s entire film career revolved around exactly this energy. She was not the classically polished actress of her time &ndash; she was a presence, a force of nature on camera, whose radiance mattered more than any technique. Director Roger Vadim literally built <em>And God Created Woman</em> around her, because he understood: this woman does not need to act, she only needs to be. That is the purest form of SX3 impact.</p>
+          <p class="vb-intro">Bardot became a symbol of the sexual liberation of the 1950s and 60s &ndash; not through provocation in a political sense, but through the simple refusal to hide her sensuality. The press coined the term &bdquo;sex kitten,&ldquo; but that fell short: what Bardot radiated was not a pose, but an unfiltered ease within her own body.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Two-wing: Care Instead of Facade</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Two-wing (w2)</strong> gives the sexual Three a dimension that goes beyond pure magnetism: the genuine need to care for others, to give care rather than only receive admiration. The pure SX3 could become absorbed in its own impact. The Two-wing opens the gaze outward &ndash; toward those who have no voice.</p>
+          <p class="vb-intro">In Bardot this shows most clearly in her relationship to animals, which began already during her film career and increasingly occupied her. Her affection was never abstract or representative &ndash; she personally cared for injured and abandoned animals on her estate in Saint-Tropez, tending to them herself, not merely symbolically. The SX3w2 does not give from a distance. It gives with its own hands.</p>
+          <p class="vb-intro">This care often stood in contrast to her public image as an unapproachable seductress &ndash; a contradiction that marks many SX3w2s: radiant and desired on the outside, while inwardly carrying a deep need to stand up for something or someone who needs protection.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Film Star to Activist: The Second Career</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1973, at the height of her fame, at not quite 39, Bardot withdrew completely from filmmaking &ndash; a step almost unprecedented in the industry. Not a gradual decline, not a desperate clinging to her own youthfulness, but a deliberate, abrupt cut. The woman whose entire public identity rested on her allure decided that this allure should no longer be the center of her life.</p>
+          <p class="vb-intro">In 1986 she founded the Fondation Brigitte Bardot and from then on devoted herself, with the same intensity with which she had once made films, to animal welfare &ndash; campaigns against seal hunting, the fur trade, bullfighting, factory farming. She used her remaining fame as a tool, not as an end in itself. The peacock that no longer wears its plumage for itself, but uses it to draw attention to something that has become more important to it than itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX3 is its ability to have impact through pure presence &ndash; and, when it matures, to put that impact toward something larger than its own allure. Bardot&#39;s life&#39;s work in animal welfare brought about real political change, from EU import bans on seal products to stricter animal protection laws in France.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>deception</strong> &ndash; confusing one&#39;s own identity with one&#39;s own impact. In Bardot this pattern showed itself in later decades differently than expected: not as clinging to her own image, but as a radical directness that increasingly turned into provocation and repeatedly court-condemned statements about immigration and Islam. The peacock that has learned throughout its life that causing a stir means attention can apply that same logic even where it wounds rather than moves.</p>
+          <p class="vb-intro">The Two-wing brings its own shadow pattern: a care so completely focused on one cause &ndash; here, animals &ndash; that it can become blind elsewhere to human suffering. This tension between radical love of animals and publicly condemned statements hostile to certain groups of people remains one of the most difficult facets of Bardot&#39;s later life.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Impact to Devotion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>Am I desired?</em> to the insight <em>I am &ndash; even without this impact.</em> For the SX3w2 this means no longer treating one&#39;s own allure as the center of identity, but as one tool among many, one that can be consciously used or set down.</p>
+          <p class="vb-intro">Bardot&#39;s withdrawal from filmmaking was precisely this step in its most radical form: the conscious decision to no longer depend on her impact on others, but to devote her remaining energy to a cause that gives back no admiration. The peacock that at some point no longer asks whether it is being looked at &ndash; but where it itself is looking.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx3", label:"SX3 – The Peacock: Subtype Profile"},
+        {route:"beruehmte-kai-pflaume", label:"Portrait: Kai Pflaume (SX3w2)"},
+        {route:"beruehmte-lena-meyer-landrut", label:"Portrait: Lena Meyer-Landrut (SX3w2)"},
       ])}
     </div>
   `);
@@ -40922,6 +40994,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-kevin-costner": kevinCostnerPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
       "beruehmte-lena-meyer-landrut": lenaMeyerLandrutPortraitPage,
+      "beruehmte-brigitte-bardot": brigitteBardotPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-mariah-carey": mariahCareyPortraitPage,
       "beruehmte-marie-agnes-strack-zimmermann": marieAgnesStrackZimmermannPortraitPage,
