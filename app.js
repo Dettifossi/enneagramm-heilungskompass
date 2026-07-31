@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "375";
+const APP_BUILD = "376";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -855,16 +855,17 @@ const ENNEAGRAMM_FILME = {
     title: "SE1 – Selbsterhaltungstyp 1: Der Adler in den eigenen vier Wänden",
     intro: "Zehn Filme über die Sorge um das eigene richtige Leben – Ordnung, Selbstdisziplin und Wärme, die sich hinter Strenge verbirgt.",
     filme: [
-      { title:"Phantom Thread", year:"2017", text:"Ein Modeschöpfer, dessen ganzes Leben von Ritualen und Regeln getragen wird – Perfektion nicht als Show, sondern als tägliche Selbstverpflichtung. So lebt die SE1 ihre Ordnung: leise, unerbittlich, nach innen gerichtet." },
-      { title:"The Intern", year:"2015", text:"Ben, gespielt als Mann der alten Schule, verkörpert Anstand, Verlässlichkeit und Zurückhaltung, ohne belehrend zu wirken. Genau diese stille moralische Klarheit ist die SE1-Signatur." },
+      { title:"The Intern – Umständehalber Praktikant (The Intern)", year:"2015", text:"Ben, gespielt als Mann der alten Schule, verkörpert Anstand, Verlässlichkeit und Zurückhaltung, ohne belehrend zu wirken. Genau diese stille moralische Klarheit ist die SE1-Signatur." },
       { title:"Julie & Julia", year:"2009", text:"Julia Childs jahrelange, akribische Hingabe an die korrekte Technik – nicht für Applaus, sondern weil es richtig gemacht werden muss. Ein Musterbild selbsterhaltender Einser-Disziplin." },
       { title:"Sully", year:"2016", text:"Captain Sullenberger unterzieht sich nach seiner Heldentat einer gnadenlosen Selbstprüfung, ob er wirklich alles richtig gemacht hat. Die SE1 misst sich an einem inneren Standard, den niemand sonst sieht." },
-      { title:"A Man Called Otto", year:"2022", text:"Otto lebt nach strengen, selbst auferlegten Regeln – Mülltrennung, Pünktlichkeit, Ordnung –, unter denen sich zunehmend Wärme zeigt. Die typische SE1-Bewegung: von der Strenge zur stillen Zuneigung." },
+      { title:"Ein Mann namens Otto (A Man Called Otto)", year:"2022", text:"Otto lebt nach strengen, selbst auferlegten Regeln – Mülltrennung, Pünktlichkeit, Ordnung –, unter denen sich zunehmend Wärme zeigt. Die typische SE1-Bewegung: von der Strenge zur stillen Zuneigung." },
       { title:"Miss Potter", year:"2006", text:"Beatrix Potters diszipliniertes, zurückgezogenes Arbeitsleben, das sich in kleinen, sorgfältig ausgeführten Werken ausdrückt. Die SE1 sucht Vollkommenheit im überschaubaren, eigenen Bereich." },
       { title:"The Best Exotic Marigold Hotel", year:"2011", text:"Muriels scharfe, unnachgiebige Urteilskraft, die sich im Lauf des Films als tief verwurzelter Ordnungssinn statt bloßer Härte entpuppt – ein SE1-Bogen in Reinform." },
-      { title:"Amour", year:"2012", text:"Georges' diszipliniertes, stilles Pflichtgefühl gegenüber seiner erkrankten Frau, ohne große Gesten, ohne Klage. Verantwortung als tägliche, selbstauferlegte Übung." },
       { title:"Little Women", year:"2019", text:"Marmees zurückhaltende moralische Standhaftigkeit, die ihre Töchter durch Vorbild statt durch Predigt erzieht. Die SE1 lehrt durch die eigene Lebensführung." },
-      { title:"The Remains of the Day", year:"1993", text:"Der Butler Stevens, dessen gesamtes Leben in Pflichterfüllung und korrektem Verhalten aufgeht, bis er die eigene emotionale Kälte erkennt. Ein Klassiker – zeigt die SE1-Falle so klar wie kein Film danach." },
+      { title:"Was vom Tage übrig blieb (The Remains of the Day)", year:"1993", text:"Der Butler Stevens, dessen gesamtes Leben in Pflichterfüllung und korrektem Verhalten aufgeht, bis er die eigene emotionale Kälte erkennt. Ein Klassiker – zeigt die SE1-Falle so klar wie kein Film danach." },
+      { title:"The Wife", year:"2017", text:"Eine Frau, die jahrzehntelang die eigene Kompetenz zugunsten der Karriere ihres Mannes zurückstellt und ihre Rolle mit stiller, disziplinierter Perfektion ausfüllt. Die SE1 erkennt sich in dieser leisen, nie eingeforderten Größe." },
+      { title:"45 Years", year:"2015", text:"Eine jahrzehntelange, sorgfältig geordnete Ehe gerät ins Wanken, als eine alte Wahrheit auftaucht – die SE1-Fassade aus Kontrolle und Anstand wird bis auf die Grundmauern geprüft." },
+    
     ],
   },
   "SO1": {
@@ -882,6 +883,7 @@ const ENNEAGRAMM_FILME = {
       { title:"Selma", year:"2014", text:"Martin Luther Kings organisierter, disziplinierter Kampf für Bürgerrechte – Reform als strukturierte, durchgehaltene Bewegung, nicht als spontaner Ausbruch." },
       { title:"Trumbo", year:"2015", text:"Ein Drehbuchautor, der auf seinen Prinzipien beharrt, während eine ganze Industrie ihn dafür bestraft. Standhaftigkeit als Widerstand." },
       { title:"On the Basis of Sex", year:"2018", text:"Der jahrzehntelange juristische Kampf für Gleichberechtigung vor dem Gesetz – Reform, Schritt für Schritt, Fall für Fall erstritten." },
+    
     ],
   },
   "SX1": {
@@ -898,7 +900,8 @@ const ENNEAGRAMM_FILME = {
       { title:"Little Children", year:"2006", text:"Eine Affäre, getragen von der Überzeugung, im Recht zu sein – moralische Selbstgerechtigkeit als Deckmantel der eigenen Leidenschaft." },
       { title:"Blue Valentine", year:"2010", text:"Die Intensität einer Liebe, die an den eigenen unerreichbaren Ansprüchen zerbricht. Enttäuschung als Kehrseite der SX1-Hingabe." },
       { title:"Nosferatu", year:"1979", text:"Klaus Kinski erneut, diesmal als tragische, besessene Figur, deren ganzes Wesen sich um eine einzige, unstillbare Sehnsucht dreht." },
-      { title:"A Star Is Born", year:"2018", text:"Bedingungslose Hingabe an einen Menschen und eine gemeinsame Sache, bis zur Selbstaufgabe. Die SX1 liebt ganz oder gar nicht." },
+      { title:"Fatal Attraction", year:"1987", text:"Eine Affäre, die sich in besitzergreifende, kompromisslose Intensität verwandelt, sobald sie infrage gestellt wird. Die Schwarze Mamba kennt kein Zurück, sobald sie sich einmal gebunden hat." },
+    
     ],
   },
   "SE2": {
@@ -907,15 +910,16 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über Fürsorge im eigenen, nahen Umfeld – Nähren, Verwöhnen und sich durch Hingabe unentbehrlich machen.",
     filme: [
       { title:"School of Rock", year:"2003", text:"Jack Black – im Kompass als SE2w1 geführt – als Lehrer, dessen warmherzige, verwöhnende Fürsorge sich selbst unentbehrlich macht. Eine der stimmigsten Verkörperungen der SE2 überhaupt." },
-      { title:"Chef", year:"2014", text:"Ein Koch, der Nähe und Liebe ausschließlich über selbst zubereitetes Essen ausdrückt. Nähren als Sprache, in der die SE2 zu Hause ist." },
       { title:"The Intouchables", year:"2011", text:"Eine körperliche, warme, humorvolle Fürsorge, die aus einem Arbeitsverhältnis eine echte Familie macht." },
       { title:"Nanny McPhee", year:"2005", text:"Strenge, die sich Schritt für Schritt in echte Zuneigung verwandelt – die SE2-Bewegung von der Kontrolle zur Wärme." },
-      { title:"About a Boy", year:"2002", text:"Eine zunächst widerwillige Fürsorge, die sich unter der Oberfläche in echte, verwundbare Bindung verwandelt." },
-      { title:"Marley & Me", year:"2008", text:"Hingabe und Fürsorge im engsten familiären Kreis, ganz ohne großen gesellschaftlichen Auftritt." },
+      { title:"About a Boy oder: Der Tag der toten Ente (About a Boy)", year:"2002", text:"Eine zunächst widerwillige Fürsorge, die sich unter der Oberfläche in echte, verwundbare Bindung verwandelt." },
+      { title:"Marley & Ich (Marley & Me)", year:"2008", text:"Hingabe und Fürsorge im engsten familiären Kreis, ganz ohne großen gesellschaftlichen Auftritt." },
       { title:"Paddington", year:"2014", text:"Bedingungslose häusliche Aufnahme eines Fremden – Fürsorge als spontaner, warmer Reflex." },
-      { title:"Instant Family", year:"2018", text:"Eine Familie, die sich durch das aktive Fürsorgen für fremde Kinder im eigenen Zuhause neu erschafft." },
-      { title:"Julie & Julia", year:"2009", text:"Fürsorge, die sich durch perfektionierte Gastfreundschaft und Kochkunst ausdrückt – Nähe über den gedeckten Tisch." },
-      { title:"The Blind Side", year:"2009", text:"Aufopfernde häusliche Fürsorge, die einen fremden jungen Menschen vorbehaltlos in die eigene Familie aufnimmt." },
+      { title:"Instant Family – Für ein paar Kids mehr (Instant Family)", year:"2018", text:"Eine Familie, die sich durch das aktive Fürsorgen für fremde Kinder im eigenen Zuhause neu erschafft." },
+      { title:"Blind Side – Die große Chance (The Blind Side)", year:"2009", text:"Aufopfernde häusliche Fürsorge, die einen fremden jungen Menschen vorbehaltlos in die eigene Familie aufnimmt." },
+      { title:"Wonder", year:"2017", text:"Eine Familie, deren gesamter Alltag um die liebevolle, unermüdliche Fürsorge für ein Kind organisiert ist – Zuwendung als tägliche, stille Praxis statt große Geste." },
+      { title:"Life as We Know It", year:"2010", text:"Zwei Menschen, die unvorbereitet in die Fürsorge für ein Kind hineinwachsen und dabei entdecken, wie sehr Nähren zur eigenen Identität werden kann." },
+    
     ],
   },
   "SO2": {
@@ -923,16 +927,17 @@ const ENNEAGRAMM_FILME = {
     title: "SO2 – Sozialer Typ 2: Der Golden Retriever im Dienst der Gemeinschaft",
     intro: "Zehn Filme über sichtbare, öffentliche Fürsorge – Ehrgeiz und Hilfsbereitschaft, die sich vor der Gruppe beweisen.",
     filme: [
-      { title:"The Pursuit of Happyness", year:"2006", text:"Will Smith – im Kompass als SO2w3 geführt – als Vater, dessen Ehrgeiz ganz im Dienst der Fürsorgepflicht für den eigenen Sohn steht." },
+      { title:"Das Streben nach Glück (The Pursuit of Happyness)", year:"2006", text:"Will Smith – im Kompass als SO2w3 geführt – als Vater, dessen Ehrgeiz ganz im Dienst der Fürsorgepflicht für den eigenen Sohn steht." },
       { title:"Concussion", year:"2015", text:"Will Smith erneut, diesmal im öffentlichen, sichtbaren Kampf für das Wohl vieler Menschen gegen mächtigen Widerstand." },
       { title:"Freedom Writers", year:"2007", text:"Engagierte, öffentlich sichtbare Fürsorge im Klassenzimmer, die eine ganze Gruppe zusammenhält." },
-      { title:"Dead Poets Society", year:"1989", text:"Ein Mentor, der sich öffentlich und mit Nachdruck für seine Schüler einsetzt – Fürsorge als pädagogische Mission." },
+      { title:"Der Club der toten Dichter (Dead Poets Society)", year:"1989", text:"Ein Mentor, der sich öffentlich und mit Nachdruck für seine Schüler einsetzt – Fürsorge als pädagogische Mission." },
       { title:"Won't You Be My Neighbor?", year:"2018", text:"Eine öffentliche, lebenslange Fürsorge-Mission, dokumentiert über Jahrzehnte – Hilfsbereitschaft als Lebenswerk." },
       { title:"Radio", year:"2003", text:"Eine Gemeinschaft, angeführt von einem Trainer, die sich sichtbar und beharrlich um einen Außenseiter kümmert." },
-      { title:"Hidden Figures", year:"2016", text:"Gegenseitige Fürsorge im gemeinsamen Kampf um gesellschaftliche Anerkennung." },
+      { title:"Hidden Figures – Unerkannte Heldinnen (Hidden Figures)", year:"2016", text:"Gegenseitige Fürsorge im gemeinsamen Kampf um gesellschaftliche Anerkennung." },
       { title:"Green Book", year:"2018", text:"Fürsorge und Loyalität, die sich in der Öffentlichkeit und unter Beobachtung beweisen müssen." },
       { title:"Spare Parts", year:"2015", text:"Gemeinschaftlicher, öffentlich sichtbarer Einsatz für benachteiligte Jugendliche." },
       { title:"Music of the Heart", year:"1999", text:"Pädagogisches Engagement, das öffentliche Anerkennung sucht, um seinen Wert zu beweisen." },
+    
     ],
   },
   "SX2": {
@@ -943,13 +948,14 @@ const ENNEAGRAMM_FILME = {
       { title:"What a Man", year:"2011", text:"Matthias Schweighöfer – im Kompass als SX2w1 geführt – als charmanter Verführer, dessen Beziehungsstrategie ganz auf persönliche Nähe setzt." },
       { title:"Crazy, Stupid, Love", year:"2011", text:"Verführungskunst als zentrale Lebensidentität – und die Frage, was darunter an echtem Gefühl liegt." },
       { title:"Silver Linings Playbook", year:"2012", text:"Eine intensive, alles überstrahlende persönliche Verbindung, die alle Vernunft beiseiteschiebt." },
-      { title:"Her", year:"2013", text:"Die Sehnsucht nach der einen, exklusiven Verbindung, ungeachtet ihrer ungewöhnlichen Form." },
       { title:"About Time", year:"2013", text:"Bedingungslose, hingebungsvolle Verführung und Zuwendung einer einzigen Person – Zeit als Ausdruck von Liebe." },
       { title:"La La Land", year:"2016", text:"Verführung durch vollständige Hingabe an die eine Beziehung, auch wenn sie am Ende nicht bleibt." },
       { title:"Titanic", year:"1997", text:"Grenzenlose, alles überstrahlende Verführung und Hingabe innerhalb weniger, intensiver Tage." },
       { title:"Notting Hill", year:"1999", text:"Die Verführungskraft ungeteilter Aufmerksamkeit, die sich ganz auf eine einzige Person richtet." },
       { title:"500 Days of Summer", year:"2009", text:"Die Sehnsucht, für eine bestimmte Person unwiderstehlich und unvergesslich zu sein." },
-      { title:"A Star Is Born", year:"2018", text:"Verführung durch bedingungslose künstlerische und persönliche Hingabe an einen einzigen Menschen." },
+      { title:"Elvis", year:"2022", text:"Charisma als Lebenskraft, die eine ganze Bühne und ein ganzes Publikum an sich bindet." },
+      { title:"Say Anything...", year:"1989", text:"Ein junger Mann, dessen gesamte Energie sich auf die eine, bedingungslose Werbung um eine einzige Person richtet – Hingabe ohne Rückzugsoption, das Herzstück der SX2." },
+    
     ],
   },
   "SE3": {
@@ -961,12 +967,13 @@ const ENNEAGRAMM_FILME = {
       { title:"The Founder", year:"2016", text:"Eine Identität, die sich vollständig über die eigene unternehmerische Leistungsfähigkeit definiert – Beziehungen werden dem Erfolg untergeordnet." },
       { title:"Moneyball", year:"2011", text:"Pragmatischer, nüchterner Erfolg als Existenzsicherung, ganz ohne Glanz – Funktionieren wichtiger als Wirkung." },
       { title:"Molly's Game", year:"2017", text:"Kontrolle über die eigene Leistungsfähigkeit als einzige verlässliche Grundlage, wenn alles andere wegbricht." },
-      { title:"The Pursuit of Happyness", year:"2006", text:"Überleben durch reine Funktionstüchtigkeit – Erfolg nicht als Statussymbol, sondern als nacktes Existenzminimum." },
-      { title:"Nomadland", year:"2020", text:"Ein Leben, das sich neu organisiert, um trotz Verlust arbeitsfähig und eigenständig zu bleiben." },
       { title:"Wall Street: Money Never Sleeps", year:"2010", text:"Wiederaufbau der eigenen Reputation und finanziellen Sicherheit nach dem Fall – Wert durch Wiederherstellung." },
-      { title:"The Intern", year:"2015", text:"Ein Mann, der seinen Wert über verlässliche Arbeitsfähigkeit definiert, auch im Ruhestand." },
-      { title:"Erin Brockovich", year:"2000", text:"Eine Frau, die sich beweisen muss, indem sie handfest liefert – Anerkennung nicht durch Titel, sondern durch Ergebnisse." },
-      { title:"The Devil Wears Prada", year:"2006", text:"Funktionieren unter extremem Leistungsdruck als Eintrittspreis für beruflichen Wert und Sicherheit." },
+      { title:"Der Teufel trägt Prada (The Devil Wears Prada)", year:"2006", text:"Funktionieren unter extremem Leistungsdruck als Eintrittspreis für beruflichen Wert und Sicherheit." },
+      { title:"Margin Call", year:"2011", text:"Eine Nacht, in der Kompetenz und kühles Funktionieren über das Überleben einer ganzen Firma entscheiden – Effizienz als einzige verlässliche Währung, wenn alles andere zusammenbricht." },
+      { title:"Boiler Room", year:"2000", text:"Ein junger Mann, der sich über nachgewiesene Verkaufskompetenz Zugang zu Status und Sicherheit erkauft – Funktionieren als Eintrittskarte in ein System, das keine Fragen stellt." },
+      { title:"American Made", year:"2017", text:"Ein Pilot, der seine fliegerische Kompetenz nacheinander an konkurrierende Systeme verkauft – Sicherheit durch Nützlichkeit, ganz ohne moralische Umwege." },
+      { title:"War Dogs", year:"2016", text:"Zwei junge Männer, die sich über pragmatisches Geschäftstalent Zugang zu einem lukrativen, gefährlichen System verschaffen – Kompetenz als einziger Ausweis, den es braucht." },
+    
     ],
   },
   "SO3": {
@@ -978,12 +985,13 @@ const ENNEAGRAMM_FILME = {
       { title:"I, Tonya", year:"2017", text:"Der erbitterte Kampf um gesellschaftliche Anerkennung trotz Herkunft – Leistung, die immer auch Beweis sein muss." },
       { title:"Tár", year:"2022", text:"Öffentliches Prestige und Reputation als Identität – und der Absturz, wenn das Bild zu bröckeln beginnt." },
       { title:"Miss Americana", year:"2020", text:"Ein öffentliches Image als Existenzgrundlage und die schrittweise Suche nach dem, was darunter liegt." },
-      { title:"Whiplash", year:"2014", text:"Ein Ensemble, das Leistung zum einzigen Maßstab von Zugehörigkeit macht – Anerkennung nur durch messbaren Erfolg." },
-      { title:"La La Land", year:"2016", text:"Der öffentliche Traum vom Erfolg, der zwischen persönlicher Bindung und gesellschaftlichem Prestige abgewogen werden muss." },
       { title:"Bohemian Rhapsody", year:"2018", text:"Öffentliches Image und Bühnenpräsenz als Mittel, gesellschaftliche Anerkennung zu erringen – und die Suche nach Echtheit dahinter." },
       { title:"Rocketman", year:"2019", text:"Der Aufstieg zum öffentlichen Erfolgsbild und der hohe persönliche Preis, der dafür gezahlt wird." },
       { title:"The Greatest Showman", year:"2017", text:"Erfolg als öffentliches Spektakel, das gesellschaftliche Anerkennung um jeden Preis sucht." },
-      { title:"Ford v Ferrari", year:"2019", text:"Prestige und öffentlicher Ruf eines Unternehmens, für den persönliche Integrität immer wieder verhandelt werden muss." },
+      { title:"Le Mans 66 – Gegen jede Chance (Ford v Ferrari)", year:"2019", text:"Prestige und öffentlicher Ruf eines Unternehmens, für den persönliche Integrität immer wieder verhandelt werden muss." },
+      { title:"The Iron Lady", year:"2011", text:"Eine Politikerin, deren gesamtes öffentliches Bild auf Unerschütterlichkeit und Prestige aufgebaut ist – Status als Rüstung, hinter der die private Person fast verschwindet." },
+      { title:"Miss Sloane", year:"2016", text:"Eine Lobbyistin, deren Identität vollständig mit beruflichem Erfolg und öffentlicher Reputation verschmilzt – Prestige als einziges Fundament, auf dem sie steht." },
+    
     ],
   },
   "SX3": {
@@ -992,15 +1000,16 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über persönliches Charisma, das eine Beziehung oder ein Publikum ganz für sich einnehmen will.",
     filme: [
       { title:"Kate & Leopold", year:"2001", text:"Meg Ryan – im Kompass als SX3w4 geführt – von der charismatischen Ausstrahlung einer Figur eingenommen, die den Raum füllt, sobald sie ihn betritt." },
-      { title:"You've Got Mail", year:"1998", text:"Meg Ryan erneut, deren persönlicher Charme selbst durch anonyme Kommunikation hindurch wirkt." },
+      { title:"e-m@il für dich (You've Got Mail)", year:"1998", text:"Meg Ryan erneut, deren persönlicher Charme selbst durch anonyme Kommunikation hindurch wirkt." },
       { title:"In the Cut", year:"2003", text:"Meg Ryan in einer dunkleren Rolle – Identität, die eng an die eigene Anziehungskraft gekoppelt ist." },
-      { title:"A Star Is Born", year:"2018", text:"Charismatischer Aufstieg im Rampenlicht, bei dem die eigene Bühnenpräsenz zur Identität wird." },
-      { title:"Elvis", year:"2022", text:"Charisma als Lebenskraft, die eine ganze Bühne und ein ganzes Publikum an sich bindet." },
       { title:"Walk the Line", year:"2005", text:"Persönliche Anziehungskraft, die sich in einer einzigen, alles überstrahlenden Beziehung bündelt." },
       { title:"Ray", year:"2004", text:"Bühnenpräsenz als Ausdruck einer Identität, die sich vor allem im direkten, intensiven Kontakt mit dem Publikum vollständig zeigt." },
       { title:"Coyote Ugly", year:"2000", text:"Persönlicher Glanz und Ausstrahlung als Weg, gesehen und begehrt zu werden." },
       { title:"Burlesque", year:"2010", text:"Die Bühne als Ort, an dem charismatische Präsenz zur einzig wahren Form der Selbstbestätigung wird." },
       { title:"Crazy Heart", year:"2009", text:"Charisma, das trotz persönlichem Verfall noch immer eine einzige, intensive Verbindung zum Publikum herstellen kann." },
+      { title:"Yesterday", year:"2019", text:"Ein Musiker, der über Nacht zum charismatischen Superstar wird und lernen muss, ob der Ruhm ihn wirklich trägt oder nur blendet – Charisma als plötzliche, überwältigende Bühne." },
+      { title:"Judy", year:"2019", text:"Eine alternde Bühnenlegende, deren persönliche Ausstrahlung noch immer ein Publikum in ihren Bann zieht, während das Leben dahinter zerbricht – Glanz und Tragik der SX3-Bühnenpräsenz in einem Bild." },
+    
     ],
   },
   "SE4": {
@@ -1008,16 +1017,17 @@ const ENNEAGRAMM_FILME = {
     title: "SE4 – Selbsterhaltungstyp 4: Die Taube und das stille Leiden",
     intro: "Zehn Filme über Melancholie im ganz privaten, alltäglichen Rahmen – Stoizismus statt Drama, Sehnsucht, die niemand sehen soll.",
     filme: [
-      { title:"Nomadland", year:"2020", text:"Ein stilles, unaufdringliches Leben mit dem eigenen Verlust – Trauer, die sich in Bewegung und Alltag verwandelt statt in großer Geste." },
       { title:"Manchester by the Sea", year:"2016", text:"Ein Mann, der seinen Schmerz in stiller Routine erträgt, weil offene Trauer für ihn unmöglich geworden ist." },
       { title:"Paterson", year:"2016", text:"Ein zurückgezogenes, poetisches Innenleben, das sich nie lautstark zeigt, sondern in kleinen, privaten Momenten Ausdruck findet." },
       { title:"Wunderschön", year:"2020", text:"Karoline Herfurth – im Kompass als SE4w5 geführt – erzählt als Regisseurin und Darstellerin von stiller innerer Verletzlichkeit im ganz privaten Ringen um das eigene Selbstbild." },
       { title:"A Ghost Story", year:"2017", text:"Trauer und Sehnsucht, die sich über Jahre in einem einzigen, stillen, häuslichen Raum festsetzen." },
-      { title:"Still Alice", year:"2014", text:"Ein innerer Verlust, der ganz im Privaten, ohne öffentliche Bühne, durchlebt werden muss." },
-      { title:"Lost in Translation", year:"2003", text:"Melancholische Verbundenheit zweier Menschen, die ihre Einsamkeit lieber teilen als lautstark ausdrücken." },
-      { title:"The Diving Bell and the Butterfly", year:"2007", text:"Ein reiches, sehnsuchtsvolles Innenleben, das nach außen fast unsichtbar bleibt." },
-      { title:"Nebraska", year:"2013", text:"Stille, unaufgeregte Trauer und Sehnsucht innerhalb einer ganz gewöhnlichen Familie." },
-      { title:"Amour", year:"2012", text:"Verlust und Sehnsucht, die im engsten häuslichen Rahmen durchlitten werden, ohne dass die Welt draußen etwas davon erfährt." },
+      { title:"Still Alice – Mein Leben ohne Gestern (Still Alice)", year:"2014", text:"Ein innerer Verlust, der ganz im Privaten, ohne öffentliche Bühne, durchlebt werden muss." },
+      { title:"Schmetterling und Taucherglocke (The Diving Bell and the Butterfly)", year:"2007", text:"Ein reiches, sehnsuchtsvolles Innenleben, das nach außen fast unsichtbar bleibt." },
+      { title:"Liebe (Amour)", year:"2012", text:"Verlust und Sehnsucht, die im engsten häuslichen Rahmen durchlitten werden, ohne dass die Welt draußen etwas davon erfährt." },
+      { title:"The Hours", year:"2002", text:"Drei Frauen, drei Zeiten, dieselbe stille, private Melancholie – Sehnsucht, die sich nicht in großen Gesten zeigt, sondern im täglichen, kaum sichtbaren Ringen mit sich selbst." },
+      { title:"Rabbit Hole", year:"2010", text:"Ein Paar, das seinen Verlust in der Stille der eigenen vier Wände verarbeitet, jeder auf seine eigene, private Weise – Trauer ohne Publikum." },
+      { title:"A Single Man", year:"2009", text:"Ein Mann, der einen einzigen Tag lang mit stilisierter Präzision durch seine eigene, private Trauer geht – Melancholie als ästhetische, stille Disziplin." },
+    
     ],
   },
   "SO4": {
@@ -1026,15 +1036,16 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über das Gefühl, in der Gruppe nicht dazuzugehören – Scham, sozialer Rückzug und die Sehnsucht nach Zugehörigkeit trotz Andersartigkeit.",
     filme: [
       { title:"Sissi", year:"1955–1957", text:"Romy Schneider – im Kompass als SO4w3 geführt – als Figur, die im gesellschaftlichen Rampenlicht steht und sich zugleich innerlich fremd und unverstanden fühlt." },
-      { title:"La Piscine", year:"1969", text:"Romy Schneider erneut, in einer Rolle voller sozialer Spannung zwischen Zugehörigkeit und innerer Isolation." },
+      { title:"Der Swimmingpool (La Piscine)", year:"1969", text:"Romy Schneider erneut, in einer Rolle voller sozialer Spannung zwischen Zugehörigkeit und innerer Isolation." },
       { title:"Lady Bird", year:"2017", text:"Das quälende Gefühl, sozial nicht dazuzupassen, während man sich verzweifelt eine eigene Identität in der Gruppe erkämpft." },
-      { title:"The Perks of Being a Wallflower", year:"2012", text:"Sozialer Rückzug aus Scham, bis eine kleine Gruppe die eigene Andersartigkeit annimmt statt bestraft." },
+      { title:"Vielleicht lieber morgen (The Perks of Being a Wallflower)", year:"2012", text:"Sozialer Rückzug aus Scham, bis eine kleine Gruppe die eigene Andersartigkeit annimmt statt bestraft." },
       { title:"Eighth Grade", year:"2018", text:"Die schmerzhafte soziale Selbstbeobachtung eines Teenagers, der ständig mit anderen verglichen wird und sich selbst dabei verliert." },
       { title:"Frances Ha", year:"2012", text:"Das Gefühl, sozial hinter allen anderen zurückzubleiben, während man verzweifelt versucht, dazuzugehören." },
       { title:"Moonlight", year:"2016", text:"Identität, die sich unter dem Druck sozialer Erwartung erst verstecken und dann langsam zeigen muss." },
       { title:"Booksmart", year:"2019", text:"Die Angst, sozial nie wirklich dazugehört zu haben, trotz aller eigenen Anstrengung." },
       { title:"Elephant", year:"2003", text:"Extreme soziale Isolation und das Gefühl, in der Gruppe unsichtbar oder falsch zu sein." },
-      { title:"Call Me by Your Name", year:"2017", text:"Zugehörigkeit und Andersartigkeit, die im sozialen Umfeld erst versteckt und dann zaghaft offenbart werden." },
+      { title:"Mean Girls", year:"2004", text:"Eine Schülerin, die verzweifelt versucht, in eine soziale Hierarchie hineinzupassen, die sie zugleich als fremd empfindet – das Gefühl, nie ganz dazuzugehören, mitten im Zentrum der Gruppe." },
+    
     ],
   },
   "SX4": {
@@ -1046,12 +1057,13 @@ const ENNEAGRAMM_FILME = {
       { title:"Knives Out", year:"2019", text:"Ana de Armas erneut, als Figur, deren emotionale Echtheit sie von einer ganzen Familie voller Fassaden unterscheidet." },
       { title:"Black Swan", year:"2010", text:"Kompromisslose, selbstzerstörerische emotionale Intensität im Wettstreit um das eine, unerreichbare Ideal." },
       { title:"Requiem for a Dream", year:"2000", text:"Sehnsucht und Verzweiflung in ihrer intensivsten, unangepassten Form, ohne jede Beschönigung." },
-      { title:"Marriage Story", year:"2019", text:"Emotionale Wahrheit, die kompromisslos ausgesprochen werden muss, komme was wolle." },
       { title:"The Virgin Suicides", year:"1999", text:"Unerreichbare, romantisierte Sehnsucht und Melancholie, die sich der Umwelt vollständig entzieht." },
       { title:"Call Me by Your Name", year:"2017", text:"Erste, kompromisslose Liebe in ihrer ganzen ungefilterten emotionalen Intensität." },
-      { title:"Blue Is the Warmest Colour", year:"2013", text:"Gefühlsintensität, die keine halben Sachen kennt und keine gesellschaftliche Norm respektiert." },
-      { title:"Eternal Sunshine of the Spotless Mind", year:"2004", text:"Die Weigerung, Schmerz und Sehnsucht durch Vergessen zu betäuben – lieber ganz fühlen als gar nicht." },
+      { title:"Blau ist eine warme Farbe (Blue Is the Warmest Colour)", year:"2013", text:"Gefühlsintensität, die keine halben Sachen kennt und keine gesellschaftliche Norm respektiert." },
+      { title:"Vergiss mein nicht! (Eternal Sunshine of the Spotless Mind)", year:"2004", text:"Die Weigerung, Schmerz und Sehnsucht durch Vergessen zu betäuben – lieber ganz fühlen als gar nicht." },
       { title:"A Star Is Born", year:"2018", text:"Kompromisslose künstlerische und emotionale Wahrhaftigkeit, koste es, was es wolle." },
+      { title:"Shame", year:"2011", text:"Ein Mann, dessen unkontrollierbare emotionale und körperliche Intensität ihn von echter Nähe eher entfernt als ihm näherbringt – Gefühl in seiner rohsten, ungefilterten Form." },
+    
     ],
   },
   "SE5": {
@@ -1060,15 +1072,16 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über den Rückzug ins Notwendigste – Ressourcenschutz, minimale Bedürfnisse und ein enges, kontrolliertes Refugium.",
     filme: [
       { title:"Into the Wild", year:"2007", text:"Ein Rückzug aus der Welt in ein absichtlich minimales, ressourcenarmes Leben – Sicherheit durch radikale Reduktion statt durch Fülle." },
-      { title:"Good Will Hunting", year:"1997", text:"Ein brillanter Verstand, der sich hinter einem engen, kontrollierten Lebensraum verschanzt, um sich vor der Welt zu schützen." },
-      { title:"Room", year:"2015", text:"Ein extrem begrenzter, aber vollständig kontrollierter Raum als einziger sicherer Ort in einer bedrohlichen Welt." },
-      { title:"A Beautiful Mind", year:"2001", text:"Ein Innenleben von enormer Komplexität, das sich in einem zurückgezogenen, streng geordneten Alltag zu schützen versucht." },
-      { title:"Captain Fantastic", year:"2016", text:"Eine Familie, die sich bewusst von der Gesellschaft zurückzieht, um mit minimalen Mitteln autark zu leben." },
-      { title:"The Revenant", year:"2016", text:"Reines Überleben mit dem, was unbedingt nötig ist – jede Ressource zählt, nichts wird verschwendet." },
-      { title:"Manchester by the Sea", year:"2016", text:"Ein Leben, das sich bewusst klein und überschaubar hält, um die eigenen Ressourcen – emotional wie materiell – nicht zu überfordern." },
-      { title:"The Theory of Everything", year:"2014", text:"Ein Geist, der sich trotz körperlicher Einschränkung in einen riesigen, aber streng eigenen inneren Denkraum zurückzieht." },
+      { title:"A Beautiful Mind – Genie und Wahnsinn (A Beautiful Mind)", year:"2001", text:"Ein Innenleben von enormer Komplexität, das sich in einem zurückgezogenen, streng geordneten Alltag zu schützen versucht." },
       { title:"Wild", year:"2014", text:"Rückzug in die Reduktion – ein Leben, das bewusst auf das Notwendigste zurückgeschraubt wird, um wieder Boden zu finden." },
       { title:"127 Hours", year:"2010", text:"Extreme Ressourcenknappheit, in der jede kleinste Reserve über Leben und Tod entscheidet." },
+      { title:"Leave No Trace", year:"2018", text:"Ein Vater und seine Tochter, die bewusst mit minimalsten Mitteln außerhalb der Gesellschaft leben – Sicherheit durch radikalen Rückzug statt durch Teilhabe." },
+      { title:"Nell", year:"1994", text:"Eine Frau, die in fast vollständiger Isolation aufgewachsen ist und sich der Außenwelt nur in kleinsten, kontrollierten Dosen öffnet – Rückzug als einziger bekannter Schutzraum." },
+      { title:"Cast Away", year:"2000", text:"Ein Mann, auf das absolute Minimum an Ressourcen reduziert, der lernt, mit nichts als der eigenen Beobachtungsgabe zu überleben." },
+      { title:"Tracks", year:"2013", text:"Eine Frau, die allein mit wenigen Kamelen eine australische Wüste durchquert – radikale Reduktion und Rückzug als Weg zu sich selbst." },
+      { title:"The Machinist", year:"2004", text:"Ein Mann, der sich selbst bis an die Grenze der physischen Auflösung reduziert – ein düsteres Bild dessen, wohin fünferhafte Genügsamkeit kippen kann." },
+      { title:"Wendy and Lucy", year:"2008", text:"Eine junge Frau, die mit denkbar knappsten Mitteln durchs Leben navigiert – jede Ressource genau kalkuliert, jede Bindung auf das Nötigste reduziert." },
+    
     ],
   },
   "SO5": {
@@ -1077,15 +1090,16 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über Expertentum, das sich der Gruppe über Wissen statt über Nähe zeigt – der Beitrag als Denker, nicht als Teilnehmer.",
     filme: [
       { title:"The Imitation Game", year:"2014", text:"Ein brillanter Kopf, der der Gemeinschaft ausschließlich über seine intellektuelle Leistung dient, nicht über soziale Nähe." },
-      { title:"The Social Network", year:"2010", text:"Ein System, das die gesamte Gesellschaft verändert, entworfen von jemandem, der sich sozial lieber fernhält." },
       { title:"Steve Jobs", year:"2015", text:"Ein Visionär, der ganze Systeme und Industrien neu denkt, während persönliche Nähe zur Nebensache wird." },
       { title:"The Big Short", year:"2015", text:"Außenseiter, die als Einzige das komplexe System durchschauen, das alle anderen übersehen." },
-      { title:"Moneyball", year:"2011", text:"Ein neues analytisches System, das eine ganze Branche von außen und mit kühlem Verstand neu ordnet." },
       { title:"Arrival", year:"2016", text:"Verstehen als Rettung der ganzen Menschheit – Wissen, das der Gemeinschaft dient, gewonnen aus einer Position der Distanz." },
-      { title:"Hidden Figures", year:"2016", text:"Fachwissen, das im Verborgenen erarbeitet wird und am Ende ein ganzes System – die Raumfahrt – trägt." },
-      { title:"The Man Who Knew Infinity", year:"2015", text:"Ein mathematisches Genie, dessen Beitrag zur Gemeinschaft ganz im abstrakten Denken liegt, nicht im sozialen Auftritt." },
-      { title:"Spotlight", year:"2015", text:"Systematische, distanzierte Recherche, die am Ende der ganzen Gesellschaft dient." },
+      { title:"Die Poesie des Unendlichen (The Man Who Knew Infinity)", year:"2015", text:"Ein mathematisches Genie, dessen Beitrag zur Gemeinschaft ganz im abstrakten Denken liegt, nicht im sozialen Auftritt." },
       { title:"Ex Machina", year:"2014", text:"Ein System, das die Grenzen des Verstehens selbst zum Thema macht – Wissen als Machtquelle und Risiko zugleich." },
+      { title:"Interstellar", year:"2014", text:"Wissenschaftliches Verstehen im Dienst der ganzen Menschheit – Expertise, die nicht der eigenen Nähe, sondern dem Überleben aller gewidmet ist." },
+      { title:"Gifted", year:"2017", text:"Ein außergewöhnlich begabtes Kind und die Frage, wie viel von seinem Wissen der Gesellschaft gehören soll – Intellekt als etwas, das die Gemeinschaft beansprucht." },
+      { title:"Radioactive", year:"2019", text:"Marie Curies wissenschaftliche Arbeit, die weit über die eigene Person hinaus die ganze Welt verändert – Wissen als Beitrag zur Menschheit, nicht als privates Projekt." },
+      { title:"The Aeronauts", year:"2019", text:"Eine riskante wissenschaftliche Expedition, deren Erkenntnisse der gesamten Gesellschaft zugutekommen sollen – Entdeckung im Dienst des kollektiven Wissens." },
+    
     ],
   },
   "SX5": {
@@ -1095,14 +1109,15 @@ const ENNEAGRAMM_FILME = {
     filme: [
       { title:"Good Will Hunting", year:"1997", text:"Ein Mensch, der sich vor der Welt verschließt, sich aber genau einer einzigen Person gegenüber ausnahmsweise öffnet." },
       { title:"Lost in Translation", year:"2003", text:"Zwei zurückgezogene Menschen, die sich gerade füreinander öffnen, weil die Verbindung selten und deshalb kostbar ist." },
-      { title:"Her", year:"2013", text:"Intensive, exklusive Verbindung zu einer einzigen Stimme – Nähe, die bewusst außerhalb des sozialen Trubels gesucht wird." },
-      { title:"Eternal Sunshine of the Spotless Mind", year:"2004", text:"Eine einzige, ungewöhnlich intensive Verbindung, die selbst dem Vergessen widersteht." },
-      { title:"A Beautiful Mind", year:"2001", text:"Eine seltene, aber tragfähige Verbindung zu einem einzigen Menschen als Anker in einer sonst unzugänglichen inneren Welt." },
-      { title:"The Theory of Everything", year:"2014", text:"Eine intensive Zweierbeziehung als einziger verlässlicher Kontakt zu einer Welt, die sonst auf Distanz gehalten wird." },
-      { title:"Arrival", year:"2016", text:"Eine tiefe, seltene Verbindung, die alles Übrige – auch das Verständnis des Universums – erst zugänglich macht." },
+      { title:"Die Entdeckung der Unendlichkeit (The Theory of Everything)", year:"2014", text:"Eine intensive Zweierbeziehung als einziger verlässlicher Kontakt zu einer Welt, die sonst auf Distanz gehalten wird." },
       { title:"Frank", year:"2014", text:"Ein zurückgezogenes, exzentrisches Genie, das nur zu wenigen Menschen wirklich vordringen lässt." },
-      { title:"Little Miss Sunshine", year:"2006", text:"Ein introvertierter Charakter, der sein Schweigen nur für die eine, entscheidende Verbindung bricht." },
       { title:"Moon", year:"2009", text:"Radikale Isolation, in der eine einzige Verbindung zur Außenwelt existenziell wichtig wird." },
+      { title:"Before Sunset", year:"2004", text:"Zwei Menschen, die sich nach Jahren der Distanz für wenige intensive Stunden wiederfinden – seltene Nähe, die dadurch nur noch kostbarer wird." },
+      { title:"Adaptation", year:"2002", text:"Ein zurückgezogener, grüblerischer Autor, der sich der Welt fast ausschließlich über den einen Menschen öffnet, dem er wirklich vertraut." },
+      { title:"Lars and the Real Girl", year:"2007", text:"Ein Mann, der sich fast vollständig aus dem sozialen Leben zurückzieht und seine ganze emotionale Welt in eine einzige, ungewöhnliche Beziehung legt." },
+      { title:"Robot & Frank", year:"2012", text:"Ein zurückgezogener älterer Mann, der überraschend eine einzige, unerwartete Verbindung eingeht – Nähe, die den Rückzug nicht aufhebt, sondern ergänzt." },
+      { title:"The Skeleton Twins", year:"2014", text:"Zwei einander entfremdete Geschwister, die nach Jahren der Distanz wieder zueinanderfinden – seltene, aber tief bedeutsame Nähe zwischen zwei Menschen, die sich selbst schwer zugänglich sind." },
+    
     ],
   },
   "SE6": {
@@ -1110,16 +1125,17 @@ const ENNEAGRAMM_FILME = {
     title: "SE6 – Selbsterhaltungstyp 6: Das Kaninchen, das Wärme sucht",
     intro: "Zehn Filme über Sicherheit im vertrauten Nahbereich – Wärme, Bündnisse und die Suche nach einem verlässlichen Zuhause gegen die Angst.",
     filme: [
-      { title:"The Blind Side", year:"2009", text:"Sicherheit, die über ein warmes, verlässliches Zuhause entsteht – Angst, die durch Zugehörigkeit aufgefangen wird." },
       { title:"Little Miss Sunshine", year:"2006", text:"Eine chaotische, aber warme Familie, die trotz aller Ängste zusammenhält und sich gegenseitig Sicherheit gibt." },
       { title:"Room", year:"2015", text:"Sicherheit, die trotz extremer Bedrohung im engsten, vertrautesten Bündnis – hier zwischen Mutter und Kind – entsteht." },
-      { title:"A Quiet Place", year:"2018", text:"Eine Familie, die ihre Ängste durch enge Bündnisse und eingespielte, verlässliche Routinen bewältigt." },
+      { title:"A Quiet Place – Leise Zeichen (A Quiet Place)", year:"2018", text:"Eine Familie, die ihre Ängste durch enge Bündnisse und eingespielte, verlässliche Routinen bewältigt." },
       { title:"Captain Fantastic", year:"2016", text:"Sicherheit durch ein enges, selbst geschaffenes familiäres System, das Schutz vor einer als bedrohlich empfundenen Außenwelt bietet." },
-      { title:"We Need to Talk About Kevin", year:"2011", text:"Die Angst, im engsten familiären Nahbereich nicht wirklich sicher zu sein – eine dunkle Kehrseite des SE6-Themas." },
+      { title:"Wir müssen über Kevin reden (We Need to Talk About Kevin)", year:"2011", text:"Die Angst, im engsten familiären Nahbereich nicht wirklich sicher zu sein – eine dunkle Kehrseite des SE6-Themas." },
       { title:"The Impossible", year:"2012", text:"Eine Familie, die unter existenzieller Bedrohung alles daransetzt, wieder zusammenzufinden und sich gegenseitig Sicherheit zu geben." },
-      { title:"Nebraska", year:"2013", text:"Brüchige, aber tief verwurzelte familiäre Bündnisse, die trotz aller Reibung Halt geben." },
-      { title:"Manchester by the Sea", year:"2016", text:"Die Suche nach einem sicheren Ort innerhalb der Familie, nachdem das Vertrauen in die eigene Verlässlichkeit erschüttert wurde." },
       { title:"Beasts of No Nation", year:"2015", text:"Der verzweifelte Wunsch nach einer sicheren, verlässlichen Zugehörigkeit inmitten einer zutiefst bedrohlichen Welt." },
+      { title:"Panic Room", year:"2002", text:"Eine Mutter und ihre Tochter, die sich bei einem Einbruch in einen eigens gesicherten Raum zurückziehen – Sicherheit, buchstäblich in vier Wände gebaut." },
+      { title:"The Road", year:"2009", text:"Ein Vater, dessen gesamtes Handeln dem Schutz seines Sohnes in einer lebensfeindlichen Welt gilt – Wachsamkeit als letzte Form der Liebe." },
+      { title:"Take Shelter", year:"2011", text:"Ein Mann, der von wachsender Angst getrieben alles daransetzt, seine Familie gegen eine kommende Bedrohung abzusichern – Vorsorge als einzige Antwort auf die eigene Unruhe." },
+    
     ],
   },
   "SO6": {
@@ -1129,14 +1145,15 @@ const ENNEAGRAMM_FILME = {
     filme: [
       { title:"Zero Dark Thirty", year:"2012", text:"Systematische, institutionelle Wachsamkeit im Dienst eines größeren Systems – Sicherheit durch Verfahren und Struktur." },
       { title:"Argo", year:"2012", text:"Loyalität zu einem Team und einem Plan, der unter extremem Risiko eingehalten wird, weil das System Sicherheit verspricht." },
-      { title:"Spotlight", year:"2015", text:"Vertrauen in ein Team und ein gemeinsames Regelwerk, das gegen eine übermächtige Institution antritt." },
       { title:"Contagion", year:"2011", text:"Institutionelle Systeme und Autoritäten, denen in einer Krise vertraut oder misstraut werden muss – Sicherheit durch funktionierende Strukturen." },
-      { title:"The Report", year:"2019", text:"Beharrliches Vertrauen in Regeln und Verfahren als einziger Weg, ein größeres System zur Rechenschaft zu ziehen." },
-      { title:"Sully", year:"2016", text:"Vertrauen in erlernte Verfahren und institutionelle Autorität, das sich in der Krise bewährt – und anschließend infrage gestellt wird." },
       { title:"World War Z", year:"2013", text:"Zusammenarbeit mit globalen Institutionen als einziger Weg, eine überwältigende Bedrohung einzudämmen." },
-      { title:"Erin Brockovich", year:"2000", text:"Der Kampf gegen ein System, dem eigentlich vertraut werden sollte, das aber selbst zur Bedrohung wird." },
-      { title:"The Post", year:"2017", text:"Loyalität zu einem Team und der eigenen Institution, selbst wenn übergeordnete Autoritäten das infrage stellen." },
-      { title:"Selma", year:"2014", text:"Der organisierte, disziplinierte Zusammenschluss einer Bewegung als Schutz und Kraftquelle gegen ein feindliches System." },
+      { title:"Bridge of Spies", year:"2015", text:"Vertrauen in ausgehandelte Regeln und Institutionen selbst mitten im Kalten Krieg – Sicherheit durch funktionierende Systeme, nicht durch Alleingänge." },
+      { title:"The Insider", year:"1999", text:"Ein Mann, dessen Loyalität zwischen einer mächtigen Institution und der eigenen Integrität zerrissen wird – die Sechs-Frage, wem am Ende wirklich zu trauen ist." },
+      { title:"13 Hours", year:"2016", text:"Eine Gruppe, die sich in einer Krise ganz auf das gegenseitige Vertrauen und eingespielte Abläufe verlassen muss, während das offizielle System versagt." },
+      { title:"United 93", year:"2006", text:"Eine Gruppe von Fremden, die sich in einer extremen Krise zu kollektivem, koordiniertem Handeln zusammenschließt – Sicherheit durch gemeinsames, diszipliniertes Vorgehen." },
+      { title:"Deepwater Horizon", year:"2016", text:"Institutionelle Sicherheitssysteme, die unter Druck versagen – und die Menschen, die sich trotzdem aufeinander verlassen müssen, um zu überleben." },
+      { title:"Captain Phillips", year:"2013", text:"Vertrauen in trainierte Abläufe und eine übergeordnete Rettungsstruktur, wenn die eigene Kontrolle über die Situation längst verloren ist." },
+    
     ],
   },
   "SX6": {
@@ -1144,16 +1161,17 @@ const ENNEAGRAMM_FILME = {
     title: "SX6 – Sexueller Typ 6: Der Wolf und die Kraft gegen die Angst",
     intro: "Zehn Filme über Angst, die in Stärke, Provokation oder kompromisslose Loyalität zu einer einzigen Person verwandelt wird.",
     filme: [
-      { title:"No Country for Old Men", year:"2007", text:"Angst, die in unerschütterliche, fast furchtlos wirkende Härte verwandelt wird – die Kehrseite der Bedrohung als Stärke." },
-      { title:"The Departed", year:"2006", text:"Kompromisslose, riskante Loyalität innerhalb eines gefährlichen Systems, in dem Vertrauen über Leben und Tod entscheidet." },
+      { title:"Kein Land für alte Männer (No Country for Old Men)", year:"2007", text:"Angst, die in unerschütterliche, fast furchtlos wirkende Härte verwandelt wird – die Kehrseite der Bedrohung als Stärke." },
+      { title:"Departed – Unter Feinden (The Departed)", year:"2006", text:"Kompromisslose, riskante Loyalität innerhalb eines gefährlichen Systems, in dem Vertrauen über Leben und Tod entscheidet." },
       { title:"Sicario", year:"2015", text:"Angst, die sich in provokante, grenzüberschreitende Konfrontation mit der Gefahr selbst verwandelt." },
-      { title:"Whiplash", year:"2014", text:"Eine Beziehung, die Angst in kompromisslose Intensität und Härte übersetzt, um sich der Bedrohung zu stellen statt ihr auszuweichen." },
       { title:"Warrior", year:"2011", text:"Körperliche Kraft und Kampf als direkte Antwort auf tief sitzende Angst und familiäre Verletzung." },
-      { title:"The Hurt Locker", year:"2008", text:"Eine Anziehungskraft der Gefahr selbst – Angst, die sich in provokantes Aufsuchen des Risikos verwandelt." },
+      { title:"Tödliches Kommando – The Hurt Locker (The Hurt Locker)", year:"2008", text:"Eine Anziehungskraft der Gefahr selbst – Angst, die sich in provokantes Aufsuchen des Risikos verwandelt." },
       { title:"Fight Club", year:"1999", text:"Angst und Ohnmacht, die sich in kompromisslose körperliche Konfrontation und riskante Loyalität zu einer einzigen Verbündeten umwandeln." },
       { title:"Killing Them Softly", year:"2012", text:"Misstrauen und Wachsamkeit, die sich in kalkulierte, kompromisslose Härte verwandeln, um die eigene Position zu sichern." },
       { title:"A History of Violence", year:"2005", text:"Die dünne Grenze zwischen Angst, Schutz und der eigenen verborgenen Gewaltbereitschaft." },
       { title:"Nightcrawler", year:"2014", text:"Eine Figur, die Unsicherheit in kalte, riskante Kompromisslosigkeit übersetzt, um Kontrolle über eine bedrohliche Welt zu gewinnen." },
+      { title:"Prisoners", year:"2013", text:"Ein Vater, dessen Angst um seine Tochter sich in kompromisslose, riskante Konfrontation mit der Gefahr selbst verwandelt – Furcht, die zu Härte wird, statt zu erstarren." },
+    
     ],
   },
   "SE7": {
@@ -1161,16 +1179,17 @@ const ENNEAGRAMM_FILME = {
     title: "SE7 – Selbsterhaltungstyp 7: Der Gorilla und der gedeckte Tisch",
     intro: "Zehn Filme über praktischen Genuss und ein verlässliches Netz an Optionen – Fülle als Absicherung gegen den Mangel.",
     filme: [
-      { title:"My Dinner with André", year:"1981", text:"Wallace Shawn – im Kompass als SE7w6 geführt – in einem ausgedehnten Gespräch über Genuss, Ideen und die Fülle des Lebens im vertrauten Kreis." },
-      { title:"The Princess Bride", year:"1987", text:"Wallace Shawn erneut, als gewitzter Stratege, der sich immer mehrere Optionen und Auswege offenhält." },
+      { title:"Mein Essen mit André (My Dinner with André)", year:"1981", text:"Wallace Shawn – im Kompass als SE7w6 geführt – in einem ausgedehnten Gespräch über Genuss, Ideen und die Fülle des Lebens im vertrauten Kreis." },
+      { title:"Die Braut des Prinzen (The Princess Bride)", year:"1987", text:"Wallace Shawn erneut, als gewitzter Stratege, der sich immer mehrere Optionen und Auswege offenhält." },
       { title:"Eat Pray Love", year:"2010", text:"Genuss und neue Möglichkeiten als bewusste Strategie gegen Schmerz und Enge." },
-      { title:"Under the Tuscan Sun", year:"2003", text:"Der Aufbau eines neuen, versorgenden Umfelds als Antwort auf Verlust – Fülle statt Mangel." },
+      { title:"Unter der Sonne der Toskana (Under the Tuscan Sun)", year:"2003", text:"Der Aufbau eines neuen, versorgenden Umfelds als Antwort auf Verlust – Fülle statt Mangel." },
       { title:"Chef", year:"2014", text:"Freude am Genuss und an der eigenen Praxis als Quelle von Sicherheit und Lebendigkeit." },
-      { title:"Julie & Julia", year:"2009", text:"Kulinarischer Genuss als verlässliche, wiederkehrende Quelle von Freude im Alltag." },
-      { title:"The Hundred-Foot Journey", year:"2014", text:"Genuss und kulinarische Fülle als Weg, sich in einer neuen Umgebung ein sicheres, angenehmes Leben aufzubauen." },
+      { title:"Madame Mallory und der Duft von Curry (The Hundred-Foot Journey)", year:"2014", text:"Genuss und kulinarische Fülle als Weg, sich in einer neuen Umgebung ein sicheres, angenehmes Leben aufzubauen." },
       { title:"Chocolat", year:"2000", text:"Sinnlicher Genuss als bewusste Gegenkraft zu Enge und Verzicht." },
-      { title:"A Good Year", year:"2006", text:"Der Umbau eines Lebens hin zu mehr Genuss, Leichtigkeit und offenen Möglichkeiten." },
-      { title:"The Secret Life of Walter Mitty", year:"2013", text:"Praktischer Aufbruch zu neuen Erfahrungen, sobald der Alltag zu eng wird." },
+      { title:"Ein gutes Jahr (A Good Year)", year:"2006", text:"Der Umbau eines Lebens hin zu mehr Genuss, Leichtigkeit und offenen Möglichkeiten." },
+      { title:"Das erstaunliche Leben des Walter Mitty (The Secret Life of Walter Mitty)", year:"2013", text:"Praktischer Aufbruch zu neuen Erfahrungen, sobald der Alltag zu eng wird." },
+      { title:"Big Night", year:"1996", text:"Zwei Brüder, die ihre Existenz und ihre Beziehung zueinander über ein einziges, aufwendig zelebriertes Festmahl retten wollen – Genuss als praktische Überlebensstrategie und Lebensfreude in einem." },
+    
     ],
   },
   "SO7": {
@@ -1179,15 +1198,16 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über Idealismus, der sich für das Wohl der Gruppe einsetzt – Begeisterung, die auch eigene Unzulänglichkeiten in Kauf nimmt.",
     filme: [
       { title:"Johnny English", year:"2003", text:"Rowan Atkinson – im Kompass als SO7w6 geführt – als tollpatschiger, aber unbeirrbar einsatzbereiter Held im Dienst des großen Ganzen." },
-      { title:"Mr. Bean's Holiday", year:"2007", text:"Rowan Atkinson erneut, unfreiwillig, aber folgenreich in das Wohlergehen anderer verstrickt." },
-      { title:"Yes Man", year:"2008", text:"Begeisterung, die sich radikal für jede neue Möglichkeit öffnet, um dem eigenen Leben und dem Umfeld mehr zu geben." },
+      { title:"Mr. Bean macht Ferien (Mr. Bean's Holiday)", year:"2007", text:"Rowan Atkinson erneut, unfreiwillig, aber folgenreich in das Wohlergehen anderer verstrickt." },
       { title:"Pitch Perfect", year:"2012", text:"Begeisterung und Einsatz für eine Gruppe, deren gemeinsamer Erfolg wichtiger wird als die eigene Bühne." },
       { title:"Sister Act", year:"1992", text:"Ansteckende Begeisterung, die eine ganze Gemeinschaft neu belebt." },
       { title:"Almost Famous", year:"2000", text:"Idealistische Begeisterung für eine Gruppe und ihre gemeinsame Sache, trotz aller Reibung." },
       { title:"Kinky Boots", year:"2005", text:"Einsatz für das Wohl eines ganzen Teams, der die eigene Komfortzone überschreitet." },
       { title:"Zombieland", year:"2009", text:"Der Aufbau einer improvisierten Gemeinschaft, die trotz Chaos zusammenhält und sich gegenseitig Freude schenkt." },
-      { title:"We're the Millers", year:"2013", text:"Eine notgedrungene Gruppe, die durch gemeinsame Abenteuer zu einem echten Zusammenhalt findet." },
-      { title:"School of Rock", year:"2003", text:"Begeisterung, die eine ganze Gruppe mitreißt und alle über sich hinauswachsen lässt." },
+      { title:"Wir sind die Millers (We're the Millers)", year:"2013", text:"Eine notgedrungene Gruppe, die durch gemeinsame Abenteuer zu einem echten Zusammenhalt findet." },
+      { title:"Catch Me If You Can", year:"2002", text:"Ein junger Hochstapler, der sich mit ansteckendem Charme in immer neue Systeme einschleicht, bis er endlich in einem – dem FBI – wirklich gebraucht wird. Die soziale Sieben in Reinform: rastlose Vielfalt, die sich am Ende in echte Zugehörigkeit verwandelt." },
+      { title:"Dolemite Is My Name", year:"2019", text:"Ein Entertainer, der eine ganze Gemeinschaft von Außenseitern um sein Projekt versammelt und seinen eigenen Erfolg untrennbar mit deren Aufstieg verknüpft – Begeisterung im Dienst der Gruppe." },
+    
     ],
   },
   "SX7": {
@@ -1196,15 +1216,16 @@ const ENNEAGRAMM_FILME = {
     intro: "Zehn Filme über Charme, Geschichten und Enthusiasmus, der eine einzelne Person sofort für sich einnimmt.",
     filme: [
       { title:"Big Fish", year:"2003", text:"Eine Figur, deren Lebensgeschichten so charismatisch und übersteigert sind, dass sie jeden im Raum sofort für sich einnehmen." },
-      { title:"Catch Me If You Can", year:"2002", text:"Ein charmanter, geschichtenerzählender Hochstapler, dessen Enthusiasmus sofort ansteckend wirkt." },
       { title:"Forrest Gump", year:"1994", text:"Ein Leben voller Begeisterung und Direktheit, das im persönlichen Kontakt sofort für sich einnimmt." },
-      { title:"Life of Pi", year:"2012", text:"Die Kraft einer intensiv erzählten Geschichte, die ihr Gegenüber sofort in ihren Bann zieht." },
-      { title:"The Secret Life of Walter Mitty", year:"2013", text:"Ausbruch aus dem Alltag in eine Welt voller Erlebnisse, angetrieben von der Sehnsucht nach echter Verbindung." },
+      { title:"Life of Pi: Schiffbruch mit Tiger (Life of Pi)", year:"2012", text:"Die Kraft einer intensiv erzählten Geschichte, die ihr Gegenüber sofort in ihren Bann zieht." },
+      { title:"Die fabelhafte Welt der Amélie (Amélie)", year:"2001", text:"Verspielter, ansteckender Charme, der gezielt einzelne Menschen im direkten Kontakt verzaubert." },
       { title:"Yes Man", year:"2008", text:"Ansteckende Begeisterung, die sich ganz auf einzelne, intensive Begegnungen konzentriert." },
-      { title:"Amélie", year:"2001", text:"Verspielter, ansteckender Charme, der gezielt einzelne Menschen im direkten Kontakt verzaubert." },
-      { title:"Chef", year:"2014", text:"Leidenschaft und Begeisterung, die im persönlichen Kontakt unmittelbar überspringt." },
-      { title:"About Time", year:"2013", text:"Enthusiasmus und Hingabe, die sich ganz auf die eine besondere Verbindung richten." },
-      { title:"La La Land", year:"2016", text:"Charismatische, mitreißende Begeisterung, die zwei Menschen füreinander entflammen lässt." },
+      { title:"The Truman Show", year:"1998", text:"Ein Mann, dessen ansteckende, unbeschwerte Art ein ganzes Publikum in seinen Bann zieht, ohne dass er selbst davon weiß – Charme, der andere fesselt, obwohl er nie kalkuliert war." },
+      { title:"Ferris Bueller's Day Off", year:"1986", text:"Ein Jugendlicher, dessen mitreißende Energie einen einzigen Tag mit seinen engsten Freunden zu einem unvergesslichen Abenteuer macht – Begeisterung, die andere sofort ansteckt." },
+      { title:"Good Morning, Vietnam", year:"1987", text:"Ein Radiomoderator, dessen sprudelnder Wortwitz und ansteckende Energie selbst im Kriegsgebiet Verbindung und Leichtigkeit schafft." },
+      { title:"Roman Holiday", year:"1953", text:"Eine spontane, charmante Begegnung, die für einen Tag alle Verpflichtungen vergessen lässt – Leichtigkeit und Anziehungskraft im unmittelbaren, persönlichen Kontakt." },
+      { title:"The Fisher King", year:"1991", text:"Ein exzentrischer, geschichtenerzählender Mann, dessen ansteckende Fantasie eine einzige, tief verletzte Person zurück ins Leben holt." },
+    
     ],
   },
   "SE8": {
@@ -1220,8 +1241,9 @@ const ENNEAGRAMM_FILME = {
       { title:"Hell or High Water", year:"2016", text:"Der Kampf, das eigene Land und die eigene Familie gegen den drohenden Verlust zu verteidigen." },
       { title:"Wind River", year:"2017", text:"Beschützerische Härte, die vor allem dem eigenen, nahen Umfeld gilt." },
       { title:"Mudbound", year:"2017", text:"Der erbitterte Kampf um Land und Überleben in einer feindlichen Umgebung." },
-      { title:"The Town", year:"2010", text:"Kontrolle über das eigene Terrain, erkämpft und verteidigt mit roher Entschlossenheit." },
-      { title:"A Simple Plan", year:"1998", text:"Der Wunsch nach materieller Absicherung, der eine Figur zu immer härteren Mitteln greifen lässt." },
+      { title:"The Town – Stadt ohne Gnade (The Town)", year:"2010", text:"Kontrolle über das eigene Terrain, erkämpft und verteidigt mit roher Entschlossenheit." },
+      { title:"Ein einfacher Plan (A Simple Plan)", year:"1998", text:"Der Wunsch nach materieller Absicherung, der eine Figur zu immer härteren Mitteln greifen lässt." },
+    
     ],
   },
   "SO8": {
@@ -1229,16 +1251,17 @@ const ENNEAGRAMM_FILME = {
     title: "SO8 – Sozialer Typ 8: Der Löwe im Schutz der Gemeinschaft",
     intro: "Zehn Filme über Führung, die sich schützend vor eine unterdrückte Gruppe stellt – Stärke im Dienst der Solidarität, nicht der eigenen Macht.",
     filme: [
-      { title:"They Call Me Trinity", year:"1970", text:"Bud Spencer – im Kompass als SO8w9 geführt – als kraftvoller Beschützer einer bedrängten Gemeinschaft gegen einen übermächtigen Gegner." },
-      { title:"The Hunger Games", year:"2012", text:"Eine Figur, die sich zur Anführerin einer unterdrückten Bevölkerung entwickelt, weil sie sich nicht mit Ungerechtigkeit abfinden kann." },
+      { title:"Sie nannten ihn Trinity (They Call Me Trinity)", year:"1970", text:"Bud Spencer – im Kompass als SO8w9 geführt – als kraftvoller Beschützer einer bedrängten Gemeinschaft gegen einen übermächtigen Gegner." },
+      { title:"Die Tribute von Panem (The Hunger Games)", year:"2012", text:"Eine Figur, die sich zur Anführerin einer unterdrückten Bevölkerung entwickelt, weil sie sich nicht mit Ungerechtigkeit abfinden kann." },
       { title:"V for Vendetta", year:"2005", text:"Widerstand gegen eine unterdrückerische Autorität im Namen aller, die selbst keine Stimme haben." },
       { title:"Black Panther", year:"2018", text:"Führung, die ihre Stärke ganz in den Dienst des Schutzes der eigenen Gemeinschaft stellt." },
       { title:"Braveheart", year:"1995", text:"Ein Anführer, der sich mit voller Härte gegen eine übermächtige, unterdrückende Autorität stellt." },
       { title:"Gladiator", year:"2000", text:"Der Kampf gegen korrupte Macht im Namen derer, die sich selbst nicht wehren können." },
       { title:"Les Misérables", year:"2012", text:"Solidarität mit den Unterdrückten als treibende Kraft gegen ein ungerechtes System." },
-      { title:"Invictus", year:"2009", text:"Führung, die eine gespaltene Gemeinschaft eint und beschützt, statt sie zu beherrschen." },
       { title:"Judas and the Black Messiah", year:"2021", text:"Revolutionäre Führung im unmittelbaren Dienst und Schutz der eigenen Gemeinschaft." },
       { title:"Harriet", year:"2019", text:"Unerschrockene, beschützende Führung, die andere aus Unterdrückung befreit." },
+      { title:"Malcolm X", year:"1992", text:"Ein Mann, dessen Führungskraft ganz in den Dienst des Schutzes und der Würde seiner Gemeinschaft gestellt wird – Stärke, die sich für andere in die Bresche wirft." },
+    
     ],
   },
   "SX8": {
@@ -1248,14 +1271,15 @@ const ENNEAGRAMM_FILME = {
     filme: [
       { title:"Wuthering Heights", year:"2011", text:"Eine alles verzehrende, besitzergreifende Leidenschaft, die keine Grenzen und keine Vernunft kennt." },
       { title:"Basic Instinct", year:"1992", text:"Intensität und Kontrolle in einer gefährlichen, kompromisslosen Anziehung." },
-      { title:"Fifty Shades of Grey", year:"2015", text:"Kontrolle und Besitzanspruch als zentrales Thema einer intensiven Zweierbeziehung." },
-      { title:"Body Heat", year:"1981", text:"Eine Leidenschaft, die jede Rücksicht und jede Grenze verschwinden lässt." },
-      { title:"Unfaithful", year:"2002", text:"Eine Intensität, die sich über alle Konsequenzen hinwegsetzt, sobald sie einmal entfacht ist." },
+      { title:"Fieber – Symptome einer Leidenschaft (Body Heat)", year:"1981", text:"Eine Leidenschaft, die jede Rücksicht und jede Grenze verschwinden lässt." },
+      { title:"Untreu (Unfaithful)", year:"2002", text:"Eine Intensität, die sich über alle Konsequenzen hinwegsetzt, sobald sie einmal entfacht ist." },
       { title:"Match Point", year:"2005", text:"Besitzanspruch und Leidenschaft, die bereit sind, für die eine Verbindung alles zu riskieren." },
-      { title:"Gone Girl", year:"2014", text:"Eine Beziehung, in der Kontrolle und Besitzanspruch bis zum Äußersten getrieben werden." },
+      { title:"Gone Girl – Das perfekte Opfer (Gone Girl)", year:"2014", text:"Eine Beziehung, in der Kontrolle und Besitzanspruch bis zum Äußersten getrieben werden." },
       { title:"Original Sin", year:"2001", text:"Bedingungslose, gefährliche Hingabe an eine einzige, alles beherrschende Leidenschaft." },
-      { title:"The Notebook", year:"2004", text:"Eine Liebe, die kompromisslos alles oder nichts fordert – bis zum Ende." },
+      { title:"Wie ein einziger Tag (The Notebook)", year:"2004", text:"Eine Liebe, die kompromisslos alles oder nichts fordert – bis zum Ende." },
       { title:"9½ Weeks", year:"1986", text:"Besitzergreifende Intensität, die eine Beziehung vollständig übernimmt." },
+      { title:"Damage", year:"1992", text:"Eine Leidenschaft, die alle Vernunft, alle Rücksicht und am Ende das ganze Leben der Beteiligten verschlingt – Besitzanspruch und Intensität ohne Bremse." },
+    
     ],
   },
   "SE9": {
@@ -1265,14 +1289,15 @@ const ENNEAGRAMM_FILME = {
     filme: [
       { title:"The Big Lebowski", year:"1998", text:"Ein Leben, das sich ganz bewusst in Gemütlichkeit und Routine einrichtet und jeder Anstrengung aus dem Weg geht." },
       { title:"Sideways", year:"2004", text:"Komfortable Vermeidung großer Entscheidungen, verpackt in angenehme, wiederkehrende Rituale." },
-      { title:"The Descendants", year:"2011", text:"Ein passives, treibendes Leben, das erst durch eine Krise aus seiner bequemen Routine gerissen wird." },
+      { title:"The Descendants – Familie und andere Angelegenheiten (The Descendants)", year:"2011", text:"Ein passives, treibendes Leben, das erst durch eine Krise aus seiner bequemen Routine gerissen wird." },
       { title:"Up in the Air", year:"2009", text:"Komfort durch eingespielte Routinen und Distanz, die tiefere Bindung lange auf Abstand hält." },
-      { title:"Groundhog Day", year:"1993", text:"Gefangensein in bequemer Wiederholung, bis echtes Wachstum nicht mehr zu vermeiden ist." },
+      { title:"Und täglich grüßt das Murmeltier (Groundhog Day)", year:"1993", text:"Gefangensein in bequemer Wiederholung, bis echtes Wachstum nicht mehr zu vermeiden ist." },
       { title:"Hector and the Search for Happiness", year:"2014", text:"Der Ausbruch aus einer allzu bequemen Routine, um wieder wirklich lebendig zu werden." },
-      { title:"About a Boy", year:"2002", text:"Ein Leben in angenehmer, folgenloser Routine, das sich erst durch eine echte Bindung verändert." },
       { title:"Nebraska", year:"2013", text:"Trägheit und stille Gewohnheit innerhalb einer Familie, die sich nur schwer in Bewegung setzt." },
-      { title:"Little Miss Sunshine", year:"2006", text:"Eine Familie, die trotz Chaos in eingespielten, komfortablen Mustern verharrt, bis sie gemeinsam aufbrechen muss." },
       { title:"American Beauty", year:"1999", text:"Das Erwachen aus einer betäubenden, allzu bequemen Alltagsroutine." },
+      { title:"Local Hero", year:"1983", text:"Ein Geschäftsmann, der in einem beschaulichen schottischen Dorf ankommt, um es zu verändern – und stattdessen selbst von seiner behaglichen Langsamkeit eingenommen wird." },
+      { title:"The Way, Way Back", year:"2013", text:"Ein zurückhaltender Teenager, der über einen trägen Sommer hinweg in eine entspannte, komfortable Wasserpark-Gemeinschaft hineinwächst – Trost durch Routine und beiläufige Zugehörigkeit, statt durch große Veränderung." },
+    
     ],
   },
   "SO9": {
@@ -1280,9 +1305,9 @@ const ENNEAGRAMM_FILME = {
     title: "SO9 – Sozialer Typ 9: Der Büffel in der Herde",
     intro: "Zehn Filme über das Verschmelzen mit einer Gemeinschaft – Identität, die sich ganz über Zugehörigkeit zu einer Gruppe definiert.",
     filme: [
-      { title:"Dances with Wolves", year:"1990", text:"Kevin Costner – im Kompass als SO9w1 geführt – als Mann, der seine frühere Identität vollständig in einer neuen Gemeinschaft aufgehen lässt." },
+      { title:"Der mit dem Wolf tanzt (Dances with Wolves)", year:"1990", text:"Kevin Costner – im Kompass als SO9w1 geführt – als Mann, der seine frühere Identität vollständig in einer neuen Gemeinschaft aufgehen lässt." },
       { title:"Field of Dreams", year:"1989", text:"Kevin Costner erneut, in einer Geschichte über Verbindung, gemeinsame Erinnerung und das Zusammenkommen einer Gemeinschaft." },
-      { title:"The Shawshank Redemption", year:"1994", text:"Identität und Halt, die sich über die stille Zugehörigkeit zu einer Gemeinschaft hinter Mauern definieren." },
+      { title:"Die Verurteilten (The Shawshank Redemption)", year:"1994", text:"Identität und Halt, die sich über die stille Zugehörigkeit zu einer Gemeinschaft hinter Mauern definieren." },
       { title:"Remember the Titans", year:"2000", text:"Eine Gruppe, die ihre einzelnen Identitäten hinter sich lässt, um zu einer einzigen, geeinten Mannschaft zu verschmelzen." },
       { title:"Coach Carter", year:"2005", text:"Identität und Selbstwert, die sich über die Zugehörigkeit zu einem Team und dessen gemeinsamen Werten aufbauen." },
       { title:"Hoosiers", year:"1986", text:"Eine kleine Gemeinschaft, die sich vollständig mit dem Erfolg und Zusammenhalt ihres Teams identifiziert." },
@@ -1290,6 +1315,7 @@ const ENNEAGRAMM_FILME = {
       { title:"Friday Night Lights", year:"2004", text:"Eine ganze Gemeinschaft, deren Identität untrennbar mit der ihres Teams verbunden ist." },
       { title:"Sing Street", year:"2016", text:"Der Aufbau einer eigenen Identität, die erst durch Zugehörigkeit zu einer selbstgewählten Gruppe möglich wird." },
       { title:"Invictus", year:"2009", text:"Eine ganze Nation, die über die Identifikation mit einer gemeinsamen Sache zusammenfindet." },
+    
     ],
   },
   "SX9": {
@@ -1300,13 +1326,14 @@ const ENNEAGRAMM_FILME = {
       { title:"Fifty Shades of Grey", year:"2015", text:"Dakota Johnson – im Kompass als SX9w8 geführt – als Figur, die sich in einer intensiven Zweierbeziehung fast vollständig selbst aufgibt." },
       { title:"John Wick", year:"2014", text:"Keanu Reeves – im Kompass als SX9w1 geführt – als Mann, dessen ganze Identität untrennbar mit der Liebe zu einem einzigen Menschen verschmolzen ist." },
       { title:"The Lake House", year:"2006", text:"Keanu Reeves erneut, in einer Geschichte über eine Verbindung, die über alle Grenzen hinweg exklusiv bestehen bleibt." },
-      { title:"Love Actually", year:"2003", text:"Heike Makatsch – im Kompass als SX9w8 geführt – in einem Ensemble, das die vollständige Hingabe an die eine besondere Verbindung feiert." },
+      { title:"Tatsächlich... Liebe (Love Actually)", year:"2003", text:"Heike Makatsch – im Kompass als SX9w8 geführt – in einem Ensemble, das die vollständige Hingabe an die eine besondere Verbindung feiert." },
       { title:"Vicky Cristina Barcelona", year:"2008", text:"Identitäten, die sich in intensiven, verschmelzenden Beziehungen fast auflösen." },
       { title:"Brokeback Mountain", year:"2005", text:"Eine Bindung, die trotz Unterdrückung so tief verschmilzt, dass sie das ganze Leben bestimmt." },
       { title:"Twilight", year:"2008", text:"Eine Identität, die sich vollständig mit der des geliebten Menschen verwebt." },
       { title:"Before Sunrise", year:"1995", text:"Zwei Menschen, die in einer einzigen, intensiven Begegnung fast vollständig ineinander aufgehen." },
       { title:"The Age of Adaline", year:"2015", text:"Eine Verbindung, die stark genug ist, jahrzehntelange Distanz und Selbstschutz aufzulösen." },
       { title:"Her", year:"2013", text:"Vollständiges Verschmelzen mit einer einzigen Stimme und Präsenz, bis die eigenen Grenzen kaum noch spürbar sind." },
+    
     ],
   },
 };
