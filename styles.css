@@ -4260,7 +4260,7 @@ button.primary:hover::after {
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: grayscale(20%) contrast(1.05);
+  filter: sepia(0.55) saturate(1.7) hue-rotate(-8deg) brightness(0.97) contrast(1.08);
 }
 .krim-portrait-name {
   margin: 0.75rem 0 0.15rem;
