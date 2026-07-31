@@ -358,6 +358,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karl Lagerfeld – Sozialer Typ 3",
     teaser:"SO3w4 · 1933–2019. Mode-Ikone, Creative Director von Chanel und Fendi. Der Gepard, der sich selbst in ein Symbol verwandelt hat – und dahinter ein Leben aus Büchern, Ästhetik und verborgener Tiefe führte.",
     tags:["Mode","Kunst"] , gender:"m"},
+  { route:"beruehmte-sean-connery", name:"Sean Connery", added:"2026-07-31", subtyp:"SO3w4",
+    heading:"Sean Connery – Sozialer Typ 3",
+    teaser:"SO3w4 · 1930–2020. Schauspieler, erster und ikonischster James Bond, Oscar für „Die Unbestechlichen“. Vom Milchmann zum Weltstar – der Gepard, der sein Image perfektionierte und doch den Mut hatte, es hinter sich zu lassen. Tierentsprechung: Gepard.",
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-bella-thorne", name:"Bella Thorne", subtyp:"SO3w4",
     heading:"Bella Thorne – Sozialer Typ 3",
     teaser:"SO3w4 · geb. 1997. Schauspielerin, Regisseurin, Social-Media-Star. Vom Disney-Kind zur Regisseurin – der Gepard, der nicht nur sprintet, sondern auch die Dunkelheit kennt.",
@@ -17018,6 +17022,73 @@ function karlLagerfeldPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Porträt: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Porträt: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Porträt: David L. Rathmer (SE3w4)"}
+      ])}
+    </div>
+  `);
+}
+
+function seanConneryPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-sean-connery-portrait.jpg" alt="Sean Connery" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean Connery</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Sozialer Typ 3 mit Viererflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, 1930&ndash;2020 &ndash; Tierentsprechung: Gepard</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Gepard</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Gepard</strong> ist das Tier der sozialen Drei &ndash; das schnellste Tier der Erde, aber nicht das lauteste. Sein Erfolg beruht auf Präzision, nicht auf roher Kraft: jede Bewegung kalkuliert, jeder Auftritt auf maximale Wirkung hin optimiert. Der Gepard fällt sofort auf &ndash; und genau das ist sein Ziel.</p>
+          <p class="vb-intro">Sean Connery, geboren als Sohn eines Lastwagenfahrers in einem Armenviertel Edinburghs, arbeitete als Milchmann, Sargpolierer und Ringer, bevor er beim Bodybuilding-Wettbewerb Mr. Universe den dritten Platz belegte &ndash; und von dort aus in nur wenigen Jahren zu James Bond wurde, der Verkörperung von Weltläufigkeit und Eleganz schlechthin. Kein anderer Schauspieler seiner Generation hat eine solche Distanz zwischen Herkunft und Image überwunden. Der Gepard, der aus dem Nichts sprintet und binnen Sekunden das Feld anführt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Drei: Vom Milchmann zum Weltstar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Drei (SO3)</strong> ist der Verstärkungstyp der Drei: Sie lebt nicht für einzelne Erfolge, sie <em>ist</em> Erfolg &ndash; ein Image, das öffentlich bestätigt und immer wieder neu verdient werden muss. Naranjo beschreibt diesen Subtyp als denjenigen, bei dem Eitelkeit und Ehrgeiz am unverstelltesten hervortreten, weil die soziale Bühne selbst zum Lebensinhalt wird.</p>
+          <p class="vb-intro">Connerys Wandlung vom schottischen Arbeiterjungen zum Sir Sean Connery ist SO3-Logik in Reinform: Er nahm Schauspielunterricht, arbeitete an seinem breiten schottischen Akzent, ließ sich in Manieren, Kleidung und Haltung coachen, bis aus dem ehemaligen Möbelträger ein Mann wurde, der Aristokraten glaubwürdig verkörpern konnte. Ab 1962 als James Bond in <em>Dr. No</em> wurde er über Nacht zum Inbegriff internationaler Eleganz &ndash; ein Image, das er in sieben Filmen bis 1983 perfektionierte.</p>
+          <p class="vb-intro">Die SO3 braucht die Bestätigung durch ein Publikum, das größer ist als der Einzelne. Connery wurde mehrfach zum „Sexiest Man Alive" gewählt, auch noch mit über sechzig Jahren &ndash; ein Beweis, dass sein Image nicht an eine Rolle oder ein Lebensalter gebunden war, sondern zu einer eigenständigen kulturellen Institution geworden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererflügel: Der Mann hinter Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererflügel (w4)</strong> gibt der sozialen Drei eine Tiefe, die reines Image übersteigt &ndash; den Wunsch, als eigenständiger, unverwechselbarer Mensch wahrgenommen zu werden, nicht nur als Rolle. Diese Spannung prägte Connerys gesamte Karriere: Er spielte Bond mit einer Präzision, die den Charakter zur Ikone machte &ndash; und kämpfte gleichzeitig lebenslang darum, nicht auf ihn reduziert zu werden.</p>
+          <p class="vb-intro">Öffentlich blieb Connery bemerkenswert verschlossen. Kaum Homestorys, kaum Enthüllungen über sein Privatleben, ein notorisch kurzes Verhältnis zur Presse. Der Viererflügel verlangt Authentizität &ndash; aber nicht auf Kosten der Kontrolle über das eigene Bild. Was er preisgab, war sorgfältig gewählt: seine leidenschaftliche schottische Identität, sein Engagement für die Scottish National Party, seine Liebe zum Golf. Alles Übrige blieb hinter der immer gleichen ruhigen Autorität verborgen.</p>
+          <p class="vb-intro">Diese schottische Identität war für Connery kein Nebenschauplatz, sondern der authentische Kern unter dem internationalen Image: Trotz Weltruhm und Wohnsitzen in Spanien und den Bahamas blieb er Zeit seines Lebens ein erklärter schottischer Nationalist, der Millionen für die Unabhängigkeitsbewegung spendete. Der Viererflügel bewahrte sich diesen einen Ort, an dem das Bild und der Mensch identisch blieben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Bruch mit Bond: Neuerfindung als Notwendigkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1971 verließ Connery die Bond-Rolle, die ihn zum Weltstar gemacht hatte &ndash; er wollte nicht für immer mit einer einzigen Figur identifiziert werden. Es folgten Jahre wechselnder, oft schwieriger Rollenwahl, ehe er sich in den achtziger Jahren als ernstzunehmender Charakterdarsteller neu etablierte: als irischer Cop in <em>The Untouchables</em> (1987, Oscar als bester Nebendarsteller), als unsterblicher Krieger in <em>Highlander</em>, als Vater von Indiana Jones.</p>
+          <p class="vb-intro">Diese Neuerfindung ist SO3w4-Logik in Reinform: Die soziale Drei braucht fortwährende öffentliche Bestätigung &ndash; aber der Viererflügel verweigert sich der Wiederholung um ihrer selbst willen. Ein reiner SO3er hätte vielleicht an der lukrativen Bond-Marke festgehalten. Connery ging das Risiko ein, sie hinter sich zu lassen, um als eigenständiger Künstler ernst genommen zu werden &ndash; und bewies damit, dass sein Erfolg nicht an eine einzige Rolle gebunden war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Drei</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO3 ist ihre Fähigkeit, ein Image zu erschaffen, das größer wird als die eigene Person &ndash; und dabei doch mit Substanz zu füllen. Connerys Bond definierte ein Filmgenre neu und blieb über Jahrzehnte der Maßstab, an dem sich jeder Nachfolger messen lassen musste. Sein späteres Werk bewies, dass hinter dem Image tatsächlich schauspielerisches Können stand.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Eitelkeit / Täuschung</strong> &ndash; bei der SO3 sichtbar als die Notwendigkeit, permanent im besten Licht zu erscheinen. Connerys Verhältnis zu seiner Vergangenheit blieb zwiespältig: Er sprach selten offen über die Armut seiner Kindheit oder die Mühen seines Aufstiegs, ließ stattdessen die makellose Fassade des Weltstars für sich sprechen. Kontroverser noch waren öffentliche Äußerungen aus den siebziger Jahren, in denen er körperliche Gewalt in Beziehungen verharmloste &ndash; Aussagen, die er nie zurücknahm und die einen deutlichen Schatten auf sein Bild warfen.</p>
+          <p class="vb-intro">Der Viererflügel bringt sein eigenes Schattenmuster mit: die Neigung, Nähe grundsätzlich zu misstrauen, weil sie die sorgfältig kontrollierte Fassade gefährdet. Wer Connery wirklich war, jenseits von Bond, jenseits des schottischen Patrioten, blieb selbst engen Weggefährten oft verborgen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Image zur Substanz</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Wie werde ich gesehen?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne das perfekte Bild.</em> Für die SO3w4 bedeutet das, den eigenen Wert nicht länger daran zu messen, ob die Rolle noch trägt oder ob das Publikum noch applaudiert.</p>
+          <p class="vb-intro">Connerys Rückzug aus Hollywood Mitte der 2000er-Jahre &ndash; freiwillig, ohne großen Abschied, ohne den letzten großen Film, der das Werk hätte krönen sollen &ndash; liest sich im Rückblick wie eine seltene, bewusste Geste: aufzuhören, bevor das Image zur Karikatur seiner selbst wird. Der Gepard, der irgendwann nicht mehr rennt, um zu beweisen, dass er der Schnellste ist &ndash; sondern sich zurückzieht, in die Stille der eigenen, nie ganz preisgegebenen Welt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so3", label:"SO3 – Der Gepard: Subtyp-Profil"},
+        {route:"beruehmte-karl-lagerfeld", label:"Porträt: Karl Lagerfeld (SO3w4)"},
       ])}
     </div>
   `);
@@ -43790,6 +43861,7 @@ function render() {
       "beruehmte-kathrin-bauerfeind": kathrinBauerfeindPortraitPage,
       "beruehmte-osho": oshoPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
+      "beruehmte-sean-connery": seanConneryPortraitPage,
       "beruehmte-sahra-wagenknecht": sahraWagenknechtPortraitPage,
       "beruehmte-cristiano-ronaldo": cristianoRonaldoPortraitPage,
       "beruehmte-pharrell-williams": pharrellWilliamsPortraitPage,

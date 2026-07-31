@@ -557,6 +557,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Karl Lagerfeld – Social Type 3",
     teaser:"SO3w4 · 1933–2019. Fashion icon, creative director of Chanel and Fendi. The cheetah who transformed himself into a symbol - and behind it lived a life of books, aesthetics and hidden depth.",
     tags:["Mode","Art"] , gender:"m"},
+  { route:"beruehmte-sean-connery", name:"Sean Connery", added:"2026-07-31", subtyp:"SO3w4",
+    heading:"Sean Connery – Social Type 3",
+    teaser:"SO3w4 · 1930–2020. Actor, the first and most iconic James Bond, Oscar for \"The Untouchables\". From milkman to global icon – the cheetah that perfected its image and yet had the courage to leave it behind. Animal correspondence: Cheetah.",
+    tags:["Schauspiel"] , gender:"m"},
   { route:"beruehmte-karoline-herfurth", name:"Karoline Herfurth", added:"2026-07-21", subtyp:"SE4w5",
     heading:"Karoline Herfurth – Self-Preservation Type 4",
     teaser:"SE4w5 \xb7 born 1984, Berlin. Actress, director. The dove that observes before it lands - inner depth, artistic precision, and a humanity behind the camera that looks for the beauty in the vulnerable.",
@@ -15389,6 +15393,73 @@ function karlLagerfeldPortraitPage() {
         {route:"beruehmte-sahra-wagenknecht", label:"Portrait: Sahra Wagenknecht (SO3w2)"},
         {route:"beruehmte-cristiano-ronaldo", label:"Portrait: Cristiano Ronaldo (SO3w2)"},
         {route:"beruehmte-david-l-rathmer", label:"Portrait: David L. Rathmer (SE3w4)"}
+      ])}
+    </div>
+  `);
+}
+
+function seanConneryPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-sean-connery-portrait.jpg" alt="Sean Connery" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Sean Connery</p>
+        <p class="krim-portrait-typ">SO3w4 &middot; Social Type 3 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Actor, 1930&ndash;2020 &ndash; Animal correspondence: Cheetah</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Cheetah</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Cheetah</strong> is the animal of the social Three &ndash; the fastest animal on Earth, but not the loudest. Its success rests on precision, not raw force: every movement calculated, every appearance optimized for maximum effect. The cheetah stands out instantly &ndash; and that is exactly its aim.</p>
+          <p class="vb-intro">Sean Connery, born the son of a truck driver in a poor district of Edinburgh, worked as a milkman, coffin polisher, and wrestler before placing third in the Mr. Universe bodybuilding contest &ndash; and from there, within just a few years, became James Bond, the very embodiment of worldly sophistication and elegance. No other actor of his generation crossed such a distance between origin and image. The cheetah that sprints from nothing and leads the field within seconds.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Three: From Milkman to Global Icon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Three (SO3)</strong> is the amplification type of the Three: it does not live for individual achievements, it <em>is</em> achievement &ndash; an image that must be publicly confirmed and earned again and again. Naranjo describes this subtype as the one in which vanity and ambition emerge most undisguised, because the social stage itself becomes the content of life.</p>
+          <p class="vb-intro">Connery&#39;s transformation from Scottish working-class boy to Sir Sean Connery is SO3 logic in its purest form: he took acting classes, worked on softening his broad Scottish accent, had himself coached in manners, dress, and bearing, until the former furniture mover became a man who could credibly play aristocrats. Beginning in 1962 as James Bond in <em>Dr. No</em>, he became overnight the embodiment of international elegance &ndash; an image he perfected across seven films through 1983.</p>
+          <p class="vb-intro">The SO3 needs confirmation from an audience larger than the individual. Connery was voted &bdquo;Sexiest Man Alive&ldquo; multiple times, even past the age of sixty &ndash; proof that his image was not tied to a single role or age, but had become a cultural institution in its own right.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: The Man Behind Bond</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Four-wing (w4)</strong> gives the social Three a depth that goes beyond pure image &ndash; the desire to be perceived as a distinct, unmistakable individual, not only as a role. This tension defined Connery&#39;s entire career: he played Bond with a precision that turned the character into an icon &ndash; and simultaneously fought throughout his life not to be reduced to it.</p>
+          <p class="vb-intro">Publicly, Connery remained remarkably closed off. Hardly any home stories, hardly any revelations about his private life, a notoriously brief relationship with the press. The Four-wing demands authenticity &ndash; but not at the cost of control over one&#39;s own image. What he did reveal was carefully chosen: his passionate Scottish identity, his commitment to the Scottish National Party, his love of golf. Everything else stayed hidden behind the same unwavering, calm authority.</p>
+          <p class="vb-intro">This Scottish identity was no side matter for Connery, but the authentic core beneath the international image: despite world fame and residences in Spain and the Bahamas, he remained throughout his life a declared Scottish nationalist who donated millions to the independence movement. The Four-wing preserved this one place where the image and the person remained identical.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Break with Bond: Reinvention as Necessity</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1971 Connery left the Bond role that had made him a global star &ndash; he did not want to be identified forever with a single figure. Years of varied, often difficult role choices followed, before he re-established himself in the 1980s as a serious character actor: as an Irish cop in <em>The Untouchables</em> (1987, Oscar for Best Supporting Actor), as an immortal warrior in <em>Highlander</em>, as the father of Indiana Jones.</p>
+          <p class="vb-intro">This reinvention is SO3w4 logic in its purest form: the social Three needs continuous public affirmation &ndash; but the Four-wing refuses repetition for its own sake. A pure SO3 might have clung to the lucrative Bond brand. Connery took the risk of leaving it behind in order to be taken seriously as an independent artist &ndash; and thereby proved that his success was not tied to a single role.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Three</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO3 is its ability to create an image that becomes larger than the person &ndash; and yet to fill it with substance. Connery&#39;s Bond redefined a film genre and remained for decades the standard every successor had to be measured against. His later work proved that real acting skill stood behind the image.</p>
+          <p class="vb-intro">The fate pattern of the Three is <strong>vanity / deception</strong> &ndash; visible in the SO3 as the necessity to constantly appear in the best light. Connery&#39;s relationship with his own past remained ambivalent: he rarely spoke openly about the poverty of his childhood or the struggles of his rise, letting the flawless facade of the global star speak for itself instead. More controversial still were public statements from the 1970s in which he downplayed physical violence in relationships &ndash; statements he never retracted, which cast a clear shadow over his image.</p>
+          <p class="vb-intro">The Four-wing brings its own shadow pattern: a tendency to fundamentally distrust closeness, because it threatens the carefully controlled facade. Who Connery truly was, beyond Bond, beyond the Scottish patriot, often remained hidden even from close companions.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Image to Substance</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Three leads from the question <em>How am I seen?</em> to the insight <em>I am &ndash; even without the perfect image.</em> For the SO3w4 this means no longer measuring one&#39;s own worth by whether the role still holds or whether the audience is still applauding.</p>
+          <p class="vb-intro">Connery&#39;s withdrawal from Hollywood in the mid-2000s &ndash; voluntary, without a grand farewell, without the one last great film meant to crown the body of work &ndash; reads in retrospect like a rare, deliberate gesture: stopping before the image turns into a caricature of itself. The cheetah that, at some point, no longer runs to prove it is the fastest &ndash; but withdraws into the stillness of its own world, never fully revealed.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so3", label:"SO3 – The Cheetah: Subtype Profile"},
+        {route:"beruehmte-karl-lagerfeld", label:"Portrait: Karl Lagerfeld (SO3w4)"},
       ])}
     </div>
   `);
@@ -40846,6 +40917,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-jamie-lee-curtis": jamieleecurtisPortraitPage,
       "beruehmte-juergen-klopp": juergenKloppPortraitPage,
       "beruehmte-karl-lagerfeld": karlLagerfeldPortraitPage,
+      "beruehmte-sean-connery": seanConneryPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
       "beruehmte-kevin-costner": kevinCostnerPortraitPage,
       "beruehmte-klaus-kinski": klausKinskiPortraitPage,
