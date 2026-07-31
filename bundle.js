@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-31-cloudinary-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "./data/de.js?v=2026-07-31-cloudinary-v2";
 import { TYP_IMPULSE, SUBTYP_IMPULSE } from "./data/impulse.js?v=2";
 import { TAGESIMPULSE } from "./data/tagesimpulse.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "./data/typentest.js?v=1";
@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "./data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "./data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "./data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "./data/situationskompass.js?v=9";
-import { registerEntries } from "./data/register.js?v=30";
+import { registerEntries } from "./data/register.js?v=32";
 import { TIERENTSPRECHUNGEN } from "./data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "./data/verhalten.js?v=1";
 import { TIERLEXIKON } from "./data/tierlexikon.js?v=8";
@@ -1413,6 +1413,7 @@ function enneagrammFilmeTypPage(n) {
 // NEU-Markierungen für Schaubilder: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
+  "architektur-raumgestaltung-der-9-typen": "2026-07-31",
 };
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-astrologie", ...ASTROLOGIE_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-filme-typ-"+n)), "persoenlichkeitsmodelle-vergleich", "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -1433,6 +1434,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "superpower-der-9-typen",
     "wolkenformationen-der-9-typen",
     "wetter-naturphaenomene-der-9-typen",
+    "architektur-raumgestaltung-der-9-typen",
     "wolfsarten-der-9-typen",
     "eulenarten-der-9-typen",
     "papageienarten-der-9-typen",
@@ -34518,6 +34520,65 @@ function wetterNaturphaenomeneDer9TypenPage() {
   `);
 }
 
+function architekturRaumgestaltungDer9TypenPage() {
+  const bild = (datei, alt) => `<img src="./assets/${datei}" alt="${alt}"
+        style="width:100%;max-width:640px;display:block;margin:1rem auto 1.2rem;border-radius:12px;cursor:zoom-in;" />`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Architektur & Raumgestaltung der 9 Typen", "Schaubilder · Archetypen")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Architektur & Raumgestaltung der 9 Typen</h1>
+      <p class="psycho-intro">Wie wir Räume bauen und bewohnen, spiegelt unsere innere Haltung wider. Jeder Baustil trägt ein eigenes Lebensgefühl in sich – Klarheit oder Wärme, Repräsentation oder Rückzug, Dramatik oder Stabilität. Neun Architektur- und Raumkonzepte, neun Enneagrammprinzipien.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 1 – Minimalismus / Bauhaus: Klare Linien, funktionale Perfektion</h3>
+      ${bild("architektur-1-bauhaus.jpg", "Bauhaus-Gebäude mit klaren geometrischen Linien")}
+      <p class="vb-intro">Bauhaus-Architektur verzichtet auf jedes Ornament, das keine Funktion erfüllt – jede Linie, jede Fläche ist so reduziert, wie sie sein muss, und nicht mehr. Genau das ist die Handschrift der Eins: eine tief sitzende Sehnsucht nach der einen richtigen, korrekten Form, in der nichts überflüssig ist und nichts fehlt. Klare Kanten, rechte Winkel, keine Schnörkel – Ordnung wird hier nicht als Einschränkung erlebt, sondern als die einzig ehrliche Antwort auf die Frage, wie ein Raum sein sollte. Die Kehrseite: Ein Raum, der nur noch Funktion kennt, kann kalt wirken, ein Zuhause ohne Weichheit. Reife bei Typ 1 zeigt sich, wenn die klare Form bestehen bleibt, aber Wärme und Leben in sie einziehen dürfen.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Kompakter Landhausstil / Hygge: Gemütlich, einladend</h3>
+      ${bild("architektur-2-hygge.jpg", "Gemütliches Hygge-Wohnzimmer mit warmem Licht und vielen Sitzgelegenheiten")}
+      <p class="vb-intro">Der Landhausstil und das dänische Hygge-Gefühl leben von weichen Textilien, warmem Licht und vor allem: von Sitzgelegenheiten für andere. Ein Sofa, das für vier gedacht ist, ein Tisch, an dem noch ein Stuhl mehr Platz findet – dieser Raum ist von Anfang an auf Besuch, auf Nähe, auf gemeinsames Ankommen hin gebaut. Genau das ist die Zwei: ein Zuhause schaffen, in dem sich andere geborgen fühlen, noch bevor die eigenen Bedürfnisse überhaupt zur Sprache kommen. Die Gefahr liegt darin, dass der Raum irgendwann mehr für Gäste eingerichtet ist als für die Bewohnerin selbst. Reife bedeutet, sich die gemütlichste Ecke auch für sich selbst zu reservieren.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Penthouse / Moderne Glas-Architektur: Repräsentativ, zukunftsorientiert</h3>
+      ${bild("architektur-3-glasfassade.jpg", "Moderne Glasfassade eines Wolkenkratzers")}
+      <p class="vb-intro">Glasfassaden und Penthouses sind Architektur, die gesehen werden will – sie reflektieren Licht, Status und Fortschritt, oft schon von Weitem sichtbar über der übrigen Stadt. Kein Detail ist zufällig: Jede Sichtachse, jede Skyline-Aussicht ist so platziert, dass sie beeindruckt. Das ist die Drei: ein Zuhause als Bühne, als sichtbares Zeugnis von Erfolg, das keine Erklärung braucht, weil es für sich selbst spricht. Die Kehrseite dieser gläsernen Perfektion: Wer ständig repräsentiert, hat oft keinen Ort mehr, an dem er einfach nur unperfekt sein darf. Reife bei Typ 3 entsteht, wenn Wert nicht mehr an der Wirkung der Räume hängt, sondern im Inneren ruht.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Gothik / Boho-Chic / Art Nouveau: Dramatisch, individuell</h3>
+      ${bild("architektur-4-jugendstil.jpg", "Jugendstil-Fassade mit kunstvollen, individuellen Details")}
+      <p class="vb-intro">Jugendstil-Fassaden und gotische Bauten verweigern sich der Wiederholung – jede Verzierung ist einzigartig, jedes Fenster erzählt eine eigene kleine Geschichte, jedes Detail trägt Ausdruck statt bloßer Funktion. Das ist die tiefste Sprache der Vier: ein Raum muss die eigene Einzigartigkeit sichtbar machen, muss Bedeutung, Geschichte, Gefühl in sich tragen, sonst bleibt er leer. Dramatische Farben, ungewöhnliche Formen, gesammelte Fundstücke – jedes Element ist Ausdruck einer inneren Wahrheit. Die Gefahr: Ein Raum, der so sehr auf Besonderheit ausgerichtet ist, dass er nie fertig, nie in Ruhe ankommen kann. Reife zeigt sich, wenn die Schönheit bleibt, ohne dass ständig neue Dramatik nachgeliefert werden muss.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Brutalismus / Tiny House: Autark, auf das Wesentliche reduziert</h3>
+      ${bild("architektur-5-brutalismus.jpg", "Brutalistisches Betongebäude mit klaren, massiven Formen")}
+      <p class="vb-intro">Rohbeton, unverkleidet, ehrlich in seiner Materialität – Brutalismus zeigt genau das, was er ist, ohne Fassade, ohne Dekoration, die vom Wesentlichen ablenken würde. Ebenso das Tiny House: ein Raum, radikal reduziert auf das, was wirklich gebraucht wird, autark, unabhängig von unnötigem Ballast. Das ist die Fünf: Rückzug in einen geschützten, klar begrenzten Raum, in dem jede Ressource – Zeit, Energie, Besitz – bewusst eingeteilt ist, damit nichts verschwendet wird. Die Kehrseite: Ein Raum, der so sehr auf Autarkie ausgelegt ist, dass er andere gar nicht mehr hereinlässt. Reife bei Typ 5 heißt, die eigene Festung auch einmal für andere zu öffnen.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Festungs-Architektur / Klassische Klinker-Siedlungen: Solide, beständig</h3>
+      ${bild("architektur-6-festung.jpg", "Massive Festung mit dicken Steinmauern")}
+      <p class="vb-intro">Eine Festung ist so gebaut, dass sie jedem Angriff standhält – dicke Mauern, wenige, gut kontrollierbare Zugänge, ein Ort, an dem man sich sicher fühlt, weil man weiß, was ihn schützt. Klassische Klinker-Siedlungen tragen dieselbe Botschaft in bürgerlicherem Maßstab: solide Bausubstanz, die seit Generationen hält und nichts dem Zufall überlässt. Das ist die Sechs: Sicherheit entsteht durch Struktur, durch Verlässlichkeit, durch das Wissen, was im Ernstfall trägt. Ein Zuhause, das Halt gibt, weil es geprüft und bewährt ist. Die Gefahr: Mauern, die so dick werden, dass sie auch das Vertrauen aussperren. Reife bei Typ 6 zeigt sich, wenn Sicherheit nicht mehr nur von außen, sondern auch von innen kommt.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Lofts / Glamping-Architektur: Offen, verspielt, hell</h3>
+      ${bild("architektur-7-loft.jpg", "Offenes, helles Loft mit fließenden Raumübergängen")}
+      <p class="vb-intro">Ein Loft kennt keine festen Wände – Küche, Wohnen, Arbeiten fließen ineinander, jederzeit lässt sich der Raum neu nutzen, neu erleben, nichts ist endgültig festgelegt. Glamping-Architektur trägt dieselbe Leichtigkeit ins Freie: Komfort ohne Enge, Offenheit statt Begrenzung, immer die Möglichkeit, spontan weiterzuziehen. Das ist die Sieben: ein Raum, der Optionen offenhält, der Licht, Luft und Bewegungsfreiheit über feste Struktur stellt, weil Festlegung wie Einengung wirkt. Die Kehrseite: So viel Offenheit kann auch bedeuten, dass sich nie ein wirkliches Zuhause-Gefühl einstellt. Reife bei Typ 7 entsteht, wenn ein offener Raum auch zum Bleiben einlädt, nicht nur zum Weiterziehen.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Industrial Style / Monumentalarchitektur: Massiv, imposant</h3>
+      ${bild("architektur-8-industrial.jpg", "Industrial-Interieur mit Ziegelmauer, Stahl und großen Fenstern")}
+      <p class="vb-intro">Roher Backstein, sichtbare Stahlträger, massive Fensterfronten – Industrial Style verbirgt nichts von seiner Kraft, im Gegenteil, er stellt sie aus. Monumentalarchitektur geht noch weiter: Bauten, die allein durch ihre Größe Respekt einfordern, die keinen Zweifel daran lassen, wer hier den Raum bestimmt. Das ist die Acht: ein Zuhause als Ausdruck von Stärke, unverstellter Präsenz, Kontrolle über das eigene Territorium. Nichts wird verkleinert oder beschönigt, jede Struktur bleibt sichtbar. Die Gefahr: Ein Raum, der so massiv wirkt, dass Verletzlichkeit darin keinen Platz mehr findet. Reife bei Typ 8 zeigt sich, wenn hinter der starken Fassade auch Weichheit zugelassen wird.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Organische Architektur (Hundertwasser/Steiner): Integriert in die Natur</h3>
+      ${bild("architektur-9-organisch.jpg", "Hundertwasserhaus mit bunter, organisch geschwungener Fassade")}
+      <p class="vb-intro">Hundertwassers Bauten kennen keine gerade Linie, keinen rechten Winkel, der die Natur unterbrechen würde – Fassaden wachsen wie Baumstämme, Dächer tragen Erde und Pflanzen, das Haus wird Teil der Landschaft statt Widerspruch zu ihr. Genau das ist die Neun: ein Raum, der nicht gegen die Umgebung behauptet wird, sondern mit ihr verschmilzt, in dem Grenzen weich und durchlässig bleiben, weil Harmonie wichtiger ist als Abgrenzung. Weiche Formen, warme Farben, kein Element, das sich in den Vordergrund drängt. Die Kehrseite: Ein Haus ohne klare Kontur kann auch bedeuten, dass die Bewohnerin selbst darin verschwimmt. Reife bei Typ 9 entsteht, wenn die organische Weichheit bleibt, aber die eigene Präsenz darin klar spürbar wird.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"wetter-naturphaenomene-der-9-typen", label:"Wetter- und Naturphänomene der 9 Typen"},
+        {route:"beziehungen", label:"Beziehungen der 9 Typen"},
+        {route:"arbeitsverhalten-der-9-typen", label:"Arbeitsverhalten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function eulenartenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -43452,6 +43513,7 @@ function render() {
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,
     "wetter-naturphaenomene-der-9-typen": wetterNaturphaenomeneDer9TypenPage,
+    "architektur-raumgestaltung-der-9-typen": architekturRaumgestaltungDer9TypenPage,
     "baerenarten-der-9-typen": baerenarteDer9TypenPage,
     "milchkuharten-der-9-typen": milchkuhartenDer9TypenPage,
     "vogelarten-der-9-typen": vogelartenDer9TypenPage,

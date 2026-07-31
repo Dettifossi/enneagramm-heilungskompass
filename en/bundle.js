@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-cloudinary-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-cloudinary-v2";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
@@ -7,7 +7,7 @@ import { DIAGNOSETEST } from "../data/diagnosetest.js?v=1";
 import { BEZIEHUNGS_PAARUNGEN } from "../data/beziehungspaarungen.js?v=15";
 import { DIFFERENZIERUNGEN } from "../data/differenzierungen.js?v=4";
 import { SITUATIONSKOMPASS } from "../data/situationskompass.js?v=9";
-import { registerEntries, registerEntriesEN } from "../data/register.js?v=30";
+import { registerEntries, registerEntriesEN } from "../data/register.js?v=32";
 import { TIERENTSPRECHUNGEN } from "../data/tierentsprechungen.js?v=1";
 import { VERHALTEN } from "../data/verhalten.js?v=1";
 import { TIERLEXIKON } from "../data/tierlexikon.js?v=8";
@@ -1359,6 +1359,7 @@ function enneagrammFilmeTypPage(code) {
 // NEU-Markierungen für Charts: route → Datum des Eintrags (Badge läuft nach 30 Tagen ab)
 // Beispiel: { "neues-schaubild": "2026-07-15" }
 const SCHAUBILDER_NEU = {
+  "architektur-raumgestaltung-der-9-typen": "2026-07-31",
 };
 
 const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "kindheit", "music", "homoeopathie", "mineralstoffe", "bachblueten", "heiltees", "psychogramme", "schaubilder", "aufmerksamkeitsfokus", "bedrohungsszenarien", "befreiende-fragen", "bewaeltigungsstrategie", "dialektische-struktur", "drei-zentren", "ego-persoenlichkeit", "empfindliche-punkte", "zentren-weltwahrnehmung", "energetische-bewegungen", "fuehrungsstile", "gifte-des-geistes", "gaslighting-enneagramm", "kindliche-temperamente", "lookalike-typen", "mikroimpressionen", "naehe", "nonverbale-signale", "verbale-signale", "zentrale-fragen", "heilungsweg", "horney-triaden", "tee-enneagramm", "aetherische-oele", "angst-essenz", "edelsteine", "subtypen-checklisten", "subtypen-schaubilder", "perspektiven", "mangelgefuehle", "60-sekunden-scan", "wahrnehmungsstile", "das-event", "portraits-wegbegleiter", "weihnachtsgeschenke", "obstsorten", "gemuesesorten", "weinsorten", "brotsorten", "kaesesorten", "gewuerzarten", "getreidearten", "kaffeearten", "epochen-weltgeschichte", "affenarten", "baumarten", "berge-der-9-typen", "luxusautos-der-9-typen", "luxusuhren-der-9-typen", "brillenmodelle-der-9-typen", "flugzeugmodelle-der-9-typen", "hauptfokus-des-bewusstseins-der-9-typen", "beruehmte-persoenlichkeiten", ...BERUEHMT_PORTRAITS.map(p => p.route), "enneagramm-kunst", ...([1,2,3,4,5,6,7,8,9].map(n => "enneagramm-kunst-typ-"+n)), "enneagramm-filme", ...(["SE1","SO1","SX1","SE2","SO2","SX2","SE3","SO3","SX3","SE4","SO4","SX4","SE5","SO5","SX5","SE6","SO6","SX6","SE7","SO7","SX7","SE8","SO8","SX8","SE9","SO9","SX9"].map(code => "enneagramm-filme-typ-"+code)), "kriminalpsychologie", ...KRIMINAL_PORTRAITS.map(p => p.route),
@@ -1379,6 +1380,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "superpower-der-9-typen",
     "wolkenformationen-der-9-typen",
     "wetter-naturphaenomene-der-9-typen",
+    "architektur-raumgestaltung-der-9-typen",
     "wolfsarten-der-9-typen",
     "eulenarten-der-9-typen",
     "papageienarten-der-9-typen",
@@ -1479,6 +1481,7 @@ text.nav = [
   ]},
   { route: "schaubilder", label: "Diagrams", dropdown: [
     { route: "60-sekunden-scan", label: "60-Second Scan" },
+    { route: "architektur-raumgestaltung-der-9-typen", label: "Architecture & Interior Design of the 9 Types" },
     { route: "aetherische-oele", label: "Essential Oils" },
     { route: "angst-essenz", label: "Fear → Essence" },
     { route: "antriebskraefte", label: "Driving Forces of Humanity" },
@@ -1566,6 +1569,74 @@ text.nav = [
     { route: "wunden", label: "Wounds & Protective Strategies" },
     { route: "wurzeln-des-enneagramms", label: "Roots of the Enneagram" },
     { route: "wissensverhalten", label: "Knowledge Behavior of the 9 Types" },
+    { route: "wetter-naturphaenomene-der-9-typen", label: "Weather and Nature Phenomena of the 9 Types" },
+    { route: "affenarten", label: "Monkey Species of the 9 Types" },
+    { route: "arbeitsverhalten-der-9-typen", label: "Work Behavior of the 9 Types" },
+    { route: "auffaellige-merkmale-der-9-typen", label: "Conspicuous Characteristics of the 9 Types" },
+    { route: "baerenarten-der-9-typen", label: "Bear Species of the 9 Types" },
+    { route: "baumarten", label: "Tree Species of the 9 Types" },
+    { route: "berge-der-9-typen", label: "Mountains of the 9 Types" },
+    { route: "blumenarten-der-9-typen", label: "Flower Types of the 9 Types" },
+    { route: "brillenmodelle-der-9-typen", label: "Eyeglass Models of the 9 Types" },
+    { route: "brotsorten", label: "Bread Varieties of the 9 Types" },
+    { route: "bundeslaender", label: "German Federal States" },
+    { route: "epochen-weltgeschichte", label: "Epochs of World History" },
+    { route: "essverhalten-der-9-typen", label: "Eating Behavior of the 9 Types" },
+    { route: "eulenarten-der-9-typen", label: "Owl Species of the 9 Types" },
+    { route: "fischarten-der-9-typen", label: "Fish Species of the 9 Types" },
+    { route: "flugzeugmodelle-der-9-typen", label: "Airplane Models of the 9 Types" },
+    { route: "frisuren-der-9-typen", label: "Hairstyles of the 9 Types" },
+    { route: "froscharten-der-9-typen", label: "Frog Species of the 9 Types" },
+    { route: "gaslighting-enneagramm", label: "Gaslighting & Manipulation" },
+    { route: "gemuesesorten", label: "Vegetable Varieties of the 9 Types" },
+    { route: "getreidearten", label: "Grain Varieties of the 9 Types" },
+    { route: "gewuerzarten", label: "Spice Varieties of the 9 Types" },
+    { route: "gifte-des-geistes", label: "Poisons of the Mind" },
+    { route: "haendedrucke-der-9-typen", label: "Handshakes of the 9 Types" },
+    { route: "hauptfokus-des-bewusstseins-der-9-typen", label: "Main Focus of Consciousness" },
+    { route: "heilfasten-der-9-typen", label: "Therapeutic Fasting of the 9 Types" },
+    { route: "hochsensibilitaet-der-9-typen", label: "High Sensitivity of the 9 Types" },
+    { route: "horney-triaden", label: "Horneyan Triads" },
+    { route: "hunderassen-der-9-typen", label: "Dog Breeds of the 9 Types" },
+    { route: "insektenarten-der-9-typen", label: "Insect Species of the 9 Types" },
+    { route: "kaesesorten", label: "Cheese Varieties of the 9 Types" },
+    { route: "kaffeearten", label: "Coffee Varieties of the 9 Types" },
+    { route: "kindliche-temperamente", label: "Childhood Temperaments" },
+    { route: "kussverhalten-der-9-typen", label: "Kissing Behavior of the 9 Types" },
+    { route: "lookalike-typen", label: "Lookalike Types" },
+    { route: "luxusautos-der-9-typen", label: "Luxury Cars of the 9 Types" },
+    { route: "luxusuhren-der-9-typen", label: "Luxury Watches of the 9 Types" },
+    { route: "maennliche-weibliche-seite", label: "Masculine & Feminine Side of the Enneagram" },
+    { route: "mangelgefuehle", label: "Feelings of Deficiency" },
+    { route: "mikroimpressionen", label: "Micro-Impressions" },
+    { route: "milchkuharten-der-9-typen", label: "Dairy Cattle Breeds of the 9 Types" },
+    { route: "naehe", label: "Proximity & Distance" },
+    { route: "nagetierarten-der-9-typen", label: "Rodent Species of the 9 Types" },
+    { route: "niesverhalten-der-9-typen", label: "Sneezing Behavior of the 9 Types" },
+    { route: "nonverbale-signale", label: "Nonverbal Signals" },
+    { route: "obstsorten", label: "Fruit Varieties" },
+    { route: "papageienarten-der-9-typen", label: "Parrot Species of the 9 Types" },
+    { route: "pferdearten-der-9-typen", label: "Horse Breeds of the 9 Types" },
+    { route: "psychologische-verhaltensmuster-der-9-typen", label: "Psychological Behavioral Patterns" },
+    { route: "psychologisches-abwehrverhalten-der-9-typen", label: "Psychological Defense Behavior" },
+    { route: "reptilienarten-der-9-typen", label: "Reptile Species of the 9 Types" },
+    { route: "schildkroetenarten-der-9-typen", label: "Turtle Species of the 9 Types" },
+    { route: "sexualverhalten-der-9-typen", label: "Sexual Behavior of the 9 Types" },
+    { route: "spinnenarten-der-9-typen", label: "Spider Species of the 9 Types" },
+    { route: "suchtverhalten-der-9-typen", label: "Addictive Behavior of the 9 Types" },
+    { route: "superpower-der-9-typen", label: "Superpower of the 9 Types" },
+    { route: "tee-enneagramm", label: "Enneagram Teas" },
+    { route: "verbale-signale", label: "Verbal Signals" },
+    { route: "verhaeltnis-zu-geld-der-9-typen", label: "Relationship to Money" },
+    { route: "vogelarten-der-9-typen", label: "Bird Species of the 9 Types" },
+    { route: "wahrnehmungsstile", label: "Perception Styles" },
+    { route: "walarten-der-9-typen", label: "Whale Species of the 9 Types" },
+    { route: "weihnachtsgeschenke", label: "Christmas Gifts of the 9 Types" },
+    { route: "weinsorten", label: "Wine Varieties of the 9 Types" },
+    { route: "wer-wir-sind", label: "Who We Are" },
+    { route: "wolfsarten-der-9-typen", label: "Wolf Species of the 9 Types" },
+    { route: "wolkenformationen-der-9-typen", label: "Cloud Formations of the 9 Types" },
+    { route: "zentrale-fragen", label: "Key Questions" },
     { route: "zornverhalten", label: "Anger Behavior of the 9 Types" },
   ]},
   { route: "stille", label: "⏱ Silence" },
@@ -4699,7 +4770,7 @@ function _sucheResults(q) {
     if (hay.includes(lq)) res.portraits.push({ label: p.name, sub: p.typ || "", route: p.route });
   });
 
-  registerEntries.forEach(e => {
+  registerEntriesEN.forEach(e => {
     const hay = (e.term + " " + (e.description || "")).toLowerCase();
     if (hay.includes(lq)) res.register.push({ label: e.term, sub: (e.description || "").slice(0, 80), route: e.route });
   });
@@ -31252,6 +31323,65 @@ function wetterNaturphaenomeneDer9TypenPage() {
   `);
 }
 
+function architekturRaumgestaltungDer9TypenPage() {
+  const img = (file, alt) => `<img src="../assets/${file}" alt="${alt}"
+        style="width:100%;max-width:640px;display:block;margin:1rem auto 1.2rem;border-radius:12px;cursor:zoom-in;" />`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Architecture & Interior Design of the 9 Types", "Charts · Archetypes")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Architecture & Interior Design of the 9 Types</h1>
+      <p class="psycho-intro">How we build and inhabit spaces mirrors our inner stance. Every architectural style carries its own way of being in the world — clarity or warmth, display or retreat, drama or stability. Nine architectural and interior concepts, nine Enneagram principles.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 1 – Minimalism / Bauhaus: Clean Lines, Functional Perfection</h3>
+      ${img("architektur-1-bauhaus.jpg", "Bauhaus building with clear geometric lines")}
+      <p class="vb-intro">Bauhaus architecture refuses any ornament that serves no function — every line, every surface is reduced to exactly what it needs to be, and no more. That is precisely the signature of Type 1: a deep-seated longing for the one correct, right form, in which nothing is superfluous and nothing is missing. Clean edges, right angles, no flourishes — order isn't experienced here as restriction, but as the only honest answer to how a space should be. The downside: a space that knows only function can feel cold, a home without softness. Maturity for Type 1 shows when the clear form remains, but warmth and life are allowed to enter it.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – Cozy Cottage Style / Hygge: Warm, Inviting</h3>
+      ${img("architektur-2-hygge.jpg", "Cozy hygge living room with warm light and plenty of seating")}
+      <p class="vb-intro">Cottage style and the Danish feeling of hygge live from soft textiles, warm light, and above all: from seating for others. A sofa meant for four, a table with room for one more chair — this space is built from the very start for visitors, for closeness, for arriving together. That is exactly Type 2: creating a home in which others feel safe and welcome, often before their own needs are even spoken. The danger lies in the space eventually being furnished more for guests than for its own resident. Maturity means reserving the coziest corner for oneself too.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 – Penthouse / Modern Glass Architecture: Impressive, Forward-Looking</h3>
+      ${img("architektur-3-glasfassade.jpg", "Modern glass facade of a skyscraper")}
+      <p class="vb-intro">Glass facades and penthouses are architecture that wants to be seen — they reflect light, status, and progress, often visible from far across the rest of the city. Nothing is accidental: every sightline, every skyline view is placed to impress. That is Type 3: a home as a stage, as visible proof of success that needs no explanation because it speaks for itself. The downside of this glass perfection: whoever is always representing often has no place left to simply be imperfect. Maturity for Type 3 arises when worth no longer depends on the impression the space makes, but rests within.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 – Gothic / Boho-Chic / Art Nouveau: Dramatic, Individual</h3>
+      ${img("architektur-4-jugendstil.jpg", "Art Nouveau facade with elaborate, individual details")}
+      <p class="vb-intro">Art Nouveau facades and Gothic buildings refuse repetition — every ornament is unique, every window tells its own small story, every detail carries expression rather than mere function. That is the deepest language of Type 4: a space must make one's own uniqueness visible, must carry meaning, history, feeling within it, or it remains empty. Dramatic colors, unusual shapes, gathered found objects — every element expresses an inner truth. The danger: a space so devoted to being special that it can never rest, never truly arrive. Maturity shows when the beauty remains without needing constant new drama to sustain it.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Brutalism / Tiny House: Self-Sufficient, Reduced to Essentials</h3>
+      ${img("architektur-5-brutalismus.jpg", "Brutalist concrete building with clear, massive forms")}
+      <p class="vb-intro">Raw, unclad concrete, honest in its materiality — Brutalism shows exactly what it is, without facade, without decoration that would distract from the essential. The Tiny House carries the same message: a space radically reduced to what is truly needed, self-sufficient, independent of unnecessary excess. That is Type 5: retreat into a protected, clearly bounded space in which every resource — time, energy, possessions — is consciously allotted so nothing is wasted. The downside: a space so devoted to self-sufficiency that it no longer lets others in. Maturity for Type 5 means opening one's own fortress to others now and then.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Fortress Architecture / Classic Brick Row Houses: Solid, Reliable</h3>
+      ${img("architektur-6-festung.jpg", "Massive fortress with thick stone walls")}
+      <p class="vb-intro">A fortress is built to withstand any attack — thick walls, few, well-controlled entrances, a place where one feels safe because one knows exactly what protects it. Classic brick row housing carries the same message on a more civic scale: solid construction that has held for generations and leaves nothing to chance. That is Type 6: security arises through structure, through reliability, through knowing what will hold in an emergency. A home that gives support because it has been tested and proven. The danger: walls so thick they also lock out trust. Maturity for Type 6 shows when security no longer comes only from outside, but from within as well.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 – Lofts / Glamping Architecture: Open, Playful, Bright</h3>
+      ${img("architektur-7-loft.jpg", "Open, bright loft with flowing transitions between spaces")}
+      <p class="vb-intro">A loft knows no fixed walls — kitchen, living, and work flow into one another, the space can always be used and experienced anew, nothing is ever final. Glamping architecture carries the same lightness outdoors: comfort without confinement, openness instead of limits, always the possibility of spontaneously moving on. That is Type 7: a space that keeps options open, that places light, air, and freedom of movement above fixed structure, because commitment feels like confinement. The downside: so much openness can also mean a real sense of home never settles in. Maturity for Type 7 arises when an open space also invites staying, not only moving on.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 – Industrial Style / Monumental Architecture: Massive, Imposing</h3>
+      ${img("architektur-8-industrial.jpg", "Industrial interior with exposed brick, steel, and large windows")}
+      <p class="vb-intro">Raw brick, exposed steel beams, massive window fronts — industrial style hides nothing of its power, it puts it on display. Monumental architecture goes further still: buildings that command respect purely through their scale, leaving no doubt about who commands the space. That is Type 8: a home as an expression of strength, unconcealed presence, control over one's own territory. Nothing is minimized or softened, every structure stays visible. The danger: a space so massive that vulnerability finds no place in it. Maturity for Type 8 shows when softness is allowed behind the strong facade.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – Organic Architecture (Hundertwasser/Steiner): Integrated into Nature</h3>
+      ${img("architektur-9-organisch.jpg", "Hundertwasser building with colorful, organically curved facade")}
+      <p class="vb-intro">Hundertwasser's buildings know no straight line, no right angle that would interrupt nature — facades grow like tree trunks, roofs carry soil and plants, the house becomes part of the landscape rather than a contradiction to it. That is exactly Type 9: a space that isn't asserted against its surroundings but merges with them, in which boundaries stay soft and permeable because harmony matters more than separation. Soft shapes, warm colors, no element pushing itself into the foreground. The downside: a house without clear contour can also mean its resident dissolves within it. Maturity for Type 9 arises when the organic softness remains, but one's own presence within it becomes clearly felt.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "In-depth type profiles and archetypal perspectives – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 subtypes, paths of healing, and the bigger picture – Volume 3 completing the trilogy.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"wetter-naturphaenomene-der-9-typen", label:"Weather and Nature Phenomena of the 9 Types"},
+        {route:"beziehungen", label:"Relationships of the 9 Types"},
+        {route:"arbeitsverhalten-der-9-typen", label:"Work Behavior of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
 function eulenartenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -40472,6 +40602,7 @@ function subtypeSchaubilderPage() {
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,
     "wetter-naturphaenomene-der-9-typen": wetterNaturphaenomeneDer9TypenPage,
+    "architektur-raumgestaltung-der-9-typen": architekturRaumgestaltungDer9TypenPage,
     "baerenarten-der-9-typen": baerenarteDer9TypenPage,
     "milchkuharten-der-9-typen": milchkuhartenDer9TypenPage,
     "vogelarten-der-9-typen": vogelartenDer9TypenPage,

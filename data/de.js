@@ -5264,6 +5264,7 @@ export const uiText = {
         { route: "superpower-der-9-typen", label: "Superpower der 9 Typen" },
         { route: "wolkenformationen-der-9-typen", label: "Wolkenformationen der 9 Typen" },
         { route: "wetter-naturphaenomene-der-9-typen", label: "Wetter- und Naturphänomene der 9 Typen" },
+        { route: "architektur-raumgestaltung-der-9-typen", label: "Architektur & Raumgestaltung der 9 Typen" },
         { route: "wolfsarten-der-9-typen", label: "Wolfsarten der 9 Typen" },
         { route: "eulenarten-der-9-typen", label: "Eulenarten der 9 Typen" },
         { route: "papageienarten-der-9-typen", label: "Papageienarten der 9 Typen" },
