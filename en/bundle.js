@@ -1,4 +1,4 @@
-import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-wetter-v1";
+import { architectureAreas, knowledgePrototype, libraryItems, subtypeProfiles, subtypeDetails, werkRegister, uiText, remedyGlossary, aetherischeOele, tcmData, tcmElemente, kindheitstraumata } from "../data/de.js?v=2026-07-31-cloudinary-v1";
 import { TYP_IMPULSE, TYP_IMPULSE_EN, SUBTYP_IMPULSE } from "../data/impulse.js?v=3";
 import { TAGESIMPULSE_EN } from "../data/tagesimpulse_en.js?v=1";
 import { TRIADEN, TYPFRAGEN, TYPNAMEN, TYPKURZ, INSTINKTE } from "../data/typentest.js?v=1";
@@ -2432,27 +2432,27 @@ function leseprobePage() {
       <p style="font-size:0.92rem;color:var(--muted);margin:0 0 1.2rem;line-height:1.6;">Hundreds of illustrated overviews make the invisible visible &ndash; from the fundamental structures of personality to body, energy and life themes.</p>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:.5rem;">
         <div data-route="symmetrie-des-enneagramms" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/symmetrie-des-enneagramms.jpg" alt="Symmetrie des Enneagramms" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="../assets/symmetrie-des-enneagramms.jpg" alt="Symmetrie des Enneagramms" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Symmetrie des Enneagramms &#8594;</div>
         </div>
         <div data-route="koerperregulation" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/koerperregulation.jpg" alt="Body Regulation" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="../assets/koerperregulation.jpg" alt="Body Regulation" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Enneagram &amp; Body Regulation &#8594;</div>
         </div>
         <div data-route="enneagramm-profiling" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/enneagramm-profiling.jpg" alt="Enneagram Profiling" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="../assets/enneagramm-profiling.jpg" alt="Enneagram Profiling" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Enneagram Profiling &#8594;</div>
         </div>
         <div data-route="wunden" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/wunden.jpg" alt="Wunden & Schutzstrategien" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="../assets/wunden.jpg" alt="Wunden & Schutzstrategien" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Wunden & Schutzstrategien &#8594;</div>
         </div>
         <div data-route="bedeutung-27-subtypen" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/bedeutung-27-subtypen.jpg" alt="Bedeutung der 27 Subtypes" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="../assets/bedeutung-27-subtypen.jpg" alt="Bedeutung der 27 Subtypes" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">Bedeutung der 27 Subtypes &#8594;</div>
         </div>
         <div data-route="neun-logismoi" style="cursor:pointer;border-radius:10px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12);">
-          <img src="${CDN}assets/neun-logismoi.jpg" alt="9 Logismoi nach Evagrius Ponticus" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
+          <img src="../assets/neun-logismoi.jpg" alt="9 Logismoi nach Evagrius Ponticus" style="width:100%;display:block;aspect-ratio:4/3;object-fit:cover;" />
           <div style="padding:.5rem .7rem;background:var(--ivory);font-size:0.78rem;font-weight:600;color:var(--ink);">9 Logismoi nach Evagrius &#8594;</div>
         </div>
       </div>
@@ -2466,7 +2466,7 @@ function leseprobePage() {
 
       <div style="background:var(--ivory);border:1px solid var(--border);border-radius:12px;padding:1.25rem 1.4rem;margin-bottom:.5rem;">
         <div style="display:flex;align-items:center;gap:1rem;margin-bottom:1rem;">
-          <img src="${CDN}assets/se1-adler.jpg" alt="SP1 Adler" style="width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />
+          <img src="../assets/se1-adler.jpg" alt="SP1 Adler" style="width:72px;height:72px;border-radius:50%;object-fit:cover;border:2px solid var(--gold);" />
           <div>
             <p style="margin:0;font-size:0.72rem;letter-spacing:.1em;text-transform:uppercase;color:var(--copper);">Self-Preservation One</p>
             <p style="margin:.2rem 0 0;font-size:1.15rem;font-family:'EB Garamond',serif;font-weight:700;color:var(--ink);">The Eagle</p>
@@ -2521,7 +2521,7 @@ function leseprobePage() {
       <div style="border-top:1px solid var(--border);margin:1.5rem 0;"></div>
       <h2 style="font-family:'EB Garamond',serif;font-size:1.35rem;color:var(--ink);margin:0 0 .4rem;">Philosophische Tiefe</h2>
       <div data-route="schopenhauer-zitat" style="cursor:pointer;display:flex;gap:1rem;align-items:center;background:var(--ivory);border-radius:12px;padding:1rem 1.2rem;border:1px solid var(--border);margin-bottom:1.8rem;">
-        <img src="${CDN}assets/schopenhauer-zitat.png" alt="Schopenhauer" style="width:68px;height:68px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
+        <img src="../assets/schopenhauer-zitat.png" alt="Schopenhauer" style="width:68px;height:68px;border-radius:8px;object-fit:cover;flex-shrink:0;" />
         <div>
           <p style="margin:0 0 .3rem;font-size:0.78rem;font-weight:600;color:var(--copper);">Charts &ndash; Philosophy & Enneagram</p>
           <p style="margin:0 0 .3rem;font-size:0.95rem;font-family:'EB Garamond',serif;color:var(--ink);">We cannot want what we want</p>
@@ -4457,7 +4457,7 @@ function libraryPage() {
         <p>${copy.formulaText}</p>
       </div>
       <figure>
-        <img src="${CDN}assets/grundformel-rathmer-enneagramm.jpg" alt="${copy.formulaAlt}" />
+        <img src="../assets/grundformel-rathmer-enneagramm.jpg" alt="${copy.formulaAlt}" />
       </figure>
     </section>
     <section class="narrow" style="margin-top:0;padding-top:0;">
@@ -11231,7 +11231,7 @@ function heilungswegPage() {
       <h1 class="section-title">The Human Path of Healing</h1>
       <p class="psycho-intro">This overview shows the path of healing according to the Enneagram-Homeopathy model by Detlef Rathmer: from the unconscious pattern through the realization of the passion to integration and healing.</p>
       <div class="psycho-img-wrap" style="margin:1.2rem 0 2.5rem;">
-        <img src="${CDN}assets/schaubilder/heilungsweg/heilungsweg.jpg"
+        <img src="../assets/schaubilder/heilungsweg/heilungsweg.jpg"
              alt="The Human Path of Healing According to Enneagram-Homeopathy"
              class="psycho-img" style="border-radius:12px;" />
       </div>
@@ -11311,7 +11311,7 @@ function kindlicheTemperamentePage() {
       <h1>The Nine Childhood Temperaments</h1>
       <p class="lead-small">The Chess & Thomas study (New York Longitudinal Study, from 1956 onwards) investigated childhood temperaments from birth independently of the Enneagram. It shows that these fundamental dispositions are innate and are reflected in the nine Enneagram types.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/kindliche-temperamente/temperamente.jpg"
+        <img src="../assets/schaubilder/kindliche-temperamente/temperamente.jpg"
              alt="The nine childhood temperaments according to Chess & Thomas"
              class="psycho-img" />
       </div>
@@ -11337,7 +11337,7 @@ function kindheitsperspektivenPage() {
       <h1>Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit</h1>
       <p class="lead-small">How did each Enneagram type experience their childhood? This overview shows the typical childhood perspectives &mdash; the formative subjective perceptions that deeply influence later thinking, feeling, and behavior.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/kindheitsperspektiven/kindheitsperspektiven.jpg"
+        <img src="../assets/schaubilder/kindheitsperspektiven/kindheitsperspektiven.jpg"
              alt="Die subjektiven Wahrnehmungen der 9 Enneagrammtypen in ihrer Kindheit"
              class="psycho-img" />
       </div>
@@ -11359,7 +11359,7 @@ function kerneberzeugungPage() {
       <h1>The Deepest Core Beliefs of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type carries an often unconscious core belief about themselves and the world &ndash; it arose in childhood and has governed thinking, feeling, and acting ever since. This overview shows the core belief of each of the 9 types in connection with the triad structure.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
+        <img src="../assets/schaubilder/kerneberzeugungen/kerneberzeugungen.jpg"
              alt="Die tiefsten Kernüberzeugungen der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -11381,7 +11381,7 @@ function lebensgluckPage() {
       <h1>True Life Happiness</h1>
       <p class="lead-small">Where will the 9 Enneagram types find their true happiness in life? Not on the outside &ndash; but right where the deepest longing of each type is truly at home: within themselves.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/lebensgluck/lebensgluck.jpg"
+        <img src="../assets/schaubilder/lebensgluck/lebensgluck.jpg"
              alt="True life happiness &ndash; where the 9 Enneagram types find it"
              class="psycho-img" />
       </div>
@@ -11407,7 +11407,7 @@ function basisemotionenPage() {
       <h1>Avoidance of the Basic Emotions</h1>
       <p class="lead-small">Every human being suppresses certain emotions &ndash; not out of weakness, but because they are not socially accepted. Every Enneagram type develops characteristic psychological defense mechanisms for this purpose. What must not be felt manifests itself: illnesses and symptoms are often the expression of unexpressed emotions.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/basisemotionen/basisemotionen.jpg"
+        <img src="../assets/schaubilder/basisemotionen/basisemotionen.jpg"
              alt="The avoidance of the basic emotions of the 9 Enneagram types"
              class="psycho-img" />
       </div>
@@ -11443,7 +11443,7 @@ function intrinsischesVerlangenPage() {
       <h1>Intrinsic Desire</h1>
       <p class="lead-small">What do the 9 Enneagram types strive for internally (mostly unconsciously)? This overview shows the deep intrinsic desire behind each type &ndash; and why searching for it externally ultimately leads nowhere.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/intrinsisches-verlangen/intrinsisches-verlangen.jpg"
+        <img src="../assets/schaubilder/intrinsisches-verlangen/intrinsisches-verlangen.jpg"
              alt="The intrinsic desire of the 9 Enneagram types"
              class="psycho-img" />
       </div>
@@ -11469,7 +11469,7 @@ function frustrationenPage() {
       <h1>Frustrations of the 9 Enneagram Types</h1>
       <p class="lead-small">Why are the 9 Enneagram types frustrated and demotivated? The answer is simpler than you think: Every type searches externally for what they can only find internally.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/frustrationen/frustrationen.jpg"
+        <img src="../assets/schaubilder/frustrationen/frustrationen.jpg"
              alt="Why the 9 Enneagram types are frustrated and demotivated"
              class="psycho-img" />
       </div>
@@ -11494,7 +11494,7 @@ function horneyTriadenPage() {
       <h1 class="section-title">Horney Triads and Subtypes</h1>
       <p class="psycho-intro">This overview combines two highly compatible levels of personality diagnostics: the Horney triads as fundamental directions of human movement toward the world, and the instinctual subtypes as life-fields in which this movement becomes concretely visible. Together, they form a nuanced, observable map that is extremely helpful in profiling.</p>
 
-      <img src="${CDN}assets/horney-triaden-subtypen.jpg" alt="Horney Triads and Subtypes"
+      <img src="../assets/horney-triaden-subtypen.jpg" alt="Horney Triads and Subtypes"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;" />
 
       <div class="vb-section" style="max-width:100%;">
@@ -11612,7 +11612,7 @@ function illusionenPage() {
       <h1>Illusions of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type lives according to a characteristic illusion &mdash; an unconscious delusion that governs life. What the type experiences as desirable is in reality a private reality that keeps them trapped.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/illusionen/illusionen.jpg"
+        <img src="../assets/schaubilder/illusionen/illusionen.jpg"
              alt="The delusional illusions of the 9 Enneagram types"
              class="psycho-img" />
       </div>
@@ -11637,14 +11637,14 @@ function schutzdefizitePage() {
       <h1>Schutz-Defizite der Triaden</h1>
       <p class="lead-small">The gut, heart, and head triads each carry a characteristic protection deficit: the gut triad fears restriction, the heart triad loss of love, the head triad loss of trust. These unconscious deficits shape the behavior of all three types within a triad.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/schutzdefizite/schutzdefizite.jpg"
+        <img src="../assets/schaubilder/schutzdefizite/schutzdefizite.jpg"
              alt="Die Schutz-Defizite der Bauch-, Herz- und Kopftriade"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Type Is Protection, Not Identity</h2>
         <img
-          src="${CDN}assets/schutz.jpg"
+          src="../assets/schutz.jpg"
           alt="Type is protection, not identity. Patterns arise where freedom was once wounded."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -11673,7 +11673,7 @@ function lasterTugendenAffirmationenPage() {
       <h1>Laster, Tugenden & Affirmationen der 9 Enneagrammtypen</h1>
       <p class="lead-small">Every Enneagram type has a characteristic vice (the concentrated passion) and a virtue as its healing counterpart. The affirmations speak directly to the deepest need of each type.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
+        <img src="../assets/schaubilder/laster-tugenden-affirmationen/laster-tugenden-affirmationen.jpg"
              alt="Vices, Virtues, and Affirmations of the 9 Enneagram Types"
              class="psycho-img" />
       </div>
@@ -11692,7 +11692,7 @@ function lasterTugendenAffirmationenPage() {
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">The Virtue Is Already There</h2>
         <img
-          src="${CDN}assets/tugend.jpg"
+          src="../assets/tugend.jpg"
           alt="The type's virtue is already there – it is just covered by fear."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -11719,7 +11719,7 @@ function spirituelleUebungenPage() {
       <h1>Special Spiritual Exercises for the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type has their own spiritual longing &mdash; and thus also their own spiritual practice. This overview shows which inner movement carries each type on their path to self-knowledge.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
+        <img src="../assets/schaubilder/spirituelle-uebungen/spirituelle-uebungen.jpg"
              alt="Spezielle spirituelle Übungen für die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -12206,7 +12206,7 @@ function berühmteKomponistenPage() {
       <p class="lead-small">Nine Enneagram types &mdash; nine soundscapes. This chart assigns the most famous composers in music history to their Enneagram types and subtypes, showing: as a person feels, so their music sounds. From the divine-paternal strictness of Johann Sebastian Bach (SX1) and the romantically consuming longing of Frédéric Chopin (SX5) to the ego-free, sibling-like, accepting love of Johannes Brahms (SP9).</p>
 
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/beruhmte-komponisten/beruhmte-komponisten.jpg"
+        <img src="../assets/schaubilder/beruhmte-komponisten/beruhmte-komponisten.jpg"
              alt="Berühmte Komponisten im Enneagramm"
              class="psycho-img" />
       </div>
@@ -12237,7 +12237,7 @@ function dasEventPage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.5rem;">Before the Event</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">Nine types stand in front of the mirror &ndash; and have nine very different thoughts. One worries about the red wine selection. Five would actually rather read their book. Six quickly checks the windows and the cat. And Seven naturally already has an emergency plan in case the mood sours.</p>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/das-event/vor-dem-event.jpg"
+          <img src="../assets/schaubilder/das-event/vor-dem-event.jpg"
                alt="Die 9 Enneagrammtypen vor dem Event"
                class="psycho-img" />
         </div>
@@ -12247,7 +12247,7 @@ function dasEventPage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.5rem;">At the Event</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">All nine sit at the round table &ndash; and experience the same evening in nine completely different ways. Two passes around appetizers. Eight takes charge. Four finds everyone ordinary. Nine feels at one with the world. And Six already has an emergency plan in case the food isn't enough &ndash; while the cat knows its place at home.</p>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/das-event/auf-dem-event.jpg"
+          <img src="../assets/schaubilder/das-event/auf-dem-event.jpg"
                alt="Die 9 Enneagrammtypen auf dem Event"
                class="psycho-img" />
         </div>
@@ -12257,7 +12257,7 @@ function dasEventPage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.5rem;">After the Event</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">Back home. One hopes not to have offended anyone. Five reaches for a book with relief. Six takes a deep breath within their own four walls. Eight pushed back during the debate &ndash; and is satisfied. Harry (Type 7) hasn't found his way home yet and is probably still painting the town red.</p>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/das-event/nach-dem-event.jpg"
+          <img src="../assets/schaubilder/das-event/nach-dem-event.jpg"
                alt="Die 9 Enneagrammtypen nach dem Event"
                class="psycho-img" />
         </div>
@@ -12352,7 +12352,7 @@ function weihnachtsgeschenkePage() {
       <h1>Die 9 Geschenke der Enneagrammtypen an die Welt</h1>
       <p class="lead-small">Each of the 9 Enneagram types brings a unique gift &mdash; a special contribution they naturally carry into the world. This festive overview shows what each type has to give to the world.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
+        <img src="../assets/schaubilder/weihnachtsgeschenke/weihnachtsgeschenke.jpg"
              alt="Die 9 Enneagrammtypen und ihre Geschenke an die Welt"
              class="psycho-img" />
       </div>
@@ -12360,7 +12360,7 @@ function weihnachtsgeschenkePage() {
         <h2 style="font-size:1.25rem;font-weight:700;margin-bottom:.6rem;">Christmas Wishes to All 9 Enneagram Types</h2>
         <p class="lead-small" style="margin-bottom:1.2rem;">At Christmas, the mask may finally fall. This heartfelt wish is addressed to each of the 9 types &mdash; with an invitation to let go of oneself a little.</p>
         <div class="psycho-img-wrap">
-          <img src="${CDN}assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
+          <img src="../assets/schaubilder/weihnachtsgeschenke/weihnachtswuensche.jpg"
                alt="Weihnachtswünsche an alle 9 Enneagrammtypen"
                class="psycho-img" />
         </div>
@@ -12393,7 +12393,7 @@ function wahrnehmungsstilePage() {
       <h1>The 9 Perception Styles</h1>
       <p class="lead-small">Every Enneagram type wears their own pair of glasses &ndash; a 40-degree angle on the world, shaped by their passion and motivation. This overview shows all 9 universal perspectives at a glance.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/wahrnehmungsstile/wahrnehmungsstile.jpg"
+        <img src="../assets/schaubilder/wahrnehmungsstile/wahrnehmungsstile.jpg"
              alt="The 9 universal perception styles of the Enneagram types"
              class="psycho-img" />
       </div>
@@ -12418,7 +12418,7 @@ function bedrohungsszenarienPage() {
       <h1>Threat Scenarios of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type reacts to very specific threat scenarios &mdash; situations that touch their deepest core fear. This overview symbolically shows what threatens and drives each of the 9 types at their core.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/bedrohungsszenarien/bedrohungsszenarien.jpg"
+        <img src="../assets/schaubilder/bedrohungsszenarien/bedrohungsszenarien.jpg"
              alt="Threat scenarios of the 9 Enneagram types"
              class="psycho-img" />
       </div>
@@ -12443,7 +12443,7 @@ function dialektischeStrukturPage() {
       <h1>The Dialectic Structure of the Three Psychological Triads of the Enneagram</h1>
       <p class="lead-small">Each of the 9 Enneagram types results from a &bdquo;dialectic&ldquo; consisting of thesis, antithesis, and synthesis of the psychological traits of its triad. In each triad, one of the types will <strong>overdevelop</strong> this characteristic trait, while one will <strong>underdevelop</strong> it, and the third will <strong>lose</strong> connection to it.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/dialektische-struktur/dialektische-struktur.jpg"
+        <img src="../assets/schaubilder/dialektische-struktur/dialektische-struktur.jpg"
              alt="The Dialectic Structure of the Three Psychological Triads of the Enneagram"
              class="psycho-img" />
       </div>
@@ -12478,7 +12478,7 @@ function bewaeltigungsstrategiePage() {
       <h1>The Coping Strategy Triads of the Enneagram</h1>
       <p class="lead-small">The Enneagram recognizes three fundamental coping triads &mdash; the expert, optimist, and intensity triads. For each primary type (the types on the equilateral triangle 3&middot;6&middot;9), there are two secondary types that appear very similar in their coping style and therefore frequently lead to confusion.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/bewaeltigungsstrategie/bewaeltigungsstrategie.jpg"
+        <img src="../assets/schaubilder/bewaeltigungsstrategie/bewaeltigungsstrategie.jpg"
              alt="The Coping Strategy Triads of the Enneagram"
              class="psycho-img" />
       </div>
@@ -12513,7 +12513,7 @@ function verbaleSignalePage() {
       <h1>Verbal Signals of the 9 Enneagram Types</h1>
       <p class="lead-small">How does each Enneagram type speak? Verbal signals &mdash; choice of words, sentence structure, speech rhythm &mdash; are valuable typing factors. This overview shows the characteristic verbal patterns of all 9 types.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/verbale-signale/verbale-signale.jpg"
+        <img src="../assets/schaubilder/verbale-signale/verbale-signale.jpg"
              alt="Verbal signals of the 9 Enneagram types"
              class="psycho-img" />
       </div>
@@ -12549,7 +12549,7 @@ function naehePage() {
       <h1 class="section-title">Intimacy</h1>
       <p class="psycho-intro">Intimacy does not arise from shared interests or external harmony. It arises at a far more subtle point: where we begin to look behind a person's behavior. The Enneagram opens up precisely this view &mdash; and enables encounters at a new depth.</p>
       <img
-        src="${CDN}assets/naehe.png"
+        src="../assets/naehe.png"
         alt="Intimacy &ndash; Chart"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;"
       />
@@ -12617,7 +12617,7 @@ function nonverbaleSignalePage() {
       <h1>Nonverbal Signals of the 9 Enneagram Types</h1>
       <p class="lead-small">Body language, facial expressions, gestures, and posture reveal a lot about a person's Enneagram type. This overview shows the typical nonverbal signals of all 9 types as additional typing factors.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/nonverbale-signale/nonverbale-signale.jpg"
+        <img src="../assets/schaubilder/nonverbale-signale/nonverbale-signale.jpg"
              alt="Nonverbal signals of the 9 Enneagram types"
              class="psycho-img" />
       </div>
@@ -12653,14 +12653,14 @@ function egoPersoenlichkeitPage() {
       <h1>The Development of the Ego Personality of the 9 Enneagram Types</h1>
       <p class="lead-small">The 9 Enneagram types fundamentally possess a specific ego personality structure that implicitly contains a fundamental mistrust toward reality. Due to the failure of the holding environment, the child already lacks basic trust &ndash; which leads to a disconnection from Being and to the activation of the ego, within which the person learns to feel &bdquo;safe.&ldquo; The Enneagram points out the different variations of how the ego of the individual types develops to cope with the shocks, fractures, and disruptions of the holding environment.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg"
+        <img src="../assets/schaubilder/ego-persoenlichkeit/ego-persoenlichkeit.jpg"
              alt="Die Entwicklung der Ego-Persönlichkeit der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">The Ego in Motion &ndash; and the Space Behind It</h2>
         <img
-          src="${CDN}assets/ego-in-bewegung.jpg"
+          src="../assets/ego-in-bewegung.jpg"
           alt="The type is the ego in motion. Essence is the space in which it moves."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -12687,7 +12687,7 @@ function dreiZentrenPage() {
       <h1>Die drei Intelligenzzentren der 9 Enneagrammtypen</h1>
       <p class="lead-small">Head, heart, and gut &mdash; each Enneagram type uses these three intelligence centers in their own way. This overview shows how their usage differs at worst and at best.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/drei-zentren/drei-zentren.jpg"
+        <img src="../assets/schaubilder/drei-zentren/drei-zentren.jpg"
              alt="Die drei Intelligenzzentren der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -12712,7 +12712,7 @@ function zentrenWeltwahrnehmungPage() {
       <h1>Perceiving the World Through the Three Intelligence Centers</h1>
       <p class="lead-small">How do the 9 Enneagram types perceive the world &mdash; within their three intelligence centers? This overview shows reactions in both a positive and negative sense, as well as the three intelligence center pyramids.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/zentren-weltwahrnehmung/zentren-weltwahrnehmung.jpg"
+        <img src="../assets/schaubilder/zentren-weltwahrnehmung/zentren-weltwahrnehmung.jpg"
              alt="Perceiving the world through the three intelligence centers"
              class="psycho-img" />
       </div>
@@ -12754,7 +12754,7 @@ function energetischeBewegungPage() {
       <h1>The Energetic Movement of the 9 Enneagram Types in Relationships</h1>
       <p class="lead-small">Every Enneagram type moves in relationships in a characteristic way: fight, flight, or deception &mdash; these three fundamental energetic movements shape how the 9 types react to intimacy, conflict, and connection.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/energetische-bewegungen/energetische-bewegungen.jpg"
+        <img src="../assets/schaubilder/energetische-bewegungen/energetische-bewegungen.jpg"
              alt="The energetic movement of the 9 Enneagram types in relationships"
              class="psycho-img" />
       </div>
@@ -12777,7 +12777,7 @@ function lookalikeTypenPage() {
       <h1>Lookalike Types in the Enneagram</h1>
       <p class="lead-small">Some Enneagram types look strikingly similar — even though they are not connected by wings or integration lines. This overview shows the most important so-called lookalike types and aids differentiation.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
+        <img src="../assets/schaubilder/lookalike-typen/lookalike-typen.jpg"
              alt="Lookalike-Typen im Enneagramm"
              class="psycho-img" />
       </div>
@@ -12799,7 +12799,7 @@ function befreiendeFragenPage() {
       <h1>Befreiende Fragen an die 9 Enneagrammtypen</h1>
       <p class="lead-small">What would your life look like if you recognized...? These questions are directed at the healing potential of each Enneagram type &mdash; they invite you to let go of limiting beliefs and discover a liberated life within the framework of your own type.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg"
+        <img src="../assets/schaubilder/befreiende-fragen/befreiende-fragen.jpg"
              alt="Befreiende Fragen an die 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -12826,7 +12826,7 @@ function zentraleFragenPage() {
       <h1>The Central Questions of the 9 Enneagram Types</h1>
       <p class="lead-small">The central questions bring the recurring inner themes of each Enneagram type into awareness. They help you recognize your own patterns — as a first step toward healing and growth.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/zentrale-fragen/zentrale-fragen.jpg"
+        <img src="../assets/schaubilder/zentrale-fragen/zentrale-fragen.jpg"
              alt="The Central Questions of the 9 Enneagram Types"
              class="psycho-img" />
       </div>
@@ -12857,7 +12857,7 @@ function fuehrungsstilePage() {
       <h1>The Leadership Styles of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type leads in their own unique way &mdash; shaped by their passion, strengths, and blind spot. This overview shows the typical leadership styles of the 9 types from their own perspective.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
+        <img src="../assets/schaubilder/fuehrungsstile/fuehrungsstile.jpg"
              alt="Die Führungsstile der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -13121,7 +13121,7 @@ function tierentsprechungenPage() {
       <h1 class="section-title">Tierentsprechungen der 27 Subtypes</h1>
       <p class="psycho-intro">Characteristic animals are assigned to each of the 27 subtypes, whose nature, behavior, and survival strategies mirror the respective subtype. The image shows the visual overview; the table below systematically lists all correspondences by type and instinct (SP &middot; SO &middot; SX).</p>
       <img
-        src="${CDN}assets/tierentsprechungen-kreis.jpg"
+        src="../assets/tierentsprechungen-kreis.jpg"
         alt="Tierentsprechungen Enneagramm-Kreis"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
@@ -13138,7 +13138,7 @@ function tierentsprechungenPage() {
         </p>
       </div>
       <img
-        src="${CDN}assets/tierentsprechungen-portraits.png"
+        src="../assets/tierentsprechungen-portraits.png"
         alt="Tierportr\xe4ts aller 27 Enneagramm-Subtypes"
         style="width:100%;border-radius:12px;margin-bottom:1.8rem;display:block;"
       />
@@ -13388,7 +13388,7 @@ function obstsortPage() {
       <h1 class="section-title">Die 9 Obstsorten</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what every fruit reveals about the core essence of a type.</p>
       <img
-        src="${CDN}assets/obstsorten.jpg"
+        src="../assets/obstsorten.jpg"
         alt="Die 9 Obstsorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -13442,7 +13442,7 @@ function gemuesesortenPage() {
       <h1 class="section-title">The 9 Vegetable Varieties</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each vegetable reveals about the core essence of a type.</p>
       <img
-        src="${CDN}assets/gemuesesorten.jpg"
+        src="../assets/gemuesesorten.jpg"
         alt="Die 9 Gem\xfcse &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -13496,7 +13496,7 @@ function weinsortenPage() {
       <h1 class="section-title">Die 9 Weinsorten</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each wine variety reveals about the core essence of a type.</p>
       <img
-        src="${CDN}assets/weinsorten.jpg"
+        src="../assets/weinsorten.jpg"
         alt="Die 9 Weinsorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -13550,7 +13550,7 @@ function brotsortenPage() {
       <h1 class="section-title">Die 9 Brotsorten</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each bread variety reveals about the core essence of a type.</p>
       <img
-        src="${CDN}assets/brotsorten.jpg"
+        src="../assets/brotsorten.jpg"
         alt="Die 9 Brotsorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -13604,7 +13604,7 @@ function kaesesortenPage() {
       <h1 class="section-title">The 9 Cheese Varieties</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each cheese variety reveals about the core essence of a type.</p>
       <img
-        src="${CDN}assets/kaesesorten.jpg"
+        src="../assets/kaesesorten.jpg"
         alt="Die 9 K\xe4sesorten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -29685,7 +29685,7 @@ function tedBundyPortraitPage() {
       <div id="js-back-target" data-route="kriminalpsychologie" style="display:none;"></div>
       <div class="krim-portrait-wrap">
         <div class="krim-portrait-frame">
-          <img src="${CDN}assets/ted-bundy-portrait-neu.png" alt="Ted Bundy – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
+          <img src="../assets/ted-bundy-portrait-neu.png" alt="Ted Bundy – Bleistiftzeichnung" class="krim-portrait-img" loading="lazy" />
         </div>
         <p class="krim-portrait-name">Ted Bundy</p>
         <p class="krim-portrait-typ">SO1w9 · Social Type 1 with Nine-wing</p>
@@ -29790,7 +29790,7 @@ function hauptfokusBewusstseinsDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hauptfokus des Bewusstseins der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Every Enneagram type has a characteristic focus of consciousness &ndash; a kind of inner camera lens that is automatically aligned with very specific topics, questions, and perceptions. What one person sees immediately, another overlooks entirely. This focus is the core of each respective type.</p>
-      <img src="${CDN}assets/hauptfokus-des-bewusstseins-der-9-typen.jpg" alt="Main Focus of Consciousness of the 9 Enneagram Types – Chart"
+      <img src="../assets/hauptfokus-des-bewusstseins-der-9-typen.jpg" alt="Main Focus of Consciousness of the 9 Enneagram Types – Chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -29845,7 +29845,7 @@ function abwehrverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Psychologisches Abwehrverhalten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Every Enneagram type has a characteristic psychological defense behavior &ndash; an unconscious protective mechanism that prevents them from seeing their own type clearly. They idealize a certain self-image, avoid a certain experience, and employ a specific defense mechanism to achieve this.</p>
-      <img src="${CDN}assets/psychologisches-abwehrverhalten-der-9-typen.jpg" alt="Das psychologische Abwehrverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/psychologisches-abwehrverhalten-der-9-typen.jpg" alt="Das psychologische Abwehrverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30349,7 +30349,7 @@ function heilfastenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Heilfasten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">A nine-day therapeutic fast can be viewed as a transformative experience within the process model of the Enneagram, interacting in various ways with the nine Enneagram principles. Each day of fasting carries the distinct quality of another principle.</p>
-      <img src="${CDN}assets/heilfasten-der-9-typen.jpg" alt="Neuntägige Fastenerfahrung im Rahmen des Enneagramm-Prozessmodells – Schaubild"
+      <img src="../assets/heilfasten-der-9-typen.jpg" alt="Neuntägige Fastenerfahrung im Rahmen des Enneagramm-Prozessmodells – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30406,7 +30406,7 @@ function psychologischeVerhaltensmuster9TypenPage() {
     <div class="page-container">
       ${pageHeader("Psychologische Verhaltensmuster der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">These psychological behavioral patterns are deeply rooted in the personality and influence how each of the 9 types thinks, feels, and acts. The circle diagram assigns the types to their three triads: <strong>Gut Triad</strong> (Types 8, 9, 1), <strong>Heart Triad</strong> (Types 2, 3, 4), and <strong>Head Triad</strong> (Types 5, 6, 7).</p>
-      <img src="${CDN}assets/psychologische-verhaltensmuster-der-9-typen.jpg" alt="Psychologische Verhaltensmuster der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/psychologische-verhaltensmuster-der-9-typen.jpg" alt="Psychologische Verhaltensmuster der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30457,7 +30457,7 @@ function frisurenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Frisuren der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Hair speaks too. If you know what to look for, you can often read a surprising amount about the wearer's Enneagram type from the style of a haircut &ndash; its grooming, its strictness or looseness, how much or how little it stands out.</p>
-      <img src="${CDN}assets/frisuren-der-9-typen.jpg" alt="Typische Frisuren der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/frisuren-der-9-typen.jpg" alt="Typische Frisuren der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30508,7 +30508,7 @@ function auffaelligeMerkmale9TypenPage() {
     <div class="page-container">
       ${pageHeader("Auffällige körperliche Merkmale der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The resonance principle &bdquo;as within, so without&ldquo; assumes that our outer reality is a mirror image of our inner states &ndash; also called the &bdquo;law of mirrors.&ldquo; Every Enneagram type carries its inner nature outward in a very characteristic way: in facial features, gaze, gestures, and body posture.</p>
-      <img src="${CDN}assets/auffaellige-merkmale-der-9-typen.jpg" alt="Auffällige körperliche Merkmale der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/auffaellige-merkmale-der-9-typen.jpg" alt="Auffällige körperliche Merkmale der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30562,7 +30562,7 @@ function haendedruckeDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Händedrücke der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Each Enneagram type possesses a certain expression of life due to its Enneagram personality, which can manifest, among other things, in the characteristic expression of its handshake.</p>
-      <img src="${CDN}assets/haendedrucke-der-9-typen.jpg" alt="Die Händedrücke der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/haendedrucke-der-9-typen.jpg" alt="Die Händedrücke der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30616,7 +30616,7 @@ function suchtverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Suchtverhalten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Everyone knows patterns that repeat &mdash; behaviors you reach for when the pressure becomes too great or the inner emptiness makes itself felt. The Enneagram shows which type-specific addictive structures lie behind these patterns.</p>
-      <img src="${CDN}assets/suchtverhalten-der-9-typen.jpg" alt="Das Suchtverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/suchtverhalten-der-9-typen.jpg" alt="Das Suchtverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30670,7 +30670,7 @@ function niesverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Niesverhalten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Through sneezing, the body primarily performs a physical, and in the background an energetic, self-cleansing. This releases physical and psychological blockages, allowing energy to flow better overall. Frequent sneezing sometimes also brings about a certain reset. The different Enneatypes react very differently to the involuntary, unexpected sneeze reflex, which leads to the explosive expulsion of air through the nose, often simultaneously through the mouth.</p>
-      <img src="${CDN}assets/niesverhalten-der-9-typen.jpg" alt="Das Niesverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/niesverhalten-der-9-typen.jpg" alt="Das Niesverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30724,7 +30724,7 @@ function essverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Essverhalten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">What and how we eat is rarely just a matter of taste. It reflects our inner structure, our fears, our longings—and our Enneagram type. Every type brings its own distinct attitude toward food to the table.</p>
-      <img src="${CDN}assets/essverhalten-der-9-typen.jpg" alt="Das Essverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/essverhalten-der-9-typen.jpg" alt="Das Essverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30778,7 +30778,7 @@ function arbeitsverhalteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Arbeitsverhalten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">How someone works reveals almost everything about their Enneagram type: what drives them, what holds them back, how they behave in a team, what causes conflict. Every type brings its own distinct energy to the workplace.</p>
-      <img src="${CDN}assets/arbeitsverhalten-der-9-typen.jpg" alt="Das Arbeitsverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/arbeitsverhalten-der-9-typen.jpg" alt="Das Arbeitsverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30832,7 +30832,7 @@ function verhaeltnisZuGeldDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Verhältnis zu Geld der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Money is never just money &ndash; it is a mirror. What we do with it, how we hold onto it or let it go, whether it frightens us or inspires us: all of this reveals something about our Enneagram type. Each type brings its own patterns, fears, and longings into the handling of money.</p>
-      <img src="${CDN}assets/verhaeltnis-zu-geld-der-9-typen.jpg" alt="Das Verhältnis zu Geld der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/verhaeltnis-zu-geld-der-9-typen.jpg" alt="Das Verhältnis zu Geld der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30886,7 +30886,7 @@ function sexualverhaltenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Sexualverhalten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The famous Enneagram teacher Claudio Naranjo studied sexual behavior in the context of the Enneagram types. Each type brings its own characteristic patterns, fears, and longings into its sexual behavior.</p>
-      <img src="${CDN}assets/sexualverhalten-der-9-typen.jpg" alt="Das Sexualverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/sexualverhalten-der-9-typen.jpg" alt="Das Sexualverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30940,7 +30940,7 @@ function kussverhaltenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Kussverhalten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The famous Enneagram teacher Claudio Naranjo once developed an interesting perspective on kissing behavior in the context of the Enneagram types during a seminar in Berkeley, California, in the 1980s. According to Naranjo, a person's kissing behavior can provide insight into their Enneagram type.</p>
-      <img src="${CDN}assets/kussverhalten-der-9-typen.jpg" alt="Das Kussverhalten der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/kussverhalten-der-9-typen.jpg" alt="Das Kussverhalten der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -30994,7 +30994,7 @@ function hochsensibilitaetDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hochsensibilität der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">These traits are frequently pronounced in a strong form in highly sensitive people, as the universal primal principles manifest themselves within a person in an excessively one-sidedly intense way. These qualities can be both a blessing and a curse in individual cases.</p>
-      <img src="${CDN}assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilität der 9 Enneagrammtypen – Schaubild"
+      <img src="../assets/hochsensibilitaet-der-9-typen.jpg" alt="Hochsensibilität der 9 Enneagrammtypen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31045,7 +31045,7 @@ function superpowerDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Superpower der 9 Typen", "Charts · Spirituelle Sicht")}
       <p class="psycho-intro">Search no longer in the outside world for your supposed happiness — recognize your desire (your core motivation) to look for yourself in the outside world. By becoming increasingly aware of your intrinsic motivation step by step, you recognize the desperate attempt of your ego structure and abandon it: the dead end of trying to receive love within the framework of external life circumstances, while actually achieving the exact opposite.</p>
-      <img src="${CDN}assets/superpower-der-9-typen.jpg" alt="Superpower der 9 Enneatypen aus spiritueller Sicht – Schaubild"
+      <img src="../assets/superpower-der-9-typen.jpg" alt="Superpower der 9 Enneatypen aus spiritueller Sicht – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31096,7 +31096,7 @@ function wolkenformationenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Cloud Formations of the 9 Types", "Charts · Archetypes")}
       <p class="psycho-intro">Assigning nine cloud formations to the nine Enneagram principles is a creative way to connect the varied qualities of these clouds with the different personality types of the Enneagram. In its countless forms, the sky mirrors the whole spectrum of human character — from clear structure to the silent blanket of equanimity.</p>
-      <img src="${CDN}assets/wolkenformationen-der-9-typen.jpg" alt="Cloud Formations of the 9 Types – Chart"
+      <img src="../assets/wolkenformationen-der-9-typen.jpg" alt="Cloud Formations of the 9 Types – Chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31147,7 +31147,7 @@ function wolfsartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Wolf Species of the 9 Types", "Charts · Archetypen")}
       <p class="psycho-intro">The assignment of nine wolf species to the nine Enneagram principles is a creative method to connect the diverse aspects and characteristics of these wolves and their traits with the various personality types of the Enneagram. Since time immemorial, the wolf has stood for instinct, community, and inner strength — each species in its very own way.</p>
-      <img src="${CDN}assets/wolfsarten-der-9-typen.jpg" alt="Wolfsarten der 9 Typen – Schaubild"
+      <img src="../assets/wolfsarten-der-9-typen.jpg" alt="Wolfsarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31257,7 +31257,7 @@ function eulenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Eulenarten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The assignment of nine owl species to the nine Enneagram principles is a creative method to connect the diverse aspects and characteristics of these owls and their traits with the various personality types of the Enneagram. Owls have been symbols of wisdom, silence, and inner vision since antiquity &mdash; each species in its very own way.</p>
-      <img src="${CDN}assets/eulenarten-der-9-typen.jpg" alt="Eulenarten der 9 Typen – Schaubild"
+      <img src="../assets/eulenarten-der-9-typen.jpg" alt="Eulenarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31308,7 +31308,7 @@ function papageienartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Papageienarten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The mapping of nine parrot species to the nine Enneagram principles is a creative method for connecting the diverse aspects and characteristics of these parrots with the different personality types of the Enneagram. Each species fascinatingly mirrors the essence of a type—from the analytical Grey Parrot to the peace-loving Cockatiel.</p>
-      <img src="${CDN}assets/papageienarten-der-9-typen.jpg" alt="Papageienarten der 9 Typen – Schaubild"
+      <img src="../assets/papageienarten-der-9-typen.jpg" alt="Papageienarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31359,7 +31359,7 @@ function blumenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Blumenarten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The assignment of nine flower species to the nine Enneagram principles is a creative method to connect the diverse aspects and characteristics of these flowers and their traits with the various personality types of the Enneagram. Each flower carries an archetypal essence within itself — from the flawless purity of the lily to the quiet enlightenment of the lotus.</p>
-      <img src="${CDN}assets/blumenarten-der-9-typen.jpg" alt="Blumenarten der 9 Typen – Schaubild"
+      <img src="../assets/blumenarten-der-9-typen.jpg" alt="Blumenarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31410,7 +31410,7 @@ function hunderassenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Hunderassen der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The assignment of nine dog breeds to the nine Enneagram principles is a creative method to connect the symbolic qualities and characteristics of these different dogs with the various personality types of the Enneagram. Each breed carries an unmistakable nature within itself — from the precise Border Collie to the gentle Bernese Mountain Dog.</p>
-      <img src="${CDN}assets/hunderassen-der-9-typen.jpg" alt="Hunderassen der 9 Typen – Schaubild"
+      <img src="../assets/hunderassen-der-9-typen.jpg" alt="Hunderassen der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31461,7 +31461,7 @@ function pferdearteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Pferdearten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">The assignment of nine horse breeds to the nine Enneagram principles is a creative method to connect the various aspects and characteristics of these horses with the personality types of the Enneagram. Each breed impressively embodies the essential nature of its type — from the noble precision of the Lipizzan to the peaceful even-temperedness of the Connemara Pony.</p>
-      <img src="${CDN}assets/pferdearten-der-9-typen.jpg" alt="Pferdearten der 9 Typen – Schaubild"
+      <img src="../assets/pferdearten-der-9-typen.jpg" alt="Pferdearten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31513,7 +31513,7 @@ function nagetierartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Nagetierarten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Rodents are the most successful mammal group on Earth—over 40 percent of all mammal species are rodents. They live on every continent, in every climate, in every niche. Their recipe for success is diversity: every species has developed a completely unique principle to survive and thrive. Nine rodent species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/nagetierarten-der-9-typen.jpg" alt="Nagetierarten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/nagetierarten-der-9-typen.jpg" alt="Nagetierarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31564,7 +31564,7 @@ function baerenarteDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("B\u00e4renarten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Bears are among the most powerful and enigmatic animals on Earth—revered, feared, and understood as a symbol of inner strength in nearly every culture around the globe. Every species possesses a completely distinct nature: its own strategy, its own way of living, its own principle. Nine bear species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/baerenarten-der-9-typen.jpg" alt="B\u00e4renarten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/baerenarten-der-9-typen.jpg" alt="B\u00e4renarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31615,7 +31615,7 @@ function milchkuhartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Milchkuharten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">The cow has been humanity's closest animal companion for over 10,000 years&mdash;nourishing cultures, shaping religions, and forming landscapes. In the process, every breed has developed an unmistakable nature: its own performance, its own posture, its own principle. Nine dairy breeds, nine Enneagram principles.</p>
-      <img src="${CDN}assets/milchkuharten-der-9-typen.jpg" alt="Milchkuharten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/milchkuharten-der-9-typen.jpg" alt="Milchkuharten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31666,7 +31666,7 @@ function vogelartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Vogelarten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Birds are the only creatures that truly call the sky their home—encompassing over 10,000 species, on every continent, in every climate. In doing so, every species has developed an unmistakable nature: a look, an attitude, a way of moving through the world. Nine bird species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/vogelarten-der-9-typen.jpg" alt="Vogelarten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/vogelarten-der-9-typen.jpg" alt="Vogelarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31717,7 +31717,7 @@ function froschartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Froscharten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Frogs are among the oldest living creatures on Earth—they have existed for over 250 million years and have since colonized almost every damp niche on the planet: desert, rainforest, mountains, polar regions. Each species carries its own intrinsic principle within it. Nine frog species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/froscharten-der-9-typen.jpg" alt="Froscharten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/froscharten-der-9-typen.jpg" alt="Froscharten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31768,7 +31768,7 @@ function spinnenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Spinnenarten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Spiders have existed for over 380 million years – longer than the dinosaurs, longer than flowering plants. On every continent, in every habitat, at every altitude. Every species has developed a completely unique strategy: for building, lurking, hunting, seducing. Nine spider species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/spinnenarten-der-9-typen.jpg" alt="Spinnenarten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/spinnenarten-der-9-typen.jpg" alt="Spinnenarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31819,7 +31819,7 @@ function reptilienartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Reptilienarten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Reptiles are the oldest terrestrial vertebrates on Earth—they survived the dinosaurs, endured ice ages, and colonized every continent. Every species carries an ancient principle within itself that has proven its worth over millions of years. Nine reptile species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/reptilienarten-der-9-typen.jpg" alt="Reptilienarten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/reptilienarten-der-9-typen.jpg" alt="Reptilienarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31870,7 +31870,7 @@ function schildkroetenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Schildkr\u00f6tenarten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Turtles are the oldest reptiles on Earth—they have existed almost unchanged for over 220 million years. While dinosaurs came and went, the turtle survived. Not through speed, not through size—but because each species has perfected a distinct principle. Nine turtle species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/schildkroetenarten-der-9-typen.jpg" alt="Schildkr\u00f6tenarten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/schildkroetenarten-der-9-typen.jpg" alt="Schildkr\u00f6tenarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -31921,7 +31921,7 @@ function fischartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Fischarten der 9 Typen", "Charts \u00b7 Archetypen")}
       <p class="psycho-intro">Fish have populated the Earth for over 500 million years—they were here before the dinosaurs and will still be here after us. Each species has developed a distinct principle that ensures its survival. Nine fish species, nine Enneagram principles.</p>
-      <img src="${CDN}assets/fischarten-der-9-typen.jpg" alt="Fischarten der 9 Typen \u2013 Schaubild"
+      <img src="../assets/fischarten-der-9-typen.jpg" alt="Fischarten der 9 Typen \u2013 Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32023,7 +32023,7 @@ function insektenartenDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Insektenarten der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Insects are the most successful living creatures on Earth—they have existed for 400 million years, make up over 80 percent of all animal species, and have colonized almost every habitat. And every species follows a distinct principle. Nine insects, nine Enneagram types.</p>
-      <img src="${CDN}assets/insektenarten-der-9-typen.jpg" alt="Insektenarten der 9 Typen – Schaubild"
+      <img src="../assets/insektenarten-der-9-typen.jpg" alt="Insektenarten der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32074,7 +32074,7 @@ function flugzeugmodelleDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Flugzeugmodelle der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Nine aircraft—each a masterpiece of engineering, each with an unmistakable character and purpose. From fighter jets to rescue helicopters, vintage biplanes to long-range business jets: What Enneagram principle lies behind these nine aircraft types?</p>
-      <img src="${CDN}assets/flugzeugmodelle-der-9-typen.jpg" alt="Flugzeugmodelle der 9 Typen – Schaubild"
+      <img src="../assets/flugzeugmodelle-der-9-typen.jpg" alt="Flugzeugmodelle der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32128,7 +32128,7 @@ function brillenmodelleDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Brillenmodelle der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Eyeglasses are more than a vision aid—they are the very first thing others perceive about us. Which eyewear model aligns with which Enneagram principle? Detlef Rathmer made himself available as a model and tried on all nine styles.</p>
-      <img src="${CDN}assets/brillenmodelle-der-9-typen.jpg" alt="Brillenmodelle der 9 Typen – Schaubild"
+      <img src="../assets/brillenmodelle-der-9-typen.jpg" alt="Brillenmodelle der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32182,7 +32182,7 @@ function luxusuhrend9TypenPage() {
     <div class="page-container">
       ${pageHeader("Luxusuhren der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Nine watches – each a masterpiece of horology, each the expression of an unmistakable character. Which Enneagram principle lies behind these icons on the wrist?</p>
-      <img src="${CDN}assets/luxusuhren-der-9-typen.jpg" alt="Luxusuhren der 9 Typen – Schaubild"
+      <img src="../assets/luxusuhren-der-9-typen.jpg" alt="Luxusuhren der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32236,7 +32236,7 @@ function luxusautosDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Luxusautos der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Nine luxury cars&mdash;each a masterpiece of engineering and design, each an expression of an unmistakable character. Which Enneagram principle lies behind these icons of the automotive world?</p>
-      <img src="${CDN}assets/luxusautos-der-9-typen.jpg" alt="Luxusautos der 9 Typen – Schaubild"
+      <img src="../assets/luxusautos-der-9-typen.jpg" alt="Luxusautos der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32291,7 +32291,7 @@ function bergeDer9TypenPage() {
     <div class="page-container">
       ${pageHeader("Berge der 9 Typen", "Charts · Archetypen")}
       <p class="psycho-intro">Nine famous mountains of the world – each unique in shape, character, and symbolism. And each a mirror of one of the nine Enneagram principles. This mapping is no geography lesson, but an archetypal consideration: what do these mountains embody that reveals something about ourselves?</p>
-      <img src="${CDN}assets/berge-der-9-typen.jpg" alt="Berge der 9 Typen – Schaubild"
+      <img src="../assets/berge-der-9-typen.jpg" alt="Berge der 9 Typen – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32344,7 +32344,7 @@ function baumartenPage() {
       <p class="eyebrow">Charts · Archetypen</p>
       <h1 class="section-title">Die 9 Baumarten</h1>
       <p class="psycho-intro">An Enneagrammatic-Archetypal Perspective: What each tree species reveals about the core essence of an Enneagram type – with astonishing facts that bring the principle to life.</p>
-      <img src="${CDN}assets/baumarten.jpg" alt="Die 9 Baumarten – Schaubild"
+      <img src="../assets/baumarten.jpg" alt="Die 9 Baumarten – Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32382,7 +32382,7 @@ function baumartenPage() {
         <p class="eyebrow">Charts · Archetypen</p>
         <h2 class="section-title" style="font-size:1.4rem;">The Tallest Trees in the World</h2>
         <p class="psycho-intro">The same archetypal lens, a different reference set: Which Enneagram principle is embodied by the most famous and massive trees on Earth?</p>
-        <img src="${CDN}assets/hoechste-baeume-welt.jpg" alt="Die höchsten Bäume der Welt – Schaubild"
+        <img src="../assets/hoechste-baeume-welt.jpg" alt="Die höchsten Bäume der Welt – Schaubild"
           style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
         <div class="vb-section" style="max-width:100%;">
 
@@ -32437,7 +32437,7 @@ function affenartenPage() {
       <p class="eyebrow">Charts &middot; Archetypes</p>
       <h1 class="section-title">Die 9 Affenarten</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: What each monkey/primate species reveals about the core essence of an Enneagram type – viewed in comparison among the primate species.</p>
-      <img src="${CDN}assets/affenarten.jpg" alt="Die 9 Affenarten &ndash; Schaubild"
+      <img src="../assets/affenarten.jpg" alt="Die 9 Affenarten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
 
       <div style="background:var(--surface-2,#f5f0e8);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1rem 1.2rem;margin:0 0 2rem;" class="vb-section">
@@ -32499,7 +32499,7 @@ function epochenWeltgeschichtePage() {
       <p class="eyebrow">Charts &middot; Archetypes</p>
       <h1 class="section-title">Epochen der Weltgeschichte</h1>
       <p class="psycho-intro">The 9 Enneagram principles in the epochs of history: each epoch carries a dominant time quality – and that mirrors the core essence of a type.</p>
-      <img src="${CDN}assets/epochen-weltgeschichte.jpg" alt="Epochen der Weltgeschichte &ndash; Schaubild"
+      <img src="../assets/epochen-weltgeschichte.jpg" alt="Epochen der Weltgeschichte &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32550,7 +32550,7 @@ function kaffeeartenPage() {
       <p class="eyebrow">Charts &middot; Archetypes</p>
       <h1 class="section-title">Die 9 Kaffeearten</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each type of coffee reveals about the core essence of a type.</p>
-      <img src="${CDN}assets/kaffeearten.jpg" alt="Die 9 Kaffeearten &ndash; Schaubild"
+      <img src="../assets/kaffeearten.jpg" alt="Die 9 Kaffeearten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32601,7 +32601,7 @@ function getreideartenPage() {
       <p class="eyebrow">Charts &middot; Archetypes</p>
       <h1 class="section-title">Die 9 Getreidearten</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each type of grain reveals about the core essence of a type.</p>
-      <img src="${CDN}assets/getreidearten.jpg" alt="Die 9 Getreidearten &ndash; Schaubild"
+      <img src="../assets/getreidearten.jpg" alt="Die 9 Getreidearten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;" />
       <div class="vb-section" style="max-width:100%;">
 
@@ -32653,7 +32653,7 @@ function gewuerzartenPage() {
       <h1 class="section-title">The 9 Spice Varieties</h1>
       <p class="psycho-intro">An enneagrammatic-archetypal consideration: what each spice reveals about the core essence of a type.</p>
       <img
-        src="${CDN}assets/gewuerzarten.jpg"
+        src="../assets/gewuerzarten.jpg"
         alt="Die 9 Gew\xfcrzarten &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -32707,7 +32707,7 @@ function friedenSchliessenPage() {
       <h1 class="section-title">Frieden schlie\xdfen</h1>
       <p class="psycho-intro">From the speck in the eye and the art of encountering others with compassion instead of judgment.</p>
       <img
-        src="${CDN}assets/frieden-schliessen.jpg"
+        src="../assets/frieden-schliessen.jpg"
         alt="Making Peace"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -32754,7 +32754,7 @@ function werWirSindPage() {
       <h1 class="section-title">Wer wir sind</h1>
       <p class="psycho-intro">The map is not the territory &ndash; why the Enneagram describes us, but does not define us.</p>
       <img
-        src="${CDN}assets/wer-wir-sind.jpg"
+        src="../assets/wer-wir-sind.jpg"
         alt="Wer wir sind &ndash; Schaubild"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -32797,7 +32797,7 @@ function symmetrieDesEnneagrammsPage() {
       <h1 class="section-title">Die Symmetrie des Enneagramms</h1>
       <p class="psycho-intro">Behind the nine different personality structures lies a remarkable inner order: opposing types often share the same core wound &ndash; yet develop opposite strategies to cope with it.</p>
       <img
-        src="${CDN}assets/symmetrie-des-enneagramms.jpg"
+        src="../assets/symmetrie-des-enneagramms.jpg"
         alt="The Symmetry of the Enneagram: Opposite Type Pairs at a Glance"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -32857,7 +32857,7 @@ function koerperregulationPage() {
       <h1 class="section-title">Enneagram & Body Regulation</h1>
       <p class="psycho-intro">The nine types as patterns of order for body, soul, and energy &ndash; not a diagnosis, but a map for understanding, self-awareness, and holistic balance.</p>
       <img
-        src="${CDN}assets/koerperregulation.jpg"
+        src="../assets/koerperregulation.jpg"
         alt="Enneagram & Body Regulation: The Nine Types as Patterns of Order"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -32926,7 +32926,7 @@ function schopenhauerZitatPage() {
       <h1 class="section-title">We Cannot Want What We Want</h1>
       <p class="psycho-intro">Arthur Schopenhauer's famous quote strikes in an astonishing way at the very core of what the Enneagram describes regarding the hidden driving forces of personality.</p>
       <img
-        src="${CDN}assets/schopenhauer-zitat.png"
+        src="../assets/schopenhauer-zitat.png"
         alt="Schopenhauer Quote: Man can do what he wants, but he cannot want what he wants."
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -32992,7 +32992,7 @@ function bewusstseinsuebungenPage() {
       <h1 class="section-title">Nine Consciousness Exercises as a Path Back to Presence</h1>
       <p class="psycho-intro">Nine sequential steps through which consciousness gradually releases itself from its fixations &ndash; from the book <em>7 Ways to Yourself</em>.</p>
       <img
-        src="${CDN}assets/bewusstseinsuebungen.jpg"
+        src="../assets/bewusstseinsuebungen.jpg"
         alt="Nine Consciousness Exercises &ndash; Detlef Rathmer"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33056,7 +33056,7 @@ function schaubilderAlsSpiegelPage() {
       <h1 class="section-title">Charts als Spiegel</h1>
       <p class="psycho-intro">How we react to a presentation often reveals more about us than the presentation itself. No one absorbs charts neutrally &ndash; everyone reads and interprets them through their own structure.</p>
       <img
-        src="${CDN}assets/schaubilder-als-spiegel.jpg"
+        src="../assets/schaubilder-als-spiegel.jpg"
         alt="Charts als Spiegel der inneren Struktur"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33084,7 +33084,7 @@ function schaubilderAlsSpiegelPage() {
       <div style="margin:2.5rem 0 0;">
         <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:0 0 0.75rem;">Not a Judgment &ndash; A Mirror</h2>
         <img
-          src="${CDN}assets/enneagramm-als-spiegel.jpg"
+          src="../assets/enneagramm-als-spiegel.jpg"
           alt="Das Enneagramm ist ein Spiegel, kein Urteil. Wer mit Typen etikettiert, verletzt die Freiheit des Anderen."
           style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
         />
@@ -33113,7 +33113,7 @@ function neunLogismoiPage() {
       <h1 class="section-title">Die 9 Logismoi nach Evagrius Ponticus</h1>
       <p class="psycho-intro">What do we fill our inner emptiness with? As early as the 4th century, Evagrius Ponticus described nine inner movements that pull human beings away from their center &ndash; showing an astonishing proximity to the Enneagram.</p>
       <img
-        src="${CDN}assets/neun-logismoi.jpg"
+        src="../assets/neun-logismoi.jpg"
         alt="Die 9 Logismoi nach Evagrius Ponticus"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33173,7 +33173,7 @@ function gaslightingPage() {
       <h1 class="section-title">Gaslighting und Enneagramm</h1>
       <p class="psycho-intro">Gaslighting is a form of psychological manipulation in which another person's perception, experience, or memory is systematically called into question &ndash; with the goal of creating uncertainty and gaining interpretive sovereignty over shared reality.</p>
       <img
-        src="${CDN}assets/gaslighting-enneagramm.jpg"
+        src="../assets/gaslighting-enneagramm.jpg"
         alt="Gaslighting und Enneagramm"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33223,7 +33223,7 @@ function interessanteErkenntnissePage() {
       <h1 class="section-title">Neun interessante Erkenntnisse</h1>
       <p class="psycho-intro">What many people believe they know about the nine Enneagram types &ndash; and what is really behind it. Nine observations from decades of therapeutic and diagnostic practice.</p>
       <img
-        src="${CDN}assets/interessante-erkenntnisse.jpg"
+        src="../assets/interessante-erkenntnisse.jpg"
         alt="Neun interessante Erkenntnisse zu den Enneagrammtypen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33280,7 +33280,7 @@ function bedeutungSubtypesPage() {
       <h1 class="section-title">Why the 27 Subtypes Are Essential</h1>
       <p class="psycho-intro">Anyone who seriously engages with the Enneagram cannot bypass the 27 subtypes. It is a fundamental misconception to believe that one can initially &bdquo;just start with the nine types&ldquo; and add the subtypes later &ndash; because without them, the picture remains too crude for serious typing.</p>
       <img
-        src="${CDN}assets/bedeutung-27-subtypen.jpg"
+        src="../assets/bedeutung-27-subtypen.jpg"
         alt="Die Bedeutung der 27 Subtypes im Enneagramm"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33330,7 +33330,7 @@ function identifikationPage() {
       <h1 class="section-title">The Tighter the Identification, the Louder the Pattern</h1>
       <p class="psycho-intro">A sentence about the connection between consciousness and passion – and why the Enneagram is not a labeling system, but a path to inner freedom.</p>
       <img
-        src="${CDN}assets/identifikation.jpg"
+        src="../assets/identifikation.jpg"
         alt="Identification &ndash; The Tighter the Identification, the Louder the Pattern"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33378,7 +33378,7 @@ function schmerzschutzPage() {
       <h1 class="section-title">The Type Protects Against Pain, But It Prevents Intimacy</h1>
       <p class="psycho-intro">A sentence on the dual function of the Enneagram type &ndash; and why what protects us simultaneously separates us from ourselves and from others.</p>
       <img
-        src="${CDN}assets/schmerzschutz.jpg"
+        src="../assets/schmerzschutz.jpg"
         alt="Pain Protection &ndash; The Type Protects Against Pain, But It Prevents Intimacy When We Mistake It for the Truth"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33420,7 +33420,7 @@ function blickqualitaetPage() {
       <h1 class="section-title">The Primary Gaze Quality of the 9 Enneagram Types</h1>
       <p class="psycho-intro">The gaze reveals more than words. Every Enneagram type carries a characteristic gaze quality &ndash; a way of looking that is deeply connected to their inner world, motivation, and energy center.</p>
       <img
-        src="${CDN}assets/blickqualitaet.jpg"
+        src="../assets/blickqualitaet.jpg"
         alt="The Primary Gaze Quality of the 9 Enneagram Types"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -33515,7 +33515,7 @@ function beruhmtePhilosophenPage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0 1.75rem;">Important Note: The subtypes (self-preservation, social, sexual) are three variants within each type that differentiate the core pattern more finely. &bdquo;Subtype&ldquo; and &bdquo;Untertyp&ldquo; designate the same thing: the instinctive primary orientation that shapes the personality once more with greater precision. For Type 6, even two philosophers appear &ndash; one phobic, one counterphobic &ndash; because this type is the only one that splits so clearly into two directions.</p>
 
       <img
-        src="${CDN}assets/beruhmte-philosophen.jpg"
+        src="../assets/beruhmte-philosophen.jpg"
         alt="Berühmte Philosophen im Enneagramm"
         style="width:100%;border-radius:8px;margin:0 0 2rem;"
       />
@@ -33549,7 +33549,7 @@ function dreiLebenskraeftePage() {
       <p class="psycho-intro">Behind the nine Enneagram types operate three fundamental energy directions: active, balancing, and passive. They do not describe character, but rather the way a type fundamentally makes contact with the world.</p>
 
       <img
-        src="${CDN}assets/drei-lebenskraefte.jpg"
+        src="../assets/drei-lebenskraefte.jpg"
         alt="Die drei grundlegenden Lebenskräfte des Enneagramms"
         style="width:100%;border-radius:8px;margin:1.5rem 0 2rem;"
       />
@@ -33617,7 +33617,7 @@ function sucheNachLiebePage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">The Enneagram points out these patterns not as an accusation, but as an invitation: Recognize what you are replacing love with &ndash; and what holds you back from going further.</p>
 
       <img
-        src="${CDN}assets/suche-nach-liebe.jpg"
+        src="../assets/suche-nach-liebe.jpg"
         alt="Die Search nach der wahren Liebe – alle 9 Enneagrammtypen"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
@@ -34609,7 +34609,7 @@ function rumiZitatePage() {
       <p style="font-size:0.95rem;line-height:1.75;color:var(--anthracite);margin:1rem 0;">What Rumi describes &ndash; the wound, the flight, the search, the awakening &ndash; are movements that the Enneagram maps as type structures. Rumi knew no numbers. But he knew the inner landscapes: the longing of the Four, the fear of the Six, the restlessness of the Seven, the power of the Eight. They are all there in his lines &ndash; each type in its learning field, each pain with its answer.</p>
 
       <img
-        src="${CDN}assets/rumi-zitate.jpg"
+        src="../assets/rumi-zitate.jpg"
         alt="Rumi-Zitate für die 9 Enneagrammtypen"
         style="width:100%;border-radius:8px;margin:1.75rem 0 2rem;"
       />
@@ -34640,7 +34640,7 @@ function beziehungenSchaubildPage() {
       <h1 class="section-title">Relationships &ndash; Liebe und Schutz</h1>
       <p class="psycho-intro">Many relationships do not end because love has vanished &ndash; but because unconscious protective mechanisms obscure seeing one another.</p>
       <img
-        src="${CDN}assets/beziehungen.jpg"
+        src="../assets/beziehungen.jpg"
         alt="Relationships im Enneagramm"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
@@ -34659,7 +34659,7 @@ function beziehungenSchaubildPage() {
 
       <h2 style="font-family:'EB Garamond',serif;font-size:1.4rem;color:var(--anthracite);margin:2.5rem 0 0.75rem;">Two Strategies for Being Loved</h2>
       <img
-        src="${CDN}assets/beziehungen-2.jpg"
+        src="../assets/beziehungen-2.jpg"
         alt="In relationships, it is never just two people who meet – two strategies for being loved meet as well."
         style="width:100%;border-radius:8px;margin:0.75rem 0 1.25rem;"
       />
@@ -34685,7 +34685,7 @@ function limericksPage() {
       <h1 class="section-title">Die 9 Enneagramm-Limericks</h1>
       <p class="psycho-intro">A limerick is a short, rhythmic five-line poem with a fixed rhyme scheme and usually a humorous or even transforming punchline &ndash; making it a surprisingly precise vessel for the nine types.</p>
       <img
-        src="${CDN}assets/limericks.jpg"
+        src="../assets/limericks.jpg"
         alt="Die 9 Enneagramm-Limericks"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
@@ -34729,7 +34729,7 @@ function verantwortungPage() {
       <h1 class="section-title">Verantwortung im Enneagramm</h1>
       <p class="psycho-intro">Knowing your own type is the beginning. Truly seeing it &ndash; without defending it &ndash; that is the actual step.</p>
       <img
-        src="${CDN}assets/verantwortung.jpg"
+        src="../assets/verantwortung.jpg"
         alt="Verantwortung im Enneagramm"
         style="width:100%;border-radius:8px;margin:1.5rem 0;"
       />
@@ -34774,7 +34774,7 @@ function hunderassenPage() {
       <h1 class="section-title">Die Enneagrammtypen &ndash; auf den Hund gekommen</h1>
       <p class="psycho-intro">Nine types, nine dog breeds &ndash; and an astonishing amount of recognition value. What dogs can tell us about Enneagram principles.</p>
       <img
-        src="${CDN}assets/hunderassen.jpg"
+        src="../assets/hunderassen.jpg"
         alt="Die 9 Enneagrammtypen – auf den Hund gekommen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -34838,7 +34838,7 @@ function prinzipienPage() {
       <h1 class="section-title">The Enneagram as a Map for Development</h1>
       <p class="psycho-intro">From a precise instrument for typing to a map of fundamental orders &ndash; what the Enneagram truly shows when you look closer.</p>
       <img
-        src="${CDN}assets/prinzipien.jpg"
+        src="../assets/prinzipien.jpg"
         alt="The nine principles of the Enneagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;"
       />
@@ -34880,7 +34880,7 @@ function antriebskraeftePage() {
       <h1 class="section-title">The 9 Driving Forces of Humanity</h1>
       <p class="psycho-intro">How the nine passions act as inner engines – and why the same type can look so different.</p>
       <img
-        src="${CDN}assets/antriebskraefte.jpg"
+        src="../assets/antriebskraefte.jpg"
         alt="The 9 Driving Forces of Humanity within the 27 Subtypes"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -34922,7 +34922,7 @@ function enneagrammProfilingPage() {
       <h1 class="section-title">Enneagram Profiling</h1>
       <p class="psycho-intro">Typing via gaze, posture, and rhythm &ndash; not via conversation and self-reporting.</p>
       <img
-        src="${CDN}assets/enneagramm-profiling.jpg"
+        src="../assets/enneagramm-profiling.jpg"
         alt="Enneagram Profiling &ndash; Detlef Rathmer"
         style="width:100%;max-width:480px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -35002,7 +35002,7 @@ function egoFixierungenPage() {
       <h1 class="section-title">The 9 Ego Fixations According to Oscar Ichazo</h1>
       <p class="psycho-intro">What the original Enneagram truly teaches &ndash; and why it reaches deeper than most of today's type descriptions.</p>
       <img
-        src="${CDN}assets/ego-fixierungen.jpg"
+        src="../assets/ego-fixierungen.jpg"
         alt="The 9 ego fixations according to Oscar Ichazo"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -35048,7 +35048,7 @@ function grundformelPage() {
       <h1 class="section-title">Die Grundformel des Rathmer-Enneagramms</h1>
       <p class="psycho-intro">Three deficits. Three forms of energy. Three instincts. – The foundation of an Enneagram model that has grown over twenty years.</p>
       <img
-        src="${CDN}assets/grundformel.jpg"
+        src="../assets/grundformel.jpg"
         alt="Die Grundformel des Rathmer-Enneagramms"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -35105,7 +35105,7 @@ function leidenschaftUndWundePage() {
       <h1 class="section-title">Leidenschaft und Wunde</h1>
       <p class="psycho-intro">Two levels of a pattern – what becomes visible and what really lies behind it.</p>
       <img
-        src="${CDN}assets/leidenschaft-und-wunde.jpg"
+        src="../assets/leidenschaft-und-wunde.jpg"
         alt="Leidenschaft und Wunde der 9 Typen"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -35148,7 +35148,7 @@ function wundenPage() {
       <h1 class="section-title">Every Wound Has Produced a Protective Strategy</h1>
       <p class="psycho-intro">Why the patterns of the 9 types are not weaknesses – but were once clever answers to real distress.</p>
       <img
-        src="${CDN}assets/wunden.jpg"
+        src="../assets/wunden.jpg"
         alt="Wounds and Protective Strategies of the 9 Types"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -35189,7 +35189,7 @@ function verwechslungenPage() {
       <h1 class="section-title">Type Confusions</h1>
       <p class="psycho-intro">Ego strength or essence? The most consequential trap in Enneagram typing.</p>
       <img
-        src="${CDN}assets/verwechslungen.png"
+        src="../assets/verwechslungen.png"
         alt="Type Confusions &ndash; Chart"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
@@ -35232,7 +35232,7 @@ function wurzelnDesEnneagrammsPage() {
       <h1 class="section-title">The Roots of the Enneagram</h1>
       <p class="psycho-intro">Today, the Enneagram is frequently understood as a personality model &ndash; one typology among many. However, anyone who engages with it more deeply quickly realizes that this categorization falls short. The Enneagram does not feel like an arbitrary psychological system, but rather like a doorway into deeper laws of life itself. The following text outlines its historical roots, philosophical connections, and the personal insights gained from decades of working with it.</p>
       <img
-        src="${CDN}assets/wurzeln-des-enneagramms.png"
+        src="../assets/wurzeln-des-enneagramms.png"
         alt="Das Enneagramm-Symbol"
         style="width:100%;max-width:420px;display:block;margin:0 auto 2rem;border-radius:12px;"
       />
@@ -35712,7 +35712,7 @@ function gifteDesGeistesPage() {
       <h1>The 3 Poisons of the Mind and the 9 Passions</h1>
       <p class="lead-small">The Tibetan Buddhist tradition knows three &bdquo;poisons of the mind&ldquo; (greed, hatred, ignorance) that must come to rest so that inner peace can arise. The Enneagram assigns the 9 passions to these three core movements.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg"
+        <img src="../assets/schaubilder/gifte-des-geistes/gifte-des-geistes.jpg"
              alt="Die 3 Gifte des Geistes und die 9 Enneagramm-Leidenschaften"
              class="psycho-img" />
       </div>
@@ -35754,7 +35754,7 @@ function empfindlichePunktePage() {
       <h1>Sensitive Points of the 9 Enneagram Types</h1>
       <p class="lead-small">With which remarks one maximally activates and challenges the ego &mdash; the false self, the false personality &mdash; of the 9 Enneagram types. Anyone who knows these points can interact with others more consciously and mindfully.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/empfindliche-punkte/empfindliche-punkte.jpg"
+        <img src="../assets/schaubilder/empfindliche-punkte/empfindliche-punkte.jpg"
              alt="Sensitive points of the 9 Enneagram types"
              class="psycho-img" />
       </div>
@@ -35780,7 +35780,7 @@ function angstEssenzPage() {
       <h1 class="section-title">Fear → Essence</h1>
       <p class="psycho-intro">Essence: ${t.essenz}</p>
       <img
-        src="${CDN}assets/angst-essenz.png"
+        src="../assets/angst-essenz.png"
         alt="Fear to Essence &ndash; All 9 Enneagram Types"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;"
       />
@@ -35908,7 +35908,7 @@ function aufmerksamkeitsfokusPage() {
       <h1>Aufmerksamkeitsfokus & Blindheit der 9 Enneagrammtypen</h1>
       <p class="lead-small">Every Enneagram type unconsciously directs their focus of attention toward certain aspects of life &mdash; while fading out others. This overview shows what each type pays special attention to and what consequently remains in their blind spot.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
+        <img src="../assets/schaubilder/aufmerksamkeitsfokus/aufmerksamkeitsfokus.jpg"
              alt="Aufmerksamkeitsfokus und Blindheit der 9 Enneagrammtypen"
              class="psycho-img" />
       </div>
@@ -35948,7 +35948,7 @@ function sechzigSekundenScanPage() {
       <h1>60-Second Fixation Scan</h1>
       <p class="lead-small">To the Enneagram type in three steps: Which persona does the person show? How do they react under pressure? What are they protecting themselves from? This quick overview helps to classify a type quickly.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/scan/60-sekunden-scan.jpg"
+        <img src="../assets/schaubilder/scan/60-sekunden-scan.jpg"
              alt="60-Second Fixation Scan"
              class="psycho-img" />
       </div>
@@ -36056,7 +36056,7 @@ function mangelgefuehlePage() {
       <h1>Feelings of Deficiency of the 9 Enneagram Types</h1>
       <p class="lead-small">Every Enneagram type carries an unconscious inner feeling of deficiency &ndash; a deep sense that something essential is missing. Out of this deficiency arises the characteristic external striving that drives the type.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/mangelgefuehle/mangelgefuehle.jpg"
+        <img src="../assets/schaubilder/mangelgefuehle/mangelgefuehle.jpg"
              alt="Enneagram types and their unconscious inner feelings of deficiency"
              class="psycho-img" />
       </div>
@@ -36099,7 +36099,7 @@ function perspektivenPage() {
       <h1>How Others Experience the Enneagram Types</h1>
       <p class="lead-small">What do others see in us that we barely perceive ourselves? This overview shows which statements fellow human beings repeatedly make about each Enneagram type &ndash; a mirror for one's own blind spot.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/perspektiven/perspektiven-mitmenschen.jpg"
+        <img src="../assets/schaubilder/perspektiven/perspektiven-mitmenschen.jpg"
              alt="Enneagram types and the perspectives of the people around them"
              class="psycho-img" />
       </div>
@@ -36857,7 +36857,7 @@ function aetherischeOelePage() {
       <h1>Essential Oils &amp; Enneagram</h1>
       <p class="lead-small">Every Enneagram type is assigned an essential oil that acts directly at the wound level &ndash; where the deepest imprint resides. Scents reach the limbic system immediately and can bring healing movement into entrenched patterns.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/oele/aetherische-oele.png"
+        <img src="../assets/schaubilder/oele/aetherische-oele.png"
              alt="Essential Oils and Enneagram &ndash; Overview"
              class="psycho-img" />
       </div>
@@ -36892,9 +36892,9 @@ function triadendefizitePage() {
       <h2 style="font-size:1rem;font-weight:600;color:var(--muted);margin:-.4rem 0 1.2rem;letter-spacing:.03em;">Protection &middot; Love &middot; Trust</h2>
       <p class="psycho-intro">In the Enneagram, the nine types can be organized into three basic centers: gut, heart, and head. These centers describe less behavior and more the primary way a person processes reality and reacts to a perceived core deficit. The gut triad is characterized by a protection deficit, the heart triad by a love deficit, and the head triad by a trust deficit. The different strategies of the individual types unfold from these core tensions.</p>
 
-      <img src="${CDN}assets/triadendefizite-1.png" alt="Triadendefizite Schaubild 1"
+      <img src="../assets/triadendefizite-1.png" alt="Triadendefizite Schaubild 1"
         style="width:100%;border-radius:12px;margin:0 auto 1.5rem;display:block;" />
-      <img src="${CDN}assets/triadendefizite-2.png" alt="Triadendefizite Schaubild 2"
+      <img src="../assets/triadendefizite-2.png" alt="Triadendefizite Schaubild 2"
         style="width:100%;border-radius:12px;margin:0 auto 2.5rem;display:block;" />
 
       <div class="vb-section" style="max-width:100%;">
@@ -36979,12 +36979,12 @@ function teeEnneagrammPage() {
       <h1>Tea &amp; Enneagram</h1>
       <p class="lead-small">Which tea suits which Enneagram type? These two overviews show how the healing properties of different tea varieties correspond to the themes, wounds, and growth impulses of the nine types.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/schaubilder/tee/tee-uebersicht-1.png"
+        <img src="../assets/schaubilder/tee/tee-uebersicht-1.png"
              alt="Tea and the Enneagram &ndash; Overview 1"
              class="psycho-img" />
       </div>
       <div class="psycho-img-wrap" style="margin-top:2rem;">
-        <img src="${CDN}assets/schaubilder/tee/tee-uebersicht-2.png"
+        <img src="../assets/schaubilder/tee/tee-uebersicht-2.png"
              alt="Tea and the Enneagram &ndash; Overview 2"
              class="psycho-img" />
       </div>
@@ -37461,7 +37461,7 @@ function gesichtsausdrueckePage() {
       <h1 class="schaubild-page__title">Facial Expressions of the 9 Types</h1>
       <p class="schaubild-page__intro">The facial expressions of the Enneagram types can be seen as a mirror of their inner world and their typical emotional states.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/gesichtsausdruecke.jpg" alt="The facial expressions of the 9 Enneagram types" class="psycho-img" style="max-width:480px;" />
+        <img src="../assets/gesichtsausdruecke.jpg" alt="The facial expressions of the 9 Enneagram types" class="psycho-img" style="max-width:480px;" />
       </div>
       <div style="max-width:640px;margin:1.5rem auto 0;font-size:.92rem;line-height:1.75;color:var(--ink);display:grid;gap:.9rem;">
         <p><strong>Type 1 &ndash; The Reformer (Perfectionist):</strong> Serious, focused, possibly somewhat tense or critical. A touch of tension in the eyebrows and corners of the mouth often points to perfectionism and high standards. The eyes are cold, fixed, and focused (&bdquo;Eagle Gaze&ldquo;).</p>
@@ -37485,7 +37485,7 @@ function maennlicheWeiblicheSeitePage() {
       <h1 class="schaubild-page__title">Masculine & Feminine Side of the Enneagram</h1>
       <p class="schaubild-page__intro">Types 5&ndash;8 embody the masculine side (rebellion, rather antisocial, psychopathic tendency), Types 1&ndash;4 the feminine side (seduction, social, hysterical tendency). Type 9 stands in the middle as a neutral pole.</p>
       <div class="psycho-img-wrap" style="margin-top:1.5rem;">
-        <img src="${CDN}assets/maennliche-weibliche-seite.jpg" alt="The masculine and feminine side of the Enneagram" class="psycho-img" style="max-width:480px;" />
+        <img src="../assets/maennliche-weibliche-seite.jpg" alt="The masculine and feminine side of the Enneagram" class="psycho-img" style="max-width:480px;" />
       </div>
       <div style="max-width:640px;margin:1.5rem auto 0;font-size:.92rem;line-height:1.75;color:var(--ink);">
         <p>The chart shows each type together with its two wing variations and its core motivation: Type 9 (harmony), Type 1 (perfection), Type 2 (love), Type 3 (success), Type 4 (individuality), Type 5 (knowledge), Type 6 (security), Type 7 (joy of life), and Type 8 (power). Types 5 through 8 carry a powerful, rebellious, rather asocial-aggressive energy that tends toward antisocial behavior. Types 1 through 4 carry a loving, seductive, socially and emotionally benevolent energy that tends toward hysterical behavior. Type 9 alone belongs to neither pole.</p>
@@ -37544,7 +37544,7 @@ function bundeslaenderPage() {
   const kartenHtml = `
     <div class="bl-karte-wrap">
       <div class="bl-karte-container">
-        <img src="${CDN}assets/bundeslaender-karte.jpg" alt="Map: 16 German Federal States and Their Enneagram Assignment" class="bl-karte" />
+        <img src="../assets/bundeslaender-karte.jpg" alt="Map: 16 German Federal States and Their Enneagram Assignment" class="bl-karte" />
         <div class="bl-karte-emblem">${compassMark("small")}</div>
       </div>
       <p class="bl-karte-caption">Overview map: Assignment of the 16 German Federal States to the 9 Enneagram Principles</p>
@@ -39791,7 +39791,7 @@ function bedeutungSubtypenPage() {
       <h1 class="section-title">Why the 27 Subtypes Are Essential</h1>
       <p class="psycho-intro">Anyone who seriously engages with the Enneagram cannot bypass the 27 subtypes. It is a fundamental misconception to believe that one can initially &bdquo;just start with the nine types&ldquo; and add the subtypes later &ndash; because without them, the picture remains too crude for serious typing.</p>
       <img
-        src="${CDN}assets/bedeutung-27-subtypen.jpg"
+        src="../assets/bedeutung-27-subtypen.jpg"
         alt="The Meaning of the 27 Subtypes in the Enneagram"
         style="width:100%;max-width:680px;display:block;margin:0 auto 2rem;border-radius:12px;cursor:zoom-in;"
       />
