@@ -10178,7 +10178,7 @@ function johnLennonPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typ 4 &ndash; und es ist ein Tier, das Widersprüche in sich vereint. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Innen schützt dieser Panzer ein Wesen, das außergewöhnlich empfindlich ist. Das Gürteltier ist kein Einzelgänger &ndash; es lebt in der Gemeinschaft, braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd fühlt. Und in seiner Einzigartigkeit unter den Säugetieren trägt es etwas Unverwechselbares: Niemand sonst sieht so aus. Niemand sonst ist so gebaut.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; und es ist ein Tier, das Widersprüche in sich vereint. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Innen schützt dieser Panzer ein Wesen, das außergewöhnlich empfindlich ist. Das Gürteltier ist kein Einzelgänger &ndash; es lebt in der Gemeinschaft, braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd fühlt. Und in seiner Einzigartigkeit unter den Säugetieren trägt es etwas Unverwechselbares: Niemand sonst sieht so aus. Niemand sonst ist so gebaut.</p>
           <p class="vb-intro">John Lennon war einer der einflussreichsten Musiker des 20. Jahrhunderts &ndash; und ein Mann, der sein ganzes Leben zwischen Panzer und Verletzlichkeit pendelte. Auf der Bühne: Schärfe, Witz, Provokation. Im Inneren: ein Mensch, der tief nach Frieden suchte &ndash; in der Welt und in sich selbst. Das Gürteltier, das sich manchmal einrollt, um sich zu schützen, und manchmal aus dem Panzer heraustritt, um die Welt zu verändern.</p>
         </blockquote>
 
@@ -10244,7 +10244,7 @@ function javierParisiPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typ 4 &ndash; ein Tier voller Widersprüche: ein harter Panzer nach außen, eine außergewöhnliche Empfindlichkeit im Inneren. Kein Einzelgänger, sondern ein Wesen, das die Gemeinschaft braucht, auch wenn es sich in ihr oft fremd fühlt. Und trotz seiner Einzigartigkeit trägt es ein Paradox in sich: Es sucht seinen Platz gerade dadurch, dass es sich unablässig mit anderen vergleicht.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Tier voller Widersprüche: ein harter Panzer nach außen, eine außergewöhnliche Empfindlichkeit im Inneren. Kein Einzelgänger, sondern ein Wesen, das die Gemeinschaft braucht, auch wenn es sich in ihr oft fremd fühlt. Und trotz seiner Einzigartigkeit trägt es ein Paradox in sich: Es sucht seinen Platz gerade dadurch, dass es sich unablässig mit anderen vergleicht.</p>
           <p class="vb-intro">Javier Parisi, geboren 1980 in Lanús bei Buenos Aires, ist weltweit bekannt als der wohl verblüffendste John-Lennon-Doppelgänger der Gegenwart &ndash; ein Mann, der sein Leben der exakten Verkörperung eines anderen Menschen gewidmet hat. Das Gürteltier, das sich nicht mit dem eigenen Panzer zufriedengibt, sondern sich einen zweiten, fremden anlegt &ndash; und darin, paradoxerweise, sich selbst findet.</p>
         </blockquote>
 
@@ -10441,7 +10441,7 @@ function romySchneiderPortraitPage() {
 
         <h2 class="vb-section">1. Das Gürteltier</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typ 4 &ndash; und es ist ein Tier voller Widersprüche. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Aber dieser Panzer schützt ein Inneres, das außergewöhnlich empfindlich ist: Das Gürteltier ist eines der wenigen Säugetiere, das sich bei Gefahr nicht kämpfend oder fliehend verhält, sondern sich zusammenrollt &ndash; es hüllt sich in sich selbst ein. Gleichzeitig ist das Gürteltier ein geselliges Tier. Es lebt nicht allein. Es braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd fühlt.</p>
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; und es ist ein Tier voller Widersprüche. Nach außen trägt es einen harten Panzer, der es unverwundbar wirken lässt. Aber dieser Panzer schützt ein Inneres, das außergewöhnlich empfindlich ist: Das Gürteltier ist eines der wenigen Säugetiere, das sich bei Gefahr nicht kämpfend oder fliehend verhält, sondern sich zusammenrollt &ndash; es hüllt sich in sich selbst ein. Gleichzeitig ist das Gürteltier ein geselliges Tier. Es lebt nicht allein. Es braucht die Gemeinschaft, auch wenn es sich in ihr manchmal fremd fühlt.</p>
           <p class="vb-intro">Romy Schneider war eine der größten Schauspielerinnen des 20. Jahrhunderts &ndash; und eine der einsamsten. Die Welt sah den Glanz: <em>Sissi</em>, die Leinwand, die Preise, die Eleganz. Was hinter dem Panzer lag, hat sie selbst immer wieder beschrieben: Schmerz, Einsamkeit, das Gefühl, nie wirklich gesehen zu werden &ndash; nur die Rolle, nie die Frau. Das Gürteltier, das sich in der Öffentlichkeit zeigt und sich dabei innerlich einrollt.</p>
         </blockquote>
 
@@ -10504,7 +10504,7 @@ function clemensArvayPortraitPage() {
 
         <h2 class="vb-section">1. Die Taube</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier des selbsterhaltenden Typ 4 &ndash; und sie ist ein Tier, das man leicht übersieht. Keine Schärfe, keine Dominanz, kein lautes Auftreten. Die Taube bewegt sich nah am Boden, nah an den Menschen, nah an dem, was wächst und atmet. Und doch trägt sie seit Jahrtausenden die tiefsten Botschaften: Frieden. Heimkehr. Das Versprechen, dass es weitergeht.</p>
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier des selbsterhaltenden Typs 4 &ndash; und sie ist ein Tier, das man leicht übersieht. Keine Schärfe, keine Dominanz, kein lautes Auftreten. Die Taube bewegt sich nah am Boden, nah an den Menschen, nah an dem, was wächst und atmet. Und doch trägt sie seit Jahrtausenden die tiefsten Botschaften: Frieden. Heimkehr. Das Versprechen, dass es weitergeht.</p>
           <p class="vb-intro">Clemens G. Arvay war ein österreichischer Biologe und Autor, der einer breiten Öffentlichkeit zeigte, was Wissenschaft und innere Sehnsucht gemeinsam wissen: dass der Wald heilt. Sein Werk &ndash; darunter <em>Der Biophilia-Effekt</em> und <em>Wir können es besser</em> &ndash; ist die Arbeit einer Taube: kein Drama, keine Selbstinszenierung, aber eine Botschaft, die trägt und bleibt. 2022 hat er sich das Leben genommen. Die Taube, die anderen den Weg zeigt, hat ihren eigenen manchmal verloren.</p>
         </blockquote>
 
@@ -21812,7 +21812,7 @@ function chrisWattsPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">5. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">Chris Watts ist das extremste Fallbeispiel für die Schattenseite des sozialen Subtyps der Sieben. Der SO7er erschafft seine Identität durch die Zugehörigkeit zur Gruppe – durch Familie, Gemeinschaft, soziale Verantwortung. Er definiert sich als verlässlicher Teil dieses Systems. Doch wenn das System zur Enge wird, wenn die soziale Zugehörigkeit als Käfig erlebt wird, kann das Unbewusste der Sieben in einer Weise durchbrechen, die das genaue Gegenteil vollzieht: Die soziale Gruppe, die die Identität getragen hat, wird ausgelöscht. Nicht aus Hass, nicht aus Sadismus – sondern aus der magischen Denkweise der Sieben, dass das, was beengt, einfach aufhören kann zu existieren.</p>
         <p class="vb-intro">Der Stresspunkt der Sieben ist der Typ Eins. In extremem Stress – wenn die Sieben nicht mehr fliehen kann, wenn die Zukunft blockiert scheint – greift sie auf Eins-Energie zurück: kalt, systematisch, rigide „korrekt". Die Tat trägt diesen Stempel. Es gibt keine Explosion, keine erkennbare Eskalation über Wochen. Es gibt einen Plan, eine Ausführung, einen Morgen danach mit einem Fernsehinterview auf der Veranda. Die Eins-Energie im Schatten der Sieben bringt eine erschreckende Präzision. Was fertig ist, ist fertig. Was neu ist, beginnt jetzt.</p>
-        <p class="vb-intro">Das Tier des sozialen Typ 7 ist der <strong>Biber</strong>: Er baut seine Umwelt nach Plan, mit beeindruckender Energie und Ausdauer. Er staut Wasser, verändert Landschaften, konstruiert sein ideales Habitat. Wenn etwas seinen Bau bedroht, beseitigt er das Hindernis methodisch. Im Schatten liegt das Zerstörerische dieser Energie: Der Biber macht keine halben Sachen. Er reißt ab und baut neu. Was vorher war, zählt nicht – es zählt nur das, was werden soll.</p>
+        <p class="vb-intro">Das Tier des sozialen Typs 7 ist der <strong>Biber</strong>: Er baut seine Umwelt nach Plan, mit beeindruckender Energie und Ausdauer. Er staut Wasser, verändert Landschaften, konstruiert sein ideales Habitat. Wenn etwas seinen Bau bedroht, beseitigt er das Hindernis methodisch. Im Schatten liegt das Zerstörerische dieser Energie: Der Biber macht keine halben Sachen. Er reißt ab und baut neu. Was vorher war, zählt nicht – es zählt nur das, was werden soll.</p>
       </div>
 
       <div class="vb-section" style="background:rgba(40,40,80,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
@@ -24471,7 +24471,7 @@ function angelResendezPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Flusspferd</h3>
         <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typ 2:
+        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typs 2:
         massiv und unscheinbar zugleich, scheinbar träge und harmlos,
         dabei jederzeit fähig zu explosiver Gewalt.
         Es lebt am Wasser – an der Grenze zwischen zwei Welten –,
@@ -24663,7 +24663,7 @@ function tommyLynnSellsPortraitPage() {
       <div class="vb-section" style="max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">1. Tierentsprechung: Das Flusspferd</h3>
         <p class="vb-intro">
-        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typ 2:
+        Das <strong>Flusspferd</strong> ist die Tierentsprechung des Selbsterhaltenden Typs 2:
         massiv und unscheinbar zugleich, scheinbar träge und harmlos,
         dabei jederzeit fähig zu explosiver Gewalt.
         Das Flusspferd lebt am Wasser – an der Grenze zwischen zwei Welten –,
@@ -24777,7 +24777,7 @@ function tommyLynnSellsPortraitPage() {
       <div class="vb-section" style="background:rgba(80,40,0,0.05);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;max-width:100%;">
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 0.8rem;color:var(--ink);">6. Fazit: Der freundliche Fremde</h3>
         <p class="vb-intro">
-        Tommy Lynn Sells verkörpert die dunkelste Möglichkeit des Selbsterhaltenden Typ 2:
+        Tommy Lynn Sells verkörpert die dunkelste Möglichkeit des Selbsterhaltenden Typs 2:
         ein Mensch, dessen frühe Bindungserfahrungen so zerstörerisch waren,
         dass die SE2-Überlebensstrategie – Fürsorge als Mittel zur Kontrolle,
         Annäherung als Vorstufe zur Ausbeutung – keine sozialen Grenzen mehr kannte.
@@ -29190,7 +29190,7 @@ function jackUnterweegerPortraitPage() {
         <h3 style="font-size:1.05rem;font-weight:700;margin:0 0 1rem;color:var(--ink);">4. Was das Enneagramm sichtbar macht</h3>
         <p class="vb-intro">
         Der Fall Jack Unterweger ist das psychologische Lehrstück
-        des Sozialen Typ 2 in seiner dunkelsten Ausprägung.
+        des Sozialen Typs 2 in seiner dunkelsten Ausprägung.
         Die Gesellschaft wollte glauben, dass er sich geändert hatte –
         und die soziale Zwei lieferte ihr genau diesen Glauben.
         Sie projizierte auf ihn, was sie sehen wollte:
