@@ -360,6 +360,8 @@ export const registerEntries = [
   // Tierlexikon
   { term: "Tierlexikon",               route: "tierlexikon",            description: "Das vollständige Tierlexikon: alle 27 Tierarchetypn mit Bedeutung, Qualitäten und Instinktzuordnung" },
 
+  { term: "Wetter- und Naturphänomene der 9 Typen", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypische Wetter- und Naturphänomen-Entsprechungen für jeden Enneagrammtyp" },
+
   // Neue Tierarten-Schaubilder
   { term: "Bärenarten der 9 Typen",   route: "baerenarten-der-9-typen",        description: "Archetypische Bären-Entsprechungen für jeden Enneagrammtyp" },
   { term: "Fischarten der 9 Typen",    route: "fischarten-der-9-typen",          description: "Archetypische Fisch-Entsprechungen für jeden Enneagrammtyp" },
@@ -975,6 +977,7 @@ export const registerEntriesEN = [
   { term: "Crisis Compass", route: "krisenkompass", description: "Crisis Compass: Enneagram support in acute crises – subtype-specific impulses" },
   { term: "Type Test (Motivational)", route: "typentest-motivational", description: "Motivational type test with a focus on inner drives and needs" },
   { term: "Animal Lexicon", route: "tierlexikon", description: "The complete animal lexicon: all 27 animal archetypes with meaning, qualities, and instinct assignment" },
+  { term: "Weather and Nature Phenomena of the 9 Types", route: "wetter-naturphaenomene-der-9-typen", description: "Archetypal weather and nature phenomenon equivalents for each Enneagram type" },
   { term: "Bear Species of the 9 Types", route: "baerenarten-der-9-typen", description: "Archetypal bear equivalents for each Enneagram type" },
   { term: "Fish Species of the 9 Types", route: "fischarten-der-9-typen", description: "Archetypal fish equivalents for each Enneagram type" },
   { term: "Frog Species of the 9 Types", route: "froscharten-der-9-typen", description: "Archetypal frog equivalents for each Enneagram type" },

@@ -1378,6 +1378,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "hochsensibilitaet-der-9-typen",
     "superpower-der-9-typen",
     "wolkenformationen-der-9-typen",
+    "wetter-naturphaenomene-der-9-typen",
     "wolfsarten-der-9-typen",
     "eulenarten-der-9-typen",
     "papageienarten-der-9-typen",
@@ -2280,6 +2281,7 @@ function inhaltsübersichtPage() {
 
         ${cat("Culture, Nature & Lifestyle", "&#127759;", [
           "Animal Correspondences (9 Types)",
+          "Weather and Nature Phenomena of the 9 Types",
           "Monkey Species of the 9 Types",
           "Tree Species of the 9 Types",
           "Bear Species of the 9 Types",
@@ -31191,6 +31193,65 @@ function wolfsartenDer9TypenPage() {
   `);
 }
 
+function wetterNaturphaenomeneDer9TypenPage() {
+  const img = (file, alt) => `<img src="../assets/${file}" alt="${alt}"
+        style="width:100%;max-width:640px;display:block;margin:1rem auto 1.2rem;border-radius:12px;cursor:zoom-in;" />`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Weather and Nature Phenomena of the 9 Types", "Charts · Archetypes")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Weather and Nature Phenomena of the 9 Types</h1>
+      <p class="psycho-intro">Nature expresses the nine core energies of the Enneagram through its own cycles: frost and rain, sun and fog, starry polar night and storm, rainbow and volcano, the still lake. Each weather phenomenon carries its own principle — its own movement, its own quality of force, stillness, or change. Nine natural phenomena, nine Enneagram principles.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 1 – Frost / Crystal Formation: Frozen Form</h3>
+      ${img("wetter-1-frost.jpg", "Hoarfrost crystals on frozen branches")}
+      <p class="vb-intro">Frost forms when moisture, under falling temperature, doesn't freeze chaotically but arranges itself into an exact, geometrically pure structure — every ice crystal follows the same inner blueprint, nothing is random, nothing looks "untidy." That is exactly the signature of Type 1: the inner drive to bring chaos into a correct, flawless form before it may be considered "finished." Frost is also cold and hard until it is warmed — an image for the strictness with which Ones judge themselves first, then the world: nothing may melt until the form is right. And just as hoarfrost turns into clear, flowing water at the first rays of sun, the strictness of Ones dissolves once they meet themselves with warmth instead of criticism — perfection is then not abandoned, but brought to life.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 2 – Warm Spring Rain: Nourishing</h3>
+      ${img("wetter-2-fruehlingsregen.jpg", "Raindrops on fresh spring grass")}
+      <p class="vb-intro">Spring rain doesn't fall as a storm but gently and persistently — it awakens growth in everything it touches, without staying visible itself. It seeps into the ground, down to the roots, and keeps working unseen long after the clouds have moved on. That is the core movement of Type 2: placing themselves in service of others' growth, often unnoticed, without demanding recognition for it — giving closeness that lets the other bloom. The downside appears when rain never stops: ground that is constantly drenched can flood, roots can rot. The tendency of Twos to give so much that their own boundaries blur carries the same risk — they themselves dry out, because they never let themselves be watered. Maturity for Type 2 means letting their own rain fall for themselves too.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 3 – The Midday Sun: Full Radiance</h3>
+      ${img("wetter-3-mittagssonne.jpg", "Sunflower in full bloom in bright sunlight")}
+      <p class="vb-intro">The sun at its zenith is the moment of maximum visibility and power — shadows shrink to a minimum, every shape, every color, every achievement becomes visible. A sunflower follows this sun all day long, turning toward it, opening itself fully to it — built for radiance. That mirrors the drive of Type 3 precisely: to shine, to succeed, to make ability and achievement visible, turning toward recognition the way the blossom turns toward the light. But midday sun also blinds: in its glaring light the fine contours blur, one sees less clearly precisely because the light is so intense. Likewise, the self-presentation of Threes can obscure who they are "in their own shadow," beyond the performance and the stage. Maturity for this type arrives when they know their worth even under a clouded sky.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 4 – Fog / Autumn: Melancholic, Mysterious</h3>
+      ${img("wetter-4-nebel-herbst.jpg", "Misty autumn lake with reflected trees")}
+      <p class="vb-intro">Fog over an autumn lake blurs the boundaries between water, shore, and sky — the familiar becomes strange and poetic at once, because one only senses the contours of the world rather than seeing them clearly. Autumn as the season of transition, of impermanence in full color, speaks directly to Type 4: for this type, the feeling of depth arises precisely from the awareness of loss, from knowing that every beauty also fades. The muted, golden-brown mood of a foggy autumn morning carries exactly that mix of longing, wistfulness, and quiet beauty that becomes, for Fours, the very feeling of being alive. But fog also lifts — and behind it often lies surprising clarity. An image for the fact that the emotional intensity of Fours need not be a final state, but a passage toward genuine, undramatic presence.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 5 – Starry Sky / Polar Night: Stillness, Depth</h3>
+      ${img("wetter-5-polarnacht.jpg", "Starry sky with aurora during the polar night")}
+      <p class="vb-intro">The polar night is stillness, distance, endless expanse — a space where one can observe for days without being seen, where withdrawal is not a lack but the condition for clarity. That is exactly the retreat impulse of Type 5: creating distance in order to understand before engaging; thinking things through in peace before acting. The stars and the aurora itself stand for what Fives collect — knowledge, patterns, insight, observed from a safe distance, without the noise of day that would outshine the faint lights in the sky. The challenge in this image: a night that lasts too long, from which no one returns to the daylight of connection. Maturity for Type 5 means sharing the clarity they've gathered with others, instead of keeping it only for themselves.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 6 – Wind / The Approaching Storm: Vigilance, Warning</h3>
+      ${img("wetter-6-unwetter.jpg", "Lightning over mountains, gathering storm clouds")}
+      <p class="vb-intro">The wind that announces what's coming, the falling barometer, the clouds piling up over the mountains — that is pure vigilance, reading the signals before the actual danger has even arrived. That is exactly the gift of Type 6: they sense risk before others see it, they are the "weather-sensitive" ones of any group, the first to notice when something is brewing. The worry-and-fear dynamic of this type shows itself in the fact that the rising wind is not yet a storm — but Sixes often already experience it as though the catastrophe has already happened, and prepare accordingly. Courage for this type doesn't mean having no fear, but: feeling the wind, taking it seriously — and still not declaring it a hurricane too soon.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 7 – Rainbow / Summer Thunderstorm: Dynamic, Colorful</h3>
+      ${img("wetter-7-regenbogen.jpg", "Rainbow against the evening sun after a summer shower")}
+      <p class="vb-intro">A summer thunderstorm is intense, brief, changeable — and afterward, when the sun breaks through the clouds again, the rainbow appears as a reward, visible proof that joy and color can arise again immediately out of turmoil. That is the movement of Type 7: rapid shifts, many colors and options in view at once, the ability to draw something positive and bright out of almost any situation. The downside: a rainbow is fleeting, it vanishes the moment one tries to hold onto it or chase after it — an image for the difficulty many Sevens have in truly staying with one experience, feeling, or commitment, instead of moving on to the next colorful stimulus. Maturity for this type shows when they learn to stay even under an overcast sky, without immediately fleeing toward the next rainbow.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 8 – Volcanic Eruption / The Storm: Raw Force, Transformation</h3>
+      ${img("wetter-8-vulkan.jpg", "Volcanic eruption with lava and ash cloud")}
+      <p class="vb-intro">Raw, unfiltered force that breaks through unstoppably — a volcanic eruption destroys everything in its immediate path, yet also creates new, exceptionally fertile ground on which more will later grow than before. That is Type 8: intensity, assertiveness, the instinct to take control the moment weakness or threat is sensed anywhere. The eruption in a sense clears the atmosphere, but also brings devastation if the force stays uncontrolled and no one channels it. The maturation of Type 8 lies precisely in consciously directing their own "lava force" — protection and building up instead of mere destruction, true leadership instead of pure dominance. A volcano that knows where its force should flow transforms a landscape for the better.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Type 9 – The Still Lake / The Vast Sea: Absolute Calm, Connection</h3>
+      ${img("wetter-9-stiller-see.jpg", "Still lake at sunset with calm water reflection")}
+      <p class="vb-intro">The mirror-smooth surface of a still lake at sunset shows the sky, the shores, the trees — perfect, with no movement of its own that would disturb this peace. That is exactly the deepest wish of Type 9: connection, harmony, non-conflict, the feeling of being one with the surroundings instead of asserting oneself against them. But a lake with no current at all can stagnate over time — just as Nines can "forget" themselves, their own wishes and priorities, in order to preserve outer peace at any cost. The vast sea in the background is a reminder that beneath the calm surface lies enormous force and depth — their own presence, their own will, which Nines often must first consciously discover and claim in order to be truly alive.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Overviews, charts, and type descriptions – the first volume of the trilogy that brings the Enneagram to life.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "In-depth type profiles and archetypal perspectives – Volume 2 of the Rathmer trilogy.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 subtypes, paths of healing, and the bigger picture – Volume 3 completing the trilogy.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"wolkenformationen-der-9-typen", label:"Cloud Formations of the 9 Types"},
+        {route:"berge-der-9-typen", label:"Mountains of the 9 Types"},
+        {route:"baerenarten-der-9-typen", label:"Bear Species of the 9 Types"},
+      ])}
+    </div>
+  `);
+}
+
 function eulenartenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -40410,6 +40471,7 @@ function subtypeSchaubilderPage() {
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,
+    "wetter-naturphaenomene-der-9-typen": wetterNaturphaenomeneDer9TypenPage,
     "baerenarten-der-9-typen": baerenarteDer9TypenPage,
     "milchkuharten-der-9-typen": milchkuhartenDer9TypenPage,
     "vogelarten-der-9-typen": vogelartenDer9TypenPage,

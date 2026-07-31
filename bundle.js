@@ -1432,6 +1432,7 @@ const HEILWISSEN_ROUTES = new Set(["tischdialoge", "healing", "oils", "tcm", "ki
     "hochsensibilitaet-der-9-typen",
     "superpower-der-9-typen",
     "wolkenformationen-der-9-typen",
+    "wetter-naturphaenomene-der-9-typen",
     "wolfsarten-der-9-typen",
     "eulenarten-der-9-typen",
     "papageienarten-der-9-typen",
@@ -34458,6 +34459,65 @@ function wolfsartenDer9TypenPage() {
   `);
 }
 
+function wetterNaturphaenomeneDer9TypenPage() {
+  const bild = (datei, alt) => `<img src="./assets/${datei}" alt="${alt}"
+        style="width:100%;max-width:640px;display:block;margin:1rem auto 1.2rem;border-radius:12px;cursor:zoom-in;" />`;
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Wetter- und Naturphänomene der 9 Typen", "Schaubilder · Archetypen")}
+      <h1 style="font-family:'EB Garamond',serif;font-size:2rem;color:var(--ink);margin:1.2rem 0 0.5rem;line-height:1.2;">Wetter- und Naturphänomene der 9 Typen</h1>
+      <p class="psycho-intro">Die Natur drückt die neun Ur-Energien des Enneagramms in ihren eigenen Zyklen aus: Frost und Regen, Sonne und Nebel, Sternennacht und Sturm, Regenbogen und Vulkan, der stille See. Jedes Wetterphänomen trägt ein eigenes Prinzip in sich – eine eigene Bewegung, eine eigene Qualität von Kraft, Ruhe oder Wandel. Neun Naturphänomene, neun Enneagrammprinzipien.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 1 – Der Frost / Die Kristallbildung: Erstarrte Form</h3>
+      ${bild("wetter-1-frost.jpg", "Rauhreif-Kristalle an gefrorenen Zweigen")}
+      <p class="vb-intro">Frost entsteht, wenn Feuchtigkeit unter fallender Temperatur nicht chaotisch gefriert, sondern sich zu einer exakten, geometrisch reinen Struktur ordnet – jede Eiskristallnadel folgt demselben inneren Bauplan, nichts ist zufällig, nichts wirkt "unordentlich". Genau das ist die Signatur von Typ 1: der innere Drang, Chaos in eine korrekte, makellose Form zu bringen, bevor sie als "fertig" gelten darf. Frost ist außerdem kalt und hart, solange er nicht erwärmt wird – ein Bild für die Strenge, mit der Einser zunächst sich selbst, dann die Welt bewerten: nichts darf schmelzen, solange die Form nicht stimmt. Und so, wie Rauhreif bei den ersten Sonnenstrahlen in klares, fließendes Wasser übergeht, löst sich auch die Strenge der Einser, sobald sie sich selbst mit Wärme statt mit Kritik begegnen – die Perfektion wird dann nicht aufgegeben, sondern lebendig.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 2 – Der warme Frühlingsregen: Nährend</h3>
+      ${bild("wetter-2-fruehlingsregen.jpg", "Regentropfen auf frischem Frühlingsgras")}
+      <p class="vb-intro">Frühlingsregen fällt nicht als Unwetter, sondern sanft und beharrlich – er weckt das Wachstum in allem, was er berührt, ohne selbst sichtbar zu bleiben. Er sickert in den Boden, dorthin, wo die Wurzeln sind, und wirkt im Verborgenen weiter, lange nachdem die Wolken schon weitergezogen sind. Das ist die Kernbewegung der Zwei: sich in den Dienst des Wachstums anderer stellen, oft unbemerkt, ohne dafür Anerkennung zu verlangen – Nähe geben, die den anderen aufblühen lässt. Die Kehrseite zeigt sich, wenn Regen nicht mehr aufhört: Ein Boden, der ständig übergossen wird, kann überfluten, Wurzeln können faulen. Die Tendenz der Zweier, so viel zu geben, dass die eigenen Grenzen verschwimmen, trägt dasselbe Risiko – sie selbst trocknen aus, weil sie sich nie "gießen" lassen. Reife bei Typ 2 heißt: den eigenen Regen auch für sich selbst fallen lassen.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 3 – Die Mittagssonne: Volle Strahlkraft</h3>
+      ${bild("wetter-3-mittagssonne.jpg", "Sonnenblume in voller Blüte im hellen Sonnenlicht")}
+      <p class="vb-intro">Die Sonne im Zenit ist der Moment maximaler Sichtbarkeit und Kraft – Schatten werden minimal, jede Form, jede Farbe, jede Leistung wird sichtbar. Eine Sonnenblume folgt dieser Sonne den ganzen Tag über, dreht sich ihr entgegen, öffnet sich ihr voll – sie ist auf Strahlkraft hin gebaut. Genau das spiegelt den Antrieb der Drei: strahlen, glänzen, Erfolg und Fähigkeit sichtbar machen, sich der Anerkennung entgegendrehen wie die Blüte dem Licht. Doch Mittagssonne blendet auch: In ihrem grellen Licht verschwimmen die feinen Konturen, man sieht weniger klar, gerade weil das Licht so intensiv ist. Ebenso kann die Selbstdarstellung der Dreier verdecken, wer sie "im eigenen Schatten", jenseits der Leistung und der Bühne, eigentlich sind. Die Reife dieses Typs entsteht, wenn er auch bei bewölktem Himmel weiß, dass er wertvoll ist.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 4 – Der Nebel / Der Herbst: Melancholisch, geheimnisvoll</h3>
+      ${bild("wetter-4-nebel-herbst.jpg", "Herbstlicher Nebelsee mit gespiegelten Bäumen")}
+      <p class="vb-intro">Nebel über einem herbstlichen See verwischt die Grenzen zwischen Wasser, Ufer und Himmel – Vertrautes wird fremd und zugleich poetisch, weil man die Konturen der Welt nur ahnt, nicht klar sieht. Der Herbst als Jahreszeit des Übergangs, der Vergänglichkeit in voller Farbenpracht, spricht die Vier unmittelbar an: Das Gefühl von Tiefe entsteht bei diesem Typ gerade aus dem Bewusstsein des Verlusts, aus dem Wissen, dass jede Schönheit auch vergeht. Die gedämpfte, gold-braune Stimmung eines Nebelmorgens im Herbst trägt genau diese Mischung aus Sehnsucht, Wehmut und stiller Schönheit, die für Vierer zum eigentlichen Lebensgefühl wird. Nebel hebt sich aber auch – und dahinter liegt oft überraschende Klarheit. Ein Bild dafür, dass die emotionale Intensität der Vierer kein Endzustand sein muss, sondern ein Durchgang zu echter, undramatischer Präsenz.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 5 – Die Sternennacht / Polarnacht: Stille, Tiefe</h3>
+      ${bild("wetter-5-polarnacht.jpg", "Sternenhimmel mit Polarlicht in der Polarnacht")}
+      <p class="vb-intro">Die Polarnacht ist Stille, Distanz, unendliche Weite – ein Raum, in dem man tagelang beobachten kann, ohne selbst gesehen zu werden, in dem Rückzug kein Mangel, sondern die Bedingung für Klarheit ist. Genau das trifft den Rückzugsimpuls der Fünf: Abstand schaffen, um zu verstehen, bevor man sich einlässt; die Dinge erst in Ruhe durchdenken, dann erst handeln. Die Sterne und das Polarlicht selbst stehen für das, was die Fünf sammelt – Wissen, Muster, Einsicht, aus sicherer Entfernung betrachtet, ohne den Lärm des Tages, der die feinen Lichter am Himmel überstrahlen würde. Die Herausforderung dieses Bildes: eine Nacht, die zu lange dauert, in der niemand mehr zurückkehrt ins Tageslicht der Verbindung. Reife bei Typ 5 bedeutet, die gesammelte innere Klarheit auch mit anderen zu teilen, statt sie nur für sich zu behalten.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 6 – Der Wind / Das aufziehende Unwetter: Achtsamkeit, Warnung</h3>
+      ${bild("wetter-6-unwetter.jpg", "Blitz über Bergen, aufziehende Gewitterwolken")}
+      <p class="vb-intro">Der Wind, der das Kommende ankündigt, das Barometer, das fällt, die Wolken, die sich über den Bergen auftürmen – das ist reine Wachsamkeit, das Lesen von Signalen, bevor die eigentliche Gefahr überhaupt da ist. Genau das ist die Gabe der Sechs: Sie spüren Risiken, bevor andere sie sehen, sie sind die "Wetterfühligen" jeder Gruppe, diejenigen, die als Erste merken, wenn sich etwas zusammenbraut. Die Sorge-und-Angst-Dynamik dieses Typs zeigt sich darin, dass der aufziehende Wind selbst noch kein Sturm ist – aber Sechser erleben ihn oft schon so, als wäre die Katastrophe bereits eingetroffen, und rüsten sich entsprechend. Mut bedeutet bei diesem Typ nicht, keine Angst zu haben, sondern: den Wind spüren, ernst nehmen – und ihn trotzdem nicht vorschnell zum Orkan zu erklären.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 7 – Der Regenbogen / Das Sommergewitter: Dynamisch, bunt</h3>
+      ${bild("wetter-7-regenbogen.jpg", "Regenbogen vor der Abendsonne nach einem Sommerregen")}
+      <p class="vb-intro">Ein Sommergewitter ist intensiv, kurz, wechselhaft – und danach, wenn die Sonne wieder durch die Wolken bricht, erscheint der Regenbogen als Belohnung, als sichtbarer Beweis, dass aus Aufruhr sofort wieder Freude und Farbe entstehen kann. Das ist die Bewegung der Sieben: schnelle Wechsel, viele Farben und Optionen gleichzeitig im Blick, die Fähigkeit, aus praktisch jeder Situation etwas Positives, Leuchtendes zu ziehen. Die Kehrseite: Ein Regenbogen ist flüchtig, er verschwindet in dem Moment, in dem man versucht, ihn festzuhalten oder ihm hinterherzulaufen – ein Bild für die Schwierigkeit vieler Siebener, bei einer Erfahrung, einem Gefühl oder einer Verpflichtung wirklich zu bleiben, statt zum nächsten "bunten" Reiz weiterzuziehen. Reife bei diesem Typ zeigt sich, wenn er lernt, auch bei bedecktem Himmel zu bleiben, ohne sofort zum nächsten Regenbogen zu fliehen.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 8 – Der Vulkanausbruch / Der Sturm: Rohe Gewalt, Transformation</h3>
+      ${bild("wetter-8-vulkan.jpg", "Vulkanausbruch mit Lava und Aschewolke")}
+      <p class="vb-intro">Rohe, ungefilterte Kraft, die sich unaufhaltsam Bahn bricht – ein Vulkanausbruch zerstört alles in seinem unmittelbaren Weg, schafft aber zugleich neuen, außergewöhnlich fruchtbaren Boden, auf dem später mehr wächst als zuvor. Das ist die Acht: Intensität, Durchsetzungskraft, der Instinkt, sofort die Kontrolle zu übernehmen, sobald irgendwo Schwäche oder Bedrohung gespürt wird. Der Ausbruch reinigt gewissermaßen die Atmosphäre, bringt aber auch Verwüstung, wenn die Kraft unkontrolliert bleibt und niemand sie kanalisiert. Die Reifung der Acht liegt genau darin, die eigene "Lava-Kraft" bewusst zu lenken – Schutz und Aufbau statt bloßer Zerstörung, echte Führung statt reiner Dominanz. Ein Vulkan, der weiß, wohin seine Kraft fließen soll, verändert eine Landschaft zum Guten.</p>
+
+      <h3 style="font-size:1.05rem;font-weight:700;margin:1.8rem 0 1rem;color:var(--ink);">Typ 9 – Der stille See / Das weite Meer: Absolute Ruhe, Verbindung</h3>
+      ${bild("wetter-9-stiller-see.jpg", "Stiller See bei Sonnenuntergang mit ruhiger Wasserspiegelung")}
+      <p class="vb-intro">Die spiegelglatte Oberfläche eines stillen Sees bei Sonnenuntergang zeigt den Himmel, die Ufer, die Bäume – perfekt, ohne eigene Bewegung, die diesen Frieden stören würde. Genau das ist der tiefste Wunsch der Neun: Verbindung, Harmonie, Nicht-Konflikt, das Gefühl, mit der Umgebung eins zu sein, statt sich gegen sie zu behaupten. Aber ein See ohne jede Strömung kann mit der Zeit stagnieren – ebenso wie Neuner sich selbst, ihre eigenen Wünsche und Prioritäten, "vergessen" können, um den äußeren Frieden um jeden Preis zu bewahren. Das weite Meer im Hintergrund erinnert daran, dass unter der ruhigen Oberfläche enorme Kraft und Tiefe liegen – die eigene Präsenz, der eigene Wille, den die Neun oft erst bewusst entdecken und beanspruchen muss, um wirklich lebendig zu sein.</p>
+
+      <div class="vb-section" style="max-width:100%;margin-top:2rem;">
+        ${bookTip("wer-du-wirklich-bist-band-1", "Übersichten, Schaubilder und Typbeschreibungen – der erste Band der Trilogie, die das Enneagramm lebendig macht.", "Wer du wirklich bist – Band 1")}
+        ${bookTip("wer-du-wirklich-bist-band-2", "Vertiefte Typprofile und archetypische Betrachtungen – Band 2 der Rathmer-Trilogie.", "Wer du wirklich bist – Band 2")}
+        ${bookTip("wer-du-wirklich-bist-band-3", "27 Subtypen, Heilungswege und das große Bild – Band 3 als Abschluss der Trilogie.", "Wer du wirklich bist – Band 3")}
+      </div>
+      ${relatedLinks([
+        {route:"wolkenformationen-der-9-typen", label:"Wolkenformationen der 9 Typen"},
+        {route:"berge-der-9-typen", label:"Berge der 9 Typen"},
+        {route:"baerenarten-der-9-typen", label:"Bärenarten der 9 Typen"},
+      ])}
+    </div>
+  `);
+}
+
 function eulenartenDer9TypenPage() {
   return shell(`
     <div class="page-container">
@@ -43391,6 +43451,7 @@ function render() {
     "hunderassen-der-9-typen": hunderassenDer9TypenPage,
     "pferdearten-der-9-typen": pferdearteDer9TypenPage,
     "nagetierarten-der-9-typen": nagetierartenDer9TypenPage,
+    "wetter-naturphaenomene-der-9-typen": wetterNaturphaenomeneDer9TypenPage,
     "baerenarten-der-9-typen": baerenarteDer9TypenPage,
     "milchkuharten-der-9-typen": milchkuhartenDer9TypenPage,
     "vogelarten-der-9-typen": vogelartenDer9TypenPage,
