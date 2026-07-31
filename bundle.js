@@ -10211,6 +10211,7 @@ function johnLennonPortraitPage() {
       ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich \u2013 wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
         {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
         {route:"astrologie-john-lennon", label:"Horoskop-Analyse: John Lennon"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
@@ -14742,6 +14743,7 @@ function paulMccartneyPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
         {route:"beruehmte-karoline-herfurth", label:"Porträt: Karoline Herfurth (SE4w5)"},
         {route:"beruehmte-clemens-arvay", label:"Porträt: Clemens G. Arvay (SE4w5)"},
       ])}
