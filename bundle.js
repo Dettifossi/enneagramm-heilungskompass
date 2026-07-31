@@ -376,7 +376,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Musik"] , gender:"f"},
   { route:"beruehmte-brigitte-bardot", name:"Brigitte Bardot", added:"2026-07-31", subtyp:"SX3w2",
     heading:"Brigitte Bardot – Sexueller Typ 3",
-    teaser:"SX3w2 · geb. 1934. Filmikone der 1950er/60er, seit 1973 Tierrechtsaktivistin. Vom Sinnbild sinnlicher Ausstrahlung zur Gründerin einer eigenen Stiftung – der Pfau, der sein Gefieder irgendwann für eine andere Sache einsetzt. Tierentsprechung: Pfau.",
+    teaser:"SX3w2 · 1934–2025. Filmikone der 1950er/60er, seit 1973 Tierrechtsaktivistin. Vom Sinnbild sinnlicher Ausstrahlung zur Gründerin einer eigenen Stiftung – der Pfau, der sein Gefieder irgendwann für eine andere Sache einsetzt. Tierentsprechung: Pfau.",
     tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-meg-ryan", name:"Meg Ryan", added:"2026-07-20", subtyp:"SX3w4",
     heading:"Meg Ryan – Sexueller Typ 3",
@@ -14867,7 +14867,7 @@ function brigitteBardotPortraitPage() {
         </div>
         <p class="krim-portrait-name">Brigitte Bardot</p>
         <p class="krim-portrait-typ">SX3w2 &middot; Sexueller Typ 3 mit Zweierflügel</p>
-        <p class="krim-portrait-subtitle">Schauspielerin &amp; Tierrechtsaktivistin, geb. 1934 &ndash; Tierentsprechung: Pfau</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Tierrechtsaktivistin, 1934&ndash;2025 &ndash; Tierentsprechung: Pfau</p>
       </div>
       <div class="page-content">
 
@@ -14901,12 +14901,12 @@ function brigitteBardotPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Das Licht der SX3 ist ihre Fähigkeit, durch reine Präsenz zu wirken &ndash; und, wenn sie reift, diese Wirkung für etwas einzusetzen, das größer ist als die eigene Anziehungskraft. Bardots Lebenswerk im Tierschutz hat reale politische Veränderungen bewirkt, von EU-Importverboten für Robbenprodukte bis zu verschärften Tierschutzgesetzen in Frankreich.</p>
           <p class="vb-intro">Das Schicksalsmuster der Drei ist die <strong>Täuschung</strong> &ndash; das Verwechseln der eigenen Identität mit der eigenen Wirkung. Bei Bardot zeigte sich dieses Muster in den späteren Lebensjahrzehnten anders als erwartet: nicht als Festhalten am eigenen Image, sondern als radikale Direktheit, die zunehmend in Provokation und mehrfach gerichtlich verurteilte Äußerungen zu Einwanderung und Islam umschlug. Der Pfau, der sein Leben lang gelernt hat, dass Aufsehen Aufmerksamkeit bedeutet, kann diese Logik auch dort anwenden, wo sie verletzt statt berührt.</p>
-          <p class="vb-intro">Der Zweierflügel bringt sein eigenes Schattenmuster: eine Fürsorge, die sich so vollständig auf ein Anliegen &ndash; hier: Tiere &ndash; konzentriert, dass sie an anderer Stelle blind werden kann für das Leid von Menschen. Diese Spannung zwischen radikaler Tierliebe und öffentlich verurteilten menschenfeindlichen Aussagen bleibt eine der schwierigsten Facetten von Bardots späterem Leben.</p>
+          <p class="vb-intro">Der Zweierflügel bringt sein eigenes Schattenmuster: eine Fürsorge, die sich so vollständig auf ein Anliegen &ndash; hier: Tiere &ndash; konzentriert, dass sie an anderer Stelle blind werden kann für das Leid von Menschen. Diese Spannung zwischen radikaler Tierliebe und öffentlich verurteilten menschenfeindlichen Aussagen blieb eine der schwierigsten Facetten von Bardots späterem Leben.</p>
         </blockquote>
 
         <h2 class="vb-section">6. Der Heilungsweg: Von der Wirkung zur Hingabe</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Werde ich begehrt?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne diese Wirkung.</em> Für die SX3w2 bedeutet das, die eigene Anziehungskraft nicht mehr als Zentrum der Identität zu behandeln, sondern als ein Werkzeug unter vielen, das man bewusst einsetzen oder loslassen kann.</p>
+          <p class="vb-intro">Der Heilungsweg der Drei führt von der Frage <em>Werde ich begehrt?</em> zur Erkenntnis <em>Ich bin &ndash; auch ohne diese Wirkung.</em> Für die SX3w2 bedeutet das, die eigene Anziehungskraft nicht mehr als Zentrum der Identität zu behandeln, sondern als ein Werkzeug unter vielen, das man bewusst einsetzen oder beiseitelegen kann.</p>
           <p class="vb-intro">Bardots Rückzug aus dem Filmgeschäft war genau dieser Schritt in seiner radikalsten Form: die bewusste Entscheidung, nicht mehr von der eigenen Wirkung auf andere abhängig zu sein, sondern die verbleibende Energie einer Sache zu widmen, die keine Bewunderung zurückgibt. Der Pfau, der irgendwann nicht mehr fragt, ob man ihn ansieht &ndash; sondern wohin er selbst schaut.</p>
         </blockquote>
 

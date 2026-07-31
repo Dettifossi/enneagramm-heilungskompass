@@ -579,7 +579,7 @@ const BERUEHMT_PORTRAITS = [
     tags:["Music"] , gender:"f"},
   { route:"beruehmte-brigitte-bardot", name:"Brigitte Bardot", added:"2026-07-31", subtyp:"SX3w2",
     heading:"Brigitte Bardot – Sexual Type 3",
-    teaser:"SX3w2 · born 1934. Film icon of the 1950s/60s, animal rights activist since 1973. From the embodiment of sensual allure to founder of her own foundation – the peacock that eventually puts its plumage to work for another cause. Animal correspondence: Peacock.",
+    teaser:"SX3w2 · 1934–2025. Film icon of the 1950s/60s, animal rights activist since 1973. From the embodiment of sensual allure to founder of her own foundation – the peacock that eventually puts its plumage to work for another cause. Animal correspondence: Peacock.",
     tags:["Schauspiel"] , gender:"f"},
   { route:"beruehmte-linda-leinweber", name:"Linda Leinweber", added:"2026-07-21", subtyp:"SX4w5",
     heading:"Linda Leinweber – Sexual Type 4",
@@ -15882,7 +15882,7 @@ function brigitteBardotPortraitPage() {
         </div>
         <p class="krim-portrait-name">Brigitte Bardot</p>
         <p class="krim-portrait-typ">SX3w2 &middot; Sexual Type 3 with Two-wing</p>
-        <p class="krim-portrait-subtitle">Actress &amp; Animal Rights Activist, born 1934 &ndash; Animal correspondence: Peacock</p>
+        <p class="krim-portrait-subtitle">Actress &amp; Animal Rights Activist, 1934&ndash;2025 &ndash; Animal correspondence: Peacock</p>
       </div>
       <div class="page-content">
 
@@ -15916,12 +15916,12 @@ function brigitteBardotPortraitPage() {
         <blockquote class="vb-blockquote">
           <p class="vb-intro">The light of the SX3 is its ability to have impact through pure presence &ndash; and, when it matures, to put that impact toward something larger than its own allure. Bardot&#39;s life&#39;s work in animal welfare brought about real political change, from EU import bans on seal products to stricter animal protection laws in France.</p>
           <p class="vb-intro">The fate pattern of the Three is <strong>deception</strong> &ndash; confusing one&#39;s own identity with one&#39;s own impact. In Bardot this pattern showed itself in later decades differently than expected: not as clinging to her own image, but as a radical directness that increasingly turned into provocation and repeatedly court-condemned statements about immigration and Islam. The peacock that has learned throughout its life that causing a stir means attention can apply that same logic even where it wounds rather than moves.</p>
-          <p class="vb-intro">The Two-wing brings its own shadow pattern: a care so completely focused on one cause &ndash; here, animals &ndash; that it can become blind elsewhere to human suffering. This tension between radical love of animals and publicly condemned statements hostile to certain groups of people remains one of the most difficult facets of Bardot&#39;s later life.</p>
+          <p class="vb-intro">The Two-wing brings its own shadow pattern: a care so completely focused on one cause &ndash; here, animals &ndash; that it can become blind elsewhere to human suffering. This tension between radical love of animals and publicly condemned statements hostile to certain groups of people remained one of the most difficult facets of Bardot&#39;s later life.</p>
         </blockquote>
 
         <h2 class="vb-section">6. The Healing Path: From Impact to Devotion</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">The healing path of the Three leads from the question <em>Am I desired?</em> to the insight <em>I am &ndash; even without this impact.</em> For the SX3w2 this means no longer treating one&#39;s own allure as the center of identity, but as one tool among many, one that can be consciously used or set down.</p>
+          <p class="vb-intro">The healing path of the Three leads from the question <em>Am I desired?</em> to the insight <em>I am &ndash; even without this impact.</em> For the SX3w2 this means no longer treating one&#39;s own allure as the center of identity, but as one tool among many, one that can be consciously used or set aside.</p>
           <p class="vb-intro">Bardot&#39;s withdrawal from filmmaking was precisely this step in its most radical form: the conscious decision to no longer depend on her impact on others, but to devote her remaining energy to a cause that gives back no admiration. The peacock that at some point no longer asks whether it is being looked at &ndash; but where it itself is looking.</p>
         </blockquote>
 
