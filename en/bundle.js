@@ -304,6 +304,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Clemens G. Arvay – Self-Preservation Type 4",
     teaser:"SP4w5 · 1980–2022. Biologist, author, nature healer. The Biophilia Effect – knowledge and longing as a bridge. The dove that showed others the way into the forest.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-paul-mccartney", name:"Paul McCartney", added:"2026-07-31", subtyp:"SE4w5",
+    heading:"Paul McCartney – Self-Preservation Type 4",
+    teaser:"SP4w5 · born 1942. Musician, songwriter, ex-Beatle. Over 20,000 performances of his songs worldwide. The dove that carries its heaviest message the longest before turning it into a melody. Animal correspondence: Dove.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Social Type 4",
     teaser:"SO4w3 · 1938–1982. Actress. Sissi, César et Rosalie, La Piscine. The armadillo that stood in the light – and always curled inward.",
@@ -18465,6 +18469,74 @@ function romySchneiderPortraitPage() {
   `);
 }
 
+
+function paulMccartneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-paul-mccartney-portrait.jpg" alt="Paul McCartney" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul McCartney</p>
+        <p class="krim-portrait-typ">SP4w5 &middot; Self-Preservation Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Musician &amp; Songwriter, born 1942 &ndash; Animal correspondence: Dove</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Dove</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>dove</strong> is the animal of the self-preservation Four &ndash; unremarkable at first glance, but possessing a tenacity that endures long distances. It carries messages without pushing itself into the foreground, and returns where others would give up. Few song titles capture this image more precisely than Paul McCartney&#39;s own &bdquo;Let It Be&ldquo; &ndash; written in a night of doubt, as an answer to a dream of his late mother.</p>
+          <p class="vb-intro">Over sixty years of public work, more than 20,000 performances of his songs worldwide, and yet McCartney remains a figure whose deepest inner life is remarkably little known. The dove that sings what it feels &ndash; and almost never reveals what the singing costs.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Four: Tenacity Without Drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>self-preservation Four (SP4)</strong> is the counter-type of the Four: it shows outwardly almost none of what is commonly associated with this type family &ndash; no drama, no public display of suffering. Naranjo called this subtype <em>tenacity</em>: a quiet willingness to carry much without complaining about it.</p>
+          <p class="vb-intro">In McCartney this shows in sharp contrast to his former songwriting partner John Lennon, who processed his wounds publicly, raw and unpolished, in songs such as &bdquo;Mother.&ldquo; McCartney went the opposite way: even his most painful experiences &ndash; the early death of his mother at fourteen, the breakup of the Beatles, private losses &ndash; usually appear in his music disguised, wrapped in metaphor, softened by melody. Where Lennon screamed, McCartney composed.</p>
+          <p class="vb-intro">The self-preservation instinct orients the Four toward its own functioning &ndash; toward stability, continuity, quiet persistence. McCartney is known for an almost obsessive work discipline: he still composes regularly, still tours stadiums at an advanced age, still holds to a strict daily rhythm. The SP4 that tames the inner storm through outer structure.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: The Craftsman Behind the Melody</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the self-preservation Four an analytical depth that goes beyond pure feeling: the need to understand how something works before using it. The SP4w5 does not only process emotion &ndash; it studies it, and turns what it has understood into precise craft.</p>
+          <p class="vb-intro">McCartney never learned to read music in the classical sense, but developed an extraordinary, self-taught understanding of harmony, bass lines, and song structure &ndash; an autodidactic study that continued across decades. As the Beatles&#39; bassist he revolutionized the role of the bass in pop music, moving it from pure rhythmic accompaniment to an independent melodic voice. That is the Five-wing at work: not the intuitive acting-out of feeling, but the patient building of a system through which feeling can be carried precisely.</p>
+          <p class="vb-intro">His notorious seclusion in the studio &ndash; endless nights alone at the piano, refining a single chord progression until it is right &ndash; carries the same signature. The Five-wing withdraws to understand, before stepping forward again to show.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Loss and Silence: Linda and John</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1980 John Lennon was shot dead &ndash; McCartney&#39;s closest musical partner, bound to him by a relationship of deep creativity and equally deep rivalry that was never fully resolved. McCartney&#39;s public reaction the following day, the now-famous, almost offhand &bdquo;It&#39;s a drag&ldquo; to waiting journalists, was widely misread as coldness. It was, in fact, the opposite: the SP4 that conceals the greatest pain precisely when it is greatest.</p>
+          <p class="vb-intro">In 1998 his wife Linda McCartney died after a long fight with breast cancer &ndash; after 29 years of marriage, during which she had accompanied him on tour, made music with him, and built a family of four children. McCartney withdrew almost completely for months, secretly composing during this time the album &bdquo;Flaming Pie&ldquo; and later &bdquo;Driving Rain,&ldquo; in which the loss is never directly named but is felt in almost every note. The dove that carries its heaviest message the longest before finally singing it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP4 is its ability to create, out of deep personal experience, something that carries without burdening. McCartney&#39;s songs accompany weddings, funerals, farewells, and new beginnings of people who will never know his private story &ndash; precisely because the pain within them has been transformed enough to fit any pain.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; the deep feeling that others were given something one lacks oneself. In McCartney this pattern showed itself for a long time in Lennon&#39;s shadow: for decades the public perception cast Lennon as the &bdquo;serious,&ldquo; &bdquo;authentic&ldquo; Beatle, McCartney often as the lightweight sentimentalist &ndash; a judgment that never quite left McCartney indifferent, as later interviews showed, in which he persistently defended his own share of their shared work.</p>
+          <p class="vb-intro">The Five-wing brings the risk of withdrawal to the point of unapproachability: McCartney is known as notoriously difficult to interview when it comes to what is truly personal &ndash; polite, controlled, evasive. His second marriage to Heather Mills, which failed publicly and painfully, brought private details into a public sphere he had avoided his whole life &ndash; an experience that made him even more cautious afterward.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Concealing to Sharing</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>Why do I lack what others have?</em> to the insight <em>What I am is enough &ndash; and it is unique.</em> For the SP4w5 this means no longer communicating one&#39;s inner life exclusively through the distance of art, but becoming more directly accessible as well.</p>
+          <p class="vb-intro">In recent decades McCartney has shown exactly this movement: more open interviews about grief, age, and vulnerability, the documentary &bdquo;McCartney 3,2,1,&ldquo; in which he speaks at length for the first time about his creative process and his relationship with Lennon, his third, very private and stable marriage to Nancy Shevell. The dove that has learned that a message does not only need to be carried &ndash; sometimes it may simply be spoken aloud.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se4", label:"SP4 – The Dove: Subtype Profile"},
+        {route:"beruehmte-karoline-herfurth", label:"Portrait: Karoline Herfurth (SP4w5)"},
+        {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
+      ])}
+    </div>
+  `);
+}
 
 function clemensArvayPortraitPage() {
   return shell(`
@@ -41088,6 +41160,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-peter-lustig": peterLustigPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
+      "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,

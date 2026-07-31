@@ -410,6 +410,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Clemens G. Arvay – Selbsterhaltender Typ 4",
     teaser:"SE4w5 · 1980–2022. Biologe, Autor, Naturheiler. Der Biophilia-Effekt – Wissen und Sehnsucht als Brücke. Die Taube, die anderen den Weg in den Wald gezeigt hat.",
     tags:["Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-paul-mccartney", name:"Paul McCartney", added:"2026-07-31", subtyp:"SE4w5",
+    heading:"Paul McCartney – Selbsterhaltender Typ 4",
+    teaser:"SE4w5 · geb. 1942. Musiker, Songwriter, Ex-Beatle. Über 20.000 Aufführungen seiner Songs weltweit. Die Taube, die ihre schwerste Botschaft am längsten mit sich trägt, bevor sie sie in eine Melodie verwandelt. Tierentsprechung: Taube.",
+    tags:["Musik"] , gender:"m"},
   { route:"beruehmte-romy-schneider", name:"Romy Schneider", subtyp:"SO4w3",
     heading:"Romy Schneider – Sozialer Typ 4",
     teaser:"SO4w3 · 1938–1982. Schauspielerin. Sissi, César und Rosalie, La Piscine. Das Gürteltier, das im Licht stand – und sich innerlich immer einrollte.",
@@ -14671,6 +14675,74 @@ function karolineHerfurthPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
         {route:"beruehmte-tim-bendzko", label:"Portr\xe4t: Tim Bendzko (SE4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function paulMccartneyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-paul-mccartney-portrait.jpg" alt="Paul McCartney" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Paul McCartney</p>
+        <p class="krim-portrait-typ">SE4w5 &middot; Selbsterhaltender Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Musiker &amp; Songwriter, geb. 1942 &ndash; Tierentsprechung: Taube</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Taube</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Taube</strong> ist das Tier der selbsterhaltenden Vier &ndash; unscheinbar im ersten Eindruck, aber von einer Zähigkeit, die weite Strecken überdauert. Sie trägt Botschaften, ohne sich selbst in den Vordergrund zu drängen, und kehrt zurück, wo andere aufgeben würden. Kaum ein Songtitel bringt dieses Bild treffender auf den Punkt als Paul McCartneys eigenes &bdquo;Let It Be&ldquo; &ndash; geschrieben in einer Nacht des Zweifels, als Antwort auf einen Traum von seiner verstorbenen Mutter.</p>
+          <p class="vb-intro">Über sechzig Jahre öffentliches Wirken, mehr als 20.000 Aufführungen seiner Songs weltweit, und dennoch bleibt McCartney eine Figur, über deren tiefstes Inneres man erstaunlich wenig weiß. Die Taube, die singt, was sie fühlt &ndash; und dabei fast nie preisgibt, was das Singen sie kostet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Vier: Zähigkeit ohne Drama</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Vier (SE4)</strong> ist der Kontratyp der Vier: Sie zeigt nach außen kaum das, was man gemeinhin mit dieser Typenfamilie verbindet &ndash; keine Dramatik, keine öffentliche Zurschaustellung des Leidens. Naranjo nannte diesen Subtyp <em>Zähigkeit</em> (im Original: <em>tenacity</em>): eine stille Bereitschaft, viel zu tragen, ohne darüber zu klagen.</p>
+          <p class="vb-intro">Bei McCartney zeigt sich das im scharfen Kontrast zu seinem einstigen Songwriting-Partner John Lennon, der seine Wunden öffentlich, roh und ungeschönt in Songs wie &bdquo;Mother&ldquo; verarbeitete. McCartney ging den entgegengesetzten Weg: Auch seine schmerzhaftesten Erfahrungen &ndash; der frühe Tod seiner Mutter mit vierzehn, die Trennung der Beatles, private Verluste &ndash; erscheinen in seiner Musik meist verkleidet, in Metaphern gehüllt, melodisch abgefedert. Wo Lennon schrie, komponierte McCartney.</p>
+          <p class="vb-intro">Der selbsterhaltende Instinkt richtet die Vier auf das eigene Funktionieren aus &ndash; auf Stabilität, Kontinuität, das stille Weitermachen. McCartney ist bekannt für eine fast obsessive Arbeitsdisziplin: Er komponiert bis heute regelmäßig, tourt im hohen Alter noch durch Stadien, hält an einem strikten Tagesrhythmus fest. Die SE4, die den inneren Sturm durch äußere Struktur zähmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der Handwerker hinter der Melodie</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der selbsterhaltenden Vier eine analytische Tiefe, die über reines Gefühl hinausgeht: das Bedürfnis, zu verstehen, wie etwas funktioniert, bevor man es einsetzt. Die SE4w5 verarbeitet Emotion nicht nur, sie studiert sie &ndash; und verwandelt das Verstandene in präzises Handwerk.</p>
+          <p class="vb-intro">McCartney lernte nie Noten lesen im klassischen Sinn, entwickelte aber ein außergewöhnliches, selbst erarbeitetes Verständnis für Harmonik, Basslinien und Songstruktur &ndash; ein autodidaktisches Studium, das sich über Jahrzehnte fortsetzte. Als Bassist der Beatles revolutionierte er die Rolle des Basses im Pop, weg von reiner Rhythmusbegleitung hin zu einer eigenständigen melodischen Stimme. Das ist der Fünferflügel am Werk: nicht das intuitive Ausleben von Gefühl, sondern das geduldige Erarbeiten eines Systems, mit dem Gefühl präzise transportiert werden kann.</p>
+          <p class="vb-intro">Auch seine notorische Zurückgezogenheit im Studio &ndash; endlose Nächte allein mit dem Klavier, das Feilen an einer einzigen Akkordfolge, bis sie stimmt &ndash; trägt diese Handschrift. Der Fünferflügel zieht sich zurück, um zu verstehen, bevor er wieder hervortritt, um zu zeigen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Verlust und Stille: Linda und John</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1980 wurde John Lennon erschossen &ndash; McCartneys engster musikalischer Partner, mit dem ihn eine Beziehung aus tiefer Kreativität und ebenso tiefer Rivalität verband, die nie vollständig geklärt wurde. McCartneys öffentliche Reaktion am Tag danach, das inzwischen berühmte, fast beiläufig wirkende &bdquo;It's a drag&ldquo; gegenüber wartenden Journalisten, wurde vielfach als Gefühllosigkeit missverstanden. Tatsächlich war es das Gegenteil: die SE4, die den größten Schmerz gerade dann verbirgt, wenn er am größten ist.</p>
+          <p class="vb-intro">1998 starb seine Frau Linda McCartney nach langem Kampf gegen Brustkrebs &ndash; nach 29 gemeinsamen Ehejahren, in denen sie ihn auf Tourneen begleitet, gemeinsam mit ihm musiziert und eine Familie mit vier Kindern aufgebaut hatten. McCartney zog sich für Monate fast vollständig zurück, komponierte in dieser Zeit heimlich ein Album, &bdquo;Flaming Pie&ldquo; und später &bdquo;Driving Rain&ldquo;, in dem der Verlust nie direkt benannt, aber in fast jedem Ton spürbar wird. Die Taube, die ihre schwerste Botschaft am längsten mit sich trägt, bevor sie sie endlich singt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE4 ist ihre Fähigkeit, aus tiefem persönlichem Erleben etwas zu schaffen, das trägt, ohne zu belasten. McCartneys Songs begleiten Hochzeiten, Beerdigungen, Abschiede und Neuanfänge von Menschen, die seine private Geschichte nie kennen werden &ndash; genau, weil der Schmerz darin so verwandelt wurde, dass er zu jedem Schmerz passt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; das tiefe Gefühl, dass anderen etwas mitgegeben wurde, das einem selbst fehlt. Bei McCartney zeigte sich dieses Muster lange im Schatten Lennons: In der öffentlichen Wahrnehmung galt Lennon jahrzehntelang als der &bdquo;ernsthafte&ldquo;, &bdquo;authentische&ldquo; Beatle, McCartney oft als der leichtgewichtige Sentimentalist &ndash; eine Einschätzung, die McCartney selbst nie ganz gleichgültig ließ, wie spätere Interviews zeigten, in denen er beharrlich seinen eigenen Anteil am gemeinsamen Werk verteidigte.</p>
+          <p class="vb-intro">Der Fünferflügel bringt die Gefahr des Rückzugs bis zur Unnahbarkeit: McCartney gilt als notorisch schwer zu interviewen, wenn es um wirklich Persönliches geht &ndash; höflich, kontrolliert, ausweichend. Seine zweite Ehe mit Heather Mills, öffentlich und schmerzhaft gescheitert, brachte private Details in eine Öffentlichkeit, die er zeitlebens gemieden hatte &ndash; eine Erfahrung, die ihn danach noch vorsichtiger machte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vom Verbergen zum Weitergeben</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum fehlt mir, was andere haben?</em> zur Erkenntnis <em>Was ich bin, ist genug &ndash; und es ist einmalig.</em> Für die SE4w5 bedeutet das, das eigene Innenleben nicht länger ausschließlich durch die Distanz der Kunstform mitzuteilen, sondern auch direkter zugänglich zu werden.</p>
+          <p class="vb-intro">In den letzten Jahrzehnten zeigt McCartney genau diese Bewegung: offenere Interviews über Trauer, Alter und Verletzlichkeit, die Dokumentation &bdquo;McCartney 3,2,1&ldquo;, in der er erstmals ausführlich über seinen kreativen Prozess und seine Beziehung zu Lennon spricht, seine dritte, sehr private und stabile Ehe mit Nancy Shevell. Die Taube, die gelernt hat, dass eine Botschaft nicht nur getragen, sondern manchmal auch einfach ausgesprochen werden darf.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se4", label:"SE4 – Die Taube: Subtyp-Profil"},
+        {route:"beruehmte-karoline-herfurth", label:"Porträt: Karoline Herfurth (SE4w5)"},
+        {route:"beruehmte-clemens-arvay", label:"Porträt: Clemens G. Arvay (SE4w5)"},
       ])}
     </div>
   `);
@@ -44035,6 +44107,7 @@ function render() {
       "beruehmte-tim-bendzko": timBendzkoPortraitPage,
       "beruehmte-adele": adelePortraitPage,
       "beruehmte-clemens-arvay": clemensArvayPortraitPage,
+      "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
