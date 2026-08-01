@@ -404,6 +404,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sigmund Freud – Social Type 6",
     teaser:"SO6w5 · 1856–1939. Physician, neurophysiologist, founder of psychoanalysis. The meerkat that stands watch – over what lurks in the darkness.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-andy-reid", name:"Andy Reid", added:"2026-08-01", subtyp:"SO6w5",
+    heading:"Andy Reid – Social Type 6",
+    teaser:"SO6w5 · born 1958. NFL head coach, Kansas City Chiefs. Over two decades of the same core structure, hundreds of plays memorized, three Super Bowl titles. The meerkat that never leaves its playbook watch.",
+    tags:["Sport","Führung"] },
   { route:"beruehmte-herbert-groenemeyer", name:"Herbert Grönemeyer", subtyp:"SO6w7",
     heading:"Herbert Grönemeyer – Social Type 6",
     teaser:"SO6w7 · born 1956. Musician, composer, lyricist, actor. Bochum. Mensch. The meerkat that rises after every loss – and sings.",
@@ -20666,7 +20670,75 @@ function sigmundFreudPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
-        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
+        {route:"beruehmte-andy-reid", label:"Portrait: Andy Reid (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function andyReidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-andy-reid-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andy Reid</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Social Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">NFL Head Coach, born 1958 in Los Angeles &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Meerkat</strong> lives for the group and within clear roles. One animal stands watch while the others dig, forage, play &ndash; and rotates with the others without ever descending into chaos. It is not a loner, it is a systems creature. Andy Reid has stood on the sidelines of American football stadiums for over thirty years &ndash; in the same short-sleeved checkered shirt, with the same cheeseburger smile, with the same thick binder of plays under his arm. No coach in NFL history has won more games. And hardly any of them seems this unruffled while doing it.</p>
+          <p class="vb-intro">Reid does not scream on the sideline, does not stage himself as a general. He stands there, play chart in hand, and observes. That is the meerkat: not the loudest animal in the group, but the one that stands watch longest and most reliably &ndash; for a system larger than itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Duty: Security Through Structure</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo called the Social Six subtype <strong>Duty</strong> &ndash; security arises from reliably fulfilling a task within a collective, from trust earned through consistency. The <strong>Social Six (SO6)</strong> does not seek the big stage for itself. It builds the system that carries the group &ndash; and keeps it running, even when nobody is watching.</p>
+          <p class="vb-intro">Reid has worked in the NFL as a coach continuously since 1992, first as an assistant with the Green Bay Packers, then fourteen years as head coach of the Philadelphia Eagles starting in 1999, and head coach of the Kansas City Chiefs since 2013. Two organisations, one entire coaching life. No zig-zag résumé, no jumping from team to team in search of the fastest success &ndash; but the persistent building of the same structure, year after year, play after play.</p>
+          <p class="vb-intro">This loyalty runs in both directions. Reid is known for sticking with players and assistant coaches, giving them second and third chances, carrying them through crises &ndash; and being rewarded with a team that goes through fire for him. That is the SO6: I serve the group. And the group carries me when I fall.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: The System in His Head</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the Social Six analytical depth and the conviction that preparation is the best protection against fear. Where the pure SO6 seeks security through belonging, the Five-wing adds a second layer: understanding as the foundation of trust. One can only be reliably present for the group if one has penetrated the system down to its last detail.</p>
+          <p class="vb-intro">Reid is considered one of the greatest offensive strategists in NFL history. His playbook counts among the most extensive in the league, fed by decades of studying the ‹West Coast Offense› and countless developments of his own. Assistant coaches report sessions that run deep into the night, handwritten notes on every opposing defensive scheme, a memory for plays that is legendary. That is the Five-wing: not letting gut feeling decide, but building knowledge so deep that the decision sits securely in the decisive moment.</p>
+          <p class="vb-intro">Reid's halftime adjustments are considered one of his trademarks &ndash; teams under his leadership notably perform better after the break than before it. That is not inspiration, that is analysis under time pressure: fifteen minutes in which the Five-wing recalibrates the entire system.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Loss, the Comeback, Three Rings</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2012, in the middle of his time with the Eagles, Reid's eldest son Garrett died of a drug overdose at the team's training camp. Reid kept coaching the team through the rest of an already difficult season &ndash; and was fired by the Eagles shortly afterward. It was the deepest private loss, coinciding with the visible end of a fourteen-year life's work. The SO6 knows this experience in its harshest form: the foundation one has served collapses precisely when one needs it most.</p>
+          <p class="vb-intro">A few weeks later, Reid took over the Kansas City Chiefs &ndash; a franchise that had gone decades without a Super Bowl title. He built again, step by step, year after year, until the system stood: in 2020, 2023, and 2024 he won the Super Bowl with the Chiefs. Not a spectacular new beginning, but the same persistent structural work as before &ndash; only in a new environment, with the same unshakeable consistency.</p>
+          <p class="vb-intro">Reid himself repeatedly named his faith and his family as what carried him through this time &ndash; not the grand gesture, but the quiet continuing. The meerkat does not abandon its post, even when the ground gives way beneath it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w5 is its <strong>reliability</strong>, paired with genuine professional depth. Reid is described by players and colleagues almost universally as loyal, patient, and fair &ndash; a coach who develops people, not merely uses them. His calm, humorous public persona (the cheeseburger anecdotes, the checkered shirt) is not a facade but the expression of a personality that draws its security not from self-presentation but from the work itself.</p>
+          <p class="vb-intro">The shadow of the SO6w5 lies in the tendency to hold on to a proven structure for too long, even when it no longer carries &ndash; or to withdraw trust too late, because loyalty is almost a moral imperative to them. Reid was repeatedly criticised throughout his career for overly conservative decisions in decisive game situations &ndash; holding to the well-thought-out system even where instinct and risk were called for. And for decades he carried the reputation of losing his nerve in the biggest games, until the three Super Bowl wins with Kansas City finally broke through that shadow.</p>
+          <p class="vb-intro">That is the tension of the SO6w5: structure protects &ndash; until it begins to block the view of the new.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: Trust That Carries Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Six leads from the question <em>Can I trust the system I serve?</em> to the recognition <em>I can trust what I myself have built over decades &ndash; even if it must change.</em> For the SO6w5 this means not using one's own knowledge as a bulwark against fear, but as a tool that grows with each new situation.</p>
+          <p class="vb-intro">Reid did exactly that: after the deepest loss of his life and the end of a fourteen-year life's work, he did not rebuild the same structure a second time &ndash; he built a new one, in a new city, with new players, and let it mature over the years until it carried. The meerkat that loses its post does not simply seek out any new stone &ndash; it patiently builds a new watch until this one, too, carries. Three championship rings later, Andy Reid still stands on the same sideline, in the same shirt, with the same binder under his arm. Not because he has not changed &ndash; but because he has learned what he can truly rely on.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
       ])}
     </div>
   `);
@@ -41903,6 +41975,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
+      "beruehmte-andy-reid": andyReidPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,

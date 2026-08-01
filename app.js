@@ -558,6 +558,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Sigmund Freud – Sozialer Typ 6",
     teaser:"SO6w5 · 1856–1939. Arzt, Neurophysiologe, Begründer der Psychoanalyse. Das Erdmännchen, das Wache hält – über das, was im Dunkeln lauert.",
     tags:["Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-andy-reid", name:"Andy Reid", added:"2026-08-01", subtyp:"SO6w5",
+    heading:"Andy Reid – Sozialer Typ 6",
+    teaser:"SO6w5 · geb. 1958. NFL-Head-Coach, Kansas City Chiefs. Über zwei Jahrzehnte dieselbe Grundstruktur, Hunderte Spielzüge im Kopf, drei Super-Bowl-Titel. Das Erdmännchen, das die Playbook-Wache nie verlässt.",
+    tags:["Sport","Führung"], gender:"m"},
   { route:"beruehmte-donata-hopfen", name:"Donata Hopfen", added:"2026-07-21", subtyp:"SO6w7",
     heading:"Donata Hopfen – Sozialer Typ 6",
     teaser:"SO6w7 \xb7 geb. 1976 in Hamburg. Unternehmensberaterin, Digitalstrategin, Ex-CEO der Bild und der DFL. Das Erdm\xe4nnchen, das vorausl\xe4uft &ndash; und der Gruppe den Weg freimacht.",
@@ -13574,7 +13578,75 @@ function sigmundFreudPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
-        {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-andy-reid", label:"Porträt: Andy Reid (SO6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function andyReidPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-andy-reid-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Andy Reid</p>
+        <p class="krim-portrait-typ">SO6w5 &middot; Sozialer Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">NFL-Head-Coach, geb. 1958 in Los Angeles &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> lebt für die Gruppe und in klaren Rollen. Ein Tier hält Wache, während die anderen graben, fressen, spielen &ndash; und wechselt sich mit den anderen ab, ohne dass es je Chaos gibt. Es ist kein Einzelgänger, es ist ein Systemwesen. Andy Reid steht seit über dreißig Jahren an der Seitenlinie amerikanischer Football-Stadien &ndash; im selben karierten Kurzarmhemd, mit demselben Cheeseburger-Lächeln, mit demselben dicken Ordner voller Spielzüge unter dem Arm. Kein Trainer der NFL-Geschichte hat mehr Spiele gewonnen. Und kaum einer wirkt dabei so unaufgeregt.</p>
+          <p class="vb-intro">Reid schreit nicht an der Seitenlinie, er inszeniert sich nicht als Feldherr. Er steht da, den Spielzugkatalog in der Hand, und beobachtet. Das ist das Erdmännchen: nicht das lauteste Tier im Rudel, sondern dasjenige, das am längsten und zuverlässigsten Wache hält &ndash; für ein System, das größer ist als es selbst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die Pflicht: Sicherheit durch Struktur</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Claudio Naranjo nannte den sozialen Typ 6 die <strong>Pflicht</strong> &ndash; Sicherheit entsteht durch das verlässliche Erfüllen einer Aufgabe innerhalb eines Kollektivs, durch das Vertrauen, das man sich durch Beständigkeit verdient. Die <strong>soziale Sechs (SO6)</strong> sucht nicht die große Bühne für sich selbst. Sie baut das System, das die Gruppe trägt &ndash; und hält es am Laufen, auch wenn niemand zusieht.</p>
+          <p class="vb-intro">Reid ist seit 1992 ununterbrochen in der NFL als Trainer tätig, zunächst als Assistent bei den Green Bay Packers, ab 1999 vierzehn Jahre lang Head Coach der Philadelphia Eagles, seit 2013 Head Coach der Kansas City Chiefs. Zwei Organisationen, ein ganzes Trainerleben. Kein Zick-Zack-Lebenslauf, kein Sprung von Team zu Team auf der Suche nach dem schnellsten Erfolg &ndash; sondern das beharrliche Aufbauen derselben Struktur, Jahr für Jahr, Spielzug für Spielzug.</p>
+          <p class="vb-intro">Diese Loyalität geht in beide Richtungen. Reid ist bekannt dafür, an Spielern und Assistenztrainern festzuhalten, ihnen zweite und dritte Chancen zu geben, sie durch Krisen zu tragen &ndash; und dafür belohnt zu werden mit einer Mannschaft, die für ihn durchs Feuer geht. Das ist die SO6: Ich diene der Gruppe. Und die Gruppe trägt mich, wenn ich falle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das System im Kopf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der sozialen Sechs analytische Tiefe und die Überzeugung, dass Vorbereitung der beste Schutz vor der Angst ist. Wo die reine SO6 Sicherheit durch Zugehörigkeit sucht, fügt der Fünferflügel eine zweite Schicht hinzu: das Verstehen als Fundament des Vertrauens. Man kann nur verlässlich für die Gruppe da sein, wenn man das System bis ins letzte Detail durchdrungen hat.</p>
+          <p class="vb-intro">Reid gilt als einer der größten Offensiv-Strategen der NFL-Geschichte. Sein Playbook zählt zu den umfangreichsten der Liga, gespeist aus jahrzehntelangem Studium der ‹West Coast Offense› und unzähligen eigenen Weiterentwicklungen. Assistenztrainer berichten von Sitzungen, die bis tief in die Nacht gehen, von handgeschriebenen Notizen zu jedem gegnerischen Verteidigungsschema, von einem Gedächtnis für Spielzüge, das legendär ist. Das ist der Fünferflügel: nicht das Bauchgefühl entscheiden lassen, sondern das Wissen so tief aufbauen, dass die Entscheidung im entscheidenden Moment sicher sitzt.</p>
+          <p class="vb-intro">Reids Halbzeitanpassungen gelten als eines seiner Markenzeichen &ndash; Mannschaften unter seiner Führung schneiden nach der Pause auffällig oft besser ab als davor. Das ist keine Inspiration, das ist Analyse unter Zeitdruck: fünfzehn Minuten, in denen der Fünferflügel das gesamte System neu justiert.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Der Verlust, das Comeback, drei Ringe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2012, mitten in seiner Zeit bei den Eagles, starb Reids ältester Sohn Garrett im Trainingslager der Mannschaft an einer Überdosis. Reid trainierte das Team weiter, bis zum Ende der ohnehin schon schwierigen Saison &ndash; und wurde kurz danach von den Eagles entlassen. Es war der tiefste private Verlust, verbunden mit dem sichtbaren Ende eines vierzehnjährigen Lebenswerks. Die SO6 kennt diese Erfahrung in ihrer härtesten Form: das Fundament, dem man gedient hat, bricht genau dann weg, wenn man es am nötigsten bräuchte.</p>
+          <p class="vb-intro">Wenige Wochen später übernahm Reid die Kansas City Chiefs &ndash; eine Franchise, die seit Jahrzehnten ohne Super-Bowl-Titel geblieben war. Er baute erneut auf, Schritt für Schritt, Jahr für Jahr, bis das System stand: 2020, 2023 und 2024 gewann er mit den Chiefs den Super Bowl. Kein spektakulärer Neuanfang, sondern dieselbe beharrliche Struktur-Arbeit wie zuvor &ndash; nur in einer neuen Umgebung, mit derselben unerschütterlichen Beständigkeit.</p>
+          <p class="vb-intro">Reid selbst nannte in Interviews mehrfach seinen Glauben und seine Familie als das, was ihn durch diese Zeit trug &ndash; nicht die große Geste, sondern das stille Weitermachen. Das Erdmännchen verlässt seinen Posten nicht, selbst wenn der Boden unter ihm nachgibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w5 ist ihre <strong>Verlässlichkeit</strong>, gepaart mit echter fachlicher Tiefe. Reid wird von Spielern und Kollegen fast durchgängig als loyal, geduldig und fair beschrieben &ndash; ein Trainer, der Menschen entwickelt, nicht nur benutzt. Sein ruhiger, humorvoller öffentlicher Auftritt (die Cheeseburger-Anekdoten, das karierte Hemd) ist keine Fassade, sondern Ausdruck einer Persönlichkeit, die ihre Sicherheit nicht aus Selbstdarstellung zieht, sondern aus der Arbeit selbst.</p>
+          <p class="vb-intro">Der Schatten der SO6w5 liegt in der Neigung, zu lange an einer bewährten Struktur festzuhalten, selbst wenn sie nicht mehr trägt &ndash; oder Vertrauen zu spät zu entziehen, weil Loyalität für sie fast ein moralisches Gebot ist. Reid wurde in seiner Karriere wiederholt für zu konservative Entscheidungen in entscheidenden Spielsituationen kritisiert &ndash; das Festhalten am durchdachten System, selbst dort, wo Instinkt und Risiko gefragt gewesen wären. Und Jahrzehnte lang haftete ihm der Ruf an, in den größten Spielen die Nerven zu verlieren, bevor die drei Super-Bowl-Siege mit Kansas City diesen Schatten endgültig durchbrachen.</p>
+          <p class="vb-intro">Das ist die Spannung der SO6w5: Struktur schützt &ndash; bis sie beginnt, den Blick auf das Neue zu verstellen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Vertrauen, das sich selbst trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Kann ich dem System vertrauen, dem ich diene?</em> zur Erkenntnis <em>Ich kann dem vertrauen, was ich selbst über Jahrzehnte aufgebaut habe &ndash; auch wenn es sich verändern muss.</em> Für die SO6w5 bedeutet das, das eigene Wissen nicht als Bollwerk gegen die Angst zu benutzen, sondern als Werkzeug, das mit jeder neuen Situation mitwächst.</p>
+          <p class="vb-intro">Reid hat genau das getan: Nach dem tiefsten Verlust seines Lebens und dem Ende eines vierzehnjährigen Lebenswerks baute er kein zweites Mal dieselbe Struktur nach &ndash; er baute eine neue, in einer neuen Stadt, mit neuen Spielern, und ließ sie über die Jahre reifen, bis sie trug. Das Erdmännchen, das seinen Posten verliert, sucht sich nicht irgendeinen neuen Stein &ndash; es baut geduldig eine neue Wache auf, bis auch diese trägt. Drei Championship-Ringe später steht Andy Reid immer noch an derselben Seitenlinie, im selben Hemd, mit demselben Ordner unter dem Arm. Nicht, weil er sich nicht verändert hat &ndash; sondern weil er gelernt hat, worauf er sich wirklich verlassen kann.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-sigmund-freud", label:"Porträt: Sigmund Freud (SO6w5)"},
       ])}
     </div>
   `);
@@ -44840,6 +44912,7 @@ function render() {
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
+      "beruehmte-andy-reid": andyReidPortraitPage,
       "beruehmte-neil-armstrong": neilArmstrongPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-woody-allen": woodyAllenPortraitPage,
