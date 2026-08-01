@@ -396,6 +396,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Beatrice Chebet – Self-Preservation Type 6",
     teaser:"SP6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
     tags:["Sport"] },
+  { route:"beruehmte-woody-allen", name:"Woody Allen", added:"2026-08-01", subtyp:"SE6w7",
+    heading:"Woody Allen – Self-Preservation Type 6",
+    teaser:"SP6w7 · born 1935. Director, screenwriter, comedian. Annie Hall, Manhattan, nearly fifty films. The rabbit that turned its own fear into an entire body of work.",
+    tags:["Film"] },
   { route:"beruehmte-sigmund-freud", name:"Sigmund Freud", subtyp:"SO6w5",
     heading:"Sigmund Freud – Social Type 6",
     teaser:"SO6w5 · 1856–1939. Physician, neurophysiologist, founder of psychoanalysis. The meerkat that stands watch – over what lurks in the darkness.",
@@ -16875,6 +16879,7 @@ function neilArmstrongPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
       ])}
     </div>
   `);
@@ -20722,6 +20727,77 @@ function beatriceChebetPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
+        {route:"beruehmte-woody-allen", label:"Portrait: Woody Allen (SP6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function woodyAllenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-woody-allen-portrait.jpg" alt="Woody Allen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Woody Allen</p>
+        <p class="krim-portrait-typ">SP6w7 &middot; Self-Preservation Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Director, screenwriter &amp; comedian, born 1935 in New York &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit That Prefers to Stay Home</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of Self-Preservation Type 6 &ndash; watchful to the point of exhaustion, constantly on guard against the next danger, and happiest in its own, familiar burrow. It does not leave its territory lightly. When it must go out, it prefers known paths, known times, an escape route always in view.</p>
+          <p class="vb-intro">Woody Allen is this rabbit in its purest form &ndash; a man who has spent practically his entire life in Manhattan, who fears airplanes, elevators, insects, enclosed spaces, and death itself, and who out of exactly this fear has created one of the most extensive bodies of work in film history. Hardly any other artist has made his own nervousness so openly the material of his art &ndash; and hardly any has, despite that nervousness, created so much.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Security Through Routine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em> &ndash; but this warmth is directed first inward, toward one's own closest circle: the familiar people, the familiar places, the familiar routines. For the SP6, security arises not through control over the world, but through the careful cultivation of a small, reliable circle.</p>
+          <p class="vb-intro">In Allen this shows in an almost legendary attachment to New York: nearly all his films take place in the same city, often the same neighborhood, with the same familiar locations &ndash; Central Park, the Upper East Side, the cinema around the corner. For decades he filmed almost exclusively where he felt safe. Even when his European films (<em>Match Point</em>, <em>Midnight in Paris</em>, <em>Vicky Cristina Barcelona</em>) temporarily took him to London, Paris, and Barcelona, his actual home remained unchanged: his own apartment, his own clarinet playing on Monday nights, the same circle of familiar collaborators across decades.</p>
+          <p class="vb-intro">This constancy is not comfort but strategy: where everything is familiar, fear too becomes manageable. The self-preservation instinct of the Six asks: <em>Do I have enough security to keep going?</em> Allen's answer was, for a lifetime: yes &ndash; as long as the surroundings stay the same.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: Humor as an Escape Route</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Self-Preservation Six a characteristic lightness: the impulse to think one's way out of fear rather than freeze inside it &ndash; and to turn the very act of thinking about fear into a punchline. The SP6w7 knows the Six's worry intimately, but the Seven-wing immediately translates it into language, into pace, into wit.</p>
+          <p class="vb-intro">Allen's entire comedic voice rests on this mechanism: his characters &ndash; above all Alvy Singer in <em>Annie Hall</em> (1977, four Oscars including Best Picture) &ndash; talk their own panic out of their system, analyze their own neurosis in real time, turn the fear of death, of relationships, of one's own failure into a torrent of words that makes you laugh before it can crush you. <em>I'm not afraid of dying, I just don't want to be there when it happens</em> &ndash; that is the SP6w7 in a single line: fear is not hidden, but immediately turned into a phrasing that makes it bearable.</p>
+          <p class="vb-intro">This combination also explains his extraordinary productivity: across five decades, Allen directed a new film at almost a yearly rhythm &ndash; nearly fifty works in total. The Seven-wing drives the constant forward motion, starting the next project before brooding over the last one can take hold. Work as movement against the standstill the Six fears most.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Clarinet, the Analysis, the Ritual</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Hardly any detail shows the SP6w7 more clearly than Allen's decades-long ritual: every Monday night for more than fifty years, he played clarinet in New Orleans jazz bands, originally at Michael's Pub, later at Café Carlyle &ndash; regardless of whether a film was in production, whether he was winning awards or absorbing criticism. Even when he won an Oscar for <em>Annie Hall</em> in 1978, he skipped the ceremony because his clarinet gig was that night. That is not modesty &ndash; that is the Self-Preservation Six, who trusts the fixed ritual more than the large, unpredictable event.</p>
+          <p class="vb-intro">Equally characteristic: his decades-long continuation of psychoanalysis. By his own account, Allen spent more than 35 years in analytic treatment &ndash; not to be cured, but to systematically understand his own fear, to put it into words, to map it. That is a trait typical of the Six, reinforced by the Seven-wing: understanding as reassurance, language as a tool against the chaos in one's head.</p>
+          <p class="vb-intro">In 1992, his separation from Mia Farrow and his subsequent relationship with Soon-Yi Previn, whom he married in 1997, became one of the largest public scandals of his career; in 2014, Dylan Farrow publicly renewed abuse allegations against him, which he has always denied and for which there was never a criminal conviction. These events profoundly changed his public perception and cannot be separated from his artistic work &ndash; they are named here without this compass rendering its own judgment on the allegations.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w7 is the ability to turn one's own fear into something that helps others bear their own. Allen's films have shown generations of viewers that neurosis need not be a flaw, but can be a source of wit, self-reflection, and even tenderness. That is a rare gift: making one's own weakness public and drawing comfort for others from it.</p>
+          <p class="vb-intro">The karmic pattern of the Six is <strong>cowardice</strong> &ndash; for the SP6, it shows as endless brooding, as the constant search for the next possible catastrophe. Allen has never hidden this tendency, but made it his trademark: hypochondria, fear of flying, the refusal to trust medical procedures he does not understand &ndash; all of this appears in his films just as it does in interviews about his own life.</p>
+          <p class="vb-intro">The shadow of the Seven-wing is the danger that humor becomes an escape &ndash; that the constant deflection into the next joke, the next project, prevents truly standing still and taking responsibility. How much of this pattern became active in Allen's personal life remains a matter of ongoing public debate.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: Fear as Material, Not as a Prison</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Six leads from the question <em>What if everything goes wrong?</em> to the recognition <em>I can live with fear &ndash; and even make something of it.</em> For the SP6w7, this means not fighting one's own vigilance, but turning it into movement, into language, into work, without losing oneself in the next distraction.</p>
+          <p class="vb-intro">Woody Allen has walked this path across six decades in his own, contradictory way: he has turned his fear into a body of work larger than the fear itself &ndash; and yet never arrived at a place where the fear finally fell silent. The rabbit that never stops being watchful &ndash; but that has learned to turn vigilance into art.</p>
+          <p class="vb-intro">Well into his nineties, Woody Allen still makes films &ndash; at the same rhythm, with the same clarinet on Monday nights, in the same city. That is the Self-Preservation Six with Seven-wing: fear that never fully disappears &ndash; but that, as long as one keeps working, never gets the last word.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-beatrice-chebet", label:"Portrait: Beatrice Chebet (SP6w7)"},
+        {route:"beruehmte-neil-armstrong", label:"Portrait: Neil Armstrong (SP6w7)"},
       ])}
     </div>
   `);
@@ -41828,6 +41904,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
+      "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,

@@ -546,6 +546,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Beatrice Chebet – Selbsterhaltender Typ 6",
     teaser:"SE6w7 · geb. 2000. Kenianische Langstreckenläuferin. Doppel-Olympiasiegerin Paris 2024. Das Kaninchen, das nicht vor der Strecke flieht – sondern auf ihr nach Hause kommt.",
     tags:["Sport"] , gender:"f"},
+  { route:"beruehmte-woody-allen", name:"Woody Allen", added:"2026-08-01", subtyp:"SE6w7",
+    heading:"Woody Allen – Selbsterhaltender Typ 6",
+    teaser:"SE6w7 · geb. 1935. Regisseur, Drehbuchautor, Komiker. Der Stadtneurotiker, Manhattan, fast fünfzig Filme. Das Kaninchen, das aus der eigenen Angst ein ganzes Lebenswerk gemacht hat.",
+    tags:["Film"], gender:"m"},
   { route:"beruehmte-melanie-kreis", name:"Melanie Kreis", added:"2026-07-21", subtyp:"SO6w5",
     heading:"Melanie Kreis – Sozialer Typ 6",
     teaser:"SO6w5 \xb7 geb. 1971 in Bonn. Finanzvorst\xe4ndin (CFO) der DHL Group. Physikerin, McKinsey-Beraterin, DAX-Managerin. Das Erdm\xe4nnchen, das Wache h\xe4lt – f\xfcr einen der gr\xf6\xdften Logistikkonzerne der Welt.",
@@ -13698,6 +13702,77 @@ function beatriceChebetPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-woody-allen", label:"Porträt: Woody Allen (SE6w7)"},
+      ])}
+    </div>
+  `);
+}
+
+function woodyAllenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-woody-allen-portrait.jpg" alt="Woody Allen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Woody Allen</p>
+        <p class="krim-portrait-typ">SE6w7 &middot; Selbsterhaltender Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Regisseur, Drehbuchautor &amp; Komiker, geb. 1935 in New York &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das lieber daheim bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; wachsam bis zur Erschöpfung, ständig auf der Hut vor der nächsten Gefahr, und am glücklichsten im eigenen, vertrauten Bau. Es verlässt sein Territorium nicht leichtfertig. Wenn es doch hinaus muss, dann am liebsten auf bekannten Wegen, zu bekannten Zeiten, mit einem Fluchtweg immer im Blick.</p>
+          <p class="vb-intro">Woody Allen ist dieses Kaninchen in Reinform &ndash; ein Mann, der praktisch sein ganzes Leben in Manhattan verbracht hat, der Flugzeuge, Aufzüge, Insekten, geschlossene Räume und den Tod selbst fürchtet, und der aus genau dieser Angst heraus eines der umfangreichsten Lebenswerke der Filmgeschichte geschaffen hat. Kaum ein anderer Künstler hat die eigene Nervosität so offen zum Material seiner Kunst gemacht &ndash; und kaum einer hat trotz dieser Nervosität so viel geschaffen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Sicherheit durch Routine</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>Wärme</em> nannte &ndash; aber diese Wärme richtet sich zuerst nach innen, auf das eigene, engste Umfeld: die vertrauten Menschen, die vertrauten Räume, die vertrauten Abläufe. Sicherheit entsteht für die SE6 nicht durch Kontrolle über die Welt, sondern durch die sorgfältige Pflege eines kleinen, verlässlichen Kreises.</p>
+          <p class="vb-intro">Bei Allen zeigt sich das in einer fast schon legendären Bindung an New York: Fast alle seine Filme spielen in derselben Stadt, oft im selben Viertel, mit denselben vertrauten Orten &ndash; Central Park, die Upper East Side, das Kino um die Ecke. Er drehte über Jahrzehnte fast ausschließlich dort, wo er sich sicher fühlte. Selbst als seine europäischen Filme (<em>Match Point</em>, <em>Midnight in Paris</em>, <em>Vicky Cristina Barcelona</em>) ihn zeitweise nach London, Paris und Barcelona führten, blieb seine eigentliche Heimat unverändert: die eigene Wohnung, das eigene Klarinettenspiel am Montagabend, dieselbe Runde vertrauter Mitarbeiter über Jahrzehnte hinweg.</p>
+          <p class="vb-intro">Diese Beständigkeit ist keine Bequemlichkeit, sondern Strategie: Wo alles vertraut ist, ist auch die Angst kontrollierbar. Der selbsterhaltende Instinkt der Sechs fragt: <em>Habe ich genug Sicherheit, um weiterzumachen?</em> Allens Antwort war ein Leben lang: Ja &ndash; solange die Umgebung dieselbe bleibt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Humor als Fluchtweg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der selbsterhaltenden Sechs eine charakteristische Leichtigkeit: den Impuls, aus der Angst heraus zu denken, statt in ihr zu erstarren &ndash; und aus dem Nachdenken über die Angst wiederum Pointen zu machen. Die SE6w7 kennt die Sorge der Sechs genau, aber der Siebenerflügel übersetzt sie sofort in Sprache, in Tempo, in Witz.</p>
+          <p class="vb-intro">Allens gesamte komödiantische Stimme beruht auf diesem Mechanismus: Seine Figuren &ndash; allen voran Alvy Singer in <em>Der Stadtneurotiker</em> (1977, vier Oscars, darunter Bester Film) &ndash; reden sich die eigene Panik von der Seele, analysieren die eigene Neurose in Echtzeit, machen aus der Angst vor dem Tod, vor Beziehungen, vor dem eigenen Versagen einen Wortschwall, der zum Lachen bringt, bevor er erdrückt. <em>Ich habe keine Angst vor dem Tod, ich will nur nicht dabei sein, wenn es passiert</em> &ndash; das ist die SE6w7 in einem Satz: die Angst wird nicht verschwiegen, sondern sofort in eine Formulierung verwandelt, die sie erträglich macht.</p>
+          <p class="vb-intro">Diese Kombination erklärte auch seine außergewöhnliche Produktivität: Über fünf Jahrzehnte drehte Allen fast im Jahresrhythmus einen neuen Film &ndash; fast fünfzig Werke insgesamt. Der Siebenerflügel treibt an, immer weiterzumachen, das nächste Projekt zu beginnen, bevor die Grübelei über das letzte sich festsetzen kann. Arbeit als Bewegung gegen den Stillstand, der die Sechs am meisten fürchtet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Die Klarinette, die Analyse, das Ritual</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Kaum ein Detail zeigt die SE6w7 klarer als Allens jahrzehntelanges Ritual: Jeden Montagabend spielte er über fünfzig Jahre lang Klarinette in New Orleans Jazz-Bands, ursprünglich im Michael's Pub, später im Café Carlyle &ndash; unabhängig davon, ob gerade ein Film in Produktion war, ob er Preise gewann oder Kritik einstecken musste. Selbst als er 1978 einen Oscar für <em>Der Stadtneurotiker</em> gewann, blieb er der Verleihung fern, weil an diesem Abend sein Klarinettengig stattfand. Das ist keine Bescheidenheit &ndash; das ist die selbsterhaltende Sechs, die dem festen Ritual mehr vertraut als dem großen, unberechenbaren Ereignis.</p>
+          <p class="vb-intro">Ebenso charakteristisch: seine über Jahrzehnte fortgesetzte Psychoanalyse. Allen befand sich nach eigener Aussage mehr als 35 Jahre lang in analytischer Behandlung &ndash; nicht um geheilt zu werden, sondern um die eigene Angst systematisch zu verstehen, sie in Worte zu fassen, sie zu kartieren. Das ist ein für die Sechs typischer Zug, verstärkt durch den Siebenerflügel: Verstehen als Beruhigung, Sprache als Werkzeug gegen das Chaos im Kopf.</p>
+          <p class="vb-intro">1992 wurde seine Trennung von Mia Farrow und die anschließende Beziehung zu Soon-Yi Previn, die er 1997 heiratete, zu einem der größten öffentlichen Skandale seiner Karriere; 2014 erneuerte Dylan Farrow öffentlich Missbrauchsvorwürfe gegen ihn, die er stets bestritt und zu denen es nie eine strafrechtliche Verurteilung gab. Diese Ereignisse veränderten seine öffentliche Wahrnehmung tiefgreifend und lassen sich von seinem künstlerischen Werk nicht trennen &ndash; sie werden hier benannt, ohne dass dieser Kompass eine eigene Bewertung der Vorwürfe vornimmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w7 ist die Fähigkeit, aus der eigenen Angst etwas zu machen, das anderen hilft, ihre eigene Angst zu ertragen. Allens Filme haben Generationen von Zuschauern gezeigt, dass Neurose kein Makel sein muss, sondern eine Quelle von Witz, Selbstreflexion und sogar Zärtlichkeit sein kann. Das ist ein seltenes Geschenk: die eigene Schwäche öffentlich zu machen und daraus Trost für andere zu gewinnen.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Feigheit</strong> &ndash; bei der SE6 zeigt sie sich als endloses Grübeln, als die ständige Suche nach der nächsten möglichen Katastrophe. Allen hat diese Tendenz nie versteckt, sondern zu seinem Markenzeichen gemacht: Hypochondrie, Flugangst, die Weigerung, sich medizinischen Eingriffen anzuvertrauen, die er nicht versteht &ndash; all das erscheint in seinen Filmen genauso wie in Interviews über sein eigenes Leben.</p>
+          <p class="vb-intro">Der Schatten des Siebenerflügels ist die Gefahr, dass Humor zur Flucht wird &ndash; dass das ständige Ausweichen in die nächste Pointe, das nächste Projekt, verhindert, wirklich stillzustehen und Verantwortung zu übernehmen. Wie viel von diesem Muster in Allens persönlichem Leben wirksam wurde, bleibt Gegenstand anhaltender öffentlicher Auseinandersetzung.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Die Angst als Material, nicht als Gefängnis</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Was, wenn alles schiefgeht?</em> zur Erkenntnis <em>Ich kann mit der Angst leben &ndash; und sogar etwas aus ihr machen.</em> Für die SE6w7 bedeutet das, die eigene Wachsamkeit nicht zu bekämpfen, sondern sie in Bewegung, in Sprache, in Arbeit zu verwandeln, ohne sich in der nächsten Ablenkung zu verlieren.</p>
+          <p class="vb-intro">Woody Allen hat diesen Weg über sechs Jahrzehnte hinweg auf seine eigene, widersprüchliche Weise beschritten: Er hat aus seiner Angst ein Werk gemacht, das größer ist als die Angst selbst &ndash; und ist dabei doch nie an einen Ort gekommen, an dem die Angst endgültig verstummt wäre. Das Kaninchen, das nie aufhört, wachsam zu sein &ndash; aber das gelernt hat, aus der Wachsamkeit Kunst zu machen.</p>
+          <p class="vb-intro">Über neunzig Jahre alt, dreht Woody Allen noch immer Filme &ndash; im selben Rhythmus, mit derselben Klarinette am Montagabend, in derselben Stadt. Das ist die selbsterhaltende Sechs mit Siebenerflügel: Angst, die niemals ganz verschwindet &ndash; aber die, solange man weiterarbeitet, nie das letzte Wort behält.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-beatrice-chebet", label:"Porträt: Beatrice Chebet (SE6w7)"},
+        {route:"beruehmte-neil-armstrong", label:"Porträt: Neil Armstrong (SE6w7)"},
       ])}
     </div>
   `);
@@ -13768,6 +13843,7 @@ function neilArmstrongPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-sundar-pichai", label:"Portr\xe4t: Sundar Pichai (SE6w5)"},
+        {route:"beruehmte-woody-allen", label:"Portr\xe4t: Woody Allen (SE6w7)"},
       ])}
     </div>
   `);
@@ -44766,6 +44842,7 @@ function render() {
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-neil-armstrong": neilArmstrongPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
+      "beruehmte-woody-allen": woodyAllenPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
