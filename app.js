@@ -437,7 +437,7 @@ const BERUEHMT_PORTRAITS = [
   { route:"beruehmte-fiona-apple", name:"Fiona Apple", added:"2026-08-01", subtyp:"SO4w5",
     heading:"Fiona Apple – Sozialer Typ 4",
     teaser:"SO4w5 · geb. 1977. Musikerin & Songwriterin. Von der MTV-Award-Rede 1997 bis zu ›Fetch the Bolt Cutters‹ – das Gürteltier, das Scham in eine schonungslos ehrliche Sprache verwandelt.",
-    tags:["Musik"] , gender:"w"},
+    tags:["Musik"] , gender:"f"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexueller Typ 4",
     teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
@@ -446,6 +446,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Rihanna – Sexueller Typ 4",
     teaser:"SX4w3 \xb7 geb. 1988, Barbados. S\xe4ngerin, Unternehmerin, Stil-Ikone. Umbrella, Diamonds, Fenty Beauty. Der Chihuahua aus Bridgetown, der die Schönheitsindustrie auf den Kopf stellte – roh, unerschrocken, unvergleichlich.",
     tags:["Musik","Business"], gender:"f"},
+  { route:"beruehmte-billie-eilish", name:"Billie Eilish", added:"2026-08-01", subtyp:"SX4w3",
+    heading:"Billie Eilish – Sexueller Typ 4",
+    teaser:"SX4w3 · geb. 2001. Sängerin, Songwriterin. Vom SoundCloud-Upload mit vierzehn bis zum vierfachen Grammy-Sweep und zwei Oscars – der Chihuahua, der flüstert statt zu schreien und gerade darin unausweichlich wird.",
+    tags:["Musik"], gender:"f"},
   { route:"beruehmte-ana-de-armas", name:"Ana de Armas", subtyp:"SX4w5",
     heading:"Ana de Armas – Sexueller Typ 4",
     teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
@@ -10752,6 +10756,75 @@ function rihannaPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Portr\xe4t: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Portr\xe4t: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function billieEilishPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-billie-eilish-portrait.jpg" alt="Billie Eilish" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Billie Eilish</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Sängerin &amp; Songwriterin, geb. 2001 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua aus Highland Park</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist die kleinste Hunderasse der Welt &ndash; und das Tier, das am wenigsten beeindruckt davon ist. Er zittert nicht aus Schwäche, sondern aus Wachheit: jede Faser seines kleinen Körpers ist auf Intensität ausgerichtet. Er liebt heftig, misstraut schnell und lässt sich nicht einschüchtern, obwohl er verletzlich ist &ndash; oder gerade deswegen.</p>
+          <p class="vb-intro">Billie Eilish Pirate Baird O&#39;Connell wurde 2001 in Los Angeles geboren und wuchs in einem kleinen Haus in Highland Park auf, in einer Familie aus Musikern und Schauspielern, wurde zu Hause unterrichtet und schrieb bereits als Kind Songs mit ihrem älteren Bruder Finneas. Mit vierzehn lud sie den Song <em>Ocean Eyes</em> auf SoundCloud hoch &ndash; ursprünglich für ihre Tanzlehrerin gedacht &ndash; und wurde über Nacht zum viralen Phänomen. Der Chihuahua, der aus einem kleinen Zimmer heraus die ganze Welt erreichte, ohne dabei lauter zu werden als er sein musste.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Intensität ohne Filter</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier nach außen &ndash; als Verlangen, als Feuer, als schonungslose Offenheit. Naranjo nannte diesen Subtyp <em>Rivalität</em>: die brennende Überzeugung, dass andere haben, was einem selbst vorenthalten wurde, verbunden mit dem Drang, sich radikal von der Norm abzuheben, statt sich ihr anzupassen. Kein anderer Subtyp lebt die Leidenschaft der Vier so direkt, so ungefiltert, so nah an der eigenen Haut wie die SX4.</p>
+          <p class="vb-intro">Bei Eilish zeigt sich das in der kompromisslosen Ehrlichkeit ihrer Texte: Depression, Suizidgedanken, Körperbild, Beziehungen, die zerbrechen &ndash; nichts wird beschönigt. Ihr Debütalbum <em>When We All Fall Asleep, Where Do We Go?</em> (2019), fast vollständig im Schlafzimmer ihres Elternhauses mit Finneas produziert, flüstert seine dunkelsten Momente, statt sie zu schreien &ndash; und genau darin liegt die Intensität der SX4: nicht in der Lautstärke, sondern in der Unausweichlichkeit des Gefühlten.</p>
+          <p class="vb-intro">Von Beginn an verweigerte sich Eilish der Sexualisierung, die junge Popsängerinnen üblicherweise widerfährt: weite, übergroße Kleidung, die den Körper verbirgt, aus dem erklärten Wunsch heraus, nicht auf ihr Äußeres reduziert zu werden. Das ist typisch SX4 &ndash; die Weigerung, sich in eine fremde Erwartung zu zwängen, selbst wenn die ganze Industrie etwas anderes verlangt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Aus Gefühl wird Weltkarriere</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> gibt der sexuellen Vier die Fähigkeit, das eigene Erleben nicht nur zu fühlen, sondern in Wirkung zu übersetzen. Wo die reine SX4 im eigenen Feuer verglühen könnte, bringt der Dreierflügel Ambition, ein Gespür für Bühne und Bild und die Disziplin, aus einem SoundCloud-Upload eine globale Karriere zu machen.</p>
+          <p class="vb-intro">Bei Eilish zeigt sich das in der Präzision, mit der Bild, Sound und Auftritt aufeinander abgestimmt sind &ndash; von der grün-schwarzen Haarfarbe über die riesigen, ästhetisch komponierten Musikvideos bis zur bewussten Neuerfindung ihres Looks auf dem Vogue-Cover 2021. Der w3 sorgt dafür, dass die rohe Ehrlichkeit der SX4 nicht im Privaten verhallt, sondern eine ganze Generation erreicht.</p>
+          <p class="vb-intro">2020 gewann Eilish bei den Grammy Awards alle vier großen Hauptkategorien &ndash; Album, Song und Aufnahme des Jahres sowie Bester Newcomer &ndash; im selben Jahr, mit achtzehn Jahren als jüngste Künstlerin überhaupt. Das ist der Dreierflügel in Reinform: das Feuer der SX4 wird nicht nur gefühlt, sondern in einen Erfolg übersetzt, den niemand ignorieren kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. What Was I Made For?: Die Wunde wird zum Oscar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2023 schrieb Eilish gemeinsam mit Finneas den Song <em>What Was I Made For?</em> für den Film <em>Barbie</em> &ndash; eine leise, fast zerbrechliche Ballade über Identität, Erwartung und die Frage, wer man ist, wenn man aufhört, für andere zu funktionieren. Der Song wurde mit dem Oscar für den besten Filmsong ausgezeichnet &ndash; Eilishs zweiter Oscar nach <em>No Time to Die</em> (2022), mit gerade einmal 21 Jahren.</p>
+          <p class="vb-intro">Dass ausgerechnet dieser leise, verletzliche Song zum größten Triumph wurde, ist reine SX4w3: Das ungeschönte Gefühl &ndash; die Frage nach dem eigenen Sinn, gestellt ohne jede Pose &ndash; wird durch den Dreierflügel so präzise und wirkungsvoll in Form gebracht, dass es Millionen Menschen berührt, statt im Privaten zu bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Das Feuer, das nicht lügt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX4w3 liegt in ihrer Fähigkeit, das eigene, oft schmerzhafte Innenleben ohne Beschönigung zu zeigen &ndash; und darin gerade Millionen junger Menschen eine Sprache für das eigene Erleben zu geben. Eilishs Offenheit über Depression, Körperbild und das Gefühl, nie ganz dazuzugehören, hat der Popmusik eine Ehrlichkeit zurückgegeben, die selten geworden war.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 als Rivalität, als das Gefühl, dass andere haben, was einem selbst verwehrt bleibt. Bei Eilish äußerte sich das früh in einem angespannten Verhältnis zum eigenen Körper und zur öffentlichen Aufmerksamkeit, die sie nie gesucht, aber mit vierzehn Jahren erhalten hatte. Der Schatten der sexuellen Vier liegt darin, die eigene Intensität so sehr zum Zentrum zu machen, dass sie erschöpft, statt zu tragen.</p>
+          <p class="vb-intro">Der Dreierflügel bringt die Gefahr, das echte Gefühl der öffentlichen Wirkung unterzuordnen &ndash; das Bild wichtiger zu nehmen als das, was dahinterliegt. Eilish hat diese Spannung immer wieder offen benannt: den Wunsch, gesehen zu werden, und gleichzeitig die Angst davor, auf ein Bild reduziert zu werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, der sich selbst treu bleibt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Das, was ich fühle, ist wahr &ndash; und es ist genug, es einfach zu zeigen.</em> Für die SX4w3 bedeutet das, die eigene Intensität nicht länger als Makel zu behandeln, den man verbergen oder perfektionieren muss, sondern als das Material, aus dem echte Verbindung entsteht.</p>
+          <p class="vb-intro">Eilishs Karriere zeigt genau diese Bewegung: von der Vierzehnjährigen, die sich in weiten Kleidern vor der Welt versteckte, zur Künstlerin, die mit <em>Happier Than Ever</em> und <em>What Was I Made For?</em> zunehmend offen über Verletzlichkeit spricht, ohne sich dabei zu verlieren. Der Chihuahua aus Highland Park hat gelernt, dass er nicht lauter werden muss, um gehört zu werden &ndash; nur ehrlich.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-freddie-mercury", label:"Portr\xe4t: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-rihanna", label:"Portr\xe4t: Rihanna (SX4w3)"},
       ])}
     </div>
   `);
@@ -44197,6 +44270,7 @@ function render() {
       "beruehmte-dieter-bohlen": dieterBohlenPortraitPage,
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
+      "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
