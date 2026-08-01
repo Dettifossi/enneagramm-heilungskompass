@@ -328,6 +328,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Javier Parisi – Social Type 4",
     teaser:"SO4w5 · born 1980. Musician, the world's best-known John Lennon double. From a childhood in Lanús to a performance at Abbey Road Studios – the armadillo that compares itself to a role model for so long that it finds its own stage within it. Animal correspondence: Armadillo.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-fiona-apple", name:"Fiona Apple", added:"2026-08-01", subtyp:"SO4w5",
+    heading:"Fiona Apple – Social Type 4",
+    teaser:"SO4w5 · born 1977. Musician & songwriter. From the 1997 MTV Awards speech to 'Fetch the Bolt Cutters' – the armadillo that turns shame into a brutally honest voice.",
+    tags:["Musik"] , gender:"w"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexual Type 4",
     teaser:"SX4w3 · 1946–1991. Rock singer, songwriter, co-founder of Queen. Bohemian Rhapsody, Live Aid 1985. The chihuahua that knew no fear – and made the stage a home.",
@@ -18279,6 +18283,7 @@ function johnLennonPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
         {route:"beruehmte-javier-parisi", label:"Portrait: Javier Parisi (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
         {route:"beruehmte-romy-schneider", label:"Portrait: Romy Schneider (SO4w3)"},
       ])}
     </div>
@@ -18350,6 +18355,77 @@ function javierParisiPortraitPage() {
         {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Portrait: Paul McCartney (SP4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Portrait: Fiona Apple (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function fionaApplePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-fiona-apple-portrait.jpg" alt="Fiona Apple" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fiona Apple</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Social Type 4 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Musician &amp; Songwriter, born 1977 &ndash; Animal correspondence: Armadillo</p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">Fiona Apple has refused, for over twenty years, to conform to the music industry &ndash; and became, precisely through that refusal, one of the most honest voices of her generation. A portrait about shame, withdrawal, and the radical decision to speak only when there is truly something to say.</p>
+
+        <h2 class="vb-section">1. The Armadillo</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>armadillo</strong> is the animal of the social Four &ndash; an animal full of contradictions: a hard shell on the outside, extraordinary sensitivity within. It withdraws the moment it feels threatened, and would rather dig in than pretend. And yet, despite its withdrawal, it remains deeply attuned to community &ndash; it observes it closely, even from a distance.</p>
+          <p class="vb-intro">Fiona Apple, born in 1977 in New York City, has embodied this paradox since her very first album: an artist who has repeatedly withdrawn from the public machinery &ndash; years-long breaks, retreats from the spotlight, refusal of interviews &ndash; and who nonetheless became one of the most unflinching observers of both her own and society&#39;s condition, precisely because of it. The armadillo that curls up, only to emerge again with even sharper clarity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Four: Shame as a Driving Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>social Four (SO4)</strong> carries the pain of the Four into the social dimension. Naranjo called this subtype <em>shame</em>: the deep feeling of being inadequate and not truly belonging &ndash; combined with a permanent self-monitoring of whether one measures up to one&#39;s own standards and those of others. No other subtype lives the Four&#39;s passion &ndash; envy, self-measurement &ndash; as an inner tribunal quite like the SO4.</p>
+          <p class="vb-intro">In Apple this is visible from the start: as a teenager she suffered from eating disorders and, at the age of twelve, was raped &ndash; a trauma she later processed repeatedly in her lyrics, never softened, but with a directness that initially unsettled many listeners. The social Four does not sweep her own shame under the rug, but makes it the starting point of the work &ndash; as if the judgment of others could only be disarmed by speaking it first, and speaking it all.</p>
+          <p class="vb-intro">Her debut album <em>Tidal</em> (1996) and the now-famous 1997 MTV Video Music Awards speech &ndash; in which the 19-year-old told the music industry to its face that this world was &bdquo;not real&ldquo; &ndash; show the typical SO4 movement: the stage is used to name exactly what is wrong in the social fabric, even at the cost of one&#39;s own standing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Withdrawal as Workshop</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> gives the social Four the capacity to withdraw from the field of judgment in order to work in silence. Where the pure SO4 mostly feels and compares, the Five-wing adds withdrawal into one&#39;s own study &ndash; the willingness to stay silent for years when there is nothing essential to say.</p>
+          <p class="vb-intro">In Apple this withdrawal has become a trademark: her albums are often separated by six, seven, eight years of silence. She retreated from New York to a house in Venice Beach, avoided interviews and public life almost entirely for long stretches. The Five-wing does not turn the SO4&#39;s social shame into constant self-display, but into its opposite: an almost monastic seclusion, out of which she speaks again only once the work is finished.</p>
+          <p class="vb-intro">This reticence is not weakness but method. Apple produces her albums with extreme attention to detail, often self-produced, using unconventional sound sources &ndash; from kitchen implements to the bones of her deceased dog used as percussion. The Five-wing turns withdrawal into a laboratory.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Fetch the Bolt Cutters: Shame Becomes a Weapon</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 2020, after nearly eight years of silence, Apple released <em>Fetch the Bolt Cutters</em> &ndash; an album recorded almost entirely in her own house, with percussion made from household objects and her dogs&#39; voices in the background. The title comes from a television line: the call to free oneself from a cage one has been locked in.</p>
+          <p class="vb-intro">The album became one of the highest-rated in music-criticism history on several aggregator platforms &ndash; arriving at the very moment the world itself went into isolation. Songs like <em>For Her</em> confront sexual violence directly, without softening it, while others push back against the pattern of pitting women against each other. The social Four, who once suffered under her own shame, here turns it into a shared, publicly held theme &ndash; and finds, in doing so, precisely the belonging she had always longed for.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Four</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO4 is her ability to turn her own shame into a language for others. Apple&#39;s lyrics give listeners words for experiences that otherwise remain hidden &ndash; shame, once spoken aloud, becomes a place of connection rather than isolation.</p>
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; in the SO4 expressed as a constant measuring of one&#39;s own inadequacy against an imagined ideal. In Apple this showed early on in eating disorders and a self-critical harshness she also directed publicly at herself. The shadow of the social Four lies in making one&#39;s own perceived deficiency so central that it overshadows the actual gift.</p>
+          <p class="vb-intro">The Five-wing brings the danger of complete withdrawal: years of silence can also mean that one&#39;s own voice suffocates in the quiet instead of being heard. Apple&#39;s recurring isolation, at times accompanied by anxiety, shows this other side of a withdrawal that protects but also cuts off.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: From Shame to Shared Truth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Four leads from the question <em>What is missing in me that I don&#39;t belong?</em> to the insight <em>What I feel is complete &ndash; and it is precisely what is spoken that connects me to others.</em> For the SO4w5 this means treating withdrawal not as an endpoint, but as a necessary workshop out of which one&#39;s own truth matures before it is shared.</p>
+          <p class="vb-intro">Apple&#39;s career shows exactly this movement: from the shy nineteen-year-old who seemed almost overwhelmed on the MTV stage in 1997, to the self-assured artist who, with <em>Fetch the Bolt Cutters</em>, turned her shame into a shared language. The armadillo that has learned that its own shell not only protects, but, opened at the right moment, also invites others to lay down their own.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so4", label:"SO4 – The Armadillo: Subtype Profile"},
+        {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+        {route:"beruehmte-javier-parisi", label:"Portrait: Javier Parisi (SO4w5)"},
       ])}
     </div>
   `);
@@ -41241,6 +41317,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-javier-parisi": javierParisiPortraitPage,
+      "beruehmte-fiona-apple": fionaApplePortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-romy-schneider": romySchneiderPortraitPage,

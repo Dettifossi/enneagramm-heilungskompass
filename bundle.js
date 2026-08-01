@@ -434,6 +434,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Javier Parisi – Sozialer Typ 4",
     teaser:"SO4w5 · geb. 1980. Musiker, weltweit bekanntestes John-Lennon-Double. Von der Kindheit in Lanús bis zum Auftritt in den Abbey Road Studios – das Gürteltier, das sich so lange mit einem Vorbild vergleicht, bis es darin die eigene Bühne findet. Tierentsprechung: Gürteltier.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-fiona-apple", name:"Fiona Apple", added:"2026-08-01", subtyp:"SO4w5",
+    heading:"Fiona Apple – Sozialer Typ 4",
+    teaser:"SO4w5 · geb. 1977. Musikerin & Songwriterin. Von der MTV-Award-Rede 1997 bis zu ›Fetch the Bolt Cutters‹ – das Gürteltier, das Scham in eine schonungslos ehrliche Sprache verwandelt.",
+    tags:["Musik"] , gender:"w"},
   { route:"beruehmte-freddie-mercury", name:"Freddie Mercury", subtyp:"SX4w3",
     heading:"Freddie Mercury – Sexueller Typ 4",
     teaser:"SX4w3 · 1946–1991. Rocksänger, Songwriter, Mitbegründer von Queen. Bohemian Rhapsody, Live Aid 1985. Der Chihuahua, der keine Angst kannte – und der Bühne eine Heimat gab.",
@@ -10217,6 +10221,7 @@ function johnLennonPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
         {route:"beruehmte-javier-parisi", label:"Porträt: Javier Parisi (SO4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Porträt: Fiona Apple (SO4w5)"},
         {route:"enneagramm-astrologie", label:"Enneagramm meets Astrologie"},
         {route:"astrologie-john-lennon", label:"Horoskop-Analyse: John Lennon"},
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
@@ -10290,6 +10295,77 @@ function javierParisiPortraitPage() {
         {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
         {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
         {route:"beruehmte-paul-mccartney", label:"Porträt: Paul McCartney (SE4w5)"},
+        {route:"beruehmte-fiona-apple", label:"Porträt: Fiona Apple (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function fionaApplePortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-fiona-apple-portrait.jpg" alt="Fiona Apple" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Fiona Apple</p>
+        <p class="krim-portrait-typ">SO4w5 &middot; Sozialer Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Musikerin &amp; Songwriterin, geb. 1977 &ndash; Tierentsprechung: Gürteltier</p>
+      </div>
+      <div class="page-content">
+
+        <p class="vb-intro" style="font-style:italic; opacity:0.75; margin-bottom:1.5rem;">Fiona Apple weigert sich seit über zwanzig Jahren, sich dem Musikbetrieb anzupassen &ndash; und wurde gerade dadurch zu einer der ehrlichsten Stimmen ihrer Generation. Ein Porträt über Scham, Rückzug und die radikale Entscheidung, nur dann zu sprechen, wenn man wirklich etwas zu sagen hat.</p>
+
+        <h2 class="vb-section">1. Das Gürteltier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Gürteltier</strong> ist das Tier des sozialen Typs 4 &ndash; ein Tier voller Widersprüche: ein harter Panzer nach außen, eine außergewöhnliche Empfindlichkeit im Inneren. Es zieht sich zurück, sobald es sich bedroht fühlt, und gräbt sich lieber ein, als sich zu verstellen. Und doch bleibt es, trotz seines Rückzugs, zutiefst auf die Gemeinschaft bezogen &ndash; es beobachtet sie genau, auch aus der Distanz.</p>
+          <p class="vb-intro">Fiona Apple, geboren 1977 in New York City, verkörpert dieses Paradox seit ihrem ersten Album: eine Künstlerin, die sich dem öffentlichen Betrieb immer wieder entzogen hat &ndash; jahrelange Pausen, Rückzüge aus dem Rampenlicht, Verweigerung von Interviews &ndash; und die trotzdem, oder gerade deshalb, zu den schonungslosesten Beobachterinnen der eigenen und der gesellschaftlichen Verhältnisse wurde. Das Gürteltier, das sich einrollt, um dann mit umso schärferer Klarheit wieder hervorzutreten.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Vier: Scham als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Vier (SO4)</strong> trägt den Schmerz der Vier in die soziale Dimension. Naranjo nannte diesen Subtyp <em>Scham</em>: das tiefe Gefühl, mangelhaft und nicht wirklich zugehörig zu sein &ndash; verbunden mit einer permanenten Selbstbeobachtung, ob man den eigenen Ansprüchen und denen der anderen genügt. Kein anderer Subtyp lebt die Leidenschaft der Vier &ndash; den Neid, das Sich-Messen &ndash; so sehr als inneres Gericht wie die SO4.</p>
+          <p class="vb-intro">Bei Apple zeigt sich das von Beginn an: Schon als Teenager litt sie unter Essstörungen und wurde im Alter von zwölf Jahren Opfer einer Vergewaltigung &ndash; ein Trauma, das sie später in ihren Texten immer wieder verarbeitete, nie beschönigend, sondern mit einer Direktheit, die viele Hörer zunächst irritierte. Die soziale Vier stellt die eigene Scham nicht unter den Teppich, sondern macht sie zum Ausgangspunkt der Arbeit &ndash; als ließe sich das Urteil der anderen nur entkräften, indem man ihm zuvorkommt und alles selbst ausspricht.</p>
+          <p class="vb-intro">Ihr Debütalbum <em>Tidal</em> (1996) und die berühmt gewordene MTV-Award-Rede von 1997 &ndash; in der die 19-Jährige der Musikindustrie ins Gesicht sagte, dass diese Welt &bdquo;nicht real&ldquo; sei &ndash; zeigen die typische SO4-Bewegung: die Bühne wird genutzt, um genau das zu benennen, was im sozialen Gefüge falsch läuft, auch um den Preis des eigenen Ansehens.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Rückzug als Werkstatt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sozialen Vier die Fähigkeit, sich aus dem Feld der Bewertung zurückzuziehen, um in der Stille zu arbeiten. Wo die reine SO4 vor allem fühlt und sich vergleicht, bringt der Fünferflügel den Rückzug ins eigene Studium hinzu &ndash; die Bereitschaft, jahrelang zu schweigen, wenn nichts Wesentliches zu sagen ist.</p>
+          <p class="vb-intro">Bei Apple ist dieser Rückzug zum Markenzeichen geworden: Zwischen ihren Alben liegen oft sechs, sieben, acht Jahre Stille. Sie zog sich aus New York in ein Haus in Venice Beach zurück, mied lange Zeit Interviews und die Öffentlichkeit fast vollständig. Der Fünferflügel verwandelt die soziale Scham der Vier nicht in ständige Selbstdarstellung, sondern in ihr Gegenteil: in eine fast klösterliche Zurückgezogenheit, aus der heraus erst dann wieder gesprochen wird, wenn die Arbeit fertig ist.</p>
+          <p class="vb-intro">Diese Zurückhaltung ist keine Schwäche, sondern Methode. Apple produziert ihre Alben in extremer Detailarbeit, oft in Eigenregie, mit ungewöhnlichen Klangquellen &ndash; von Küchengeräten bis zu den Knochen ihres verstorbenen Hundes als Percussion. Der Fünferflügel macht aus dem Rückzug ein Laboratorium.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Fetch the Bolt Cutters: Die Scham wird zur Waffe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">2020, nach fast acht Jahren Stille, veröffentlichte Apple <em>Fetch the Bolt Cutters</em> &ndash; ein Album, das fast ausschließlich in ihrem eigenen Haus aufgenommen wurde, mit Perkussion aus Alltagsgegenständen und den Stimmen ihrer Hunde im Hintergrund. Der Titel stammt aus einer Serie: die Aufforderung, sich selbst aus einem Käfig zu befreien, in den man gesperrt wurde.</p>
+          <p class="vb-intro">Das Album wurde zum am höchsten bewerteten der Musikkritik-Geschichte auf mehreren Aggregator-Plattformen &ndash; ausgerechnet zu jenem Zeitpunkt, an dem die Welt selbst in Isolation ging. Songs wie <em>For Her</em> greifen sexuelle Gewalt direkt und ohne Beschönigung auf, andere richten sich gegen das Muster, Frauen gegeneinander auszuspielen. Die soziale Vier, die einst unter der eigenen Scham litt, macht sie hier zum gemeinsamen, öffentlich geteilten Thema &ndash; und findet darin genau die Zugehörigkeit, nach der sie sich immer gesehnt hatte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Vier</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO4 ist ihre Fähigkeit, aus der eigenen Scham eine Sprache für andere zu schaffen. Apples Texte geben Hörerinnen und Hörern Worte für Erfahrungen, die sonst im Verborgenen bleiben &ndash; Scham wird, öffentlich ausgesprochen, zu einem Ort der Verbindung statt der Isolation.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SO4 als ständiges Messen der eigenen Unzulänglichkeit an einem imaginären Ideal. Bei Apple zeigte sich das früh in Essstörungen und einer selbstkritischen Härte, die sie öffentlich auch gegen sich selbst richtete. Der Schatten der sozialen Vier besteht darin, das eigene Ungenügen so sehr zum Zentrum zu machen, dass es die eigentliche Begabung überschattet.</p>
+          <p class="vb-intro">Der Fünferflügel bringt die Gefahr des völligen Rückzugs: Jahre der Stille können auch bedeuten, dass die eigene Stimme im Schweigen erstickt, statt gehört zu werden. Apples wiederkehrende Isolation, phasenweise begleitet von Angstzuständen, zeigt diese Kehrseite eines Rückzugs, der Schutz bietet, aber auch abschneidet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Von der Scham zur geteilten Wahrheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Was fehlt mir, dass ich nicht dazugehöre?</em> zur Erkenntnis <em>Was ich fühle, ist vollständig &ndash; und gerade das Ausgesprochene verbindet mich mit anderen.</em> Für die SO4w5 bedeutet das, den Rückzug nicht als Endpunkt zu behandeln, sondern als notwendige Werkstatt, aus der heraus die eigene Wahrheit reift, bevor sie geteilt wird.</p>
+          <p class="vb-intro">Apples Karriere zeigt genau diese Bewegung: von der scheuen Neunzehnjährigen, die 1997 auf der MTV-Bühne fast überwältigt wirkte, zur souveränen Künstlerin, die mit <em>Fetch the Bolt Cutters</em> ihre Scham in eine gemeinsame Sprache verwandelte. Das Gürteltier, das gelernt hat, dass der eigene Panzer nicht nur schützt, sondern, zur rechten Zeit geöffnet, auch andere einlädt, ihren eigenen Panzer abzulegen.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so4", label:"SO4 – Das Gürteltier: Subtyp-Profil"},
+        {route:"beruehmte-john-lennon", label:"Porträt: John Lennon (SO4w5)"},
+        {route:"beruehmte-javier-parisi", label:"Porträt: Javier Parisi (SO4w5)"},
       ])}
     </div>
   `);
@@ -44188,6 +44264,7 @@ function render() {
       "beruehmte-paul-mccartney": paulMccartneyPortraitPage,
       "beruehmte-john-lennon": johnLennonPortraitPage,
       "beruehmte-javier-parisi": javierParisiPortraitPage,
+      "beruehmte-fiona-apple": fionaApplePortraitPage,
       "beruehmte-til-schweiger": tilSchweigerPortraitPage,
       "beruehmte-taddl": taddlPortraitPage,
       "beruehmte-caroline-peters": carolinePetersPortraitPage,
