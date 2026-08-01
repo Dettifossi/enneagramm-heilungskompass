@@ -11005,7 +11005,7 @@ function claudeDebussyPortraitPage() {
         <h2 class="vb-section">4. La Mer: Komposition inmitten des Skandals</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Debussy komponierte sein Orchesterwerk <em>La Mer</em> (1903&ndash;1905) ausgerechnet in den Jahren des größten persönlichen Aufruhrs &ndash; während der Trennung von Lilly Texier, ihrem Suizidversuch und dem gesellschaftlichen Skandal, der ihn fast seine Karriere kostete. Statt sich zurückzuziehen, vertiefte er sich in ein Werk über das Meer: drei symphonische Skizzen, die Licht, Bewegung und Klangfarbe verschmelzen, ohne einer klassischen Form zu folgen.</p>
-          <p class="vb-intro">Die Uraufführung 1905 wurde von Kritik und Publikum zunächst verrissen &ndash; zu formlos, zu unklar, kein &bdquo;richtiges&ldquo; Meeresbild. Erst Jahre später wurde <em>La Mer</em> als eines der bedeutendsten Orchesterwerke der Moderne anerkannt. Das ist SX4w5 in seiner reinsten Form: Der private Sturm wird nicht verdrängt, sondern in ein Werk übersetzt, das so präzise durchdacht ist, dass es die eigene Zeit überdauert, auch wenn sie es zunächst nicht verstehen will.</p>
+          <p class="vb-intro">Die Uraufführung 1905 wurde von Kritik und Publikum zunächst verrissen &ndash; zu formlos, zu unklar, kein &bdquo;richtiges&ldquo; Meeresbild. Erst Jahre später wurde <em>La Mer</em> als eines der bedeutendsten Orchesterwerke der Moderne anerkannt. Das ist die SX4w5 in ihrer reinsten Form: Der private Sturm wird nicht verdrängt, sondern in ein Werk übersetzt, das so präzise durchdacht ist, dass es die eigene Zeit überdauert, auch wenn sie es zunächst nicht verstehen will.</p>
         </blockquote>
 
         <h2 class="vb-section">5. Licht und Schatten: Der Klang, der nicht lügt</h2>
@@ -11018,7 +11018,7 @@ function claudeDebussyPortraitPage() {
         <h2 class="vb-section">6. Der Chihuahua, der dem Klang traute</h2>
         <blockquote class="vb-blockquote">
           <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Das, was ich höre, ist wahr &ndash; und es ist meins, es zu zeigen.</em> Für die SX4w5 bedeutet das, die eigene Rivalität gegen die Konvention nicht als Makel zu behandeln, sondern als Kompass, der zu etwas führt, das vorher nicht existierte.</p>
-          <p class="vb-intro">Debussy starb 1918 an Krebs, während Paris von deutscher Artillerie beschossen wurde &ndash; einer seiner letzten öffentlichen Auftritte war ein Konzert unter Kriegsbedingungen, bei dem er sich weigerte, sich von den Umständen die eigene Musik diktieren zu lassen. Der Chihuahua aus Saint-Germain-en-Laye hat die Musik nicht lauter gemacht, um gehört zu werden &ndash; er hat ihr beigebracht, zu schweben, zu schimmern, zu andeuten. Das ist die sexuelle Vier mit Fünferflügel. Das ist Claude Debussy.</p>
+          <p class="vb-intro">Debussy starb 1918 an Krebs, während Paris von deutscher Artillerie beschossen wurde &ndash; einer seiner letzten öffentlichen Auftritte war ein Konzert unter Kriegsbedingungen, bei dem er sich weigerte, sich von den Umständen die eigene Musik diktieren zu lassen. Der Chihuahua aus Saint-Germain-en-Laye hat die Musik nicht lauter gemacht, um gehört zu werden &ndash; er hat ihr beigebracht, zu schweben, zu schimmern, das Wesentliche anzudeuten. Das ist die sexuelle Vier mit Fünferflügel. Das ist Claude Debussy.</p>
         </blockquote>
 
       </div>
