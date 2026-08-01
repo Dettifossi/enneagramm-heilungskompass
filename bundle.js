@@ -10277,7 +10277,7 @@ function javierParisiPortraitPage() {
 
         <h2 class="vb-section">6. Der Heilungsweg: Vom Vergleichen zum eigenen Ausdruck</h2>
         <blockquote class="vb-blockquote">
-          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich weniger als der andere, mit dem ich mich vergleiche?</em> zur Erkenntnis <em>Was ich bin, ist vollständig &ndash; und es ist einmalig, auch wenn ich einem anderen ähnle.</em> Für die SO4w5 bedeutet das, das jahrelange Studium eines fremden Vorbilds nicht als Ersatz für die eigene Stimme zu behandeln, sondern als einen Weg, über den die eigene Stimme letztlich doch gefunden wird.</p>
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich weniger als der andere, mit dem ich mich vergleiche?</em> zur Erkenntnis <em>Was ich bin, ist vollständig &ndash; und es ist einmalig, auch wenn ich einem anderen ähnele.</em> Für die SO4w5 bedeutet das, das jahrelange Studium eines fremden Vorbilds nicht als Ersatz für die eigene Stimme zu behandeln, sondern als einen Weg, über den die eigene Stimme letztlich doch gefunden wird.</p>
           <p class="vb-intro">Parisis Karriere zeigt genau diese Bewegung in Ansätzen: vom reinen Imitator zum eigenständigen Interpreten, der Lennons Botschaft mit eigener Ausdruckskraft weiterträgt, statt sie nur zu kopieren. Das Gürteltier, das gelernt hat, dass die Verwandtschaft mit einem anderen die eigene Einzigartigkeit nicht auslöscht &ndash; sondern, richtig verstanden, ein Weg sein kann, sie erst zu entdecken.</p>
         </blockquote>
 
