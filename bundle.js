@@ -570,6 +570,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Herbert Grönemeyer – Sozialer Typ 6",
     teaser:"SO6w7 · geb. 1956. Musiker, Komponist, Texter, Schauspieler. Bochum. Mensch. Das Erdmännchen, das nach jedem Verlust wieder aufsteht – und singt.",
     tags:["Musik"] , gender:"m"},
+  { route:"beruehmte-james-corden", name:"James Corden", added:"2026-08-01", subtyp:"SO6w7",
+    heading:"James Corden – Sozialer Typ 6",
+    teaser:"SO6w7 · geb. 1978. Schauspieler, Moderator, ‹The Late Late Show›, ‹Carpool Karaoke›. Das Erdmännchen, das jeden ins Auto holt – und dafür sorgt, dass niemand allein singt.",
+    tags:["Film","TV"], gender:"m"},
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer – Sexueller Typ 6",
     teaser:"SX6w5 · geb. 1942. Journalistin, Feministin, Emma-Gründerin. Der Wolf, der sich nicht duckt – und der für sein Rudel kämpft, auch wenn er dabei allein steht.",
@@ -13449,11 +13453,79 @@ function herbertGroenomeyerPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
-        {route:"beruehmte-sigmund-freud", label:"Porträt: Sigmund Freud (SO6w5)"},
+        {route:"beruehmte-james-corden", label:"Porträt: James Corden (SO6w7)"},
       ])}
     </div>
   `);
 }
+function jamesCordenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-james-corden-portrait.jpg" alt="Erdmännchen" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Corden</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Sozialer Typ 6 mit Siebenerflügel</p>
+        <p class="krim-portrait-subtitle">Schauspieler, Moderator &amp; Produzent, geb. 1978 &ndash; Tierentsprechung: Erdmännchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Erdmännchen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Erdmännchen</strong> lebt nicht für sich allein. Es lebt für die Gruppe, mit der Gruppe, durch die Gruppe. Es ist selten das größte Tier im Rudel, aber immer das, das am meisten dafür tut, dass alle zusammenbleiben. Es organisiert, es sorgt sich, es holt andere mit ins Boot &ndash; oder, in diesem Fall, mit ins Auto.</p>
+          <p class="vb-intro">James Corden hat aus genau diesem Impuls ein Weltformat gemacht: In ‹Carpool Karaoke› setzt er sich mit den größten Popstars der Welt in ein Auto, singt mit ihnen mit, lacht mit ihnen, macht aus einer Autofahrt einen gemeinsamen Moment, den Millionen Menschen mitfühlen. Kein Interview im klassischen Sinn, sondern eine Einladung: Komm rein, sing mit, sei Teil davon. Das ist das Erdmännchen bei der Arbeit &ndash; es holt die Gruppe zusammen, auch wenn die Gruppe gerade aus einem Weltstar und einer Kamera besteht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die soziale Sechs: Zugehörigkeit als Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>soziale Sechs (SO6)</strong> ist nach Naranjo der Subtyp, den er <em>Pflicht</em> nannte: Sicherheit entsteht durch Zugehörigkeit zu einer Gruppe, durch das verlässliche Erfüllen einer Rolle innerhalb des Kollektivs. Anders als die Fünf oder die Vier sucht die SO6 nicht die Distanz oder die Abgrenzung &ndash; sie sucht die Verbindung, das gemeinsame Erlebnis, den Moment, in dem alle im selben Raum sind.</p>
+          <p class="vb-intro">Cordens gesamte Karriere ist eine Bewegung hin zu genau diesem Prinzip. Er begann im britischen Ensembletheater, schrieb und spielte in der Sitcom ‹Gavin &amp; Stacey› mit &ndash; einem Format, das im Kern von nichts anderem handelt als von Familie, Freundschaft und Zugehörigkeit in einer englischen Kleinstadt. Als er 2015 die ‹Late Late Show› in den USA übernahm, baute er sie nicht als Solo-Vehikel für seinen eigenen Witz, sondern als Ort der Begegnung: Gäste, die miteinander spielen, singen, kochen, sich blamieren &ndash; gemeinsam. Corden moderiert nicht über der Gruppe. Er moderiert mitten in ihr.</p>
+          <p class="vb-intro">Diese Pflicht zur Verbindung zeigt sich auch darin, wie sehr Corden auf Ensemblearbeit setzt: Als Produzent seiner eigenen Formate stellt er ganze Teams zusammen, hält sie über Jahre zusammen, dankt ihnen öffentlich. Für die SO6 ist der eigene Erfolg nie ein Solo-Projekt. Er ist immer das Ergebnis einer Gruppe, der man dient und die einen trägt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Siebenerflügel: Begeisterung als Einladung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Siebenerflügel (w7)</strong> bringt der sozialen Sechs Tempo, Leichtigkeit und die Fähigkeit, aus jeder Situation ein Fest zu machen. Wo die reine SO6 vor allem verlässlich dienen würde, fügt der Siebenerflügel die Lust an Vielfalt und Show hinzu: Die SO6w7 dient nicht leise im Hintergrund &ndash; sie dient, indem sie die Bühne mit allen teilt und dabei selbst strahlt.</p>
+          <p class="vb-intro">Cordens Energie ist explosiv, ansteckend, ständig in Bewegung: Er singt, tanzt, spielt Sketche, moderiert die Grammys und die Tony Awards, produziert Shows, schreibt Drehbücher. Diese Bandbreite ist der Siebenerflügel in Reinform &ndash; nicht die stille Tiefe des Fünferflügels, sondern die Weite, die immer neue Formen, neue Formate, neue Verbindungen sucht. ‹Carpool Karaoke› selbst ist der Siebenerflügel als Konzept: ein improvisiertes, spontanes, freudiges Format, das aus einer einfachen Idee eine unerschöpfliche Quelle für Gemeinschaftserlebnisse macht.</p>
+          <p class="vb-intro">Wo Herbert Grönemeyer (SO6w7) seinen Siebenerflügel nutzt, um nach Verlusten wieder aufzustehen und weiterzumachen, nutzt Corden ihn, um permanent Gelegenheiten zur Verbindung zu erschaffen. Beide sind Erdmännchen mit Vorwärtsdrang &ndash; nur richtet sich Cordens Energie weniger auf die eigene Heilung als auf das ständige Zusammenbringen anderer.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Vom Ensemble-Darsteller zur globalen Late-Night-Bühne</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Corden wuchs in einer Musikerfamilie in der englischen Grafschaft Buckinghamshire auf und fand früh zum Ensembletheater. Mit ‹Gavin &amp; Stacey› (ab 2007, gemeinsam mit Ruth Jones geschrieben) gelang ihm ein nationaler Publikumserfolg, der von Anfang an auf einem Kollektiv beruhte: eine Sitcom über zwei Familien, die zusammenwachsen. 2011 gewann er einen Tony Award für seine Hauptrolle in ‹One Man, Two Guvnors› &ndash; einer Farce, die vom Chaos des Dienens an zwei Herren gleichzeitig lebt.</p>
+          <p class="vb-intro">2015 übernahm Corden überraschend die ‹Late Late Show› von CBS &ndash; ein Brite in einem urklassisch amerikanischen Format. Statt sich an das bestehende Muster anzupassen, erfand er es neu: ‹Carpool Karaoke› wurde binnen weniger Jahre zu einem der meistgesehenen Late-Night-Formate der Welt, mit Gästen von Adele bis Paul McCartney. Millionen von Menschen sahen zu, wie ein Moderator und ein Weltstar in einem engen Auto gemeinsam sangen &ndash; ein Bild radikaler Zugehörigkeit, ohne Bühne, ohne Distanz.</p>
+          <p class="vb-intro">2023 beendete Corden die Show nach acht Jahren freiwillig, um zu seiner Familie nach London zurückzukehren. Kein Karriereeinbruch, keine Krise &ndash; eine bewusste Entscheidung für die Gruppe, die ihm am nächsten steht. Das Erdmännchen kehrt zurück ins eigene Revier, wenn die Familie ruft.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sozialen Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SO6w7 ist ihre <strong>Fähigkeit, Verbindung zu stiften, wo vorher keine war</strong>. Corden hat ein Format erfunden, das Weltstars und Millionenpublikum in einem gemeinsamen, unprätentiösen Moment zusammenbringt &ndash; ohne die übliche Distanz zwischen Star und Zuschauer. Kollegen und Gäste beschreiben ihn immer wieder als warmherzig, präsent, jemanden, der andere zum Strahlen bringt, statt sich selbst in den Mittelpunkt zu stellen.</p>
+          <p class="vb-intro">Der Schatten der SO6w7 liegt im Gegenteil dieser Wärme: In den Bemühungen, es allen recht zu machen und ständig sichtbar Gemeinschaft zu stiften, kann die Fassade der Freundlichkeit brüchig werden, wenn der Druck steigt. Corden geriet mehrfach in die Kritik &ndash; etwa wegen Berichten über unhöfliches Verhalten gegenüber Restaurantpersonal 2022, die er öffentlich korrigierte und sich dafür entschuldigte. Für die SO6 ist das eine typische Bruchstelle: Die Sorge um die Gruppe nach außen kann in Momenten der eigenen Erschöpfung nach innen kippen &ndash; und genau dort zeigt sich, wie ernst es der eigenen Fürsorge tatsächlich ist.</p>
+          <p class="vb-intro">Das ist die Spannung der SO6w7: Der Wunsch, alle mitzunehmen, kann in Überforderung kippen &ndash; und die eigene Erschöpfung wird dann sichtbar genau dort, wo die Fassade der ständigen Verbindlichkeit am dünnsten ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Verbindung ohne Erschöpfung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Bin ich der Gruppe genug?</em> zur Erkenntnis <em>Ich muss nicht ständig beweisen, dass ich dazugehöre &ndash; ich gehöre bereits dazu.</em> Für die SO6w7 bedeutet das, nicht jede Gelegenheit zur Verbindung ergreifen zu müssen, sondern auch Pausen zuzulassen, ohne die Sorge, dadurch aus der Gemeinschaft zu fallen.</p>
+          <p class="vb-intro">Cordens Rückkehr nach London, weg vom nonstop-Rhythmus der amerikanischen Late-Night-Industrie, hin zu seiner Familie, liest sich wie genau dieser Schritt: das Erdmännchen, das erkennt, dass die wichtigste Wache nicht die vor der großen Kamera ist, sondern die für die eigenen Kinder. Er moderiert weiterhin, produziert, tritt auf &ndash; aber aus einer Position, die nicht mehr beweisen muss, sondern einfach da sein darf. Das ist die reife SO6w7: Verbindung stiften, weil es Freude macht &ndash; nicht, weil man sonst Angst hat, allein zu sein.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/so6", label:"SO6 – Das Erdmännchen: Subtyp-Profil"},
+        {route:"beruehmte-herbert-groenemeyer", label:"Porträt: Herbert Grönemeyer (SO6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function donataHopfenPortraitPage() {
   return shell(`
@@ -44910,6 +44982,7 @@ function render() {
     "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-donata-hopfen": donataHopfenPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
+      "beruehmte-james-corden": jamesCordenPortraitPage,
       "beruehmte-melanie-kreis": melanieKreisPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-andy-reid": andyReidPortraitPage,

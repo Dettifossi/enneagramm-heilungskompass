@@ -412,6 +412,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Herbert Grönemeyer – Social Type 6",
     teaser:"SO6w7 · born 1956. Musician, composer, lyricist, actor. Bochum. Mensch. The meerkat that rises after every loss – and sings.",
     tags:["Musik"] },
+  { route:"beruehmte-james-corden", name:"James Corden", added:"2026-08-01", subtyp:"SO6w7",
+    heading:"James Corden – Social Type 6",
+    teaser:"SO6w7 · born 1978. Actor, TV host, ‹The Late Late Show›, ‹Carpool Karaoke›. The meerkat that pulls everyone into the car – and makes sure no one sings alone.",
+    tags:["Film","TV"] },
   { route:"beruehmte-alice-schwarzer", name:"Alice Schwarzer", subtyp:"SX6w5",
     heading:"Alice Schwarzer – Sexual Type 6",
     teaser:"SX6w5 · born 1942. Journalist, feminist, founder of Emma magazine. The wolf that does not bow down – and fights for its pack, even when standing alone.",
@@ -20609,11 +20613,79 @@ function herbertGroenomeyerPortraitPage() {
       ${relatedLinks([
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
-        {route:"beruehmte-sigmund-freud", label:"Portrait: Sigmund Freud (SO6w5)"},
+        {route:"beruehmte-james-corden", label:"Portrait: James Corden (SO6w7)"},
       ])}
     </div>
   `);
 }
+function jamesCordenPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-james-corden-portrait.jpg" alt="Meerkat" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">James Corden</p>
+        <p class="krim-portrait-typ">SO6w7 &middot; Social Type 6 with Seven-wing</p>
+        <p class="krim-portrait-subtitle">Actor, TV Host &amp; Producer, born 1978 &ndash; Animal correspondence: Meerkat</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Meerkat</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Meerkat</strong> does not live for itself alone. It lives for the group, with the group, through the group. It is rarely the biggest animal in the pack, but it is always the one that does the most to keep everyone together. It organises, it worries, it pulls others into the boat &ndash; or, in this case, into the car.</p>
+          <p class="vb-intro">James Corden turned exactly this impulse into a global format: in ‹Carpool Karaoke› he gets into a car with the world's biggest pop stars, sings along with them, laughs with them, turns a car ride into a shared moment that millions of people feel along with. Not an interview in the classic sense, but an invitation: come in, sing along, be part of it. That is the meerkat at work &ndash; it pulls the group together, even when the group happens to consist of a world star and a camera.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Social Six: Belonging as a Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Social Six (SO6)</strong> is, according to Naranjo, the subtype he called <em>Duty</em>: security arises through belonging to a group, through reliably fulfilling a role within the collective. Unlike the Five or the Four, the SO6 does not seek distance or separation &ndash; it seeks connection, the shared experience, the moment when everyone is in the same room.</p>
+          <p class="vb-intro">Corden's entire career is a movement toward exactly this principle. He began in British ensemble theatre, co-wrote and starred in the sitcom ‹Gavin &amp; Stacey› &ndash; a format that, at its core, is about nothing other than family, friendship, and belonging in a small English town. When he took over the ‹Late Late Show› in the US in 2015, he did not build it as a solo vehicle for his own wit, but as a place of encounter: guests playing, singing, cooking, embarrassing themselves &ndash; together. Corden does not host above the group. He hosts in the middle of it.</p>
+          <p class="vb-intro">This duty to connection also shows in how much Corden relies on ensemble work: as a producer of his own formats, he assembles entire teams, keeps them together for years, thanks them publicly. For the SO6, one's own success is never a solo project. It is always the result of a group one serves and that carries one in return.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Seven-wing: Enthusiasm as an Invitation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Seven-wing (w7)</strong> brings the Social Six speed, lightness, and the ability to turn any situation into a celebration. Where the pure SO6 would mainly serve reliably, the Seven-wing adds a love of variety and show: the SO6w7 does not serve quietly in the background &ndash; it serves by sharing the stage with everyone while shining itself.</p>
+          <p class="vb-intro">Corden's energy is explosive, contagious, constantly in motion: he sings, dances, performs sketches, hosts the Grammys and the Tony Awards, produces shows, writes scripts. This range is the Seven-wing in its purest form &ndash; not the quiet depth of the Five-wing, but the breadth that constantly seeks new forms, new formats, new connections. ‹Carpool Karaoke› itself is the Seven-wing as a concept: an improvised, spontaneous, joyful format that turns a simple idea into an inexhaustible source of shared experience.</p>
+          <p class="vb-intro">Where Herbert Grönemeyer (SO6w7) uses his Seven-wing to rise again after losses and keep going, Corden uses his to permanently create opportunities for connection. Both are meerkats with forward drive &ndash; only Corden's energy is directed less at his own healing than at the constant bringing-together of others.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. From Ensemble Actor to Global Late-Night Stage</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Corden grew up in a musical family in the English county of Buckinghamshire and found his way to ensemble theatre early. With ‹Gavin &amp; Stacey› (from 2007, co-written with Ruth Jones), he achieved a national audience success that was built on a collective from the very start: a sitcom about two families growing together. In 2011 he won a Tony Award for his lead role in ‹One Man, Two Guvnors› &ndash; a farce that lives off the chaos of serving two masters at once.</p>
+          <p class="vb-intro">In 2015 Corden surprisingly took over CBS's ‹Late Late Show› &ndash; a Brit in a quintessentially American format. Instead of adapting to the existing pattern, he reinvented it: ‹Carpool Karaoke› became, within a few years, one of the most-watched late-night formats in the world, with guests from Adele to Paul McCartney. Millions of people watched a host and a world star sing together in a cramped car &ndash; an image of radical belonging, without a stage, without distance.</p>
+          <p class="vb-intro">In 2023 Corden voluntarily ended the show after eight years to return to his family in London. Not a career setback, not a crisis &ndash; a conscious decision for the group closest to him. The meerkat returns to its own territory when family calls.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Social Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SO6w7 is its <strong>ability to create connection where none existed before</strong>. Corden invented a format that brings world stars and a mass audience together in a shared, unpretentious moment &ndash; without the usual distance between star and viewer. Colleagues and guests repeatedly describe him as warm, present, someone who makes others shine rather than putting himself at the centre.</p>
+          <p class="vb-intro">The shadow of the SO6w7 lies in the opposite of this warmth: in the effort to please everyone and constantly, visibly create community, the facade of friendliness can crack under pressure. Corden repeatedly came under criticism &ndash; for instance over reports of rude behaviour toward restaurant staff in 2022, which he publicly corrected and apologised for. For the SO6, this is a typical fault line: concern for the group turned outward can tip inward in moments of one's own exhaustion &ndash; and it is precisely there that how genuine one's own self-care truly is becomes visible.</p>
+          <p class="vb-intro">That is the tension of the SO6w7: the wish to bring everyone along can tip into overextension &ndash; and one's own exhaustion then becomes visible exactly where the facade of constant availability is thinnest.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: Connection Without Exhaustion</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Six leads from the question <em>Am I enough for the group?</em> to the recognition <em>I do not have to constantly prove that I belong &ndash; I already belong.</em> For the SO6w7 this means not having to seize every opportunity for connection, but also allowing pauses without the worry of falling out of the community.</p>
+          <p class="vb-intro">Corden's return to London, away from the nonstop rhythm of the American late-night industry, toward his family, reads like exactly this step: the meerkat that recognises that the most important watch is not the one in front of the big camera, but the one for one's own children. He continues to host, produce, and perform &ndash; but from a position that no longer has to prove itself, but is simply allowed to be. That is the mature SO6w7: creating connection because it brings joy &ndash; not because one is otherwise afraid of being alone.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/so6", label:"SO6 – The Meerkat: Subtype Profile"},
+        {route:"beruehmte-herbert-groenemeyer", label:"Portrait: Herbert Grönemeyer (SO6w7)"},
+      ])}
+    </div>
+  `);
+}
+
 
 function sigmundFreudPortraitPage() {
   return shell(`
@@ -41974,6 +42046,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-heike-makatsch": heikeMakatschPortraitPage,
       "beruehmte-baerbel-bas": baerbelBasPortraitPage,
       "beruehmte-herbert-groenemeyer": herbertGroenomeyerPortraitPage,
+      "beruehmte-james-corden": jamesCordenPortraitPage,
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-andy-reid": andyReidPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
