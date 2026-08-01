@@ -380,6 +380,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexual Type 5",
     teaser:"SX5w6 · born 1983. Whistleblower, former NSA contractor. Permanent Record. The hedgehog that curled up – and then revealed everything, because it could no longer carry it alone.",
     tags:["Politik"] },
+  { route:"beruehmte-jodie-foster", name:"Jodie Foster", added:"2026-08-01", subtyp:"SX5w6",
+    heading:"Jodie Foster – Sexual Type 5",
+    teaser:"SX5w6 · born 1962. Actress, director. The Silence of the Lambs, Contact, Nell. The hedgehog that shows itself to no one who hasn't earned it – and shows itself fully to the one who has.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-herbert-kickl", name:"Herbert Kickl", subtyp:"SE6w5",
     heading:"Herbert Kickl – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1968. Austrian politician, FPÖ party leader. The rabbit that senses danger earlier than others – and has learned to stand upright nonetheless.",
@@ -20896,6 +20900,76 @@ function edwardSnowdenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-jodie-foster", label:"Portrait: Jodie Foster (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function jodieFosterPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-jodie-foster-portrait.jpg" alt="Jodie Foster" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jodie Foster</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexual Type 5 with Six-wing</p>
+        <p class="krim-portrait-subtitle">Actress &amp; director, born 1962 in Los Angeles &ndash; Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog That Builds Walls for the Sake of Closeness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>hedgehog</strong> is the animal of the sexual Type 5 &ndash; a creature that curls into a ball and shows its spines at danger, but that, once it feels safe, becomes a remarkably soft, attentive creature. The crucial difference from other Fives lies exactly here: the hedgehog does not curl up in order to stay alone. It curls up in order to decide who gets to see it.</p>
+          <p class="vb-intro">Jodie Foster is this hedgehog in its purest form. Few actresses of her stature have kept their private life under such consistent lock and key &ndash; and yet her entire life has been carried by deep, decades-long bonds. This is the core of the SX5: the withdrawal happens not out of indifference, but to reserve one&apos;s intimacy and energy for a very few, exclusive connections. Everything else stays outside &ndash; behind spines that no one touches voluntarily.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Five: Trust as a Protected Space</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>sexual Five (SX5)</strong> is, according to Naranjo, the <strong>counter-type</strong> of the Five: the passion of avarice is least obvious here &ndash; because the sexual energy pulls the Five out of isolation and drives a search for the one deep connection to which it can surrender completely. Naranjo named this subtype <em>Trust</em>. The crucial difference from the self-preservation Five: the SP5 draws boundaries in order to be alone. The SX5 draws boundaries in order to create a protected space for true intimacy.</p>
+          <p class="vb-intro">In Foster, this pattern shows in her relationships: she was with producer Cydney Bernard for 14 years, and later married photographer Alexandra Hedison &ndash; deep, decades-long bonds that she kept almost entirely out of the public eye. No tabloid story, no revelation, no interview about the inner life of these relationships. A deep, protective symbiosis in private, never put on display in public.</p>
+          <p class="vb-intro">Her own definition of friendship makes the point: <em>My definition of a friend is someone who loves you, even though they know the things you&apos;re most ashamed of.</em> This is not a statement about sociability or small talk. It is the description of a single, highly selective access: handing over one&apos;s own protected core to a trusted person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six-wing: Analysis, Caution, Control</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Six-wing (w6)</strong> brings to the sexual Five a watchful, analytical, security-oriented component. The SX5w6 does not act impulsively &ndash; it tests, it prepares, it thinks risks through to the end before exposing itself. Foster herself summed up this inner tension in a remarkably precise sentence: <em>It&apos;s an interesting combination: a great fear of being alone, and at the same time a desperate need for solitude. That&apos;s always been a tug-of-war for me.</em> The need for solitude is the core of the Five. The fear of being alone is the Six-wing. And the SX instinct searches for the one solution in between: the one person with whom solitude can be shared, without one&apos;s own energy being drained.</p>
+          <p class="vb-intro">This analytical control also shows in her work. Foster graduated with honors in literature from Yale, writing her thesis on Toni Morrison. She approaches her roles not primarily emotionally, but technically and deliberately: <em>I&apos;m a technician. I don&apos;t go the Method-acting route &ndash; I read the lines and play the scene.</em> That is the typical cool precision of the 5w6 &ndash; reason over gut feeling, preparation over instinct.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Trauma: When the Outside World Breaks Through the Wall</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1981, shortly after her breakout in <em>Taxi Driver</em>, John Hinckley Jr. attempted to assassinate US President Ronald Reagan &ndash; obsessed with Foster, in an attempt to get her attention. For an SX5 who holds her intimacy and inner world sacred, this was the worst possible intrusion: the outside world had broken into her life in a boundary-violating, dangerous way &ndash; uninvited, uncontrollable, public.</p>
+          <p class="vb-intro">The event visibly marked her: Foster became even more cautious, even more closed off toward the press, even more determined to separate her private life from her public role. The Six-wing responded with heightened need for security and sharp boundary-setting; the SX5 instinct drew the lesson that genuine emotional closeness would from then on only be allowed behind doubly locked doors. Her career continued nonetheless &ndash; with roles that mirrored exactly this tension: <em>The Accused</em> (1988), <em>The Silence of the Lambs</em> (1991, Oscar), <em>Nell</em> (1994), <em>Contact</em> (1997) &ndash; characters who are wounded, isolated, or threatened, and who assert themselves precisely through that.</p>
+          <p class="vb-intro">In 1991 she also debuted as a director, with <em>Little Man Tate</em> &ndash; taking on even more control over how her stories are told. Control as an answer to a single, total loss of control: the logic of the SX5w6.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Sexual Five</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w6 is the ability to build real, lasting closeness despite deep caution &ndash; relationships that last decades because they were never exposed to the public and therefore never worn thin. With Bernard and later with Hedison, Foster proved that radical discretion and radical depth of bonding do not exclude each other, but can enable one another.</p>
+          <p class="vb-intro">The karmic pattern of the Five is <strong>avarice</strong> &ndash; for the SX5, it shows not as stinginess with money, but as extreme frugality with emotional disclosure. Foster gives away almost nothing publicly beyond her work. What one gets from her, one gets through her roles &ndash; not through confessions.</p>
+          <p class="vb-intro">The shadow of the Six-wing is the danger of mistaking caution for mistrust &ndash; allowing any opening only after endless testing, until protection turns into its own form of isolation. That Foster, in 2013, at the Cecil B. DeMille Award ceremony, publicly acknowledged her partnership &ndash; in her own restrained, controlled way, without drama, without a tell-all interview &ndash; shows that she never let this shadow fully rule her, but set her own terms for it instead.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: The Protected Core That Shows Itself</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from <em>I do not have enough to show myself</em> to <em>I can show myself fully &ndash; to the one I trust.</em> For the SX5w6, this does not mean tearing down all walls. It means truly opening the one door that does get opened &ndash; without half-measures, without hedging, without the feeling of losing something of oneself in the process.</p>
+          <p class="vb-intro">Jodie Foster has walked this path in her own way: she never surrendered herself to the public, but she has truly shown herself, over decades, to the few people who earned her trust. That is no contradiction &ndash; it is the purest form of SX5w6: the hedgehog that shows itself to no one who has not earned it &ndash; and shows itself fully to the one who has.</p>
+          <p class="vb-intro">More than sixty years after her first film appearance, Jodie Foster remains one of Hollywood&apos;s least publicly exposed and, at the same time, most deeply bonded personalities. That is the sexual Five with Six-wing: trust as a protected, but never empty, space.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"beruehmte-edward-snowden", label:"Portrait: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -41681,6 +41755,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
+      "beruehmte-jodie-foster": jodieFosterPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,

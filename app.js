@@ -522,6 +522,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Edward Snowden – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1983. Whistleblower, ehem. NSA-Mitarbeiter. Permanent Record. Der Igel, der sich zusammenrollte – und dann alles preisgab, weil er es nicht mit sich tragen konnte.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-jodie-foster", name:"Jodie Foster", added:"2026-08-01", subtyp:"SX5w6",
+    heading:"Jodie Foster – Sexueller Typ 5",
+    teaser:"SX5w6 · geb. 1962. Schauspielerin, Regisseurin. Das Schweigen der Lämmer, Contact, Nell. Der Igel, der sich niemandem zeigt, der es nicht verdient – und der sich dem, der es verdient, ganz zeigt.",
+    tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-sundar-pichai", name:"Sundar Pichai", added:"2026-07-21", subtyp:"SE6w5",
     heading:"Sundar Pichai – Selbsterhaltender Typ 6",
     teaser:"SE6w5 \xb7 geb. 1972, Madurai. CEO von Google und Alphabet. Chrome, Android, Gemini. Das Kaninchen, das in einer Branche voller Egomanen durch Stille gewann – und l\xe4nger \xfcberlebt als der L\xf6we neben ihm.",
@@ -14012,6 +14016,76 @@ function edwardSnowdenPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-taylor-swift", label:"Porträt: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-jodie-foster", label:"Porträt: Jodie Foster (SX5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function jodieFosterPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-jodie-foster-portrait.jpg" alt="Jodie Foster" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Jodie Foster</p>
+        <p class="krim-portrait-typ">SX5w6 &middot; Sexueller Typ 5 mit Sechserflügel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin &amp; Regisseurin, geb. 1962 in Los Angeles &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der Mauern für die Nähe baut</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein Wesen, das sich bei Gefahr zusammenrollt und Stacheln zeigt, das aber, sobald es sich sicher fühlt, zu einer erstaunlich weichen, zugewandten Kreatur wird. Der entscheidende Unterschied zu anderen Fünfern liegt genau hier: Der Igel rollt sich nicht ein, um allein zu bleiben. Er rollt sich ein, um zu entscheiden, wem er sich zeigt.</p>
+          <p class="vb-intro">Jodie Foster ist dieser Igel in Reinform. Kaum eine Schauspielerin ihres Ranges hat ihr Privatleben so konsequent unter Verschluss gehalten &ndash; und dennoch war ihr ganzes Leben von tiefen, jahrzehntelangen Bindungen getragen. Das ist der Kern der SX5: Der Rückzug geschieht nicht aus Gleichgültigkeit, sondern um die eigene Intimität und Energie für ganz wenige, exklusive Verbindungen aufzusparen. Alles andere bleibt draußen &ndash; hinter Stacheln, die niemand freiwillig anfasst.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Fünf: Vertrauen als geschützter Raum</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Fünf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der Fünf: Hier tritt die Leidenschaft des Geizes am wenigsten offen zutage &ndash; weil die sexuelle Energie die Fünf aus ihrer Isolation herauszieht und nach der einen tiefen Verbindung suchen lässt, der sie sich vollständig anvertraut. Naranjo nannte diesen Subtyp <em>Vertrauen</em>. Der entscheidende Unterschied zur selbsterhaltenden Fünf: Die SP5 zieht Grenzen, um allein zu sein. Die SX5 zieht Grenzen, um einen geschützten Raum für die wahre Intimität zu schaffen.</p>
+          <p class="vb-intro">Bei Foster zeigt sich dieses Muster in ihren Beziehungen: 14 Jahre lang war sie mit der Produzentin Cydney Bernard liiert, später heiratete sie die Fotografin Alexandra Hedison &ndash; tiefe, jahrzehntelange Bindungen, die sie aber nahezu vollständig aus der Öffentlichkeit heraushielt. Keine Homestory, keine Enthüllung, kein Interview über das Innenleben dieser Beziehungen. Eine tiefe, schützende Symbiose im Privaten, die nach außen niemals zur Schau gestellt wurde.</p>
+          <p class="vb-intro">Ihre eigene Definition von Freundschaft bringt es auf den Punkt: <em>Meine Definition von einem Freund ist jemand, der dich liebt, obwohl er die Dinge kennt, für die du dich am meisten schämst.</em> Das ist keine Aussage über Geselligkeit oder Small Talk. Es ist die Beschreibung eines einzigen, hoch selektiven Zugangs: das Ausliefern des eigenen, geschützten Kerns an eine vertraute Person.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserflügel: Analyse, Vorsicht, Kontrolle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserflügel (w6)</strong> bringt der sexuellen Fünf eine wache, analytische, sicherheitsorientierte Komponente. Die SX5w6 handelt nicht impulsiv &ndash; sie prüft, sie bereitet vor, sie denkt Risiken zu Ende, bevor sie sich exponiert. Foster selbst hat diese innere Spannung in einem bemerkenswert präzisen Satz zusammengefasst: <em>Es ist eine interessante Kombination: eine große Angst davor, allein zu sein, und gleichzeitig das verzweifelte Bedürfnis nach Einsamkeit zu verspüren. Das war für mich schon immer ein Tauziehen.</em> Das Bedürfnis nach Einsamkeit ist der Kern der Fünf. Die Angst vorm Alleinsein ist der Sechserflügel. Und der SX-Instinkt sucht die eine Lösung dazwischen: die eine Person, mit der die Einsamkeit geteilt werden kann, ohne dass die eigene Energie ausgesaugt wird.</p>
+          <p class="vb-intro">Diese analytische Kontrolle zeigt sich auch in ihrer Arbeit. Foster schloss ihr Literaturstudium in Yale mit Auszeichnung ab, ihre Abschlussarbeit widmete sie Toni Morrison. An ihre Rollen geht sie nicht primär emotional heran, sondern technisch und durchdacht: <em>Ich bin eine Technikerin. Ich gehe nicht in die Method-Acting-Schiene, ich lese die Zeilen und spiele die Szene.</em> Das ist die typische kühle Präzision der 5w6 &ndash; Verstand über Bauchgefühl, Vorbereitung über Instinkt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Trauma: Wenn die Außenwelt die Mauer durchbricht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1981, kurz nach ihrem Debüt in <em>Taxi Driver</em>, verübte John Hinckley Jr. ein Attentat auf US-Präsident Ronald Reagan &ndash; besessen von Foster, in dem Versuch, ihre Aufmerksamkeit zu erregen. Für eine SX5, die ihre Intimität und Gedankenwelt heilig hält, war das der denkbar schlimmste Einbruch: Die Außenwelt drang auf grenzüberschreitende, gefährliche Weise in ihr Leben ein &ndash; nicht eingeladen, nicht kontrollierbar, öffentlich.</p>
+          <p class="vb-intro">Dieses Ereignis prägte sie sichtbar: Foster wurde noch vorsichtiger, noch verschlossener gegenüber der Presse, noch entschiedener darin, ihr Privatleben von ihrer öffentlichen Rolle zu trennen. Der Sechserflügel reagierte mit verstärktem Sicherheitsbedürfnis und scharfer Abgrenzung; der SX5-Instinkt zog die Lehre, echte emotionale Nähe fortan nur noch hinter doppelt verriegelten Türen zuzulassen. Ihre Karriere ging trotzdem weiter &ndash; mit Rollen, die genau diese Spannung spiegelten: <em>The Accused</em> (1988), <em>Das Schweigen der Lämmer</em> (1991, Oscar), <em>Nell</em> (1994), <em>Contact</em> (1997) &ndash; Figuren, die verletzt, isoliert oder bedroht sind und sich genau dadurch behaupten.</p>
+          <p class="vb-intro">1991 debütierte sie auch als Regisseurin, mit <em>Little Man Tate</em> &ndash; und übernahm damit noch mehr Kontrolle über die Art, wie ihre Geschichten erzählt werden. Kontrolle als Antwort auf einen einmaligen, vollständigen Kontrollverlust: die Logik der SX5w6.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der sexuellen Fünf</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w6 ist die Fähigkeit, trotz tiefer Vorsicht echte, tragfähige Nähe aufzubauen &ndash; Beziehungen, die Jahrzehnte halten, weil sie nie der Öffentlichkeit ausgesetzt und dadurch nie verschlissen wurden. Foster hat mit Bernard und später mit Hedison bewiesen, dass radikale Diskretion und radikale Bindungstiefe sich nicht ausschließen, sondern einander bedingen können.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Fünf ist der <strong>Geiz</strong> &ndash; bei der SX5 zeigt er sich nicht als Geiz mit Geld, sondern als extreme Sparsamkeit mit emotionaler Preisgabe. Foster gibt öffentlich fast nichts von sich preis, das über die Arbeit hinausgeht. Was man von ihr bekommt, bekommt man durch die Rollen &ndash; nicht durch Bekenntnisse.</p>
+          <p class="vb-intro">Der Schatten des Sechserflügels ist die Gefahr, Vorsicht mit Misstrauen zu verwechseln &ndash; jede Öffnung erst nach endloser Prüfung zuzulassen, bis aus Schutz eine eigene Form der Isolation wird. Dass Foster 2013, bei der Verleihung des Cecil B. DeMille Award, sich selbst öffentlich zu ihrer Partnerschaft bekannte &ndash; auf ihre eigene, zurückhaltende, kontrollierte Weise, ohne Drama, ohne Enthüllungsinterview &ndash; zeigt, dass sie diesen Schatten nie ganz beherrschen ließ, sondern ihm ihre eigenen Bedingungen setzte.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Der geschützte Kern, der sich zeigt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Fünf führt von <em>Ich habe nicht genug, um mich zu zeigen</em> zu <em>Ich kann mich vollständig zeigen &ndash; dem, dem ich vertraue.</em> Für die SX5w6 bedeutet das nicht, alle Mauern einzureißen. Es bedeutet, die eine Tür, die geöffnet wird, wirklich zu öffnen &ndash; ohne halbe Sachen, ohne Rückversicherung, ohne das Gefühl, dabei etwas von sich zu verlieren.</p>
+          <p class="vb-intro">Jodie Foster hat diesen Weg auf ihre Weise beschritten: Sie hat sich nie der Öffentlichkeit ausgeliefert, aber sie hat sich den wenigen Menschen, die ihr Vertrauen verdienten, über Jahrzehnte hinweg wirklich gezeigt. Das ist kein Widerspruch, sondern die reinste Form von SX5w6: Der Igel, der sich niemandem zeigt, der ihn nicht verdient &ndash; und der sich dem, der ihn verdient, ganz zeigt.</p>
+          <p class="vb-intro">Über sechzig Jahre nach ihrem ersten Filmauftritt bleibt Jodie Foster eine der am wenigsten öffentlich preisgegebenen und zugleich am tiefsten verbundenen Persönlichkeiten Hollywoods. Das ist die sexuelle Fünf mit Sechserflügel: Vertrauen als geschützter, aber niemals leerer Raum.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-tilda-swinton", label:"Porträt: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -44620,6 +44694,7 @@ function render() {
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
+      "beruehmte-jodie-foster": jodieFosterPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
       "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
