@@ -388,6 +388,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Herbert Kickl – Self-Preservation Type 6",
     teaser:"SP6w5 · born 1968. Austrian politician, FPÖ party leader. The rabbit that senses danger earlier than others – and has learned to stand upright nonetheless.",
     tags:["Politik"] },
+  { route:"beruehmte-malaika-mihambo", name:"Malaika Mihambo", added:"2026-08-01", subtyp:"SE6w5",
+    heading:"Malaika Mihambo – Self-Preservation Type 6",
+    teaser:"SP6w5 · born 1994. Track and field athlete, long jump. Olympic champion Tokyo 2021, two-time world champion. The rabbit that tested enough to jump at the decisive moment.",
+    tags:["Sport"] },
   { route:"beruehmte-beatrice-chebet", name:"Beatrice Chebet", subtyp:"SE6w7",
     heading:"Beatrice Chebet – Self-Preservation Type 6",
     teaser:"SP6w7 · born 2000. Kenyan long-distance runner. Double Olympic champion Paris 2024. The rabbit that does not flee the course – but finds home upon it.",
@@ -17611,6 +17615,7 @@ function sundarPichaiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se6", label:"SE6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-malaika-mihambo", label:"Portrait: Malaika Mihambo (SP6w5)"},
       ])}
     </div>
   `);
@@ -20778,6 +20783,77 @@ function herbertKicklPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
         {route:"beruehmte-edward-snowden", label:"Portrait: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-malaika-mihambo", label:"Portrait: Malaika Mihambo (SP6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function malaikaMihamboPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-malaika-mihambo-portrait.jpg" alt="Malaika Mihambo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Malaika Mihambo</p>
+        <p class="krim-portrait-typ">SP6w5 &middot; Self-Preservation Type 6 with Five-wing</p>
+        <p class="krim-portrait-subtitle">Track and field athlete, born 1994 in Heidelberg &ndash; Animal correspondence: Rabbit</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Rabbit That Does Not Lose Itself in the Air</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>rabbit</strong> is the animal of Self-Preservation Type 6 &ndash; a creature of extraordinary alertness that constantly scans its surroundings before it moves. It is not a creature of impulsive, grand leaps. When it does jump, it does so only after weighing the ground, the distance, the danger with precision. And then it jumps with a resolve that makes all the prior hesitation disappear.</p>
+          <p class="vb-intro">Malaika Mihambo is this rabbit &ndash; quite literally, in her discipline. Long jump is the sport of controlled explosion: weeks of preparation, seconds of execution, a single takeoff that decides between gold and nothing. Hardly any other sport demands so much analysis for a moment so brief. Mihambo has turned this tension into a method &ndash; and that method into one of the most consistent careers in German track and field.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Six: Warmth in the Team</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Self-Preservation Six (SP6)</strong> is, according to Naranjo, the subtype he called <em>Warmth</em>: security arises not through status or going it alone, but through genuine, reliable connection to the people one trusts. The SP6 does not seek the spotlight for its own sake &ndash; it seeks an environment safe enough to grow beyond itself.</p>
+          <p class="vb-intro">In Mihambo this shows in her unusually long, stable collaboration with her coach Ulrich Knapp &ndash; a relationship dating back to her youth, which she repeatedly names publicly as the foundation of her success. She rarely speaks of herself alone, but of her team: coach, physiotherapists, sports psychologists, training partners. For her, success is never a solo act &ndash; it is the result of a circle of people she has entrusted herself to, because she trusts them.</p>
+          <p class="vb-intro">This warmth also shows outside the track: for years, Mihambo has supported the foundation <em>Chancenreich</em>, which gives children in Tanzania &ndash; her father's country of origin &ndash; access to education. Security she herself has experienced, she passes on to people she will never meet. That is SP6 warmth reaching beyond one's own circle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Five-wing: Studying One's Own Movement</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Five-wing (w5)</strong> brings the Self-Preservation Six an analytical, almost scientific depth: the desire not just to do, but to understand why it works &ndash; or why it doesn't. The SP6w5 does not trust gut feeling blindly. She wants to know the mechanics behind performance.</p>
+          <p class="vb-intro">Alongside her athletic career, Mihambo studied cultural anthropology and political science &ndash; not a typical side subject for a world-class athlete, but characteristic of the Five-wing: the need to fill one's mind with something beyond sport, to gain distance and perspective. She engages intensively with mental training, with meditation, with visualization techniques &ndash; mentally rehearsing her jumps before executing them, analyzing movement sequences down to the last detail, working systematically with sports psychologists on the question of how peak performance under pressure can be produced at all.</p>
+          <p class="vb-intro">This combination of emotional connectedness within the team and intellectual precision in preparation makes her an athlete who does not just jump, but understands what happens to her while jumping &ndash; and that is exactly what makes her extraordinarily resilient in decisive moments.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Tokyo 2021: The Jump Despite Fear</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">At the Tokyo 2021 Olympics, Mihambo stood in second place in the final before her last attempt &ndash; behind the leader, with only one jump left to turn things around. For a Six who perceives danger and risk intensely, that is precisely the moment that costs the most: not the jump itself, but the seconds beforehand, in which every possibility of failure has already been thought through.</p>
+          <p class="vb-intro">She jumped 7.00 meters &ndash; and won Olympic gold, in what was probably the greatest pressure situation of her career. Afterward, she spoke publicly about how she had mentally prepared for exactly this moment: through meditation, through consciously allowing nervousness rather than suppressing it, through the conviction that fear is not an enemy but a signal that can be understood and used. That is the Six on its path of courage: not the absence of fear, but acting with it along for the ride.</p>
+          <p class="vb-intro">She remained at world-class level afterward as well &ndash; world champion in 2019 in Doha and again in 2022 in Eugene &ndash; and spoke repeatedly and openly about setbacks, injuries, and self-doubt. This openness is rare in elite sport. For an SP6w5, it follows naturally: those who know their own fear this precisely can also name it without shame.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow of the Self-Preservation Six</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP6w5 is her ability to turn vigilance into preparation and preparation into trust &ndash; in herself and in the team that carries her. Mihambo has shown that peak performance does not arise from suppressing fear, but from consciously working with it. That is a rare, valuable model in a sporting world that often mistakes strength for a lack of feeling.</p>
+          <p class="vb-intro">The karmic pattern of the Six is <strong>fear</strong> &ndash; for the SP6, it shows as a constant search for reassurance, as the need to think through every eventuality in advance. Mihambo has never hidden this tendency, but has repeatedly reflected on it publicly &ndash; including in interviews about injury breaks, form crises, and the question of how to rebuild trust in one's own body after setbacks.</p>
+          <p class="vb-intro">The shadow of the Five-wing is the danger of getting lost in analysis &ndash; of thinking about the perfect jump for so long that spontaneity is lost. Mihambo counters this with her meditation practice: consciously letting go of the thought just before the body takes over.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Healing Path: Jumping Because You Are Prepared</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Six leads from the question <em>What if it goes wrong?</em> to the recognition <em>I have done enough to trust now.</em> For the SP6w5, this means not running analysis as an endless loop, but as preparation that is at some point complete &ndash; and then leaving to the body, the team, the moment what it can do.</p>
+          <p class="vb-intro">Malaika Mihambo made this path visible in a single jump: all the knowledge, all the analysis, all the preparation in Tokyo culminated in a single movement she could no longer control, only execute. The rabbit that has tested enough to know: now is the right moment to jump.</p>
+          <p class="vb-intro">Malaika Mihambo continues to live and train with the same team that has accompanied her for years. That is the Self-Preservation Six with Five-wing: alertness turned into method &ndash; and a trust that no one earns without preparation.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se6", label:"SP6 – The Rabbit: Subtype Profile"},
+        {route:"beruehmte-herbert-kickl", label:"Portrait: Herbert Kickl (SP6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Portrait: Sundar Pichai (SP6w5)"},
       ])}
     </div>
   `);
@@ -41753,6 +41829,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-sigmund-freud": sigmundFreudPortraitPage,
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
+      "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,

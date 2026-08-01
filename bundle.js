@@ -534,6 +534,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Herbert Kickl – Selbsterhaltender Typ 6",
     teaser:"SE6w5 · geb. 1968. Österreichischer Politiker, FPÖ-Parteiobmann. Das Kaninchen, das die Gefahr früher spürt als andere – und das gelernt hat, trotzdem aufrecht zu stehen.",
     tags:["Politik"] , gender:"m"},
+  { route:"beruehmte-malaika-mihambo", name:"Malaika Mihambo", added:"2026-08-01", subtyp:"SE6w5",
+    heading:"Malaika Mihambo – Selbsterhaltender Typ 6",
+    teaser:"SE6w5 · geb. 1994. Leichtathletin, Weitsprung. Olympiasiegerin Tokio 2021, zweifache Weltmeisterin. Das Kaninchen, das genug geprüft hat, um im entscheidenden Moment zu springen.",
+    tags:["Sport"], gender:"f"},
   { route:"beruehmte-neil-armstrong", name:"Neil Armstrong", added:"2026-07-21", subtyp:"SE6w7",
     heading:"Neil Armstrong – Selbsterhaltender Typ 6",
     teaser:"SE6w7 \xb7 1930–2012. Pilot, Astronaut. Erster Mensch auf dem Mond, 20. Juli 1969. Das Kaninchen, das den au\xdferordentlichsten Schritt der Menschheitsgeschichte tat – und danach nur noch nach Hause wollte.",
@@ -13825,6 +13829,77 @@ function herbertKicklPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-edward-snowden", label:"Porträt: Edward Snowden (SX5w6)"},
+        {route:"beruehmte-malaika-mihambo", label:"Porträt: Malaika Mihambo (SE6w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function malaikaMihamboPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-malaika-mihambo-portrait.jpg" alt="Malaika Mihambo" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Malaika Mihambo</p>
+        <p class="krim-portrait-typ">SE6w5 &middot; Selbsterhaltender Typ 6 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Leichtathletin, geb. 1994 in Heidelberg &ndash; Tierentsprechung: Kaninchen</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Das Kaninchen, das sich in der Luft nicht verliert</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <strong>Kaninchen</strong> ist das Tier des selbsterhaltenden Typs 6 &ndash; ein Wesen von außerordentlicher Wachheit, das sein Umfeld ständig prüft, bevor es sich bewegt. Es ist kein Tier der impulsiven großen Sprünge. Wenn es doch springt, dann erst, nachdem es den Boden, die Distanz, die Gefahr genau abgewogen hat. Und dann springt es mit einer Entschlossenheit, die alles vorherige Zögern vergessen macht.</p>
+          <p class="vb-intro">Malaika Mihambo ist dieses Kaninchen &ndash; im wörtlichsten Sinn ihrer Disziplin. Weitsprung ist der Sport der kontrollierten Explosion: Wochen der Vorbereitung, Sekunden der Ausführung, ein einziger Absprung, der über Gold oder Nichts entscheidet. Kaum eine andere Sportart verlangt so viel Analyse für einen Moment, der so kurz ist. Mihambo hat aus dieser Anspannung eine Methode gemacht &ndash; und aus der Methode eine der konstantesten Karrieren der deutschen Leichtathletik.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende Sechs: Wärme im Team</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende Sechs (SE6)</strong> ist nach Naranjo der Subtyp, den er <em>Wärme</em> nannte: Sicherheit entsteht nicht durch Status oder Alleingang, sondern durch echte, verlässliche Verbindung zu den Menschen, denen man vertraut. Die SE6 sucht kein Rampenlicht um seiner selbst willen &ndash; sie sucht ein Umfeld, in dem sie sich sicher genug fühlt, um über sich hinauszuwachsen.</p>
+          <p class="vb-intro">Bei Mihambo zeigt sich das in ihrer außergewöhnlich langen, stabilen Zusammenarbeit mit ihrem Trainer Ulrich Knapp &ndash; eine Beziehung, die seit ihrer Jugend besteht und die sie öffentlich immer wieder als Fundament ihres Erfolgs benennt. Sie spricht selten von sich allein, sondern von ihrem Team: Trainer, Physiotherapeuten, Sportpsychologen, Trainingspartnerinnen. Der Erfolg ist für sie nie ein Solo &ndash; er ist das Ergebnis eines Kreises von Menschen, denen sie sich anvertraut hat, weil sie ihnen vertraut.</p>
+          <p class="vb-intro">Diese Wärme zeigt sich auch außerhalb der Bahn: Mihambo engagiert sich seit Jahren für die Stiftung <em>Chancenreich</em>, die Kindern in Tansania &ndash; dem Herkunftsland ihres Vaters &ndash; den Zugang zu Bildung ermöglicht. Sicherheit, die sie selbst erfahren hat, gibt sie weiter an Menschen, die sie nie treffen wird. Das ist SE6-Wärme, die über den eigenen Kreis hinausreicht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Das Studium der eigenen Bewegung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> bringt der selbsterhaltenden Sechs eine analytische, fast wissenschaftliche Tiefe: den Wunsch, nicht nur zu tun, sondern zu verstehen, warum es funktioniert &ndash; oder warum nicht. Die SE6w5 vertraut nicht blind dem Bauchgefühl. Sie will die Mechanik hinter der Leistung kennen.</p>
+          <p class="vb-intro">Mihambo hat parallel zu ihrer sportlichen Karriere Kulturanthropologie und Politikwissenschaft studiert &ndash; kein übliches Nebenfach für eine Weltklasseathletin, aber typisch für den Fünferflügel: das Bedürfnis, den eigenen Kopf mit etwas anderem als nur dem Sport zu füllen, Distanz und Perspektive zu gewinnen. Sie beschäftigt sich intensiv mit mentalem Training, mit Meditation, mit Visualisierungstechniken &ndash; sie plant ihre Sprünge in Gedanken durch, bevor sie sie ausführt, analysiert Bewegungsabläufe bis ins Detail, arbeitet systematisch mit Sportpsychologen an der Frage, wie sich Höchstleistung unter Druck überhaupt herstellen lässt.</p>
+          <p class="vb-intro">Diese Kombination aus emotionaler Verbundenheit im Team und intellektueller Präzision in der Vorbereitung macht sie zu einer Athletin, die nicht nur springt, sondern versteht, was beim Springen mit ihr geschieht &ndash; und genau das macht sie in entscheidenden Momenten außergewöhnlich belastbar.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Tokio 2021: Der Sprung trotz Angst</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Bei den Olympischen Spielen in Tokio 2021 stand Mihambo im Finale vor ihrem letzten Versuch auf Platz zwei &ndash; hinter der Führenden, mit nur einem Sprung, um das Blatt noch zu wenden. Für eine Sechs, die Gefahr und Risiko intensiv wahrnimmt, ist genau das der Moment, der am meisten kostet: nicht der Sprung selbst, sondern die Sekunden davor, in denen jede Möglichkeit des Scheiterns bereits durchdacht ist.</p>
+          <p class="vb-intro">Sie sprang 7,00 Meter &ndash; und holte damit olympisches Gold, in der wohl größten Drucksituation ihrer Karriere. Danach beschrieb sie öffentlich, wie sie sich mental auf genau diesen Moment vorbereitet hatte: durch Meditation, durch das bewusste Zulassen von Nervosität statt deren Verdrängung, durch die Überzeugung, dass Angst kein Feind ist, sondern ein Signal, das man verstehen und nutzen kann. Das ist die Sechs auf ihrem Mut-Weg: nicht die Abwesenheit von Angst, sondern das Handeln mit ihr im Gepäck.</p>
+          <p class="vb-intro">Auch danach blieb sie konstant auf Weltniveau &ndash; Weltmeisterin 2019 in Doha und erneut 2022 in Eugene &ndash; und sprach immer wieder offen über Rückschläge, Verletzungen und Selbstzweifel. Diese Offenheit ist selten im Spitzensport. Für eine SE6w5 ist sie folgerichtig: Wer die eigene Angst so genau kennt, kann sie auch benennen, ohne sich dafür zu schämen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten der selbsterhaltenden Sechs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE6w5 ist ihre Fähigkeit, aus Wachsamkeit Vorbereitung zu machen und aus Vorbereitung Vertrauen &ndash; in sich selbst und in das Team, das sie trägt. Mihambo hat gezeigt, dass Höchstleistung nicht aus der Verdrängung von Angst entsteht, sondern aus der bewussten Arbeit mit ihr. Das ist ein seltenes, wertvolles Modell in einer Sportwelt, die Stärke oft mit Gefühllosigkeit verwechselt.</p>
+          <p class="vb-intro">Das Schicksalsmuster der Sechs ist die <strong>Angst</strong> &ndash; bei der SE6 zeigt sie sich als ständige Suche nach Absicherung, als das Bedürfnis, jede Eventualität vorherzudenken. Mihambo hat diese Tendenz nie versteckt, sondern immer wieder öffentlich reflektiert &ndash; auch in Interviews über Verletzungspausen, Formkrisen und die Frage, wie man nach Rückschlägen wieder Vertrauen in den eigenen Körper aufbaut.</p>
+          <p class="vb-intro">Der Schatten des Fünferflügels ist die Gefahr, sich in der Analyse zu verlieren &ndash; so lange über den perfekten Sprung nachzudenken, dass die Spontaneität verloren geht. Mihambo begegnet dem mit ihrer Meditationspraxis: dem bewussten Loslassen des Gedankens, kurz bevor der Körper übernimmt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Heilungsweg: Springen, weil man vorbereitet ist</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sechs führt von der Frage <em>Was, wenn es schiefgeht?</em> zur Erkenntnis <em>Ich habe genug getan, um jetzt zu vertrauen.</em> Für die SE6w5 bedeutet das, die Analyse nicht als Endlosschleife zu betreiben, sondern als Vorbereitung, die irgendwann abgeschlossen ist &ndash; und dann dem Körper, dem Team, dem Moment zu überlassen, was er kann.</p>
+          <p class="vb-intro">Malaika Mihambo hat diesen Weg in einem einzigen Sprung sichtbar gemacht: Alles Wissen, alle Analyse, alle Vorbereitung mündete in Tokio in eine einzige Bewegung, die sie nicht mehr kontrollieren, sondern nur noch ausführen konnte. Das Kaninchen, das genug geprüft hat, um zu wissen: Jetzt ist der richtige Moment zum Springen.</p>
+          <p class="vb-intro">Malaika Mihambo lebt und trainiert bis heute mit demselben Team, das sie seit Jahren begleitet. Das ist die selbsterhaltende Sechs mit Fünferflügel: Wachheit, die zur Methode wurde &ndash; und ein Vertrauen, das sich niemand ohne Vorbereitung erarbeitet.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
+        {route:"beruehmte-herbert-kickl", label:"Porträt: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-sundar-pichai", label:"Porträt: Sundar Pichai (SE6w5)"},
       ])}
     </div>
   `);
@@ -13894,6 +13969,7 @@ function sundarPichaiPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se6", label:"SE6 – Das Kaninchen: Subtyp-Profil"},
         {route:"beruehmte-herbert-kickl", label:"Portr\xe4t: Herbert Kickl (SE6w5)"},
+        {route:"beruehmte-malaika-mihambo", label:"Portr\xe4t: Malaika Mihambo (SE6w5)"},
       ])}
     </div>
   `);
@@ -44692,6 +44768,7 @@ function render() {
       "beruehmte-beatrice-chebet": beatriceChebetPortraitPage,
       "beruehmte-sundar-pichai": sundarPichaiPortraitPage,
       "beruehmte-herbert-kickl": herbertKicklPortraitPage,
+      "beruehmte-malaika-mihambo": malaikaMihamboPortraitPage,
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-jodie-foster": jodieFosterPortraitPage,
