@@ -458,6 +458,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Linda Leinweber – Sexueller Typ 4",
     teaser:"SX4w5 \xb7 Psychologin, Autorin, Coach, Gr\xfcnderin von Poise. „Frei und trotzdem verbunden“. Der Chihuahua, der den eigenen Schmerz zur Pr\xe4zision gemacht hat – und Menschen lehrt, hinzuschauen, bevor es zu sp\xe4t ist.",
     tags:["Psychologie","Coaching"], gender:"f"},
+  { route:"beruehmte-claude-debussy", name:"Claude Debussy", added:"2026-08-01", subtyp:"SX4w5",
+    heading:"Claude Debussy – Sexueller Typ 4",
+    teaser:"SX4w5 · 1862–1918. Komponist, Begründer der musikalischen Moderne. Clair de Lune, La Mer, Pelléas et Mélisande. Der Chihuahua, der die europäische Musik von den Fundamenten her neu dachte – und dabei nie aufhörte, gegen die Konvention zu rivalisieren.",
+    tags:["Musik"], gender:"m"},
   { route:"beruehmte-christian-raetsch", name:"Christian Rätsch", subtyp:"SE5w4",
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
@@ -10886,6 +10890,7 @@ function anaDeArmasPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Porträt: Freddie Mercury (SX4w3)"},
+        {route:"beruehmte-claude-debussy", label:"Porträt: Claude Debussy (SX4w5)"},
       ])}
     </div>
   `);
@@ -10956,6 +10961,75 @@ function lindaLeinweberPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
+        {route:"beruehmte-claude-debussy", label:"Portr\xe4t: Claude Debussy (SX4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function claudeDebussyPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-claude-debussy-portrait.jpg" alt="Claude Debussy" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Claude Debussy</p>
+        <p class="krim-portrait-typ">SX4w5 &middot; Sexueller Typ 4 mit Fünferflügel</p>
+        <p class="krim-portrait-subtitle">Komponist, 1862&ndash;1918 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua, der die Musik neu hörte</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein von Gestalt, groß im Innenleben, mit einer Intensität ausgestattet, die nichts Halbes kennt. Er liebt tief, misstraut Konventionen und lässt sich nicht in eine Form pressen, die nicht die seine ist &ndash; selbst wenn die ganze Umgebung genau das von ihm verlangt.</p>
+          <p class="vb-intro">Claude Debussy wurde 1862 in Saint-Germain-en-Laye bei Paris geboren, in ärmlichen Verhältnissen, als Sohn eines gescheiterten Ladenbesitzers. Mit zehn Jahren wurde er am Pariser Conservatoire aufgenommen &ndash; ein technisch begabter, aber schon damals eigensinniger Schüler, der die Lehrer regelmäßig mit Akkordfolgen provozierte, die als &bdquo;falsch&ldquo; galten. Der Chihuahua, der von Anfang an spürte: Die Regeln, die man mir beibringt, sind nicht die Wahrheit, die ich suche.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Rivalität gegen die Konvention</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> trägt den Schmerz der Vier nach außen &ndash; als Intensität, als Verlangen, als Widerstand gegen alles, was sich anfühlt wie eine fremde Form. Naranjo nannte diesen Subtyp <em>Rivalität</em>: die brennende Überzeugung, dass die etablierte Ordnung einem selbst etwas vorenthält &ndash; verbunden mit dem Antrieb, dagegen anzutreten und etwas radikal Eigenes zu setzen.</p>
+          <p class="vb-intro">Bei Debussy zeigte sich das zunächst im Widerstand gegen die deutsche Spätromantik, die den europäischen Konzertsaal beherrschte &ndash; gegen Wagners monumentale Harmonik, gegen die vorgeschriebenen Kadenzen der Konservatoriums-Lehre. Er suchte etwas anderes: Klang als Farbe, Harmonie als Andeutung statt als Auflösung. Diese Rivalität war nicht nur ästhetisch, sie war existenziell &ndash; ein Leben lang das Gefühl, gegen eine Musikwelt anzukämpfen, die ihn nicht verstand, bis sie es schließlich musste.</p>
+          <p class="vb-intro">Die gleiche Intensität durchzog Debussys Liebesleben, das von Skandalen begleitet war: Seine langjährige Gefährtin Gabrielle Dupont versuchte sich das Leben zu nehmen, als er sie 1899 für die Sängerin Rosalie &bdquo;Lilly&ldquo; Texier verließ, die er wenig später heiratete. Fünf Jahre danach verließ er auch Lilly &ndash; für Emma Bardac, mit der er seine Tochter Chouchou bekam &ndash; und Lilly schoss sich in einem Verzweiflungsakt in die Brust. Sie überlebte, doch der Skandal kostete Debussy einen Großteil seiner Freunde. Die SX4 trägt ihre Wunden nicht verborgen &ndash; sie reißt sie auf, bei sich und bei anderen, im unerbittlichen Verlangen nach dem, was sich richtig anfühlt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Fünferflügel: Der Klangforscher</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Fünferflügel (w5)</strong> gibt der sexuellen Vier den analytischen Blick, den Hunger nach Verständnis, die Fähigkeit, das eigene Empfinden nicht nur zu fühlen, sondern bis in seine kleinsten Bausteine zu durchdringen. Bei Debussy zeigte sich das in einer geradezu wissenschaftlichen Beschäftigung mit Klang selbst: Ganztonleitern, parallele Quinten, unaufgelöste Akkorde, Klangfarben, die er wie ein Chemiker mischte.</p>
+          <p class="vb-intro">Entscheidend war die Pariser Weltausstellung von 1889, auf der Debussy zum ersten Mal javanisches Gamelan-Orchester hörte &ndash; eine Musik ohne westliche Harmonielehre, gebaut auf Klangschichten statt auf Auflösung. Er saß stundenlang davor, notierte, studierte, ließ sich von einer völlig fremden Tonwelt umschreiben. Das ist der Fünferflügel in Reinform: nicht nur berührt sein, sondern verstehen wollen, bis man die fremde Logik in die eigene Sprache übersetzen kann.</p>
+          <p class="vb-intro">Sein Klavierzyklus <em>Préludes</em>, das Streichquartett und vor allem <em>Prélude à l&#39;après-midi d&#39;un faune</em> (1894) &ndash; von Debussy selbst als Beginn der modernen Musik bezeichnet &ndash; sind das Ergebnis dieser jahrelangen Forschung: Musik, die schwebt statt sich aufzulösen, die andeutet statt zu behaupten. Der Fünferflügel verwandelte die Rivalität der SX4 in ein Handwerk von unerreichter Präzision.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. La Mer: Komposition inmitten des Skandals</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Debussy komponierte sein Orchesterwerk <em>La Mer</em> (1903&ndash;1905) ausgerechnet in den Jahren des größten persönlichen Aufruhrs &ndash; während der Trennung von Lilly Texier, ihrem Suizidversuch und dem gesellschaftlichen Skandal, der ihn fast seine Karriere kostete. Statt sich zurückzuziehen, vertiefte er sich in ein Werk über das Meer: drei symphonische Skizzen, die Licht, Bewegung und Klangfarbe verschmelzen, ohne einer klassischen Form zu folgen.</p>
+          <p class="vb-intro">Die Uraufführung 1905 wurde von Kritik und Publikum zunächst verrissen &ndash; zu formlos, zu unklar, kein &bdquo;richtiges&ldquo; Meeresbild. Erst Jahre später wurde <em>La Mer</em> als eines der bedeutendsten Orchesterwerke der Moderne anerkannt. Das ist SX4w5 in seiner reinsten Form: Der private Sturm wird nicht verdrängt, sondern in ein Werk übersetzt, das so präzise durchdacht ist, dass es die eigene Zeit überdauert, auch wenn sie es zunächst nicht verstehen will.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Der Klang, der nicht lügt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; bei der SX4 als Rivalität, als das Gefühl, dass die bestehende Ordnung einem selbst etwas Wesentliches vorenthält. Bei Debussy äußerte sich das in einer lebenslangen Distanz zum offiziellen Musikbetrieb, den Konservatorien, den Salons &ndash; selbst nach seinem Erfolg blieb er misstrauisch gegenüber Anerkennung, die zu leicht kam.</p>
+          <p class="vb-intro">Das Licht der SX4w5 liegt in der Fähigkeit, die eigene Unruhe nicht zu unterdrücken, sondern in etwas radikal Neues zu verwandeln &ndash; Debussy hat die europäische Musik von den Fundamenten her neu gedacht und damit den Weg für Ravel, Strawinsky und die gesamte Moderne bereitet. Der Schatten liegt in der Rücksichtslosigkeit, mit der die SX4 ihre eigene Intensität über die Bedürfnisse anderer stellen kann &ndash; sichtbar in den gescheiterten Beziehungen, die sein Leben säumten, und in den Menschen, die dafür einen hohen Preis zahlten.</p>
+          <p class="vb-intro">Der Fünferflügel brachte zugleich eine Kehrseite: einen Rückzug in die eigene Klangwelt, der Debussy oft isolierte, chronisch unzufrieden mit dem eigenen Werk und misstrauisch gegenüber jeder Vereinnahmung &ndash; er lehnte das Etikett &bdquo;Impressionist&ldquo;, das ihm die Kritik verpasste, zeitlebens ab.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Chihuahua, der dem Klang traute</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Warum bin ich nicht wie die anderen?</em> zur Erkenntnis <em>Das, was ich höre, ist wahr &ndash; und es ist meins, es zu zeigen.</em> Für die SX4w5 bedeutet das, die eigene Rivalität gegen die Konvention nicht als Makel zu behandeln, sondern als Kompass, der zu etwas führt, das vorher nicht existierte.</p>
+          <p class="vb-intro">Debussy starb 1918 an Krebs, während Paris von deutscher Artillerie beschossen wurde &ndash; einer seiner letzten öffentlichen Auftritte war ein Konzert unter Kriegsbedingungen, bei dem er sich weigerte, sich von den Umständen die eigene Musik diktieren zu lassen. Der Chihuahua aus Saint-Germain-en-Laye hat die Musik nicht lauter gemacht, um gehört zu werden &ndash; er hat ihr beigebracht, zu schweben, zu schimmern, zu andeuten. Das ist die sexuelle Vier mit Fünferflügel. Das ist Claude Debussy.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-ana-de-armas", label:"Portr\xe4t: Ana de Armas (SX4w5)"},
+        {route:"beruehmte-linda-leinweber", label:"Portr\xe4t: Linda Leinweber (SX4w5)"},
       ])}
     </div>
   `);
@@ -44273,6 +44347,7 @@ function render() {
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
+      "beruehmte-claude-debussy": claudeDebussyPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
