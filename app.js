@@ -510,6 +510,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Taylor Swift – Sexueller Typ 5",
     teaser:"SX5w4 · geb. 1989. Sängerin, Songwriterin, Gitarristin. Der Igel, der sich zusammenrollt – und dessen Stacheln aus Worten bestehen.",
     tags:["Musik"] , gender:"f"},
+  { route:"beruehmte-tilda-swinton", name:"Tilda Swinton", added:"2026-08-01", subtyp:"SX5w4",
+    heading:"Tilda Swinton – Sexueller Typ 5",
+    teaser:"SX5w4 · geb. 1960. Schauspielerin. Orlando, Michael Clayton, We Need to Talk About Kevin. Der Igel, der sich in jede Rolle so vollständig verwandelt, dass niemand mehr weiß, wo Tilda aufhört.",
+    tags:["Schauspiel"], gender:"f"},
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexueller Typ 5",
     teaser:"SX5w6 · geb. 1984. CEO von Meta (Facebook, Instagram, WhatsApp). Der Igel, der das größte soziale Netzwerk der Welt baute – und selbst darin kaum sichtbar ist.",
@@ -14140,6 +14144,77 @@ function fredericChopinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
         {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portr\xe4t: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function tildaSwintonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-tilda-swinton-portrait.jpg" alt="Tilda Swinton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tilda Swinton</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexueller Typ 5 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Schauspielerin, geb. 1960 in London &ndash; Tierentsprechung: Igel</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Igel, der sich vollst\xe4ndig verwandelt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Igel</strong> ist das Tier des sexuellen Typs 5 &ndash; ein kleines, nachtaktives Wesen, das sich bei Gefahr blitzschnell zusammenrollt und ein Geflecht aus Stacheln zeigt. Wer ihn kennt, wei\xdf: Darunter ist etwas au\xdferordentlich Weiches. Aber man muss Vertrauen aufgebaut haben, um es zu ber\xfchren. Der Igel erkundet die Welt neugierig und intensiv &ndash; wenn er sich sicher f\xfchlt. Andernfalls: Kugel. Stacheln. Warten.</p>
+          <p class="vb-intro">Tilda Swinton ist dieser Igel &ndash; eine Schauspielerin, die sich so vollst\xe4ndig in jede Rolle verwandelt, dass die \xf6ffentliche Person Tilda Swinton fast verschwindet. Androgyn, unheimlich, aristokratisch, monstr\xf6s, engelhaft: Sie hat all das gespielt, oft im selben Jahrzehnt, manchmal im selben Film. Und dennoch bleibt sie eine der am wenigsten fassbaren Figuren des internationalen Films &ndash; nicht weil sie sich versteckt, sondern weil sie sich jedes Mal neu erfindet, bevor jemand sie festhalten kann.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle F\xfcnf: Vertrauen als Ausnahme</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle F\xfcnf (SX5)</strong> ist nach Naranjo der <strong>Kontratyp</strong> der F\xfcnf: Hier zeigt sich die Leidenschaft des Geizes am wenigsten offensichtlich &ndash; weil die sexuelle Energie die F\xfcnf aus ihrer Isolation herauszieht und nach tiefer, intensiver Verbindung suchen l\xe4sst. Naranjo nannte diesen Subtyp <em>Vertrauen</em>: Die SX5 sucht nicht viele Kontakte, sondern die wenigen, die alles tragen &ndash; und diesen wenigen \xf6ffnet sie sich mit einer Intensit\xe4t, die im Kontrast zu ihrer sonstigen Zur\xfcckhaltung steht.</p>
+          <p class="vb-intro">Swintons k\xfcnstlerisches Leben ist von genau diesem Muster gepr\xe4gt: Sie arbeitet seit Jahrzehnten in engen, wiederkehrenden Kreisen &ndash; mit dem Regisseur Derek Jarman, der sie in den 1980er Jahren entdeckte und mit dem sie bis zu seinem Tod 1994 acht Filme drehte; sp\xe4ter mit Wes Anderson, mit Luca Guadagnino, mit den Coen-Br\xfcdern. Sie wechselt nicht st\xe4ndig das Umfeld &ndash; sie vertieft wenige Verbindungen \xfcber Jahrzehnte. Das ist SX5: nicht die Breite des Kontakts, sondern die Tiefe der wenigen, denen man sich wirklich anvertraut.</p>
+          <p class="vb-intro">Auch privat lebt Swinton dieses Muster: Sie zog sich fr\xfch in ein abgelegenes Haus in den schottischen Highlands zur\xfcck, fernab des Filmbetriebs von Los Angeles oder London. Der Ruhm findet sie dort &ndash; aber sie sucht ihn nicht auf. Das eigene Territorium bleibt geschützt, auch wenn die Arbeit international ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\xfcgel: Die Kunst als Verwandlung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> bringt der sexuellen F\xfcnf ein Bed\xfcrfnis nach dem Einzigartigen, dem Unverwechselbaren, dem, was jenseits der Konvention liegt. Die reine SX5 w\xfcrde vielleicht ihre wenigen Verbindungen pflegen und sich sonst zur\xfcckziehen. Der Viererfl\xfcgel f\xfcgt hinzu: <em>Ich will nicht nur beobachten &ndash; ich will die Form finden, die genau das ausdr\xfcckt, was sonst niemand sieht.</em></p>
+          <p class="vb-intro">Swintons Rollenwahl folgt diesem Prinzip konsequent: Sie spielte in <em>Orlando</em> (1992) eine Figur, die \xfcber vierhundert Jahre lebt und mitten im Film das Geschlecht wechselt &ndash; ein Werk, das lange vor der breiten gesellschaftlichen Debatte \xfcber Geschlechtsidentit\xe4t entstand. Sie spielte in <em>Michael Clayton</em> (2007) eine skrupellose Unternehmensanw\xe4ltin, f\xfcr die sie den Oscar als beste Nebendarstellerin erhielt. Sie spielte in <em>We Need to Talk About Kevin</em> (2011) eine Mutter, die mit der Grausamkeit ihres Sohnes konfrontiert ist &ndash; eine der verst\xf6rendsten Studien mütterlicher Ambivalenz im modernen Kino. Jede dieser Rollen ist ein eigenes, in sich geschlossenes Universum. Der Viererfl\xfcgel verlangt: keine Wiederholung, keine Marke, kein bequemes Image.</p>
+          <p class="vb-intro">Auch au\xdferhalb des Kinos zeigt sich diese Suche nach dem Einzigartigen: Swinton war Muse f\xfcr Modedesigner wie Haider Ackermann, kuratierte Ausstellungen, lag einmal acht Stunden t\xe4glich als lebendes Kunstwerk in einer Glasvitrine im Museum of Modern Art in New York (<em>The Maybe</em>, 1995 und erneut 2013). Das ist die SX5w4 in ihrer radikalsten Form: den eigenen K\xf6rper, die eigene Anwesenheit selbst zum Kunstwerk machen &ndash; und dabei vollkommen unber\xfchrbar bleiben.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Vom Punk-Experiment zum Weltkino</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tilda Swinton, geboren 1960 in eine schottisch-aristokratische Familie, studierte am Cambridge und begann ihre Karriere im k\xfcnstlerischen Untergrund Londons der 1980er Jahre. Ihre Zusammenarbeit mit Derek Jarman &ndash; Filme wie <em>Caravaggio</em> (1986) und <em>Edward II</em> (1991) &ndash; war eine Schule des radikalen, unkonventionellen Filmemachens, weit entfernt vom Hollywood-Mainstream. Diese fr\xfche Pr\xe4gung blieb: Auch als sie sp\xe4ter zwischen Blockbustern und Arthouse-Kino wechselte, behielt sie stets eine Sensibilit\xe4t f\xfcr das Ungew\xf6hnliche, das Verst\xf6rende, das Nicht-Kategorisierbare.</p>
+          <p class="vb-intro">In den 2000er und 2010er Jahren wurde sie zur gefragten Charakterdarstellerin f\xfcr Regisseure, die genau diese Wandlungsf\xe4higkeit suchten: Die Hexe in <em>Die Chroniken von Narnia</em> (2005), die Ancient One in <em>Doctor Strange</em> (2016), mehrere Rollen gleichzeitig &ndash; darunter einen Mann &ndash; in Wes Andersons <em>The French Dispatch</em> (2021) und <em>Asteroid City</em> (2023). Sie arbeitet mit einer Vielseitigkeit, die selten geworden ist: von Marvel-Blockbuster zu skandinavischem Arthouse-Film innerhalb weniger Monate.</p>
+          <p class="vb-intro">Was diese Rollen verbindet, ist nicht ein Genre, sondern eine Haltung: Swinton spielt nie die vertraute Nachbarin. Sie spielt das Fremde, das Zwischen-den-Welten, das, was sich der einfachen Einordnung entzieht. Das ist die SX5w4 als K\xfcnstlerin: Sie zeigt sich vollst\xe4ndig &ndash; aber immer als jemand anderes.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Stacheln der Unverwechselbarkeit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SX5w4 ist ihre F\xe4higkeit zur vollst\xe4ndigen k\xfcnstlerischen Hingabe &ndash; ohne R\xfccksicht auf Konvention, Erwartung oder Marktlogik. Tilda Swinton hat sich nie in eine wiederholbare Rolle dr\xe4ngen lassen. Jedes Projekt ist ein neues Risiko, eine neue Verwandlung. Das ist selten in einer Industrie, die Wiedererkennbarkeit belohnt &ndash; und es ist das Geschenk des Igels: Vertrauen in die eigene, unverwechselbare Form.</p>
+          <p class="vb-intro">Das Schicksalsmuster der F\xfcnf ist der <strong>Geiz</strong> &ndash; bei der SX5 zeigt er sich nicht als Geiz mit Geld, sondern mit Energie und Zug\xe4nglichkeit. Swinton gibt \xf6ffentlich au\xdferordentlich wenig von sich preis: kaum pers\xf6nliche Interviews \xfcber ihr Privatleben, kaum Social-Media-Pr\xe4senz, eine bewusst gepflegte Distanz zwischen der \xf6ffentlichen Figur und der Person dahinter. Was man von ihr bekommt, bekommt man ausschlie\xdflich durch die Arbeit.</p>
+          <p class="vb-intro">Der Viererfl\xfcgel bringt die Gefahr, dass das Streben nach dem Einzigartigen zur Pose wird &ndash; Andersartigkeit als Selbstzweck statt als echter Ausdruck. Bei Swinton blieb das produktiv, weil ihre extremsten Rollen immer mit gro\xdfer schauspielerischer Pr\xe4zision unterlegt sind: Nie nur Kost\xfcm, immer auch Substanz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Der Igel, der niemandem geh\xf6rt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug, um mich zu zeigen?</em> zur Erkenntnis <em>Ich kann mich vollst\xe4ndig zeigen, ohne mich zu verlieren.</em> F\xfcr die SX5w4 bedeutet das, die Verwandlung nicht als Flucht vor sich selbst zu nutzen, sondern als Weg, immer tiefere Schichten der eigenen Wahrheit auszudr\xfccken &ndash; ohne dabei die eigene Substanz zu verlieren.</p>
+          <p class="vb-intro">Swinton hat diesen Weg auf ungew\xf6hnliche Weise beschritten: Sie hat nie versucht, sich einer einzelnen Identit\xe4t zu unterwerfen &ndash; weder der des Filmstars noch der einer bestimmten \xe4sthetischen Kategorie. Stattdessen hat sie ihre Wandlungsf\xe4higkeit selbst zur Konstante gemacht. Der Igel, der sich niemandem vollst\xe4ndig zeigt, hat gelernt, sich in jeder Rolle ein St\xfcck weit zu zeigen &ndash; und bleibt dabei doch, in der Summe all dieser Masken, unverkennbar er selbst.</p>
+          <p class="vb-intro">Tilda Swinton lebt heute zwischen den schottischen Highlands und den Filmsets der Welt. \xdcber vierzig Jahre nach ihrem Debut bleibt sie eine der unvorhersehbarsten K\xfcnstlerinnen des internationalen Kinos. Das ist die sexuelle F\xfcnf mit Viererfl\xfcgel. Das ist der Igel, der sich immer wieder neu zeigt &ndash; und sich doch nie ganz fassen l\xe4sst.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/sx5", label:"SX5 – Der Igel: Subtyp-Profil"},
+        {route:"beruehmte-taylor-swift", label:"Portr\xe4t: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Portr\xe4t: Fr\xe9d\xe9ric Chopin (SX5w4)"},
       ])}
     </div>
   `);
@@ -44547,6 +44622,7 @@ function render() {
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-frederic-chopin": fredericChopinPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
+      "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,

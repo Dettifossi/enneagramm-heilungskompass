@@ -368,6 +368,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Taylor Swift – Sexual Type 5",
     teaser:"SX5w4 · born 1989. Singer, songwriter, guitarist. The hedgehog that curls up – whose spines are made of words.",
     tags:["Musik"] },
+  { route:"beruehmte-tilda-swinton", name:"Tilda Swinton", added:"2026-08-01", subtyp:"SX5w4",
+    heading:"Tilda Swinton – Sexual Type 5",
+    teaser:"SX5w4 · born 1960. Actress. Orlando, Michael Clayton, We Need to Talk About Kevin. The hedgehog that transforms so completely into every role that no one knows where Tilda ends.",
+    tags:["Schauspiel"] },
   { route:"beruehmte-mark-zuckerberg", name:"Mark Zuckerberg", added:"2026-07-15", subtyp:"SX5w6",
     heading:"Mark Zuckerberg – Sexual Type 5",
     teaser:"SX5w6 · born 1984. CEO of Meta (Facebook, Instagram, WhatsApp). The hedgehog that built the world’s largest social network – and is barely visible within it.",
@@ -14637,6 +14641,7 @@ function fredericChopinPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
       ])}
     </div>
   `);
@@ -20952,6 +20957,77 @@ function taylorSwiftPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
         {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
+        {route:"beruehmte-tilda-swinton", label:"Portrait: Tilda Swinton (SX5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function tildaSwintonPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-tilda-swinton-portrait.jpg" alt="Tilda Swinton" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Tilda Swinton</p>
+        <p class="krim-portrait-typ">SX5w4 &middot; Sexual Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Actress, b. 1960 in London – Animal correspondence: Hedgehog</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Hedgehog That Transforms Completely</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The hedgehog is the animal of the sexual Type 5 – a small, nocturnal creature that curls up in a flash at danger and reveals a web of spines. Those who know it understand: beneath them lies something extraordinarily soft. But trust must be built before one can touch it. The hedgehog explores the world with curiosity and intensity – when it feels safe. Otherwise: a ball. Spines. Waiting.</p>
+          <p class="vb-intro">Tilda Swinton is this hedgehog – an actress who transforms so completely into every role that the public person of Tilda Swinton nearly disappears. Androgynous, eerie, aristocratic, monstrous, angelic: she has played all of it, often within the same decade, sometimes within the same film. And yet she remains one of the least graspable figures in international cinema – not because she hides, but because she reinvents herself each time before anyone can pin her down.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Five: Trust as the Exception</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The sexual Five (SX5) is, according to Naranjo, the counter-type of the Five: the passion of avarice is least obvious here – because the sexual energy pulls the Five out of isolation and drives a search for deep, intense connection. Naranjo named this subtype Trust: the SX5 does not seek many contacts, but the few who can bear everything – and to these few she opens with an intensity that stands in stark contrast to her usual reserve.</p>
+          <p class="vb-intro">Swinton's artistic life is shaped by exactly this pattern: she has worked for decades in tight, recurring circles – with director Derek Jarman, who discovered her in the 1980s and with whom she made eight films until his death in 1994; later with Wes Anderson, with Luca Guadagnino, with the Coen brothers. She does not constantly change her environment – she deepens a few connections over decades. That is SX5: not the breadth of contact, but the depth of the few one truly trusts.</p>
+          <p class="vb-intro">Privately, too, Swinton lives this pattern: she withdrew early to a remote house in the Scottish Highlands, far from the film business of Los Angeles or London. Fame finds her there – but she does not go looking for it. Her own territory remains protected, even as the work is international.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-wing: Art as Transformation</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four-wing (w4) brings the sexual Five a need for the unique, the unmistakable, for what lies beyond convention. The pure SX5 might tend her few connections and otherwise withdraw. The Four-wing adds: I don't just want to observe – I want to find the form that expresses exactly what no one else sees.</p>
+          <p class="vb-intro">Swinton's choice of roles follows this principle consistently: she played in Orlando (1992) a character who lives for over four hundred years and changes sex midway through the film – a work that emerged long before the broader societal debate on gender identity. She played in Michael Clayton (2007) a ruthless corporate lawyer, for which she received the Academy Award for Best Supporting Actress. She played in We Need to Talk About Kevin (2011) a mother confronted with her son's cruelty – one of the most unsettling studies of maternal ambivalence in modern cinema. Each of these roles is its own self-contained universe. The Four-wing demands: no repetition, no brand, no comfortable image.</p>
+          <p class="vb-intro">This search for the unique also shows outside of film: Swinton was a muse for fashion designers such as Haider Ackermann, curated exhibitions, once lay eight hours a day as a living artwork inside a glass vitrine at the Museum of Modern Art in New York (The Maybe, 1995 and again 2013). That is the SX5w4 in its most radical form: making one's own body, one's own presence itself into art – while remaining completely untouchable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Punk Experiment to World Cinema</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Tilda Swinton, born in 1960 into a Scottish aristocratic family, studied at Cambridge and began her career in London's artistic underground of the 1980s. Her collaboration with Derek Jarman – films such as Caravaggio (1986) and Edward II (1991) – was a school of radical, unconventional filmmaking, far removed from the Hollywood mainstream. This early imprint stayed with her: even as she later moved between blockbusters and arthouse cinema, she retained a sensibility for the unusual, the unsettling, the uncategorizable.</p>
+          <p class="vb-intro">In the 2000s and 2010s she became a sought-after character actress for directors seeking exactly this capacity for transformation: the White Witch in The Chronicles of Narnia (2005), the Ancient One in Doctor Strange (2016), multiple roles at once – including a man – in Wes Anderson's The French Dispatch (2021) and Asteroid City (2023). She works with a versatility that has become rare: from Marvel blockbuster to Scandinavian arthouse film within a few months.</p>
+          <p class="vb-intro">What connects these roles is not a genre, but a stance: Swinton never plays the familiar neighbor. She plays the foreign, the in-between, what resists easy categorization. That is the SX5w4 as an artist: she reveals herself completely – but always as someone else.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Spines of Uniqueness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SX5w4 is her capacity for complete artistic dedication – without regard for convention, expectation, or market logic. Tilda Swinton has never let herself be pushed into a repeatable role. Every project is a new risk, a new transformation. That is rare in an industry that rewards recognizability – and it is the gift of the hedgehog: trust in one's own, unmistakable form.</p>
+          <p class="vb-intro">The core passion of the Five is avarice – in the SX5 it shows not as stinginess with money but with energy and accessibility. Swinton publicly reveals extraordinarily little of herself: barely any personal interviews about her private life, barely any social media presence, a deliberately maintained distance between the public figure and the person behind it. What one gets from her, one gets exclusively through the work.</p>
+          <p class="vb-intro">The Four-wing carries the risk that the striving for uniqueness becomes a pose – otherness as an end in itself rather than genuine expression. In Swinton this remained productive because her most extreme roles are always underpinned by great acting precision: never just costume, always substance too.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Hedgehog That Belongs to No One</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from the question "Do I have enough to show myself?" to the realization "I can reveal myself completely without losing myself." For the SX5w4, this means not using transformation as a flight from oneself, but as a way to express ever deeper layers of one's own truth – without losing one's own substance in the process.</p>
+          <p class="vb-intro">Swinton has walked this path in an unusual way: she has never tried to submit to a single identity – neither that of the film star nor that of a particular aesthetic category. Instead, she has made her capacity for transformation itself the constant. The hedgehog that never reveals itself completely to anyone has learned to reveal a piece of itself in every role – and yet remains, in the sum of all these masks, unmistakably herself.</p>
+          <p class="vb-intro">Tilda Swinton today lives between the Scottish Highlands and film sets around the world. More than forty years after her debut, she remains one of the most unpredictable artists in international cinema. That is the sexual Five with a Four-wing. That is the hedgehog that keeps showing itself anew – and yet can never quite be grasped.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in depth – protective patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, protective strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles compared – how subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/sx5", label:"SX5 – The Hedgehog: Subtype Profile"},
+        {route:"beruehmte-taylor-swift", label:"Portrait: Taylor Swift (SX5w4)"},
+        {route:"beruehmte-frederic-chopin", label:"Portrait: Frédéric Chopin (SX5w4)"},
       ])}
     </div>
   `);
@@ -41606,6 +41682,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-mark-zuckerberg": markZuckerbergPortraitPage,
       "beruehmte-edward-snowden": edwardSnowdenPortraitPage,
       "beruehmte-taylor-swift": taylorSwiftPortraitPage,
+      "beruehmte-tilda-swinton": tildaSwintonPortraitPage,
       "beruehmte-bill-gates": billGatesPortraitPage,
       "beruehmte-claudio-naranjo": claudioNaranjoPortraitPage,
       "beruehmte-gertrude-elion": gertrudeElionPortraitPage,
