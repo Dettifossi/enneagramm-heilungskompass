@@ -466,6 +466,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Selbsterhaltender Typ 5",
     teaser:"SE5w4 · 1957–2022. Ethnologe, Ethnopharmakologe. Enzyklopädie der psychoaktiven Pflanzen. Die Eule, die in der Dunkelheit sieht – und das Wissen bewahrt, das andere nicht sehen wollen.",
     tags:["Wissenschaft"] , gender:"m"},
+  { route:"beruehmte-xu-bing", name:"Xu Bing", added:"2026-08-01", subtyp:"SE5w4",
+    heading:"Xu Bing – Selbsterhaltender Typ 5",
+    teaser:"SE5w4 · geb. 1955. Konzeptkünstler, Kalligraf. Vier Jahre für viertausend erfundene Schriftzeichen: ‹Book from the Sky›. Die Eule, die die Sprache selbst zur Burg macht.",
+    tags:["Kunst"], gender:"m"},
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Selbsterhaltender Typ 5",
     teaser:"SE5w6 · 1937–2016. Fernsehmoderator, Kinderbuchautor. Löwenzahn. Der Wohnwagen als Burg – die Eule, die Kindern zeigt, wie man mit wachem Blick und wenig Aufwand die Welt versteht.",
@@ -11095,6 +11099,76 @@ function christianRaetschPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-clemens-arvay", label:"Porträt: Clemens G. Arvay (SE4w5)"},
+        {route:"beruehmte-xu-bing", label:"Porträt: Xu Bing (SE5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function xuBingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-xu-bing-portrait.jpg" alt="Xu Bing" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Xu Bing</p>
+        <p class="krim-portrait-typ">SE5w4 &middot; Selbsterhaltender Typ 5 mit Viererfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Konzeptk\xfcnstler, Kalligraf, geb. 1955 in Chongqing &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die eine eigene Sprache erfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier, das nicht in der Weite jagt, sondern im Detail. Sie sieht die einzelne Bewegung im Dunkel, die andere \xfcbersehen, weil sie nicht so lange stillhalten k\xf6nnen. Und sie baut sich ihr Revier nicht aus L\xe4rm, sondern aus Genauigkeit.</p>
+          <p class="vb-intro">Xu Bing wurde 1955 in Chongqing geboren und wuchs an der Peking-Universit\xe4t auf, wo sein Vater die Geschichtsfakult\xe4t leitete &ndash; bis die Kulturrevolution die Familie zerst\xf6rte und den jungen Xu Bing zur Zwangsarbeit aufs Land schickte. Aus dieser Erfahrung wurde kein Bruch, sondern eine Methode: Er begann, W\xf6rter und Schriftzeichen zu sammeln, zu kopieren, zu studieren, als w\xe4re die Sprache selbst ein Ort, an dem man sich sicher verschanzen konnte, w\xe4hrend drau\xdfen die Welt zusammenbrach. Die Eule, die in der Zeit der gr\xf6\xdften \xd6ffentlichkeit lernte, sich in die Stille des Zeichens zur\xfcckzuziehen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Die Burg aus Zeichen</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, dem er den Namen <strong>Burg</strong> gab: das eigene Territorium &ndash; hier nicht Haus oder Landschaft, sondern das eigene Handwerk, das eigene System &ndash; wird zur Festung gegen \xdcberw\xe4ltigung. Die Leidenschaft der F\xfcnf ist der <strong>Geiz</strong> &ndash; das Horten von Energie, Zeit und Aufmerksamkeit, damit nichts verloren geht, bevor es vollst\xe4ndig verstanden ist.</p>
+          <p class="vb-intro">Xu Bings ber\xfchmtestes Werk, <em>Tianshu</em> (‹Book from the Sky›, 1987&ndash;1991), ist die vielleicht radikalste K\xfcnstler-Burg der Gegenwart: \xfcber vier Jahre lang schnitzte er von Hand mehr als viertausend Schriftzeichen &ndash; jedes einzelne erfunden, keines existiert in der chinesischen Sprache, jedes aber vollkommen korrekt in Strichf\xfchrung und Aufbau, sodass es echt aussieht. Er druckte sie auf endlosen Papierb\xe4ndern und Rollen, die eine ganze Ausstellungshalle f\xfcllten &ndash; ein Werk, das aussieht wie ein Jahrtausende altes Buch, aber niemand lesen kann, nicht einmal ein Muttersprachler. Die Burg war hier w\xf6rtlich: ein System, das niemand betreten konnte au\xdfer ihm selbst.</p>
+          <p class="vb-intro">Diese vier Jahre allein an einem Werktisch, das Schnitzen von Druckst\xf6cken f\xfcr Zeichen, die keine Bedeutung tragen d\xfcrfen &ndash; das ist der Geiz der F\xfcnf in seiner reinsten Form: eine Arbeit, bei der die Energie nicht nach au\xdfen str\xf6mt, bevor sie nicht bis zur letzten Konsequenz durchdacht ist.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Viererfl\xfcgel: Bedeutung als Verlust</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Viererfl\xfcgel (w4)</strong> bringt der selbsterhaltenden F\xfcnf ein Gesp\xfcr f\xfcr das Einzigartige, das Unverwechselbare, das, was mehr ist als reine Information. Die reine SE5 h\xe4tte vielleicht Wissen archiviert. Der Viererfl\xfcgel fragt dar\xfcber hinaus: <em>Was bedeutet es, wenn Bedeutung selbst verschwindet?</em></p>
+          <p class="vb-intro"><em>Tianshu</em> ist nicht nur eine technische Meisterleistung &ndash; es ist eine existenzielle Aussage \xfcber Sprache, Autorit\xe4t und Verlust. In China, wo Schriftzeichen \xfcber Jahrtausende als Tr\xe4ger von Wissen, Macht und Kultur galten, schuf Xu Bing ein Buch voller Zeichen, die genau aussehen wie Bedeutung &ndash; und doch v\xf6llig leer sind. Der Viererfl\xfcgel liest darin die Trauer \xfcber eine Kultur, deren Sprache durch politische Umbr\xfcche entwertet, verf\xe4lscht, instrumentalisiert wurde. Ein Werk, das so pr\xe4zise ist wie ein Lexikon &ndash; und so melancholisch wie ein Requiem.</p>
+          <p class="vb-intro">Sp\xe4ter entwickelte er die <em>Square Word Calligraphy</em>: englische W\xf6rter, in die Form chinesischer Schriftzeichen gezwungen, sodass Westler pl\xf6tzlich lernen m\xfcssen, wie es sich anf\xfchlt, eine fremde Schrift zu entziffern. Der Viererfl\xfcgel dreht die Perspektive um &ndash; nicht um zu bel<em>e</em>hren, sondern um die eigene Erfahrung der Fremdheit zu teilen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von Peking nach New York und zur\xfcck</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">1990 zog Xu Bing in die USA, nachdem <em>Tianshu</em> in China wegen seiner vermeintlichen Doppeldeutigkeit als politisch verd\xe4chtig eingestuft worden war. In New York entwickelte er sein Werk weiter: <em>A Book from the Ground</em> (2003&ndash;2014), ein Roman, der ausschlie\xdflich aus international verst\xe4ndlichen Piktogrammen &ndash; Emojis, Logos, Verkehrszeichen &ndash; besteht und ohne Kenntnis irgendeiner Nationalsprache lesbar ist. Damit spiegelte er <em>Tianshu</em>: statt einer Schrift, die niemand versteht, eine Schrift, die jeder versteht.</p>
+          <p class="vb-intro">2008 erhielt er den <em>MacArthur Fellowship</em> &ndash; den sogenannten ‹Genie-Preis› &ndash;, und im selben Jahr kehrte er nach China zur\xfcck, um Vizepr\xe4sident der Zentralen Akademie der K\xfcnste in Peking zu werden. Seine sp\xe4teren Installationen, etwa <em>Background Story</em>, erzeugen mit Staub, M\xfcll und Pflanzenresten hinter Milchglasscheiben monumentale Landschaftsgem\xe4lde im Stil klassischer chinesischer Tuschemalerei &ndash; sichtbar nur als Schatten, unsichtbar in ihrer wahren Materialit\xe4t. Immer dasselbe Prinzip: etwas Aufwendiges, Verborgenes, das sich nur dem enth\xfcllt, der genau genug hinschaut.</p>
+          <p class="vb-intro">Jedes seiner Hauptwerke ben\xf6tigte Jahre der Vorbereitung, oft ausgef\xfchrt in fast v\xf6lliger Zur\xfcckgezogenheit, mit Assistenten, aber ohne \xf6ffentliche Zwischenschritte. Die Welt sah erst das fertige Werk &ndash; nie den Prozess. Das ist die SE5w4 in ihrer produktivsten Form: das Ergebnis so vollst\xe4ndig durchdacht pr\xe4sentieren, dass niemand die jahrelange Einsamkeit dahinter erahnt.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Eule im Zeichenwald</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w4 liegt in ihrer F\xe4higkeit, aus radikaler Zur\xfcckgezogenheit heraus Werke von universeller Tragweite zu schaffen. Xu Bing hat mit erfundenen Zeichen mehr \xfcber Sprache, Macht und Bedeutung gesagt als die meisten mit realen W\xf6rtern. Das ist das Geschenk der Eule: In der selbstgew\xe4hlten Dunkelheit entsteht eine Klarheit, die im L\xe4rm nicht m\xf6glich w\xe4re.</p>
+          <p class="vb-intro">Das Schicksalsmuster der F\xfcnf ist der <strong>Geiz</strong> &ndash; bei der SE5 zeigt er sich als Neigung, sich jahrelang von der \xd6ffentlichkeit fernzuhalten, Prozesse nicht zu teilen, Energie erst dann freizugeben, wenn nichts mehr angreifbar ist. Xu Bings vierj\xe4hriges Schnitzen an <em>Tianshu</em>, seine Emigration nach der politischen Verd\xe4chtigung, sein R\xfcckzug in immer neue, hermetische Systeme &ndash; das ist die Burg, die sch\xfctzt, aber auch trennt.</p>
+          <p class="vb-intro">Der Viererfl\xfcgel kann die Suche nach Einzigartigkeit in Isolation kippen lassen &ndash; ein Werk, das so pers\xf6nlich und so verschl\xfcsselt wird, dass es niemand mehr wirklich mitvollziehen kann. Bei Xu Bing blieb das produktiv, weil er die Verschl\xfcsselung selbst zum Thema machte &ndash; das Nicht-Verstehen-K\xf6nnen wurde zur Botschaft, nicht zum Hindernis.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die eine Schrift f\xfcr alle erfand</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug verstanden, um mich zu zeigen?</em> zur Erkenntnis <em>Das Verstandene wird wertvoller, wenn es andere erreicht.</em> F\xfcr die SE5w4 bedeutet das, die Burg nicht aufzugeben, aber ihre Mauern durchl\xe4ssig zu machen &ndash; das Einzigartige so zu gestalten, dass es nicht nur die eigene Einsamkeit spiegelt, sondern eine Br\xfccke zu anderen wird.</p>
+          <p class="vb-intro">Genau diesen Schritt vollzog Xu Bing mit <em>A Book from the Ground</em>: von einer Schrift, die absichtlich niemand lesen kann, zu einer Schrift, die buchst\xe4blich jeder lesen kann, unabh\xe4ngig von Sprache, Bildung oder Herkunft. Die Eule, die zuerst eine Sprache nur f\xfcr sich selbst erfand, erfand am Ende eine Sprache f\xfcr die ganze Welt.</p>
+          <p class="vb-intro">Xu Bing lebt und arbeitet heute zwischen Peking und New York. Sein Werk h\xe4ngt in den bedeutendsten Museen der Welt &ndash; vom Museum of Modern Art bis zum Victoria and Albert Museum. Das ist die selbsterhaltende F\xfcnf mit Viererfl\xfcgel. Das ist die Eule, die aus dem Verstummen eine neue Sprache schuf.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-christian-raetsch", label:"Portr\xe4t: Christian R\xe4tsch (SE5w4)"},
       ])}
     </div>
   `);
@@ -44425,6 +44499,7 @@ function render() {
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-michael-schumacher": michaelSchumacherPortraitPage,

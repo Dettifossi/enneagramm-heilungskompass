@@ -344,6 +344,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Christian Rätsch – Self-Preservation Type 5",
     teaser:"SP5w4 · 1957–2022. Ethnologist, ethnopharmacologist. Encyclopedia of Psychoactive Plants. The owl that sees in the dark – and preserves the knowledge others do not want to see.",
     tags:["Wissenschaft"] },
+  { route:"beruehmte-xu-bing", name:"Xu Bing", added:"2026-08-01", subtyp:"SE5w4",
+    heading:"Xu Bing – Self-Preservation Type 5",
+    teaser:"SP5w4 · born 1955. Conceptual artist, calligrapher. Four years for four thousand invented characters: 'Book from the Sky'. The owl that turned language itself into a castle.",
+    tags:["Kunst"] },
   { route:"beruehmte-peter-lustig", name:"Peter Lustig", subtyp:"SE5w6",
     heading:"Peter Lustig – Self-Preservation Type 5",
     teaser:"SP5w6 · 1937–2016. TV presenter, children’s book author. Dandelion (Löwenzahn). The caravan as a castle – the owl that shows children how to understand the world with a keen eye and little fuss.",
@@ -19155,6 +19159,76 @@ function christianRaetschPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
         {route:"beruehmte-clemens-arvay", label:"Portrait: Clemens G. Arvay (SP4w5)"},
+        {route:"beruehmte-xu-bing", label:"Portrait: Xu Bing (SP5w4)"},
+      ])}
+    </div>
+  `);
+}
+
+function xuBingPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-xu-bing-portrait.jpg" alt="Xu Bing" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Xu Bing</p>
+        <p class="krim-portrait-typ">SP5w4 &middot; Self-Preservation Type 5 with Four-wing</p>
+        <p class="krim-portrait-subtitle">Conceptual artist, calligrapher, b. 1955 in Chongqing – Animal correspondence: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl That Invented Its Own Language</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Owl is the animal of the Self-Preservation Type 5 – an animal that does not hunt in open expanses but in detail. It sees the single movement in the dark that others miss, because they cannot hold still that long. And it builds its territory not out of noise, but out of precision.</p>
+          <p class="vb-intro">Xu Bing was born in 1955 in Chongqing and grew up at Peking University, where his father headed the history department – until the Cultural Revolution destroyed the family and sent the young Xu Bing into forced labor in the countryside. This experience did not become a rupture, but a method: he began collecting, copying, studying words and characters, as if language itself were a place one could fortify oneself in while the world outside collapsed. The Owl that, in a time of greatest exposure, learned to retreat into the silence of the character.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: The Castle Made of Characters</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Self-Preservation Five (SP5) is, according to Naranjo, the subtype he named "Castle": one's own territory – here not house or land, but one's own craft, one's own system – becomes a fortress against being overwhelmed. The passion of Type Five is avarice – the hoarding of energy, time and attention, so nothing is lost before it is fully understood.</p>
+          <p class="vb-intro">Xu Bing's most famous work, Tianshu ("Book from the Sky", 1987–1991), is perhaps the most radical artist's castle of the present day: for more than four years he hand-carved over four thousand characters – each one invented, none of them exists in the Chinese language, yet each one is entirely correct in stroke order and structure, so that it looks genuine. He printed them onto endless scrolls and sheets that filled an entire exhibition hall – a work that looks like a book thousands of years old, yet no one can read it, not even a native speaker. The castle here was literal: a system no one could enter but himself.</p>
+          <p class="vb-intro">These four years alone at a workbench, carving printing blocks for characters that were not permitted to carry meaning – that is the avarice of the Five in its purest form: work in which energy does not flow outward until it has been thought through to the very last consequence.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Four-Wing: Meaning as Loss</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four-wing (w4) gives the Self-Preservation Five a sense for the unique, the unmistakable, for what is more than mere information. The pure SP5 might have archived knowledge. The Four-wing asks beyond that: What does it mean when meaning itself disappears?</p>
+          <p class="vb-intro">Tianshu is not only a technical masterpiece – it is an existential statement about language, authority and loss. In China, where characters had for millennia carried knowledge, power and culture, Xu Bing created a book full of characters that look exactly like meaning – and yet are entirely empty. The Four-wing reads in this the grief over a culture whose language was devalued, falsified, instrumentalized by political upheavals. A work as precise as a dictionary – and as melancholic as a requiem.</p>
+          <p class="vb-intro">Later he developed Square Word Calligraphy: English words forced into the shape of Chinese characters, so that Westerners suddenly have to learn what it feels like to decipher a foreign script. The Four-wing reverses the perspective – not to lecture, but to share the experience of foreignness itself.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From Beijing to New York and Back</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">In 1990 Xu Bing moved to the United States after Tianshu had been classified as politically suspect in China due to its supposed ambiguity. In New York he developed his work further: A Book from the Ground (2003–2014), a novel composed entirely of internationally understandable pictograms – emojis, logos, traffic signs – readable without knowledge of any national language. With this he mirrored Tianshu: instead of a script no one understands, a script everyone understands.</p>
+          <p class="vb-intro">In 2008 he received the MacArthur Fellowship – the so-called "genius grant" – and that same year returned to China to become vice president of the Central Academy of Fine Arts in Beijing. His later installations, such as Background Story, use dust, rubbish and plant remnants behind frosted glass to create monumental landscape paintings in the style of classical Chinese ink painting – visible only as shadow, invisible in their true materiality. Always the same principle: something elaborate, hidden, that reveals itself only to those who look closely enough.</p>
+          <p class="vb-intro">Each of his major works required years of preparation, often carried out in near-total seclusion, with assistants but without public intermediate steps. The world saw only the finished work – never the process. That is the SP5w4 in its most productive form: presenting a result so thoroughly thought through that no one suspects the years of solitude behind it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Owl in the Forest of Signs</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP5w4 lies in its ability to create works of universal reach out of radical seclusion. Xu Bing has said more about language, power and meaning with invented characters than most have said with real words. That is the gift of the Owl: in self-chosen darkness, a clarity emerges that would not be possible amid noise.</p>
+          <p class="vb-intro">The core passion of the Five is avarice – in the SP5 it shows as a tendency to keep away from the public for years, not to share the process, to release energy only once nothing is vulnerable anymore. Xu Bing's four years carving Tianshu, his emigration after political suspicion, his retreat into ever new, hermetic systems – that is the castle that protects, but also separates.</p>
+          <p class="vb-intro">The Four-wing can tip the search for uniqueness into isolation – a work so personal and so encoded that almost no one can follow it anymore. In Xu Bing this remained productive because he made the encoding itself the subject – the impossibility of understanding became the message, not the obstacle.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl That Invented a Script for Everyone</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of the Five leads from the question "Have I understood enough to show myself?" to the realization "What is understood becomes more valuable when it reaches others." For the SP5w4, this means not abandoning the castle, but making its walls permeable – shaping the unique so that it no longer only mirrors one's own solitude, but becomes a bridge to others.</p>
+          <p class="vb-intro">This is exactly the step Xu Bing took with A Book from the Ground: from a script that deliberately no one could read, to a script that literally everyone can read, regardless of language, education or origin. The Owl that first invented a language only for itself ended up inventing a language for the entire world.</p>
+          <p class="vb-intro">Xu Bing today lives and works between Beijing and New York. His work hangs in the world's most important museums – from the Museum of Modern Art to the Victoria and Albert Museum. That is the Self-Preservation Five with a Four-wing. That is the Owl that turned silence into a new language.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypes")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
+        {route:"subtype/se5", label:"SP5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-christian-raetsch", label:"Portrait: Christian Rätsch (SP5w4)"},
       ])}
     </div>
   `);
@@ -41503,6 +41577,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-christian-raetsch": christianRaetschPortraitPage,
+      "beruehmte-xu-bing": xuBingPortraitPage,
       "beruehmte-kollegah": kollegahPortraitPage,
       "beruehmte-alice-schwarzer": aliceSchwarzerPortraitPage,
       "beruehmte-anke-engelke": ankeEngelkePortraitPage,
