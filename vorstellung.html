@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Enneagramm-Heilungskompass – Dein täglicher Enneagramm-Coach</title>
+<meta name="description" content="Der Enneagramm-Heilungskompass von Detlef Rathmer: Typ erkennen, mit Situationskompass, Krisenkompass und Beziehungskompass wirklich damit arbeiten – auf dem Weg von der Fixierung zur Freiheit." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://kompass.verlagshausrathmer.com/vorstellung.html" />
+<link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+<style>
+  :root {
+    --ivory: #f7f1e6;
+    --paper: #fffaf0;
+    --sand: #d2c0a1;
+    --copper: #a5603d;
+    --bronze: #7d593d;
+    --ink: #28241f;
+    --muted: #72665a;
+    --sage: #607468;
+    --deep: #243948;
+    --sky: #d9e7e7;
+    --moss: #30483d;
+    --shell: #eef3ec;
+    --line: rgba(40, 36, 31, 0.14);
+    --shadow: 0 24px 70px rgba(65, 46, 28, 0.16);
+    --shadow-soft: 0 18px 42px rgba(65, 46, 28, 0.1);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: Georgia, 'EB Garamond', serif;
+    background: var(--ivory);
+    color: var(--ink);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  h1, h2, h3 { font-family: 'EB Garamond', Georgia, serif; font-weight: 600; margin: 0; }
+  p { margin: 0; }
+  .wrap { max-width: 780px; margin: 0 auto; padding: 0 1.4rem; }
+  a { color: inherit; }
+
+  /* HERO */
+  .hero {
+    position: relative;
+    padding: 5rem 0 4rem;
+    text-align: center;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(165,96,61,0.10), transparent 60%),
+      var(--ivory);
+    overflow: hidden;
+  }
+  .hero::before {
+    content: "";
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size: 42px 42px;
+    opacity: 0.35;
+    mask-image: radial-gradient(ellipse at 50% 20%, black 10%, transparent 70%);
+  }
+  .hero-inner { position: relative; z-index: 1; }
+  .compass-spin {
+    width: 110px; height: 110px; margin: 0 auto 1.6rem;
+    animation: spin 40s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .eyebrow {
+    font-size: 0.72rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--copper); font-family: Georgia, serif; font-weight: 700;
+    margin-bottom: .9rem;
+  }
+  .hero h1 {
+    font-size: clamp(2.1rem, 5vw, 3.1rem);
+    line-height: 1.15;
+    margin-bottom: 1.1rem;
+  }
+  .hero h1 em { font-style: italic; color: var(--copper); }
+  .hero-sub {
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 560px;
+    margin: 0 auto 2.2rem;
+  }
+  .cta-row { display: flex; gap: .8rem; justify-content: center; flex-wrap: wrap; }
+  .btn {
+    display: inline-block;
+    padding: .95rem 1.9rem;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+    transition: transform .15s ease, box-shadow .15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary { background: var(--deep); color: var(--paper); box-shadow: var(--shadow-soft); }
+  .btn-ghost { background: var(--paper); color: var(--ink); border: 1px solid var(--line); }
+
+  /* SECTIONS */
+  section { padding: 4.4rem 0; }
+  .section-alt { background: var(--paper); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .kicker {
+    font-size: .72rem; letter-spacing: .16em; text-transform: uppercase;
+    color: var(--copper); font-weight: 700; margin-bottom: .7rem; text-align: center;
+  }
+  .section-title {
+    font-size: clamp(1.6rem, 3.4vw, 2.2rem);
+    text-align: center;
+    max-width: 620px;
+    margin: 0 auto 1rem;
+    line-height: 1.25;
+  }
+  .section-lead {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 2.6rem;
+    color: var(--muted);
+    font-size: 1.05rem;
+  }
+
+  /* REVEAL ANIMATION */
+  .reveal { opacity: 0; transform: translateY(24px); transition: opacity .7s ease, transform .7s ease; }
+  .reveal.is-visible { opacity: 1; transform: translateY(0); }
+
+  /* USP BLOCK */
+  .usp-block {
+    background: var(--deep);
+    color: var(--shell);
+    border-radius: 22px;
+    padding: 2.6rem 2rem;
+    max-width: 720px;
+    margin: 0 auto;
+    box-shadow: var(--shadow);
+    text-align: center;
+  }
+  .usp-block .kicker { color: #e0b48f; }
+  .usp-block h2 { color: #fff; font-size: clamp(1.4rem, 3vw, 1.9rem); margin-bottom: 1rem; }
+  .usp-block p { color: #d6ddd9; font-size: 1.05rem; max-width: 560px; margin: 0 auto; }
+  .usp-block p + p { margin-top: .9rem; }
+  .usp-block strong { color: #fff; }
+
+  /* FEATURE GRID */
+  .feature-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem;
+  }
+  .feature-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 1.6rem 1.4rem;
+    box-shadow: var(--shadow-soft);
+  }
+  .feature-card .ico { font-size: 1.8rem; margin-bottom: .6rem; display: block; }
+  .feature-card h3 { font-size: 1.08rem; margin-bottom: .5rem; }
+  .feature-card p { color: var(--muted); font-size: .95rem; }
+
+  /* TIER GRID */
+  .tier-grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: .5rem;
+    max-width: 620px;
+    margin: 0 auto;
+  }
+  .tier-grid img {
+    width: 100%; aspect-ratio: 1; object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--paper);
+    box-shadow: 0 4px 10px rgba(40,36,31,0.15);
+    transition: transform .2s ease;
+  }
+  .tier-grid img:hover { transform: scale(1.12); }
+  @media (max-width: 560px) {
+    .tier-grid { grid-template-columns: repeat(6, 1fr); }
+  }
+
+  /* PRAXIS TOOLS */
+  .tool-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.1rem;
+  }
+  .tool-card {
+    background: linear-gradient(160deg, var(--paper), var(--shell));
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 1.7rem 1.4rem;
+    text-align: center;
+  }
+  .tool-card .emoji { font-size: 2.1rem; display: block; margin-bottom: .7rem; }
+  .tool-card h3 { font-size: 1.05rem; margin-bottom: .5rem; color: var(--bronze); }
+  .tool-card p { font-size: .92rem; color: var(--muted); }
+  .praised {
+    display: inline-block;
+    margin-top: .8rem;
+    font-size: .72rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--sage);
+    font-weight: 700;
+  }
+
+  /* PORTRAIT STRIP */
+  .portrait-strip {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: .5rem .2rem 1.2rem;
+    scroll-snap-type: x mandatory;
+  }
+  .portrait-strip::-webkit-scrollbar { height: 6px; }
+  .portrait-strip::-webkit-scrollbar-thumb { background: var(--sand); border-radius: 4px; }
+  .portrait-item {
+    flex: 0 0 auto;
+    width: 140px;
+    scroll-snap-align: start;
+    text-align: center;
+  }
+  .portrait-item img {
+    width: 140px; height: 140px; object-fit: cover;
+    border-radius: 14px;
+    border: 3px solid var(--paper);
+    box-shadow: var(--shadow-soft);
+    margin-bottom: .5rem;
+  }
+  .portrait-item .name { font-size: .88rem; font-weight: 700; }
+  .portrait-item .code { font-size: .74rem; color: var(--copper); }
+
+  /* TESTIMONIALS */
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+  }
+  .testi-card {
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 1.5rem 1.4rem;
+    box-shadow: var(--shadow-soft);
+  }
+  .stars { color: var(--copper); font-size: .9rem; margin-bottom: .6rem; letter-spacing: .1em; }
+  .testi-card p { font-size: .93rem; color: var(--ink); }
+  .testi-name { margin-top: .9rem; font-size: .82rem; color: var(--muted); font-style: italic; }
+
+  /* FINAL CTA */
+  .final-cta {
+    text-align: center;
+    background: radial-gradient(circle at 50% 0%, rgba(165,96,61,0.14), transparent 65%), var(--ivory);
+  }
+  .final-cta h2 { font-size: clamp(1.7rem, 4vw, 2.4rem); margin-bottom: 1rem; }
+  .final-cta p { color: var(--muted); max-width: 520px; margin: 0 auto 2rem; font-size: 1.05rem; }
+  .price-tag { font-size: .95rem; color: var(--muted); margin-top: 1rem; }
+  .price-tag strong { color: var(--copper); font-size: 1.1rem; }
+
+  footer {
+    text-align: center;
+    padding: 2.4rem 0 3rem;
+    color: var(--muted);
+    font-size: .85rem;
+  }
+  footer a { color: var(--copper); text-decoration: none; }
+</style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <img class="compass-spin" src="./favicon.svg" alt="Enneagramm-Kompass" />
+      <div class="eyebrow">Nach dem Modell von David L. &amp; Detlef Rathmer</div>
+      <h1 class="reveal is-visible">Dein täglicher <em>Enneagramm-Coach</em> — vom eigenen Muster zur echten Freiheit</h1>
+      <p class="hero-sub reveal is-visible">
+        Den Typ zu erkennen ist der erste Schritt. Der Enneagramm-Heilungskompass geht weiter: Er begleitet dich täglich zu deinen Lebensthemen — raus aus dem Gefängnis der Fixierung, hin zu Souveränität und innerer Resilienz.
+      </p>
+      <div class="cta-row reveal is-visible">
+        <a class="btn btn-primary" href="https://kompass.verlagshausrathmer.com" target="_blank" rel="noopener">Kompass jetzt öffnen →</a>
+        <a class="btn btn-ghost" href="#tools">Was ihn einzigartig macht</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="usp">
+    <div class="wrap">
+      <div class="usp-block reveal">
+        <div class="kicker">Was diesen Kompass einzigartig macht</div>
+        <h2>Nicht nur wissen, wer du bist. Damit wirklich arbeiten.</h2>
+        <p>Die meisten Enneagramm-Angebote enden beim Test: Du erfährst deinen Typ — und stehst dann allein da. Der Heilungskompass ist anders: Er ist <strong>interaktiv</strong> und <strong>lösungsorientiert</strong>. Du kannst ihn nach Rat fragen, in genau der Alltagssituation, in der du gerade steckst.</p>
+        <p>Das macht ihn weltweit einmalig in der Enneagramm-Landschaft: vom psychologischen Innenministerium deines Alltags bis zur tiefsten Bewusstseinsfrage — <strong>Wer bin ich wirklich, jenseits meiner Fixierung?</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt" id="tools">
+    <div class="wrap">
+      <div class="kicker reveal">Von Usern besonders gelobt</div>
+      <h2 class="section-title reveal">Drei Werkzeuge, die aus Wissen echte Lösungen machen</h2>
+      <p class="section-lead reveal">Kein anderes Enneagramm-Angebot bietet diese direkte, situative Praxisarbeit.</p>
+      <div class="tool-row">
+        <div class="tool-card reveal">
+          <span class="emoji">💬</span>
+          <h3>Beziehungskompass</h3>
+          <p>Was zieht dich zu anderen hin, was bringt dich in Konflikt? Anziehung, typische Reibung und Lernfeld für jede Typ-Konstellation — direkt anwendbar in Partnerschaft und im Umgang mit Menschen.</p>
+          <span class="praised">★ von ersten Nutzer:innen gelobt</span>
+        </div>
+        <div class="tool-card reveal">
+          <span class="emoji">🧭</span>
+          <h3>Situationskompass</h3>
+          <p>Erschöpfung, Konflikt, Einsamkeit, Verlust, Entscheidungsstress: Wähle deine aktuelle Lebenssituation und erhalte den typspezifischen Autopiloten — und den Bewusstseinsimpuls, der ihn aufweicht.</p>
+          <span class="praised">★ von ersten Nutzer:innen gelobt</span>
+        </div>
+        <div class="tool-card reveal">
+          <span class="emoji">🆘</span>
+          <h3>Krisenkompass</h3>
+          <p>Du steckst gerade in einer schwierigen Situation? Wähle deinen Typ und erhalte sofort drei konkrete Schritte, die genau zu deinem Muster passen — kein generischer Rat, sondern echte Führung.</p>
+          <span class="praised">★ von ersten Nutzer:innen gelobt</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="coach">
+    <div class="wrap">
+      <div class="kicker reveal">Täglicher Impuls</div>
+      <h2 class="section-title reveal">Ein kleiner Coach, der dich immer wieder zurückholt</h2>
+      <p class="section-lead reveal">
+        Kennst du erst einmal deinen Typ und Subtyp, schenkt dir der Kompass jeden Tag einen neuen, persönlichen Impuls — unbezahlbar im Alltag. Wie ein kleiner Enneagramm-Coach, der dich immer wieder zu deinen eigenen Lebensthemen führt und dir Wege zeigt, aus der Fixierung auszubrechen. So entsteht Resilienz für das Leben — und ein tieferer Sinn, der im oberflächlichen Alltag oft fehlt.
+      </p>
+      <div class="feature-grid reveal">
+        <div class="feature-card">
+          <span class="ico">🐿️</span>
+          <h3>27 Subtyp-Profile</h3>
+          <p>Tierarchetyp, Wunde, Leidenschaft und Heilungsweg für jeden der 27 Instinkt-Subtypen.</p>
+        </div>
+        <div class="feature-card">
+          <span class="ico">🌿</span>
+          <h3>Subtypgenaue Heilmittel</h3>
+          <p>Homöopathie, Bachblüten, ätherische Öle, Edelsteine, TCM und Schüßler-Salze — passend zu deinem Muster.</p>
+        </div>
+        <div class="feature-card">
+          <span class="ico">🎭</span>
+          <h3>Über 100 Porträts</h3>
+          <p>Berühmte Persönlichkeiten aus Wissenschaft, Kunst, Musik, Sport und Geschichte durch die Linse des Enneagramms.</p>
+        </div>
+        <div class="feature-card">
+          <span class="ico">🕵️</span>
+          <h3>Kriminalpsychologie</h3>
+          <p>Fallanalysen bekannter Straftäter zeigen, wie Typen in extremer, ungesunder Ausprägung wirken.</p>
+        </div>
+        <div class="feature-card">
+          <span class="ico">🔮</span>
+          <h3>Bewusstseinstest</h3>
+          <p>Wo stehst du gerade in deiner Bewusstheit? Ein Spiegel für Fortgeschrittene auf dem Weg zur Essenz.</p>
+        </div>
+        <div class="feature-card">
+          <span class="ico">🎧</span>
+          <h3>Musik &amp; Stille</h3>
+          <p>Entspannungs- und Heilungsmusik, Solfeggio-Frequenzen und Stille-Übungen, subtypgenau kuratiert.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt" id="subtypes">
+    <div class="wrap">
+      <div class="kicker reveal">27 Tierarchetypen</div>
+      <h2 class="section-title reveal">Jeder Subtyp hat sein eigenes Tier</h2>
+      <p class="section-lead reveal">Ein visuelles Gedächtnis für dein Muster — vom Erdmännchen bis zum Adler.</p>
+      <div class="tier-grid reveal" id="tierGrid"></div>
+    </div>
+  </section>
+
+  <section id="portraits">
+    <div class="wrap">
+      <div class="kicker reveal">Berühmte Persönlichkeiten</div>
+      <h2 class="section-title reveal">Über 100 Porträts als Enneagramm-Spiegel</h2>
+      <p class="section-lead reveal">Von Sigmund Freud bis James Corden — jedes Porträt zeigt, wie die innere Struktur eines Menschen sein Leben prägt.</p>
+      <div class="portrait-strip reveal">
+        <div class="portrait-item"><img src="./assets/portraits/beruehmte-james-corden-portrait.jpg" alt="James Corden" loading="lazy" /><div class="name">James Corden</div><div class="code">SO6w7</div></div>
+        <div class="portrait-item"><img src="./assets/portraits/beruehmte-andy-reid-portrait.jpg" alt="Andy Reid" loading="lazy" /><div class="name">Andy Reid</div><div class="code">SO6w5</div></div>
+        <div class="portrait-item"><img src="./assets/portraits/beruehmte-jodie-foster-portrait.jpg" alt="Jodie Foster" loading="lazy" /><div class="name">Jodie Foster</div><div class="code">SX5w6</div></div>
+        <div class="portrait-item"><img src="./assets/portraits/beruehmte-malaika-mihambo-portrait.jpg" alt="Malaika Mihambo" loading="lazy" /><div class="name">Malaika Mihambo</div><div class="code">SE6w5</div></div>
+        <div class="portrait-item"><img src="./assets/portraits/beruehmte-woody-allen-portrait.jpg" alt="Woody Allen" loading="lazy" /><div class="name">Woody Allen</div><div class="code">SE6w7</div></div>
+        <div class="portrait-item"><img src="./assets/portraits/beruehmte-tilda-swinton-portrait.jpg" alt="Tilda Swinton" loading="lazy" /><div class="name">Tilda Swinton</div><div class="code">SX5w4</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt" id="testimonials">
+    <div class="wrap">
+      <div class="kicker reveal">Stimmen aus der Community</div>
+      <h2 class="section-title reveal">Was Nutzer:innen sagen</h2>
+      <div class="testi-grid reveal">
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Besonders genial finde ich den Situationskompass: Man wählt einfach per Kachel die aktuelle Lebenssituation aus und bekommt sofort für den eigenen Enneagramm-Typen die klügste Lösung serviert. Unglaublich anwendungsfreundlich und praxisnah.“</p>
+          <div class="testi-name">— Melanie H.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Mein absolutes Highlight! Jeden Morgen bekommt man eine Push-Nachricht mit einem passgenauen Tipp – exakt abgestimmt auf den eigenen Typ und sogar auf den spezifischen Subtypen.“</p>
+          <div class="testi-name">— Martina H.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Als Typ 4 verliere ich mich oft in meinen tiefen emotionalen Welten. Diese App gibt mir jeden Tag genau die individuellen Impulse, die meine Seele gerade braucht, um sich verstanden zu fühlen.“</p>
+          <div class="testi-name">— Leonie W.</div>
+        </div>
+        <div class="testi-card">
+          <div class="stars">★★★★★</div>
+          <p>„Man lernt durch das Enneagramm endlich wirklich nachzuvollziehen, warum ein Täter so handelt, wie er handelt. Die perfekte Mischung aus psychologischem Tiefgang und echtem True-Crime-Nervenkitzel.“</p>
+          <div class="testi-name">— Markus B.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta">
+    <div class="wrap">
+      <h2 class="reveal">Bereit, aus dem Autopiloten auszusteigen?</h2>
+      <p class="reveal">Ein einmaliger Kauf, lebenslanger Zugang, alle künftigen Updates inklusive. Der Kompass wächst laufend weiter.</p>
+      <div class="cta-row reveal">
+        <a class="btn btn-primary" href="https://kompass.verlagshausrathmer.com" target="_blank" rel="noopener">Kompass jetzt öffnen →</a>
+      </div>
+      <div class="price-tag reveal">Einmalig <strong>79 €</strong> · inkl. aller Updates</div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      Enneagramm-Heilungskompass · nach dem Modell von David L. &amp; Detlef Rathmer<br />
+      <a href="https://kompass.verlagshausrathmer.com" target="_blank" rel="noopener">kompass.verlagshausrathmer.com</a>
+    </div>
+  </footer>
+
+<script>
+  var codes = ["se1","se2","se3","se4","se5","se6","se7","se8","se9","so1","so2","so3","so4","so5","so6","so7","so8","so9","sx1","sx2","sx3","sx4","sx5","sx6","sx7","sx8","sx9"];
+  var grid = document.getElementById("tierGrid");
+  codes.forEach(function(c){
+    var img = document.createElement("img");
+    img.src = "./assets/" + c + "-tier.jpg";
+    img.alt = c.toUpperCase();
+    img.loading = "lazy";
+    grid.appendChild(img);
+  });
+
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting) { e.target.classList.add("is-visible"); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+</script>
+
+</body>
+</html>
