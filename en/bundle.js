@@ -689,6 +689,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vera Birkenbihl – Self-Preservation Type 5",
     teaser:"SE5w6 \xb7 1946–2011. Trainer, author, thought leader. Over fifty books, millions of readers, one system: brain-friendly learning. The owl who knew how thinking thinks - and taught it.",
     tags:["Bildung","B\xfccher"], gender:"f"},
+  { route:"beruehmte-charles-darwin", name:"Charles Darwin", added:"2026-08-01", subtyp:"SE5w6",
+    heading:"Charles Darwin – Self-Preservation Type 5",
+    teaser:"SE5w6 \xb7 1809–1882. Naturalist, founder of the theory of evolution. On the Origin of Species. The owl that waited twenty years before carrying its insight into the world.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-wallace-shawn", name:"Wallace Shawn", added:"2026-07-21", subtyp:"SE7w6",
     heading:"Wallace Shawn – Self-Preservation Type 7",
     teaser:"SE7w6 · born 1943 in New York. Actor, playwright, essayist. Vizzini in “The Princess Bride”, Rex in “Toy Story”, André in “My Dinner with André”. The gorilla who thinks about capitalism and death over lunch - and makes everyone laugh.",
@@ -17858,6 +17862,77 @@ function veraBirkenbihlPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-peter-lustig", label:"Portrait: Peter Lustig (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function charlesDarwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-charles-darwin-portrait.jpg" alt="Charles Darwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Darwin</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Self-Preservation Type 5 with six-wing wing</p>
+        <p class="krim-portrait-subtitle">Naturalist, founder of the theory of evolution, 1809–1882 – Animal equivalent: Owl</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Owl That Waited Twenty Years</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The owl is the animal symbol of the Self-Preservation Type 5—a creature of nocturnal silence, precise observation, and deep knowledge. It does not hunt in the open field but from cover: motionless, patient, until the moment is ripe. It sees things others pass by unnoticed—and it stays silent for a long time before it calls out.</p>
+          <p class="vb-intro">Charles Darwin was this owl: a man who carried one of the most consequential ideas in the history of science within him—and withheld it for twenty years before publishing it. Not out of doubt about its correctness, but out of a deep need to anticipate every objection, to secure every detail, before exposing himself to the world. No adventurer chasing sensation. An observer who waited until the observed was unassailable.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Self-Preservation Five: Knowledge as a Castle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">According to Naranjo, the Self-Preservation Five (SP5) is the subtype he named "Castle": one's own territory—knowledge, retreat, controlled environment—becomes a fortress against being overwhelmed and against energy loss. The passion of Type Five is avarice—the hoarding of energy, attention, and resources to protect oneself from the feeling of being overrun by the world.</p>
+          <p class="vb-intro">After his five-year voyage around the world on the HMS Beagle (1831–1836), Darwin withdrew almost entirely—first to London, then in 1842 permanently to Down House in the county of Kent, where he spent the last forty years of his life. His daily routine was tightly structured: fixed working hours, a fixed circuit through the garden, the Sandwalk, which he paced several times a day to think. Hardly any travel, hardly any social obligations. The castle was not a flight from the world, but the condition for grasping it at all.</p>
+          <p class="vb-intro">His chronic, never clearly diagnosed ailments—nausea, exhaustion, heart palpitations that accompanied him for decades—can also be read as part of this pattern: the body enforced what the castle demanded anyway—retreat, rest, protection from stimuli. Whether organic or psychosomatic: the result was a life radically reduced to the essential.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Six Wing: Fear of the Uproar</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Six wing (w6) gives the Self-Preservation Five a keen sense for danger, authority, and possible consequences. The SP5w6 does not merely reflect on its insight—it reflects on its consequences: Who will object? Who will feel attacked? What is at stake?</p>
+          <p class="vb-intro">Darwin developed his core ideas on natural selection as early as around 1838—they were not published until 1859, in On the Origin of Species. He filled the twenty years in between with safeguarding: he gathered evidence, tested counterarguments, corresponded with botanists, breeders, and geologists around the world to test his theory from every angle before releasing it. He knew that the idea—humanity as the result of a blind, undirected process rather than divine creation—would shake the religious and social foundations of his time. Even his devoutly religious wife Emma was part of this caution: he feared hurting her with his thoughts.</p>
+          <p class="vb-intro">Only when Alfred Russel Wallace sent him a manuscript with a nearly identical theory in 1858 was Darwin forced to act—publication was arranged jointly with Wallace before the Linnean Society. The Six wing had brought him to the brink of loss: caution had almost cost him credit for his own life's work.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. The Work: From the Beagle to the Tree of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The voyage on the HMS Beagle was the one great exposure in Darwin's life—and it supplied the raw material for everything that followed: the finches of the Galápagos Islands, the fossil giant sloths of Argentina, the coral reefs of the Pacific. But the real work began only afterward, in the quiet of Down House: decades of sorting, comparing, writing. Before he dared the grand theory, he spent eight years on a monographic study of barnacles (Cirripedia)—security through complete mastery of detail before exposing himself.</p>
+          <p class="vb-intro">On the Origin of Species (1859) changed science forever: the idea that species develop through natural selection over unimaginably long periods of time, without plan, without purpose, solely through the survival of the adapted. The Descent of Man (1871) followed, in which he placed humanity itself within this process, along with numerous other works—on the expression of emotions, on earthworms, on orchids. Always the same gaze: patient, obsessed with detail, incorruptibly precise.</p>
+          <p class="vb-intro">The sheer volume of evidence Darwin amassed was itself his most important argument. Not a flash of insight, but a mountain of observations, piled so high it was scarcely possible to refute. That is the SP5w6 in its most productive form: one does not convince through volume, but through the sheer unassailability of what one has gathered.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Light and Shadow: The Owl in the Castle</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The light of the SP5w6 lies in its ability to test and secure an insight for as long as it takes to make it hold. Darwin's caution was not hesitation born of weakness, but diligence born of responsibility: an idea of this magnitude could not go out into the world vulnerable to attack. The result was a theory that, more than 150 years later, still forms the foundation of biology.</p>
+          <p class="vb-intro">The fateful pattern of Type Five is avarice—in the SP5, it shows up as a tendency toward withdrawal, as difficulty exposing oneself and one's ideas to the world and its criticism. Darwin's twenty-year hesitation, his chronic frailty, his near-total withdrawal from public scientific debate—all of this conserved his limited energy, but also nearly cost him recognition as the original discoverer.</p>
+          <p class="vb-intro">The Six wing can cause caution to tip into paralyzing fear—a world full of opponents one may only confront once one is completely unassailable. In Darwin, this fear remained productive because it turned into diligence rather than silence—even though Wallace nearly beat him to it.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. The Owl That Drew the Tree of Life</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The healing path of Type Five leads from the question "Have I understood enough to show myself?" to the realization "I don't need to know everything before I'm allowed to give." For the SP5w6, this means not abandoning the castle, but trusting one's own preparation—and not endlessly delaying the moment of stepping forward.</p>
+          <p class="vb-intro">Darwin ultimately took this step—even if under the pressure of Wallace's manuscript. And when he did, he changed humanity's self-understanding forever. The castle remained: Down House, the daily Sandwalk, the secluded life. But out of this castle emerged a work that opened the world instead of closing it off.</p>
+          <p class="vb-intro">Charles Darwin died on April 19, 1882, at Down House. He was buried in Westminster Abbey—next to Isaac Newton. His work lives on in every biological insight since him. That is the Self-Preservation Five with a Six wing. That is the owl that waited twenty years—and then drew the tree of life.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
+        {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
+        {route:"beruehmte-warren-buffett", label:"Portrait: Warren Buffett (SE5w6)"},
       ])}
     </div>
   `);
@@ -17995,6 +18070,7 @@ function warrenBuffettPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
         {route:"subtype/se5", label:"SE5 – The Owl: Subtype Profile"},
         {route:"beruehmte-vera-birkenbihl", label:"Portrait: Vera Birkenbihl (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portrait: Charles Darwin (SE5w6)"},
       ])}
     </div>
   `);
@@ -41548,6 +41624,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-uli-hoeness": uliHoenessPortraitPage,
       "beruehmte-oprah-winfrey": oprahWinfreyPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
+      "beruehmte-charles-darwin": charlesDarwinPortraitPage,
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-will-smith": willSmithPortraitPage,

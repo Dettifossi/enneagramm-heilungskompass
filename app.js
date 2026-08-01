@@ -478,6 +478,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Vera Birkenbihl – Selbsterhaltender Typ 5",
     teaser:"SE5w6 \xb7 1946–2011. Trainerin, Buchautorin, Vordenkerin. \xdcber f\xfcnfzig B\xfccher, Millionen Leser, ein System: gehirngerechtes Lernen. Die Eule, die wusste, wie das Denken denkt – und daraus Schule machte.",
     tags:["Bildung","B\xfccher"], gender:"f"},
+  { route:"beruehmte-charles-darwin", name:"Charles Darwin", added:"2026-08-01", subtyp:"SE5w6",
+    heading:"Charles Darwin – Selbsterhaltender Typ 5",
+    teaser:"SE5w6 \xb7 1809–1882. Naturforscher, Begründer der Evolutionstheorie. On the Origin of Species. Die Eule, die zwanzig Jahre wartete, bevor sie ihre Erkenntnis in die Welt trug.",
+    tags:["Wissenschaft"], gender:"m"},
   { route:"beruehmte-gertrude-elion", name:"Gertrude Belle Elion", subtyp:"SO5w4",
     heading:"Gertrude Belle Elion – Sozialer Typ 5",
     teaser:"SO5w4 · 1918–1999. Biochemikerin, Pharmakologin. Nobelpreis 1988. Der Oktopus, der mit acht Armen gleichzeitig denkt – und Millionen von Menschen das Leben gerettet hat, ohne dass die meisten je ihren Namen kannten.",
@@ -14318,6 +14322,77 @@ function veraBirkenbihlPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-peter-lustig", label:"Portr\xe4t: Peter Lustig (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portr\xe4t: Charles Darwin (SE5w6)"},
+      ])}
+    </div>
+  `);
+}
+
+function charlesDarwinPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-charles-darwin-portrait.jpg" alt="Charles Darwin" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Charles Darwin</p>
+        <p class="krim-portrait-typ">SE5w6 &middot; Selbsterhaltender Typ 5 mit Sechserfl\xfcgel</p>
+        <p class="krim-portrait-subtitle">Naturforscher, Begr\xfcnder der Evolutionstheorie, 1809&ndash;1882 &ndash; Tierentsprechung: Eule</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Die Eule, die zwanzig Jahre wartete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>Eule</strong> ist das Tier des selbsterhaltenden Typs 5 &ndash; ein Tier der n\xe4chtlichen Stille, der pr\xe4zisen Beobachtung und des tiefen Wissens. Sie jagt nicht im offenen Feld, sondern aus der Deckung heraus: unbewegt, geduldig, bis der Moment reif ist. Sie sieht Dinge, an denen andere achtlos vorbeigehen &ndash; und sie schweigt lange, bevor sie ruft.</p>
+          <p class="vb-intro">Charles Darwin war diese Eule: Ein Mann, der eine der folgenreichsten Ideen der Wissenschaftsgeschichte in sich trug &ndash; und der sie zwanzig Jahre lang zur\xfcckhielt, bevor er sie ver\xf6ffentlichte. Nicht aus Zweifel an ihrer Richtigkeit, sondern aus einem tiefen Bed\xfcrfnis, jeden Einwand vorwegzunehmen, jedes Detail zu sichern, bevor er sich der Welt aussetzte. Kein Abenteurer, der die Sensation suchte. Ein Beobachter, der wartete, bis das Beobachtete unangreifbar war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die selbsterhaltende F\xfcnf: Das Wissen als Burg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>selbsterhaltende F\xfcnf (SE5)</strong> ist nach Naranjo der Subtyp, dem er den Namen <strong>Burg</strong> gab: Das eigene Territorium &ndash; das Wissen, der R\xfcckzugsort, die kontrollierte Umgebung &ndash; wird zur Festung gegen \xdcberw\xe4ltigung und Energieverlust. Die Leidenschaft der F\xfcnf ist der <strong>Geiz</strong> &ndash; das Horten von Energie, Aufmerksamkeit und Ressourcen, um sich vor dem Gef\xfchl zu sch\xfctzen, von der Welt \xfcberrannt zu werden.</p>
+          <p class="vb-intro">Nach seiner f\xfcnfj\xe4hrigen Weltreise auf der <em>HMS Beagle</em> (1831&ndash;1836) zog sich Darwin fast vollst\xe4ndig zur\xfcck &ndash; erst nach London, dann 1842 endg\xfcltig nach Down House in der Grafschaft Kent, wo er die letzten vierzig Jahre seines Lebens verbrachte. Sein Alltag war streng getaktet: feste Zeiten zum Arbeiten, ein fester Rundweg durch den Garten, der <em>Sandwalk</em>, den er t\xe4glich mehrfach abschritt, um nachzudenken. Kaum Reisen, kaum gesellschaftliche Verpflichtungen. Die Burg war nicht Flucht vor der Welt, sondern die Bedingung daf\xfcr, sie \xfcberhaupt begreifen zu k\xf6nnen.</p>
+          <p class="vb-intro">Auch seine chronischen, nie eindeutig diagnostizierten Beschwerden &ndash; \xdcbelkeit, Ersch\xf6pfung, Herzklopfen, die ihn \xfcber Jahrzehnte begleiteten &ndash; lassen sich als Teil dieses Musters lesen: Der K\xf6rper erzwang, was die Burg ohnehin verlangte &ndash; R\xfcckzug, Ruhe, Schutz vor Reizen. Ob organisch oder psychosomatisch: Das Ergebnis war ein Leben, das radikal auf das Wesentliche reduziert war.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Sechserfl\xfcgel: Die Angst vor dem Aufruhr</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Sechserfl\xfcgel (w6)</strong> bringt der selbsterhaltenden F\xfcnf ein waches Gesp\xfcr f\xfcr Gefahr, Autorit\xe4t und m\xf6gliche Konsequenzen. Die SE5w6 denkt nicht nur \xfcber ihre Erkenntnis nach &ndash; sie denkt \xfcber deren Folgen nach: Wer wird widersprechen? Wer wird sich angegriffen f\xfchlen? Was steht auf dem Spiel?</p>
+          <p class="vb-intro">Darwin entwickelte seine Kerngedanken zur nat\xfcrlichen Selektion bereits um 1838 &ndash; ver\xf6ffentlicht wurden sie erst 1859, in <em>On the Origin of Species</em>. Die zwanzig Jahre dazwischen f\xfcllte er mit Absicherung: Er sammelte Beweise, pr\xfcfte Gegenargumente, korrespondierte mit Botanikern, Z\xfcchtern und Geologen in aller Welt, um seine Theorie von allen Seiten zu testen, bevor er sie preisgab. Er wusste, dass die Idee &ndash; der Mensch als Ergebnis eines blinden, ungerichteten Prozesses statt g\xf6ttlicher Sch\xf6pfung &ndash; die religi\xf6sen und gesellschaftlichen Grundfesten seiner Zeit ersch\xfcttern w\xfcrde. Auch seine tief gl\xe4ubige Frau Emma war Teil dieser Vorsicht: Er f\xfcrchtete, sie mit seinen Gedanken zu verletzen.</p>
+          <p class="vb-intro">Erst als Alfred Russel Wallace ihm 1858 ein Manuskript mit einer nahezu identischen Theorie schickte, sah sich Darwin gezwungen zu handeln &ndash; die Ver\xf6ffentlichung wurde gemeinsam mit Wallace vor der Linnean Society vorgenommen. Der Sechserfl\xfcgel hatte ihn bis an den Rand des Verlusts gebracht: Fast h\xe4tte die Vorsicht ihm die Urheberschaft an seiner eigenen Lebensleistung gekostet.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Das Werk: Von der Beagle zum Stammbaum des Lebens</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die Reise auf der <em>HMS Beagle</em> war die einzige gro\xdfe Exposition in Darwins Leben &ndash; und sie lieferte das Rohmaterial f\xfcr alles Folgende: die Finken der Galapagos-Inseln, die fossilen Riesenfaultiere Argentiniens, die Korallenriffe des Pazifiks. Doch die eigentliche Arbeit begann erst danach, in der Stille von Down House: Jahrzehnte des Sortierens, Vergleichens, Schreibens. Bevor er sich an die gro\xdfe Theorie wagte, verbrachte er acht Jahre mit einer monografischen Untersuchung von Rankenfu\xdfkrebsen (Cirripedia) &ndash; Sicherheit durch v\xf6llige Beherrschung des Details, bevor er sich exponierte.</p>
+          <p class="vb-intro"><em>On the Origin of Species</em> (1859) ver\xe4nderte die Wissenschaft f\xfcr immer: die Idee, dass sich Arten durch nat\xfcrliche Selektion \xfcber unvorstellbar lange Zeitr\xe4ume entwickeln, ohne Plan, ohne Ziel, allein durch das \xdcberleben des Angepassten. Es folgten <em>The Descent of Man</em> (1871), in dem er den Menschen selbst in diesen Prozess einordnete, und zahlreiche weitere Werke &ndash; \xfcber Ausdruck von Emotionen, \xfcber Regenw\xfcrmer, \xfcber Orchideen. Immer derselbe Blick: geduldig, detailversessen, unbestechlich genau.</p>
+          <p class="vb-intro">Die schiere Menge an Beweismaterial, die Darwin zusammentrug, war selbst sein wichtigstes Argument. Kein Gedankenblitz, sondern ein Berg von Beobachtungen, so hoch aufget\xfcrmt, dass er kaum zu widerlegen war. Das ist die SE5w6 in ihrer produktivsten Form: Man \xfcberzeugt nicht durch Lautst\xe4rke, sondern durch die schiere Unangreifbarkeit dessen, was man gesammelt hat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Licht und Schatten: Die Eule in der Burg</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Licht der SE5w6 liegt in ihrer F\xe4higkeit, eine Erkenntnis so lange zu pr\xfcfen und abzusichern, bis sie tr\xe4gt. Darwins Vorsicht war kein Z\xf6gern aus Schw\xe4che, sondern Sorgfalt aus Verantwortung: Eine Idee dieser Tragweite durfte nicht angreifbar in die Welt gehen. Das Ergebnis war eine Theorie, die \xfcber 150 Jahre sp\xe4ter noch immer das Fundament der Biologie bildet.</p>
+          <p class="vb-intro">Das Schicksalsmuster der F\xfcnf ist der <strong>Geiz</strong> &ndash; bei der SE5 zeigt er sich als Neigung zum R\xfcckzug, als Schwierigkeit, sich der Welt und ihrer Kritik auszusetzen. Darwins zwanzigj\xe4hriges Z\xf6gern, seine chronische Kr\xe4nklichkeit, seine fast vollst\xe4ndige Abschottung von der \xf6ffentlichen wissenschaftlichen Debatte &ndash; all das schonte seine begrenzte Energie, kostete ihn aber auch beinahe die Anerkennung als Erstentdecker.</p>
+          <p class="vb-intro">Der Sechserfl\xfcgel kann die Vorsicht in l\xe4hmende Angst kippen lassen &ndash; eine Welt voller Gegner, denen man erst dann entgegentreten darf, wenn man vollkommen unangreifbar ist. Bei Darwin blieb diese Angst produktiv, weil sie sich in Sorgfalt statt in Schweigen verwandelte &ndash; auch wenn Wallace ihm beinahe zuvorkam.</p>
+        </blockquote>
+
+        <h2 class="vb-section">6. Die Eule, die den Stammbaum des Lebens zeichnete</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der F\xfcnf f\xfchrt von der Frage <em>Habe ich genug verstanden, um mich zu zeigen?</em> zur Erkenntnis <em>Ich muss nicht alles wissen, bevor ich etwas geben darf.</em> F\xfcr die SE5w6 bedeutet das, die Burg nicht aufzugeben, aber der eigenen Vorbereitung zu vertrauen &ndash; und den Moment des Zeigens nicht endlos hinauszuz\xf6gern.</p>
+          <p class="vb-intro">Darwin hat diesen Schritt letztlich getan &ndash; wenn auch unter dem Druck von Wallaces Manuskript. Und als er ihn tat, ver\xe4nderte er das menschliche Selbstverst\xe4ndnis f\xfcr immer. Die Burg blieb: Down House, der t\xe4gliche Sandwalk, das zur\xfcckgezogene Leben. Aber aus dieser Burg heraus entstand ein Werk, das die Welt \xf6ffnete, statt sie zu verschlie\xdfen.</p>
+          <p class="vb-intro">Charles Darwin starb am 19. April 1882 in Down House. Er wurde in der Westminster Abbey beigesetzt &ndash; neben Isaac Newton. Sein Werk lebt fort in jeder biologischen Erkenntnis seit ihm. Das ist die selbsterhaltende F\xfcnf mit Sechserfl\xfcgel. Das ist die Eule, die zwanzig Jahre wartete &ndash; und dann den Stammbaum des Lebens zeichnete.</p>
+        </blockquote>
+
+      </div>
+            ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe – Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich – wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
+        {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
+        {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
+        {route:"beruehmte-warren-buffett", label:"Portr\xe4t: Warren Buffett (SE5w6)"},
       ])}
     </div>
   `);
@@ -14714,6 +14789,7 @@ function warrenBuffettPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"Alle ber\xfchmten Pers\xf6nlichkeiten"},
         {route:"subtype/se5", label:"SE5 – Die Eule: Subtyp-Profil"},
         {route:"beruehmte-vera-birkenbihl", label:"Portr\xe4t: Vera Birkenbihl (SE5w6)"},
+        {route:"beruehmte-charles-darwin", label:"Portr\xe4t: Charles Darwin (SE5w6)"},
       ])}
     </div>
   `);
@@ -44404,6 +44480,7 @@ function render() {
       "beruehmte-wallace-shawn": wallaceShawnPortraitPage,
       "beruehmte-warren-buffett": warrenBuffettPortraitPage,
       "beruehmte-vera-birkenbihl": veraBirkenbihlPortraitPage,
+      "beruehmte-charles-darwin": charlesDarwinPortraitPage,
       "beruehmte-guenther-jauch": guentherJauchPortraitPage,
       "beruehmte-lady-diana": ladyDianaPortraitPage,
       "beruehmte-karoline-herfurth": karolineHerfurthPortraitPage,
