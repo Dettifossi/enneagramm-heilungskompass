@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "377";
+const APP_BUILD = "378";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -2926,6 +2926,14 @@ function startPage() {
     <section id="community-bewertungen" style="max-width:680px;margin:1.5rem auto 0;padding:0 1rem;display:none;">
       <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:1rem;">Stimmen aus der Community</h2>
       <div id="community-liste" style="display:flex;flex-direction:column;gap:0.8rem;"></div>
+    </section>
+
+    <section style="max-width:680px;margin:2rem auto 0;padding:0 1rem;">
+      <h2 style="font-size:1rem;font-weight:700;color:var(--ink);margin-bottom:0.8rem;">🎬 Der Kompass ausführlich erklärt</h2>
+      <div style="position:relative;width:100%;padding-top:56.25%;border-radius:12px;overflow:hidden;background:#000;box-shadow:0 8px 24px rgba(0,0,0,0.18);">
+        <iframe src="https://www.youtube.com/embed/z-x9k4jdJfY" title="Enneagramm-Heilungskompass – Ausführliche Erklärung" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position:absolute;inset:0;width:100%;height:100%;border:0;"></iframe>
+      </div>
+      <p style="font-size:0.82rem;color:var(--muted);margin-top:0.6rem;">10 Minuten – ein ausführlicher Rundgang durch alle Bereiche des Kompass.</p>
     </section>
 
     ${legalFooter()}
