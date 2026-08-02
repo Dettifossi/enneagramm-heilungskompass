@@ -2747,6 +2747,11 @@ function onboardingOverlay() {
           box-shadow:0 4px 16px rgba(0,0,0,.2);width:100%;">
           Let's go →
         </button>
+        <a href="./vorstellung.html#video" target="_blank" rel="noopener" style="
+          display:block;margin-top:0.9rem;font-size:0.84rem;
+          color:var(--muted);text-decoration:none;">
+          🎬 Watch the 2.5-minute video
+        </a>
       </div>
     </div>
   `;
