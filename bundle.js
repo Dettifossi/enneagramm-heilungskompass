@@ -2968,6 +2968,7 @@ function dashboardPage() {
         </div>
         <button class="ghost-link" data-route="profile">Profil wechseln →</button>
         <button class="ghost-link" data-route="typalbum" style="margin-top:0.3rem;font-size:0.82rem;">🗂 Mein Typalbum →</button>
+        <a href="./vorstellung.html#video" target="_blank" rel="noopener" class="ghost-link" style="margin-top:0.3rem;font-size:0.82rem;text-decoration:none;display:inline-block;">🎬 Vorstellungsvideo ansehen →</a>
         <button id="push-enable-btn" class="ghost-link" style="margin-top:0.3rem;font-size:0.78rem;color:var(--muted);">🔔 Push-Benachrichtigungen aktivieren</button>
       </div>
     </section>
