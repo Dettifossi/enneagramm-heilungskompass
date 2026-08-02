@@ -278,9 +278,41 @@
     font-size: .85rem;
   }
   footer a { color: var(--copper); text-decoration: none; }
+
+  .back-to-app {
+    position: fixed;
+    top: 0.9rem;
+    left: 0.9rem;
+    z-index: 100;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.5rem 1rem;
+    font-family: Georgia, 'EB Garamond', serif;
+    font-size: 0.85rem;
+    text-decoration: none;
+    box-shadow: var(--shadow-soft);
+  }
+  .back-to-app:hover { background: var(--shell); }
 </style>
 </head>
 <body>
+
+  <a href="#" id="backToAppBtn" class="back-to-app">← Back to the Compass</a>
+  <script>
+    document.getElementById('backToAppBtn').addEventListener('click', function (e) {
+      e.preventDefault();
+      if (window.history.length > 1) {
+        window.history.back();
+      } else {
+        window.location.href = 'https://kompass.verlagshausrathmer.com/en/#dashboard';
+      }
+    });
+  </script>
 
   <section class="hero">
     <div class="wrap hero-inner">
