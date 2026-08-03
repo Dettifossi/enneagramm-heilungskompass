@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "381";
+const APP_BUILD = "382";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -42815,7 +42815,9 @@ function _stilleInit() {
   let gewaehlterKlang = "stille";
   let klangStop = null;
   const REAL_SOUNDS_ALL = new Set(["regen","meer","wasserfall","wind","gewitter","sommerregen","wald","voegel","bach","wiese","kuckuck","blizzard","trommel","eule","white","pink","brown","feuer","hoehle","chimes","zug","katze","wal","delfin","bienen","wolf","seehund","aquarium","gewaesser","herzschlag","regenwald","nachtmeer","tropfen","zikaden","savanne","unterwasser","klangschale","om","morgenkonzert","polareis","wuestensturm","elefanten","mangroven","nordlichter","japanischer-garten","dschungelregen","tibet","cafe","standuhr","bibliothek","kinder","schreibmaschine","theta","delta","alpha","gamma","brandung","hagel","kornfeld","kathedrale","regenamfenster","froesche","herbstlaub","vinyl"]);
+  const LOCAL_SOUNDS = new Set(["tibet","dschungelregen","elefanten","japanischer-garten","mangroven","nordlichter","wuestensturm"]);
   function klangCdnUrl(id) {
+    if (LOCAL_SOUNDS.has(id)) return "sounds/" + id + ".mp3";
     const v2 = ["alpha","theta","delta","gamma","standuhr","bibliothek","kinder","brandung","froesche"];
     const ver = v2.includes(id) ? "?v=3" : "";
     return "https://res.cloudinary.com/ymooybdl/video/upload/kompass/stille-sounds-128k/" + id + ".mp3" + ver;
