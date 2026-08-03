@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "380";
+const APP_BUILD = "381";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -42612,9 +42612,14 @@ setTimeout(showTagesimpuls, 600);
   let code = hasProfile() ? getProfile().toLowerCase() : 'unknown';
   if (code !== 'unknown') code = code.replace(/^se/, 'sp'); // internal "se" = Self-Preservation
   const url = 'https://res.cloudinary.com/ymooybdl/video/upload/kompass/welcome-sounds-en/welcome_' + code + '.mp3';
+  const events = ['click', 'touchstart', 'keydown'];
+  let played = false;
   const play = () => {
+    if (played) return; // prevents double-trigger (touchstart + click on mobile = echo effect)
+    played = true;
     sessionStorage.setItem(KEY, '1');
+    events.forEach(ev => document.removeEventListener(ev, play));
     try { new Audio(url).play().catch(() => {}); } catch (e) {}
   };
-  ['click', 'touchstart', 'keydown'].forEach(ev => document.addEventListener(ev, play, { once: true }));
+  events.forEach(ev => document.addEventListener(ev, play, { once: true }));
 })();
