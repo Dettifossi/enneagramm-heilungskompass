@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "375";
+const APP_BUILD = "379";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -3136,7 +3136,7 @@ function startPage() {
   ` : `
     <button class="primary" data-route="profile">Choose my subtype →</button>
     <button class="secondary" data-route="leseprobe">View app sample</button>
-    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · € 79 →</button>
+    <button class="secondary" data-route="kaufen" style="margin-top:.25rem;">Buy access · $ 89 →</button>
     <button class="ghost-link" data-route="freischalt" style="margin-top:.5rem;font-size:.85rem;">Already purchased? Activate access here →</button>
   `;
 
@@ -4567,13 +4567,13 @@ function kaufenPage() {
         <h3>Who is this for?</h3>
         <p>For everyone who already knows their Enneagram type and wants to go deeper. For therapists, counsellors and coaches. For people who want to truly understand themselves — not superficially, but really.</p>
         <h3>One-time purchase — lifetime access:</h3>
-        <p>€ 79 — one-time, no subscription. All future updates included.</p>
+        <p>$ 89 — one-time, no subscription. All future updates included.</p>
       </div>
     </section>
     <section class="narrow" style="padding:0 1rem 2rem;">
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:2rem;margin-bottom:1.5rem;">
         <div style="display:flex;align-items:baseline;gap:.75rem;margin-bottom:1rem;">
-          <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">€ 79</span>
+          <span style="font-size:2.2rem;font-weight:700;font-family:'EB Garamond',serif;">$ 89</span>
           <span style="font-size:.85rem;color:var(--muted);">one-time · no subscription</span>
         </div>
         <ul style="list-style:none;padding:0;margin:0 0 1.5rem;display:flex;flex-direction:column;gap:.6rem;">
@@ -4587,15 +4587,15 @@ function kaufenPage() {
           <li>✓ All future updates included</li>
         </ul>
         
-        <a href="https://buy.stripe.com/fZuaEXdJ64GegJY9jl4gg3E" target="_blank" rel="noopener"
+        <a href="https://buy.stripe.com/aFa9AT8oM4GedxMfHJ4gg3G" target="_blank" rel="noopener"
            style="display:block;width:100%;text-align:center;background:#2d4a3e;color:#fff;padding:1rem;border-radius:10px;font-size:1.1rem;font-weight:600;text-decoration:none;box-sizing:border-box;">
-          Buy access now → € 79
+          Buy access now → $ 89
         </a>
         <p style="font-size:.8rem;opacity:.6;text-align:center;margin-top:.75rem;">Secure payment via Stripe &middot; PayPal accepted &middot; Instant access after payment</p>
       </div>
       <div style="background:var(--cream,#f9f6f0);border-radius:16px;padding:1.5rem;">
-        <h3 style="margin-top:0;">Fragen?</h3>
-        <p style="margin:0;font-size:.95rem;">Bei Fragen zum Zugang schreib an <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
+        <h3 style="margin-top:0;">Questions?</h3>
+        <p style="margin:0;font-size:.95rem;">For questions about access, write to <a href="mailto:detlefrathmer@t-online.de">detlefrathmer@t-online.de</a></p>
       </div>
     </section>
   `);
@@ -38990,9 +38990,9 @@ function freischaltPage() {
         <div class="freischalt-card__angebote" style="justify-content:center;">
           <div class="freischalt-angebot freischalt-angebot--gesamt">
             <strong>Full access</strong>
-            <span class="freischalt-angebot__preis">€ 49</span>
-            <span class="freischalt-angebot__label">Introductory price · incl. all updates</span>
-            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/fZuaEXdJ64GegJY9jl4gg3E" target="_blank" rel="noopener">Buy access now →</a>
+            <span class="freischalt-angebot__preis">$ 89</span>
+            <span class="freischalt-angebot__label">one-time · incl. all updates</span>
+            <a class="freischalt-card__buy-btn freischalt-card__buy-btn--gold" href="https://buy.stripe.com/aFa9AT8oM4GedxMfHJ4gg3G" target="_blank" rel="noopener">Buy access now →</a>
           </div>
         </div>
 
@@ -39000,7 +39000,7 @@ function freischaltPage() {
 
         <!-- E-Mail-Login (neue Kunden) -->
         <div id="panelEmail">
-          <input id="fbEmail" type="email" placeholder="Ihre E-Mail-Adresse" autocomplete="email" spellcheck="false"
+          <input id="fbEmail" type="email" placeholder="Your email address" autocomplete="email" spellcheck="false"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.5rem;" />
           <input id="fbPass" type="password" placeholder="Your password (from the confirmation email)" autocomplete="current-password"
             style="width:100%;box-sizing:border-box;padding:0.7rem 1rem;border:1px solid #ddd;border-radius:8px;font-size:1rem;font-family:inherit;margin-bottom:0.75rem;" />
