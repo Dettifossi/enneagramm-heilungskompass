@@ -53,7 +53,7 @@ const cdnImg = src => (src && !src.startsWith("http")) ? CDN + src : (src || "")
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "378";
+const APP_BUILD = "379";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -45523,3 +45523,17 @@ if (localStorage.getItem('kompass-admin-redirect')) {
 }
 render();
 setTimeout(showTagesimpuls, 600);
+
+// Persönliche gesprochene Begrüßung – einmal pro Browser-Session, ausgelöst
+// durch die erste Nutzerinteraktion (Autoplay mit Ton wird sonst geblockt).
+(function initWelcomeGreeting() {
+  const KEY = 'kompass-welcome-played';
+  if (sessionStorage.getItem(KEY)) return;
+  const code = hasProfile() ? getProfile().toLowerCase() : 'unknown';
+  const url = 'https://res.cloudinary.com/ymooybdl/video/upload/kompass/welcome-sounds/welcome_' + code + '.mp3';
+  const play = () => {
+    sessionStorage.setItem(KEY, '1');
+    try { new Audio(url).play().catch(() => {}); } catch (e) {}
+  };
+  ['click', 'touchstart', 'keydown'].forEach(ev => document.addEventListener(ev, play, { once: true }));
+})();

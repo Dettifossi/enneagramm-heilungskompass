@@ -52,7 +52,7 @@ const CDN = "https://res.cloudinary.com/ymooybdl/image/upload/f_auto,q_auto/komp
 const app = document.querySelector("#app");
 
 // Version-Check: prüft beim Start ob eine neue Version vorliegt und erzwingt Reload
-const APP_BUILD = "379";
+const APP_BUILD = "380";
 (function checkForUpdate() {
   if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') return;
   const BUILD_GUARD_KEY = 'kompass-build-reload-guard-' + APP_BUILD;
@@ -42603,3 +42603,18 @@ if (localStorage.getItem('kompass-admin-redirect')) {
 }
 render();
 setTimeout(showTagesimpuls, 600);
+
+// Personal spoken welcome greeting – once per browser session, triggered by
+// the first user interaction (autoplay with sound is otherwise blocked).
+(function initWelcomeGreeting() {
+  const KEY = 'kompass-welcome-played';
+  if (sessionStorage.getItem(KEY)) return;
+  let code = hasProfile() ? getProfile().toLowerCase() : 'unknown';
+  if (code !== 'unknown') code = code.replace(/^se/, 'sp'); // internal "se" = Self-Preservation
+  const url = 'https://res.cloudinary.com/ymooybdl/video/upload/kompass/welcome-sounds-en/welcome_' + code + '.mp3';
+  const play = () => {
+    sessionStorage.setItem(KEY, '1');
+    try { new Audio(url).play().catch(() => {}); } catch (e) {}
+  };
+  ['click', 'touchstart', 'keydown'].forEach(ev => document.addEventListener(ev, play, { once: true }));
+})();
