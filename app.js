@@ -450,6 +450,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Billie Eilish – Sexueller Typ 4",
     teaser:"SX4w3 · geb. 2001. Sängerin, Songwriterin. Vom SoundCloud-Upload mit vierzehn bis zum vierfachen Grammy-Sweep und zwei Oscars – der Chihuahua, der flüstert statt zu schreien und gerade darin unausweichlich wird.",
     tags:["Musik"], gender:"f"},
+  { route:"beruehmte-palina-rojinski", name:"Palina Rojinski", added:"2026-10-03", subtyp:"SX4w3",
+    heading:"Palina Rojinski – Sexueller Typ 4",
+    teaser:"SX4w3 · geb. 1985, Leningrad. Moderatorin, Schauspielerin, Influencerin. Überschäumend, spontan, unverstellt – der Chihuahua, der Intensität nicht dosiert und gerade damit ein Publikum entzündet.",
+    tags:["Medien","Schauspiel"], gender:"f"},
   { route:"beruehmte-ana-de-armas", name:"Ana de Armas", subtyp:"SX4w5",
     heading:"Ana de Armas – Sexueller Typ 4",
     teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
@@ -10875,6 +10879,65 @@ function billieEilishPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-freddie-mercury", label:"Portr\xe4t: Freddie Mercury (SX4w3)"},
         {route:"beruehmte-rihanna", label:"Portr\xe4t: Rihanna (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function palinaRojinskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-palina-rojinski-portrait.jpg" alt="Palina Rojinski" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Palina Rojinski</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexueller Typ 4 mit Dreierflügel</p>
+        <p class="krim-portrait-subtitle">Moderatorin, Schauspielerin &amp; Influencerin, geb. 1985 &ndash; Tierentsprechung: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Chihuahua im Rampenlicht</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Chihuahua</strong> ist das Tier der sexuellen Vier: klein im Wuchs, aber von einer Intensität, die jeden Raum füllt. Er kennt keine Zurückhaltung gegenüber Größerem, er zeigt Gefühl ungefiltert, und er will nicht bloß gemocht, sondern <em>gemeint</em> sein. Wer ihn für ein Schoßtier hält, unterschätzt ihn.</p>
+          <p class="vb-intro">Palina Rojinski, in Leningrad geboren und als Kind nach Deutschland gekommen, ist dem deutschen Publikum als Moderatorin, Schauspielerin und Influencerin vertraut. Ihr Markenzeichen ist eine überschäumende, unberechenbar-spontane Präsenz: Sie lacht, staunt, übertreibt, kleidet sich mit Lust am Auffälligen und wirkt dabei seltsam unverstellt. Genau dieses Zusammenspiel aus Überschwang und Verletzlichkeit ist das Wesen des Chihuahuas.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Vier: Intensität als Daseinsform</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Vier (SX4)</strong> ist der leidenschaftlichste und zugleich verletzlichste Subtyp der Vierer-Familie. Während die selbsterhaltende Vier ihr Leid still erträgt und die soziale Vier es mit Scham verbindet, richtet die SX4 ihr Sehnen nach außen: Sie sucht die Begegnung, das Feuer, das Gegenüber, das sie vollständig sieht. Naranjo beschreibt hier eine Mischung aus Wettstreit und Anspruch &ndash; den Impuls, sich nicht mit dem Zweitbesten zu begnügen.</p>
+          <p class="vb-intro">Bei Palina Rojinski zeigt sich das weniger als Kampf denn als Hingabe an den Augenblick: Alles, was sie tut, wird mit Haut und Haar getan. Ihre Auftritte leben vom Unmittelbaren, vom Gefühl, dass hier jemand nicht spielt, sondern <em>ist</em>. Das Publikum spürt diese Echtheit &ndash; und reagiert mit ungewöhnlicher Zuneigung. Das Muster der SX4 lautet: Ich werde sichtbar, indem ich fühle, und ich werde geliebt, indem ich mich zumute.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Dreierflügel: Wirkung mit Handwerk</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Dreierflügel (w3)</strong> verleiht der sexuellen Vier Tatkraft, Bühnenwillen und ein feines Gespür für Wirkung. Wo die reine SX4 im Gefühl verharren könnte, verwandelt der w3 das Erleben in Auftritt, Bild und Marke. Er sorgt dafür, dass aus Intensität auch Sichtbarkeit wird.</p>
+          <p class="vb-intro">In Rojinskis öffentlicher Gestalt ist dieser Flügel deutlich erkennbar: der Weg vom Musikfernsehen über Fernsehformate bis zur Schauspielerei, der gepflegte, unverwechselbare Stil, die souveräne Selbstinszenierung in den sozialen Medien. Die Kunst besteht darin, dass die Inszenierung nicht kalt wirkt. Die Vier liefert das Herz, die Drei die Bühne &ndash; und beides greift ineinander, ohne dass man die Naht sieht.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Das Feuer, das wärmt und verzehrt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das Schicksalsmuster der Vier ist der <strong>Neid</strong> &ndash; nicht als Missgunst, sondern als das schmerzliche Gefühl, dass anderen eine Ganzheit zuteil ist, die einem selbst fehlt. Bei der SX4 färbt sich dieses Gefühl zur Rivalität: Man misst sich, man will nicht zurückstehen, man leidet an jedem Vergleich, den man selbst heraufbeschwört.</p>
+          <p class="vb-intro">Das <em>Licht</em> dieser Konstellation liegt in der Lebendigkeit, in der Fähigkeit, andere zu entzünden und den Alltag mit Farbe zu füllen. Der <em>Schatten</em> liegt in der Gefahr der Selbstüberforderung: wenn der Anspruch, stets intensiv, stets einzigartig, stets ›ganz‹ zu sein, zur Dauerlast wird. Der Dreierflügel kann diese Last noch verstärken, denn er verführt dazu, auch das Gefühl leisten zu wollen.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Von der Intensität zur Verwurzelung</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Vier führt von der Frage <em>Was fehlt mir, das andere haben?</em> zur Einsicht <em>Ich bin vollständig, so wie ich bin.</em> Für die SX4w3 bedeutet das, die Leidenschaft nicht zu dämpfen, sondern zu erden: Gefühl und Handeln dürfen zusammenfallen, ohne dass der Vergleich mit anderen den Takt vorgibt. Der Weg führt über die Gleichmut genannte Qualität der Vier &ndash; eine innere Ruhe, die auch im Sturm der eigenen Empfindungen trägt.</p>
+          <p class="vb-intro">Der Chihuahua muss nicht leiser werden. Er darf lernen, dass seine Stimme auch dann gehört wird, wenn er nicht bellt &ndash; und dass die tiefste Wirkung einer sexuellen Vier nicht aus dem Lärm erwächst, sondern aus dem unverstellten Dasein. Das ist die Reife dieses Subtyps: Intensität ohne Beweisdruck.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
+        {route:"beruehmte-rihanna", label:"Porträt: Rihanna (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3)"},
       ])}
     </div>
   `);
@@ -44956,6 +45019,7 @@ function render() {
       "beruehmte-freddie-mercury": freddieMercuryPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
+      "beruehmte-palina-rojinski": palinaRojinskiPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
