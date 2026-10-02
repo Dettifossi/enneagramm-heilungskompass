@@ -673,6 +673,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Billie Eilish – Sexual Type 4",
     teaser:"SX4w3 · born 2001. Singer, songwriter. From a SoundCloud upload at fourteen to a four-category Grammy sweep and two Oscars – the Chihuahua that whispers instead of shouting, and becomes inescapable precisely because of it.",
     tags:["Music"], gender:"f"},
+  { route:"beruehmte-palina-rojinski", name:"Palina Rojinski", added:"2026-10-03", subtyp:"SX4w3",
+    heading:"Palina Rojinski – Sexual Type 4",
+    teaser:"SX4w3 · born 1985, Leningrad. TV host, actress, influencer. Effervescent, spontaneous, unfiltered – the Chihuahua who does not dose her intensity and thereby ignites an audience.",
+    tags:["Medien","Schauspiel"], gender:"f"},
   { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
     heading:"Ronald Reagan – Social Type 9",
     teaser:"SO9w8 · 1911–2004. 40th President of the USA 1981–1989. The Great Communicator: Morning in America, Evil Empire, Gorbachev. The buffalo that smiles - and that the herd follows.",
@@ -19069,6 +19073,65 @@ function freddieMercuryPortraitPage() {
         {route:"beruehmte-persoenlichkeiten", label:"All Famous Personalities"},
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-john-lennon", label:"Portrait: John Lennon (SO4w5)"},
+      ])}
+    </div>
+  `);
+}
+
+function palinaRojinskiPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-palina-rojinski-portrait.jpg" alt="Palina Rojinski" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Palina Rojinski</p>
+        <p class="krim-portrait-typ">SX4w3 &middot; Sexual Type 4 with Three-wing</p>
+        <p class="krim-portrait-subtitle">TV host, actress &amp; influencer, born 1985 &ndash; Animal correspondence: Chihuahua</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chihuahua in the Spotlight</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Chihuahua</strong> is the animal of the Sexual Four: small in stature, yet possessed of an intensity that fills any room. It knows no restraint in the face of anything bigger, it shows feeling unfiltered, and it wants not merely to be liked but to be <em>meant</em>. Anyone who takes it for a lap pet underestimates it.</p>
+          <p class="vb-intro">Palina Rojinski, born in Leningrad and brought to Germany as a child, is familiar to German audiences as a TV host, actress and influencer. Her trademark is an effervescent, unpredictably spontaneous presence: she laughs, marvels, exaggerates, dresses with a taste for the striking, and yet seems oddly unguarded. This very interplay of exuberance and vulnerability is the essence of the Chihuahua.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Four: Intensity as a Way of Being</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Four (SX4)</strong> is the most passionate and at the same time the most vulnerable subtype of the Four family. Whereas the Self-Preservation Four bears suffering quietly and the Social Four ties it to shame, the SX4 directs her longing outward: she seeks encounter, fire, a counterpart who sees her completely. Naranjo describes a mixture of rivalry and entitlement &ndash; the impulse not to settle for second best.</p>
+          <p class="vb-intro">In Palina Rojinski this appears less as struggle than as surrender to the moment: whatever she does is done heart and soul. Her appearances live on immediacy, on the feeling that someone here is not acting but simply <em>is</em>. Audiences sense this authenticity &ndash; and respond with unusual affection. The SX4 pattern reads: I become visible by feeling, and I am loved by asking others to bear my intensity.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Three-Wing: Impact Through Craft</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Three-wing (w3)</strong> lends the Sexual Four drive, stage presence and a fine instinct for impact. Where the pure SX4 might linger in feeling, the w3 turns experience into performance, image and brand. It ensures that intensity also becomes visibility.</p>
+          <p class="vb-intro">In Rojinski's public persona this wing is clearly recognizable: the path from music television through TV formats to acting, the polished, unmistakable style, the confident self-staging on social media. The art lies in the staging not feeling cold. The Four supplies the heart, the Three the stage &ndash; and the two interlock without the seam showing.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow: The Fire That Warms and Consumes</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The fate pattern of the Four is <strong>envy</strong> &ndash; not as ill will, but as the painful sense that others possess a wholeness one lacks oneself. In the SX4 this feeling takes on the color of rivalry: one measures oneself, refuses to stand back, and suffers from every comparison one conjures up.</p>
+          <p class="vb-intro">The <em>light</em> of this constellation lies in vitality, in the ability to ignite others and fill everyday life with color. The <em>shadow</em> lies in the danger of self-overload: when the demand to be always intense, always unique, always ›whole‹ becomes a permanent burden. The Three-wing can amplify that burden, because it tempts one to want to deliver even feeling as a performance.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Healing Path: From Intensity to Rootedness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Four's healing path leads from the question <em>What do I lack that others have?</em> to the insight <em>I am complete as I am.</em> For the SX4w3 this means not dampening the passion but grounding it: feeling and action may coincide without comparison with others setting the beat. The path runs through the quality the Four calls equanimity &ndash; an inner calm that holds even in the storm of one's own sensations.</p>
+          <p class="vb-intro">The Chihuahua need not become quieter. It may learn that its voice is heard even when it does not bark &ndash; and that the deepest effect of a Sexual Four arises not from noise but from unguarded presence. That is the maturity of this subtype: intensity without the pressure to prove.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist – Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
+        {route:"beruehmte-rihanna", label:"Portrait: Rihanna (SX4w3)"},
+        {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
       ])}
     </div>
   `);
@@ -42148,6 +42211,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-queen-elizabeth-ii": queenElizabethIIPortraitPage,
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
+      "beruehmte-palina-rojinski": palinaRojinskiPortraitPage,
       "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,
