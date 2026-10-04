@@ -677,6 +677,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Palina Rojinski – Sexual Type 4",
     teaser:"SX4w3 · born 1985, Leningrad. TV host, actress, influencer. Effervescent, spontaneous, unfiltered – the Chihuahua who does not dose her intensity and thereby ignites an audience.",
     tags:["Medien","Schauspiel"], gender:"f"},
+  { route:"beruehmte-allie-sherlock", name:"Allie Sherlock", added:"2026-10-04", subtyp:"SX7w8",
+    heading:"Allie Sherlock – Sexual Type 7",
+    teaser:"SX7w8 · Irish street musician and singer. A powerful voice in the open air – the chimpanzee who turns an ordinary street into a stage and a crowd into one shared moment.",
+    tags:["Musik"], gender:"f"},
   { route:"beruehmte-ronald-reagan", name:"Ronald Reagan", added:"2026-07-22", subtyp:"SO9w8",
     heading:"Ronald Reagan – Social Type 9",
     teaser:"SO9w8 · 1911–2004. 40th President of the USA 1981–1989. The Great Communicator: Morning in America, Evil Empire, Gorbachev. The buffalo that smiles - and that the herd follows.",
@@ -19132,6 +19136,65 @@ function palinaRojinskiPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – The Chihuahua: Subtype Profile"},
         {route:"beruehmte-rihanna", label:"Portrait: Rihanna (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Portrait: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function allieSherlockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Famous Personalities")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="../assets/portraits/beruehmte-allie-sherlock-portrait.jpg" alt="Allie Sherlock" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Allie Sherlock</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexual Type 7 with Eight-wing</p>
+        <p class="krim-portrait-subtitle">Street musician &amp; singer, Ireland &ndash; Animal correspondence: Chimpanzee</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. The Chimpanzee on the Street</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>chimpanzee</strong> is the animal of the Sexual Seven: curious, infectiously alive, forever in search of the next stimulus, the next encounter, the next rush of the moment. It lives in the group, draws every eye, and passes enthusiasm on the way others pass on warmth.</p>
+          <p class="vb-intro">Allie Sherlock, a young Irish street musician and singer, became known through her performances in public space: guitar, a powerful voice, and the willingness to expose herself to chance and to the audience in the middle of the street. Whoever listens, stops. That is precisely the effect of the chimpanzee: it turns an ordinary place into a stage.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. The Sexual Seven: Fascination as a Driving Force</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Sexual Seven (SX7)</strong> is the enthusiastic, wide-eyed subtype of the Seven family. The Seven's pattern is <strong>gluttony</strong>: the wish to experience more so as not to feel the pain of lack. In the SX7 this hunger turns toward fascination &ndash; toward people, ideas and moments that seem so large that they outshine the everyday.</p>
+          <p class="vb-intro">In Allie Sherlock this appears as devotion to music and to immediate encounter. She does not seek the sheltered stage but the open space where the reaction comes straight back. The SX7 lives on this echo: I am alive when I inspire others and let myself be inspired.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. The Eight-wing: Power and Directness</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <strong>Eight-wing (w8)</strong> gives the Seven staying power, assertiveness and a taste for directness. Where the pure Seven tends to flit, the Eight brings weight: it stays when things get uncomfortable and takes up space without asking permission.</p>
+          <p class="vb-intro">One hears this wing in her voice: powerful, unrestrained, with a matter-of-factness that does not apologize. A street audience is an incorruptible counterpart, and whoever holds her ground there needs courage. The Seven supplies the joy, the Eight the backbone.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Light and Shadow: The Fire That Carries</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The <em>light</em> of this constellation is the ability to sweep others along, to create joy, and to turn a crowd into one shared moment. The <em>shadow</em> lies in flight forward: whoever constantly seeks the next thrill may evade the quiet, unspectacular moment in which the real questions live.</p>
+          <p class="vb-intro">The Eight-wing can intensify this shadow, since it makes pace and intensity socially acceptable: one carries on instead of pausing. Success and attention, too, can thereby become a new form of excess.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. The Healing Path: From Rush to Depth</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">The Seven's healing path leads from the question <em>What comes next?</em> to the insight <em>What is here now is enough.</em> The quality that matures along the way is called <strong>sobriety</strong>: not renunciation of joy, but the ability to experience it fully rather than outdo it. For the SX7w8 this means using her strength not only to keep going but also to stay.</p>
+          <p class="vb-intro">The chimpanzee need not become calmer. It may discover that the most beautiful fascination arises where it truly listens to a single moment, a single person, a single song.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "The nine types in their depth – defense patterns, passions, and the path to essence.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 subtypes: passions, defense strategies, and healing paths from therapeutic practice.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 character profiles in comparison – how the subtypes of the same type differ from one another.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"All famous personalities"},
+        {route:"subtype/sx7", label:"SX7 – The Chimpanzee: Subtype Profile"},
+        {route:"beruehmte-boris-becker", label:"Portrait: Boris Becker (SX7w8)"},
+        {route:"beruehmte-ina-mueller", label:"Portrait: Ina Müller (SX7w8)"},
       ])}
     </div>
   `);
@@ -42212,6 +42275,7 @@ function subtypeSchaubilderPage() {
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-palina-rojinski": palinaRojinskiPortraitPage,
+      "beruehmte-allie-sherlock": allieSherlockPortraitPage,
       "beruehmte-ronald-reagan": ronaldReaganPortraitPage,
       "beruehmte-rowan-atkinson": rowanAtkinsonPortraitPage,
       "beruehmte-ruth-bader-ginsburg": ruthBaderGinsburgPortraitPage,

@@ -23926,6 +23926,7 @@ const registerEntries = [
   { term: "Rihanna",                       route: "beruehmte-rihanna",                     description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Pop-Superstar, Unternehmerin" },
   { term: "Billie Eilish",                 route: "beruehmte-billie-eilish",                description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 S\u00e4ngerin, Songwriterin" },
   { term: "Palina Rojinski",              route: "beruehmte-palina-rojinski",              description: "Portrait: SX4w3 \u00b7 Sexueller Typ 4 \u00b7 Moderatorin, Schauspielerin, Influencerin" },
+  { term: "Allie Sherlock",               route: "beruehmte-allie-sherlock",               description: "Portrait: SX7w8 \u00b7 Sexueller Typ 7 \u00b7 Stra\u00dfenmusikerin, S\u00e4ngerin, Irland" },
   { term: "Robbie Williams",               route: "beruehmte-robbie-williams",             description: "Portrait: SX1w2 \u00b7 Sexueller Typ 1 \u00b7 S\u00e4nger, Entertainer, radikale Offenheit" },
   { term: "Romy Schneider",                route: "beruehmte-romy-schneider",              description: "Portrait: SX4w5 \u00b7 Sexueller Typ 4 \u00b7 Filmikone, Traum & Tragik" },
   { term: "Sadhguru",                      route: "beruehmte-sadhguru",                    description: "Portrait: SO7w6 \u00b7 Sozialer Typ 7 \u00b7 Yogi, spiritueller Lehrer, Isha Foundation" },
@@ -24173,6 +24174,7 @@ const registerEntriesEN = [
   { term: "Rihanna", route: "beruehmte-rihanna", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Pop-Superstar, Entrepreneur" },
   { term: "Billie Eilish", route: "beruehmte-billie-eilish", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 Singer, songwriter" },
   { term: "Palina Rojinski", route: "beruehmte-palina-rojinski", description: "Portrait: SX4w3 \u00b7 Sexual Type 4 \u00b7 TV host, actress, influencer" },
+  { term: "Allie Sherlock", route: "beruehmte-allie-sherlock", description: "Portrait: SX7w8 \u00b7 Sexual Type 7 \u00b7 Street musician, singer, Ireland" },
   { term: "Robbie Williams", route: "beruehmte-robbie-williams", description: "Portrait: SX1w2 \u00b7 Sexual Type 1 \u00b7 Singer, entertainer, radical honesty" },
   { term: "Romy Schneider", route: "beruehmte-romy-schneider", description: "Portrait: SX4w5 \u00b7 Sexual Type 4 \u00b7 Film icon, dream & tragedy" },
   { term: "Sadhguru", route: "beruehmte-sadhguru", description: "Portrait: SO7w6 \u00b7 Social Type 7 \u00b7 Yogi, spiritual teacher, Isha Foundation" },
@@ -27546,6 +27548,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Palina Rojinski \u2013 Sexueller Typ 4",
     teaser:"SX4w3 \u00b7 geb. 1985, Leningrad. Moderatorin, Schauspielerin, Influencerin. \u00dcbersch\u00e4umend, spontan, unverstellt \u2013 der Chihuahua, der Intensit\u00e4t nicht dosiert und gerade damit ein Publikum entz\u00fcndet.",
     tags:["Medien","Schauspiel"], gender:"f"},
+  { route:"beruehmte-allie-sherlock", name:"Allie Sherlock", added:"2026-10-04", subtyp:"SX7w8",
+    heading:"Allie Sherlock \u2013 Sexueller Typ 7",
+    teaser:"SX7w8 \u00b7 Irische Stra\u00dfenmusikerin und S\u00e4ngerin. Eine kraftvolle Stimme unter freiem Himmel \u2013 der Schimpanse, der eine gew\u00f6hnliche Stra\u00dfe in eine B\u00fchne und eine Menge in einen gemeinsamen Moment verwandelt.",
+    tags:["Musik"], gender:"f"},
   { route:"beruehmte-ana-de-armas", name:"Ana de Armas", subtyp:"SX4w5",
     heading:"Ana de Armas \u2013 Sexueller Typ 4",
     teaser:"SX4w5 \u00b7 geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner B\u00fchne f\u00fcrchtet \u2013 und der dabei nie vergisst, woher er kommt.",
@@ -38030,6 +38036,65 @@ function palinaRojinskiPortraitPage() {
         {route:"subtype/sx4", label:"SX4 \u2013 Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-rihanna", label:"Portr\u00e4t: Rihanna (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Portr\u00e4t: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function allieSherlockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Ber\u00fchmte Pers\u00f6nlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-allie-sherlock-portrait.jpg" alt="Allie Sherlock" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Allie Sherlock</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterfl\u00fcgel</p>
+        <p class="krim-portrait-subtitle">Stra\u00dfenmusikerin &amp; S\u00e4ngerin, Irland &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse auf der Stra\u00dfe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben: neugierig, ansteckend lebendig, st\u00e4ndig auf der Suche nach dem n\u00e4chsten Reiz, der n\u00e4chsten Begegnung, dem n\u00e4chsten Rausch des Augenblicks. Er lebt in der Gruppe, zieht Blicke auf sich und gibt Begeisterung weiter, wie andere W\u00e4rme weitergeben.</p>
+          <p class="vb-intro">Allie Sherlock, junge irische Stra\u00dfenmusikerin und S\u00e4ngerin, wurde durch ihre Auftritte im \u00f6ffentlichen Raum bekannt: Gitarre, eine kraftvolle Stimme und die Bereitschaft, sich mitten auf der Stra\u00dfe dem Zufall und dem Publikum auszusetzen. Wer ihr zuh\u00f6rt, bleibt stehen. Genau das ist die Wirkung des Schimpansen: Er verwandelt einen gew\u00f6hnlichen Ort in einen Schauplatz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Faszination als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> ist der schw\u00e4rmerische, begeisterungsf\u00e4hige Subtyp der Siebener-Familie. Das Muster der Sieben ist die <strong>Unm\u00e4\u00dfigkeit</strong>: der Wunsch, mehr zu erleben, um den Schmerz des Mangels nicht zu sp\u00fcren. Bei der SX7 richtet sich dieser Hunger auf Faszination &ndash; auf Menschen, Ideen und Augenblicke, die so gro\u00df wirken, dass sie das Allt\u00e4gliche \u00fcberstrahlen.</p>
+          <p class="vb-intro">Bei Allie Sherlock zeigt sich das als Hingabe an die Musik und die unmittelbare Begegnung. Sie sucht nicht die abgeschirmte B\u00fchne, sondern den offenen Raum, in dem die Reaktion sofort zur\u00fcckkommt. Die SX7 lebt von diesem Echo: Ich bin lebendig, wenn ich andere begeistere und mich selbst begeistern lasse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterfl\u00fcgel: Kraft und Direktheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterfl\u00fcgel (w8)</strong> gibt der Sieben Standfestigkeit, Durchsetzungskraft und eine Lust am Direkten. Wo die reine Sieben zum Flattern neigt, bringt die Acht Gewicht: Sie bleibt, wenn es unbequem wird, und sie nimmt Raum ein, ohne um Erlaubnis zu fragen.</p>
+          <p class="vb-intro">Man h\u00f6rt diesen Fl\u00fcgel in ihrer Stimme: kraftvoll, ungebremst, mit einer Selbstverst\u00e4ndlichkeit, die sich nicht entschuldigt. Das Stra\u00dfenpublikum ist ein unbestechliches Gegen\u00fcber, und wer dort besteht, braucht Mut. Die Sieben liefert die Freude, die Acht das R\u00fcckgrat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Das Feuer, das tr\u00e4gt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <em>Licht</em> dieser Konstellation ist die F\u00e4higkeit, andere mitzurei\u00dfen, Freude zu stiften und eine Menge in einen gemeinsamen Moment zu verwandeln. Der <em>Schatten</em> liegt in der Flucht nach vorn: Wer stets das n\u00e4chste Aufregende sucht, kann dem stillen, unspektakul\u00e4ren Augenblick ausweichen, in dem die eigentlichen Fragen wohnen.</p>
+          <p class="vb-intro">Der Achterfl\u00fcgel kann diesen Schatten verst\u00e4rken, denn er macht Tempo und Intensit\u00e4t gesellschaftsf\u00e4hig: Man h\u00e4lt durch, statt innezuhalten. Auch Erfolg und Aufmerksamkeit k\u00f6nnen so zu einer neuen Form der Unm\u00e4\u00dfigkeit werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Rausch zur Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben f\u00fchrt von der Frage <em>Was kommt als N\u00e4chstes?</em> zur Einsicht <em>Was jetzt da ist, gen\u00fcgt.</em> Die Qualit\u00e4t, die dabei heranreift, hei\u00dft <strong>N\u00fcchternheit</strong>: nicht Verzicht auf Freude, sondern die F\u00e4higkeit, sie ganz zu erleben, statt sie zu \u00fcbertreffen. F\u00fcr die SX7w8 hei\u00dft das, die eigene Kraft nicht nur zum Durchhalten, sondern auch zum Bleiben zu nutzen.</p>
+          <p class="vb-intro">Der Schimpanse muss nicht ruhiger werden. Er darf entdecken, dass die sch\u00f6nste Faszination dort entsteht, wo er einem einzelnen Augenblick, einem einzelnen Menschen, einem einzelnen Lied wirklich zuh\u00f6rt.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Pers\u00f6nlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle ber\u00fchmten Pers\u00f6nlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 \u2013 Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-boris-becker", label:"Portr\u00e4t: Boris Becker (SX7w8)"},
+        {route:"beruehmte-ina-mueller", label:"Portr\u00e4t: Ina M\u00fcller (SX7w8)"},
       ])}
     </div>
   `);
@@ -72112,6 +72177,7 @@ function render() {
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-palina-rojinski": palinaRojinskiPortraitPage,
+      "beruehmte-allie-sherlock": allieSherlockPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,

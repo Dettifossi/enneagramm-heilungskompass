@@ -454,6 +454,10 @@ const BERUEHMT_PORTRAITS = [
     heading:"Palina Rojinski – Sexueller Typ 4",
     teaser:"SX4w3 · geb. 1985, Leningrad. Moderatorin, Schauspielerin, Influencerin. Überschäumend, spontan, unverstellt – der Chihuahua, der Intensität nicht dosiert und gerade damit ein Publikum entzündet.",
     tags:["Medien","Schauspiel"], gender:"f"},
+  { route:"beruehmte-allie-sherlock", name:"Allie Sherlock", added:"2026-10-04", subtyp:"SX7w8",
+    heading:"Allie Sherlock – Sexueller Typ 7",
+    teaser:"SX7w8 · Irische Straßenmusikerin und Sängerin. Eine kraftvolle Stimme unter freiem Himmel – der Schimpanse, der eine gewöhnliche Straße in eine Bühne und eine Menge in einen gemeinsamen Moment verwandelt.",
+    tags:["Musik"], gender:"f"},
   { route:"beruehmte-ana-de-armas", name:"Ana de Armas", subtyp:"SX4w5",
     heading:"Ana de Armas – Sexueller Typ 4",
     teaser:"SX4w5 · geb. 1988. Schauspielerin. Knives Out, Blonde. Der Chihuahua, der sich vor keiner Bühne fürchtet – und der dabei nie vergisst, woher er kommt.",
@@ -10938,6 +10942,65 @@ function palinaRojinskiPortraitPage() {
         {route:"subtype/sx4", label:"SX4 – Der Chihuahua: Subtyp-Profil"},
         {route:"beruehmte-rihanna", label:"Porträt: Rihanna (SX4w3)"},
         {route:"beruehmte-billie-eilish", label:"Porträt: Billie Eilish (SX4w3)"},
+      ])}
+    </div>
+  `);
+}
+
+function allieSherlockPortraitPage() {
+  return shell(`
+    <div class="page-container">
+      ${pageHeader("Berühmte Persönlichkeiten")}
+      <div id="js-back-target" data-route="beruehmte-persoenlichkeiten" style="display:none;"></div>
+      <div class="krim-portrait-wrap">
+        <div class="krim-portrait-frame">
+          <img src="./assets/portraits/beruehmte-allie-sherlock-portrait.jpg" alt="Allie Sherlock" class="krim-portrait-img" loading="lazy" />
+        </div>
+        <p class="krim-portrait-name">Allie Sherlock</p>
+        <p class="krim-portrait-typ">SX7w8 &middot; Sexueller Typ 7 mit Achterflügel</p>
+        <p class="krim-portrait-subtitle">Straßenmusikerin &amp; Sängerin, Irland &ndash; Tierentsprechung: Schimpanse</p>
+      </div>
+      <div class="page-content">
+
+        <h2 class="vb-section">1. Der Schimpanse auf der Straße</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Schimpanse</strong> ist das Tier der sexuellen Sieben: neugierig, ansteckend lebendig, ständig auf der Suche nach dem nächsten Reiz, der nächsten Begegnung, dem nächsten Rausch des Augenblicks. Er lebt in der Gruppe, zieht Blicke auf sich und gibt Begeisterung weiter, wie andere Wärme weitergeben.</p>
+          <p class="vb-intro">Allie Sherlock, junge irische Straßenmusikerin und Sängerin, wurde durch ihre Auftritte im öffentlichen Raum bekannt: Gitarre, eine kraftvolle Stimme und die Bereitschaft, sich mitten auf der Straße dem Zufall und dem Publikum auszusetzen. Wer ihr zuhört, bleibt stehen. Genau das ist die Wirkung des Schimpansen: Er verwandelt einen gewöhnlichen Ort in einen Schauplatz.</p>
+        </blockquote>
+
+        <h2 class="vb-section">2. Die sexuelle Sieben: Faszination als Antrieb</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Die <strong>sexuelle Sieben (SX7)</strong> ist der schwärmerische, begeisterungsfähige Subtyp der Siebener-Familie. Das Muster der Sieben ist die <strong>Unmäßigkeit</strong>: der Wunsch, mehr zu erleben, um den Schmerz des Mangels nicht zu spüren. Bei der SX7 richtet sich dieser Hunger auf Faszination &ndash; auf Menschen, Ideen und Augenblicke, die so groß wirken, dass sie das Alltägliche überstrahlen.</p>
+          <p class="vb-intro">Bei Allie Sherlock zeigt sich das als Hingabe an die Musik und die unmittelbare Begegnung. Sie sucht nicht die abgeschirmte Bühne, sondern den offenen Raum, in dem die Reaktion sofort zurückkommt. Die SX7 lebt von diesem Echo: Ich bin lebendig, wenn ich andere begeistere und mich selbst begeistern lasse.</p>
+        </blockquote>
+
+        <h2 class="vb-section">3. Der Achterflügel: Kraft und Direktheit</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der <strong>Achterflügel (w8)</strong> gibt der Sieben Standfestigkeit, Durchsetzungskraft und eine Lust am Direkten. Wo die reine Sieben zum Flattern neigt, bringt die Acht Gewicht: Sie bleibt, wenn es unbequem wird, und sie nimmt Raum ein, ohne um Erlaubnis zu fragen.</p>
+          <p class="vb-intro">Man hört diesen Flügel in ihrer Stimme: kraftvoll, ungebremst, mit einer Selbstverständlichkeit, die sich nicht entschuldigt. Das Straßenpublikum ist ein unbestechliches Gegenüber, und wer dort besteht, braucht Mut. Die Sieben liefert die Freude, die Acht das Rückgrat.</p>
+        </blockquote>
+
+        <h2 class="vb-section">4. Licht und Schatten: Das Feuer, das trägt</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Das <em>Licht</em> dieser Konstellation ist die Fähigkeit, andere mitzureißen, Freude zu stiften und eine Menge in einen gemeinsamen Moment zu verwandeln. Der <em>Schatten</em> liegt in der Flucht nach vorn: Wer stets das nächste Aufregende sucht, kann dem stillen, unspektakulären Augenblick ausweichen, in dem die eigentlichen Fragen wohnen.</p>
+          <p class="vb-intro">Der Achterflügel kann diesen Schatten verstärken, denn er macht Tempo und Intensität gesellschaftsfähig: Man hält durch, statt innezuhalten. Auch Erfolg und Aufmerksamkeit können so zu einer neuen Form der Unmäßigkeit werden.</p>
+        </blockquote>
+
+        <h2 class="vb-section">5. Der Heilungsweg: Vom Rausch zur Tiefe</h2>
+        <blockquote class="vb-blockquote">
+          <p class="vb-intro">Der Heilungsweg der Sieben führt von der Frage <em>Was kommt als Nächstes?</em> zur Einsicht <em>Was jetzt da ist, genügt.</em> Die Qualität, die dabei heranreift, heißt <strong>Nüchternheit</strong>: nicht Verzicht auf Freude, sondern die Fähigkeit, sie ganz zu erleben, statt sie zu übertreffen. Für die SX7w8 heißt das, die eigene Kraft nicht nur zum Durchhalten, sondern auch zum Bleiben zu nutzen.</p>
+          <p class="vb-intro">Der Schimpanse muss nicht ruhiger werden. Er darf entdecken, dass die schönste Faszination dort entsteht, wo er einem einzelnen Augenblick, einem einzelnen Menschen, einem einzelnen Lied wirklich zuhört.</p>
+        </blockquote>
+
+      </div>
+      ${bookTip("wer-du-wirklich-bist-band-1", "Die neun Typen in ihrer Tiefe &ndash; Schutzmuster, Leidenschaften und der Weg zur Essenz.", "Wer du wirklich bist &ndash; Band 1")}
+      ${bookTip("die-verborgene-dynamik-der-27-subtypen", "27 Subtypen: Leidenschaften, Schutzstrategien und Heilungswege aus der therapeutischen Praxis.", "Die verborgene Dynamik der 27 Subtypen")}
+      ${bookTip("die-27-persoenlichkeiten-des-enneagramms", "27 Charakterprofile im Vergleich &ndash; wie sich die Subtypen desselben Typs voneinander unterscheiden.", "Die 27 Persönlichkeiten des Enneagramms")}
+      ${relatedLinks([
+        {route:"beruehmte-persoenlichkeiten", label:"Alle berühmten Persönlichkeiten"},
+        {route:"subtype/sx7", label:"SX7 – Der Schimpanse: Subtyp-Profil"},
+        {route:"beruehmte-boris-becker", label:"Porträt: Boris Becker (SX7w8)"},
+        {route:"beruehmte-ina-mueller", label:"Porträt: Ina Müller (SX7w8)"},
       ])}
     </div>
   `);
@@ -45020,6 +45083,7 @@ function render() {
       "beruehmte-rihanna": rihannaPortraitPage,
       "beruehmte-billie-eilish": billieEilishPortraitPage,
       "beruehmte-palina-rojinski": palinaRojinskiPortraitPage,
+      "beruehmte-allie-sherlock": allieSherlockPortraitPage,
       "beruehmte-ana-de-armas": anaDeArmasPortraitPage,
       "beruehmte-linda-leinweber": lindaLeinweberPortraitPage,
       "beruehmte-claude-debussy": claudeDebussyPortraitPage,
