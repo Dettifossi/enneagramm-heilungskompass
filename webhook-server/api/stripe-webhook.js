@@ -6,6 +6,15 @@ import { getAuth } from "firebase-admin/auth";
 
 export const config = { api: { bodyParser: false } };
 
+// Nur diese Price-IDs berechtigen zu einem Kompass-App-Zugang.
+// Bücher, Meta-Intelligenz & alle anderen Produkte lösen bewusst KEINEN Zugang aus.
+const KOMPASS_PRICE_IDS = new Set([
+  "price_1TuSAqHPQz587pegzlNXBxIF", // App DE
+  "price_1Ty9u1HPQz587pegOiWLEECk", // App EN
+  "price_1TrkeLHPQz587pegIhPuS95m", // Akademie-Sonderpreis 49,00 €
+  "price_1Tu9hvHPQz587pegYTeLUuJs", // 0,00 €-Zugang
+]);
+
 async function getRawBody(req) {
   return new Promise((resolve, reject) => {
     const chunks = [];
@@ -52,6 +61,15 @@ export default async function handler(req, res) {
   const name = session.customer_details?.name || "";
   const isEnglish = session.currency === "usd";
   if (!email) return res.status(200).json({ received: true, note: "no email" });
+
+  const lineItems = await stripe.checkout.sessions.listLineItems(session.id);
+  const isKompassPurchase = lineItems.data.some(
+    item => item.price && KOMPASS_PRICE_IDS.has(item.price.id)
+  );
+  if (!isKompassPurchase) {
+    console.log(`ℹ️ Kein Kompass-Produkt (Session ${session.id}) – kein Zugang erstellt.`);
+    return res.status(200).json({ received: true, note: "not a kompass product" });
+  }
 
   const auth = getAuth();
   const password = generatePassword();
