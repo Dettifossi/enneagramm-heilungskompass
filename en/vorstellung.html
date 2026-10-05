@@ -149,6 +149,15 @@
   }
   .video-frame video { display: block; width: 100%; height: auto; background: #000; }
   .video-caption { text-align: center; color: #d6ddd9; font-size: 0.95rem; margin-top: 1rem; }
+  .video-frame-embed {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    background: #000;
+  }
+  .video-frame-embed iframe {
+    position: absolute; inset: 0; width: 100%; height: 100%; border: 0;
+  }
   .usp-block .kicker { color: #e0b48f; }
   .usp-block h2 { color: #fff; font-size: clamp(1.4rem, 3vw, 1.9rem); margin-bottom: 1rem; }
   .usp-block p { color: #d6ddd9; font-size: 1.05rem; max-width: 560px; margin: 0 auto; }
@@ -341,6 +350,15 @@
     </div>
   </section>
 
+  <section class="video-section" id="video-lang">
+    <div class="wrap">
+      <div class="video-frame video-frame-embed">
+        <iframe src="https://www.youtube.com/embed/edYAaR6Un0I" title="Enneagram Healing Compass – Detailed Walkthrough" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <p class="video-caption">The detailed version: the Enneagram Healing Compass in 10 minutes</p>
+    </div>
+  </section>
+
   <section id="usp">
     <div class="wrap">
       <div class="usp-block reveal">
@@ -389,6 +407,11 @@
       </p>
       <div class="feature-grid reveal">
         <div class="feature-card">
+          <span class="ico">🧭</span>
+          <h3>New: The Guide – your AI assistant</h3>
+          <p>Just ask – by text or voice – and the Guide searches the app's entire knowledge base for you: subtypes, countries, portraits, criminal cases, and more, citing the exact page as its source.</p>
+        </div>
+        <div class="feature-card">
           <span class="ico">🐿️</span>
           <h3>27 subtype profiles</h3>
           <p>Animal archetype, wound, passion, and healing path for each of the 27 instinctual subtypes.</p>
@@ -400,7 +423,7 @@
         </div>
         <div class="feature-card">
           <span class="ico">🎭</span>
-          <h3>Over 200 portraits</h3>
+          <h3>Over 500 portraits</h3>
           <p>Famous personalities from science, art, music, sport, and history through the lens of the Enneagram.</p>
         </div>
         <div class="feature-card">
@@ -418,6 +441,11 @@
           <h3>Music &amp; silence</h3>
           <p>Relaxation and healing music, Solfeggio frequencies, and silence exercises, curated by subtype.</p>
         </div>
+        <div class="feature-card">
+          <span class="ico">🌱</span>
+          <h3>New: Practical tips from the naturopath</h3>
+          <p>Over 30 years of naturopathic experience from Detlef Rathmer: simple body and mindfulness exercises for health, longevity, and inner balance — continuously expanded.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -434,7 +462,7 @@
   <section id="portraits">
     <div class="wrap">
       <div class="kicker reveal">Famous personalities</div>
-      <h2 class="section-title reveal">Over 200 portraits as an Enneagram mirror</h2>
+      <h2 class="section-title reveal">Over 500 portraits as an Enneagram mirror</h2>
       <p class="section-lead reveal">From Sigmund Freud to James Corden, complemented by criminal-psychology case studies — every portrait shows how a person's inner structure shapes their life. The Compass is continuously expanded with new portraits — once you own it, every expansion is included automatically, at no extra cost.</p>
       <div class="portrait-strip reveal">
         <div class="portrait-item"><img src="../assets/portraits/beruehmte-james-corden-portrait.jpg" alt="James Corden" loading="lazy" /><div class="name">James Corden</div><div class="code">SO6w7</div></div>

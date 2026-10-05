@@ -1,6 +1,10 @@
 // Kompass Service Worker – iOS-kompatibler Auto-Reload
-const SW_VERSION = 'v383';
-const BUNDLE_VERSION = 'v881'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
+// OneSignal-Worker hier eingebunden, damit nicht zwei Service Worker um
+// denselben Scope konkurrieren (führte zu unzuverlässiger Push-Zustellung).
+importScripts("https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js");
+
+const SW_VERSION = 'v2060';
+const BUNDLE_VERSION = 'v2635'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
 const CACHE_NAME = 'kompass-cache-' + SW_VERSION;
 
 self.addEventListener('install', event => {
@@ -30,6 +34,9 @@ self.addEventListener('fetch', event => {
     url.pathname.endsWith('/') ||
     url.pathname.endsWith('index.html') ||
     url.pathname.includes('bundle.js') ||
+    url.pathname.includes('/data/beruehmte-de/') ||
+    url.pathname.includes('/data/kriminal-de/') ||
+    url.pathname.includes('/data/krankheitsportraets-de/') ||
     url.pathname.includes('app.js');
 
   if (isAppShell) {

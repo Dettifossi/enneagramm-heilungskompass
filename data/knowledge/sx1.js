@@ -254,135 +254,135 @@ export const sx1 = {
           ],
         },
         {
-          title: "SE1 · Seite 1 · Subtyp-Profil",
+          title: "SX1 · Seite 1 · Subtyp-Profil",
           intro:
-            "Die SE1 sucht Sicherheit durch Ordnung, Korrektheit und Selbstkontrolle. Der Körper zeigt dabei feine Konzentration, zurückhaltende Präsenz und ein starkes Bedürfnis, stabil und integer zu handeln.",
+            "Die SX1 lebt Integrität als Leidenschaft und direkte Intensität: durch kompromisslose Klarheit, konfrontative Wahrhaftigkeit und den Anspruch an vollkommene Wahrheit in engen Beziehungen. Der Körper zeigt dabei durchdringende Präsenz und ein starkes Bedürfnis, das Richtige mit Feuer zu vertreten.",
           entries: [
             {
               label: "Grundthema",
-              text: "Integrität und Ordnung. Das Richtige ist heilig; Prinzipien sollen schützen, stützen und Halt geben.",
+              text: "Integrität als Leidenschaft. Das Richtige wird nicht verwaltet, sondern mit Intensität und persönlichem Einsatz gelebt, vor allem im direkten Kontakt.",
             },
             {
               label: "Organismusfrage",
-              text: "Wie kann ich richtig handeln und meine Integrität bewahren, um sicher und stabil zu bleiben?",
+              text: "Wie kann ich meine Leidenschaft für das Richtige leben, ohne Druck, Kontrolle oder Härte zu erzeugen?",
             },
             {
               label: "Blickqualität",
-              text: "aufmerksam und prüfend; scannt nach Sicherheit und Ordnung; eher bei sich und weniger expansiv; klare, ruhige Präsenz.",
+              text: "durchdringend und fokussiert; scharf beobachtend; entlarvend; sucht Unstimmigkeiten.",
             },
             {
               label: "Mikrospannung",
-              text: "leichte Konzentrationsfalten in der Stirn, fokussierte und kritische Augen, kontrollierter Mund, leicht angespannter Kiefer und aufrechte, zurückhaltende Haltung.",
+              text: "vertikale, gespannte Falten in der Stirn, intensive, leicht verengte Augen, kontrollierter, oft fester Mund, angespannter Kiefer mit Kieferdruck, aufrechte, kontrollierte, steife Haltung.",
             },
             {
               label: "Atemrhythmus",
-              text: "tief, ruhig und kontrolliert; neigt zum Anhalten des Atems bei innerer Anspannung; Regulation über Kontrolle.",
+              text: "eher flach und kontrolliert; der Atem wird oft angehalten bei innerem Urteil; unbewusste Spannung im Brustkorb; Perfektionsdruck im Atem.",
             },
             {
               label: "Bewegungsinitiierung",
-              text: "überlegt und vorsichtig; prüft erst und handelt dann; schützt Energie und Ressourcen; Bewegung ist zielgerichtet und sparsam.",
+              text: "zielgerichtet und kontrolliert; zögert nicht, wenn klar ist, was zu tun ist; bewegt sich geradlinig und effizient; meidet Unordnung und Chaos.",
             },
             {
               label: "Kontaktstil",
-              text: "respektvoll, korrekt und verlässlich; nimmt Distanz wahr, bis Vertrauen da ist; klare Grenzen und klare Worte; hilfsbereit, wenn Sicherheit gegeben ist.",
+              text: "direkt, klar, fordernd; hohe Ansprüche an sich und andere; sucht Tiefe und Wahrheit; konfrontiert, wenn Prinzipien verletzt werden.",
             },
             {
               label: "Spannungsverteilung",
-              text: "Kopf und Stirn: moralische Anspannung. Nacken und Schultern: Verantwortungslast. Brustbereich: Schutzpanzer. Bauch: Kontrolle und Selbstregulation. Kiefer: zurückgehaltene Spannung.",
+              text: "Kopf und Stirn: moralische Wachsamkeit. Nacken und Schultern: gehaltene Konfrontationsbereitschaft. Brustbereich: kompromisslose Klarheit. Bauch: gebändigtes Feuer. Kiefer: zurückgehaltene Schärfe.",
             },
             {
               label: "Ressourcenfeld",
-              text: "Selbstfürsorge und Stabilität, klare Werte und Prinzipien, Struktur und Ordnung, verlässliche Routinen, Grenzen und Selbstschutz, Ehrlichkeit und Gewissen.",
+              text: "tiefer, fokussierter Blick, kraftvolle Präsenz, kompromisslose Klarheit, klug eingesetzte Leidenschaft, Hingabe ohne Selbstaufgabe.",
             },
           ],
         },
         {
           title: "Seite 2 · 2-Punkte-Integration",
           intro:
-            "Die zentrale Praxis der SE1 verbindet zwei Körperräume: den Solarplexus/Oberbauch als Feld von Ordnung und Ausrichtung mit dem Unterbauch/Beckenbereich als Feld von Sicherheit, Ruhe und Erdung. Die Übung bringt Aufmerksamkeit in beide Pole zugleich, ohne etwas korrigieren zu müssen.",
+            "Die zentrale Praxis der SX1 verbindet zwei Körperräume: den Solarplexus/Oberbauch als Feld von Ordnung, Integrität und Kontrolle mit dem Unterbauch/Beckenbereich als Feld von Sicherheit, Schutz und Verwurzelung. Die Übung bringt Aufmerksamkeit in beide Pole zugleich, ohne etwas erzwingen zu müssen.",
           entries: [
             {
               label: "Punkt 1",
-              text: "Solarplexus / Oberbauch: Bedürfnis nach Klarheit, Ordnung und richtiger Ausrichtung. Dieser Punkt hält die innere Frage, was stimmig, korrekt und verantwortbar ist.",
+              text: "Solarplexus / Oberbauch: Bedürfnis nach Ordnung, Integrität, Kontrolle und innerer Stabilität. Dieser Punkt hält die innere Frage, was wahrhaftig, korrekt und verantwortbar ist.",
             },
             {
               label: "Punkt 2",
-              text: "Unterbauch / Beckenbereich: Bedürfnis nach Sicherheit, Ruhe, Erdung und körperlichem Vertrauen. Dieser Punkt bringt die SE1 aus reiner Kopf- und Kontrollspannung zurück in den Körper.",
+              text: "Unterbauch / Beckenbereich: Bedürfnis nach Sicherheit, Schutz und Verwurzelung. Dieser Punkt bringt die SX1 aus reiner Konfrontationsspannung zurück in den eigenen Körper.",
             },
             {
               label: "Vorgehen",
-              text: "Eine Hand auf den Solarplexus/Oberbauch legen, die andere auf den Unterbauch/Beckenbereich. Erst Punkt 1 spüren, dann Punkt 2 spüren, danach beide Energiefelder gleichzeitig wahrnehmen. Nichts verändern, nichts korrigieren, den Atem ruhig fließen lassen.",
+              text: "Eine Hand auf den Solarplexus/Oberbauch legen, die andere auf den Unterbauch/Beckenbereich. Erst Punkt 1 spüren, dann Punkt 2 spüren, danach beide Energiefelder gleichzeitig wahrnehmen. Nicht antreiben, weich bleiben, Wärme zulassen.",
             },
             {
               label: "Handposition",
-              text: "Die Hände dienen nicht der Korrektur, sondern der gleichzeitigen Aufmerksamkeit. Die SE1 erlebt dadurch: Klarheit und Sicherheit müssen nicht gegeneinander arbeiten.",
+              text: "Die Hände dienen nicht der Konfrontation, sondern der gleichzeitigen Aufmerksamkeit. Die SX1 erlebt dadurch: Intensität beruhigen und sanfter werden, ohne die eigene Wahrhaftigkeit aufzugeben.",
             },
             {
               label: "Lebensthema",
-              text: "Du suchst Sicherheit durch Ordnung, Integrität und richtiges Handeln. Gleichzeitig entsteht Druck, wenn Sicherheit nur über Kontrolle und Fehlervermeidung gesucht wird.",
+              text: "Intensive Verbindung und gemeinsame Entwicklung suchen. Menschen inspirieren und verbessern wollen und dabei leicht in innere Spannung geraten. Sich nach Tiefe und Echtheit sehnen und dabei leicht Gelassenheit und Frieden verlieren.",
             },
             {
               label: "Unbewusste Strategie",
-              text: "Du versuchst, Stabilität durch Kontrolle, Korrektheit und Vorbereitung herzustellen. Dabei kann der Körper eng werden, obwohl er eigentlich nach Ruhe und Vertrauen sucht.",
+              text: "Gefühle und Spannungen verstärken, um Verbindung lebendig zu halten. Empfindlich auf Distanz oder Unstimmigkeiten reagieren. Sich über Intensität, Ausdruck und Konfrontation stabilisieren, auch wenn innere Ruhe verloren geht.",
             },
             {
               label: "Integration",
-              text: "Du lernst, Ordnung zuzulassen, ohne dich zu verhärten. Sicherheit entsteht nicht nur durch Richtigkeit, sondern auch durch Körperkontakt, Erdung und inneres Vertrauen.",
+              text: "Erkennen, dass innere Intensität und ständige Verbesserung anderer keinen inneren Frieden erzeugen. Unvollkommenheit bei sich selbst und anderen zulassen. Liebevolle Hingabe ersetzt inneren Kampf und Druck.",
             },
             {
               label: "Prototypen",
-              text: "Die weibliche und männliche SE1-Prototypik zeigt eine ruhige, zurückhaltende und kontrollierte Präsenz. Beide stehen für die Suche nach Stabilität, Verantwortung und innerer Korrektheit.",
+              text: "Die weibliche und männliche SX1-Prototypik zeigt eine intensive, durchdringende und konfrontative Präsenz. Beide stehen für kompromisslose Wahrhaftigkeit, Leidenschaft und den Einsatz für Tiefe in engen Beziehungen.",
             },
             {
               label: "Kernsatz",
-              text: "Wenn du deiner inneren Ordnung vertraust, entsteht Ruhe, auch wenn nicht alles perfekt ist.",
+              text: "Wenn du dein Feuer nicht bekämpfst, sondern bewusst führst, wird Leidenschaft klar und heilsam.",
             },
             {
               label: "Fußzeile",
-              text: "Selbsterhaltende Eins (SE1): Instinkt der Integrität, Ordnung, Stabilität und körperlichen Selbstsicherung.",
+              text: "Sexuelle Eins (SX1): Instinkt der Leidenschaft, Intensität und kompromisslosen Wahrhaftigkeit im direkten Kontakt.",
             },
           ],
         },
         {
           title: "Seite 3 · Körperarbeit & Akupressur",
           intro:
-            "Diese Seite übersetzt die innere Spannung der SE1 in konkrete Körperarbeit. Der Weg führt von Selbstüberforderung und Kontrolle in mehr Lebendigkeit, Vertrauen und körperliche Entspannung.",
+            "Diese Seite übersetzt die innere Spannung der SX1 in konkrete Körperarbeit. Der Weg führt von kompromissloser Konfrontation in mehr Hingabe, Vertrauen und körperliche Entspannung.",
           entries: [
             {
               label: "Problem",
-              text: "Du versuchst, korrekt, stabil und vorbereitet zu bleiben. Dabei kann innere Spannung entstehen, weil der Körper ständig prüft, ob etwas falsch, unsicher oder noch nicht gut genug ist.",
+              text: "Du versuchst, mit voller Intensität für das Richtige und für Tiefe in Beziehungen einzustehen. Dabei kann innere Spannung entstehen, weil du ständig prüfst, ob Verbindung, Wahrheit oder Integrität gefährdet sind.",
             },
             {
               label: "Wendepunkt",
-              text: "Du erkennst, dass Kontrolle und Selbstkorrektur nicht dasselbe sind wie echte Sicherheit. Die Energie darf ruhiger werden, ohne dass Integrität verloren geht.",
+              text: "Du erkennst, dass innere Intensität und ständige Verbesserung anderer keinen inneren Frieden erzeugen. Die Energie darf ruhiger werden, ohne dass Wahrhaftigkeit verloren geht.",
             },
             {
               label: "Integration",
-              text: "Du nutzt deine Klarheit bewusst, ohne sie gegen dich selbst zu richten. Ordnung wird zu Orientierung, nicht zu Druck.",
+              text: "Du nutzt deine Klarheit bewusst, ohne sie als Druck gegen dich oder andere zu richten. Leidenschaft wird zu Hingabe, nicht zu Kampf.",
             },
             {
               label: "Gesicht",
-              text: "Klarheit und Ausdruck. Der Gesichtspunkt hilft, die kontrollierte Mimik weicher werden zu lassen und dennoch klar präsent zu bleiben.",
+              text: "Klarheit und Ausdruck. Der Gesichtspunkt hilft, die kontrollierte, intensive Mimik weicher werden zu lassen und dennoch klar präsent zu bleiben.",
             },
             {
               label: "Hand",
-              text: "Handlungskraft und Balance. Die Hand erinnert daran, dass richtiges Handeln nicht aus Verkrampfung entstehen muss.",
+              text: "Handlungskraft und Balance. Die Hand erinnert daran, dass kompromissloses Handeln nicht aus Verkrampfung entstehen muss.",
             },
             {
               label: "Fuß",
-              text: "Erdung und Standfestigkeit. Der Fußpunkt bringt die SE1 aus der Bewertung in körperlichen Boden und tragfähige Orientierung.",
+              text: "Erdung und Standfestigkeit. Der Fußpunkt bringt die SX1 aus der Konfrontation in körperlichen Boden und tragfähige Orientierung.",
             },
             {
               label: "Bauch",
-              text: "Mitte und Entspannung. Der Bauchpunkt reguliert Kontrolle, Druck und innere Anspannung und stärkt eine ruhigere Mitte.",
+              text: "Mitte und Entspannung. Der Bauchpunkt reguliert Kontrolle, Intensität und inneres Feuer und stärkt eine ruhigere Mitte.",
             },
             {
               label: "Finger",
-              text: "Spüren und Loslassen. Der Fingerimpuls unterstützt, Perfektionismus, festgehaltene Korrektur und innere Enge zu lösen.",
+              text: "Spüren und Loslassen. Der Fingerimpuls unterstützt, Perfektionismus, festgehaltene Konfrontation und innere Enge zu lösen.",
             },
             {
               label: "Ohr",
-              text: "Stille und Regulation. Der Ohrpunkt lädt ein, die innere Stimme milder zu hören und nicht nur den inneren Kritiker wahrzunehmen.",
+              text: "Stille und Regulation. Der Ohrpunkt lädt ein, die innere Stimme milder zu hören und nicht nur den inneren Richter über die Nähe wahrzunehmen.",
             },
             {
               label: "Anwendung",
@@ -390,15 +390,15 @@ export const sx1 = {
             },
             {
               label: "Vollkommen still sitzen",
-              text: "Setze dich für zwei Minuten aufrecht und bequem hin. Der Körper darf seine eigene Intelligenz zeigen; in dieser kurzen Zeit muss nichts verbessert werden.",
+              text: "Setze dich für zwei Minuten aufrecht und bequem hin. Der Körper darf seine eigene Intelligenz zeigen; in dieser kurzen Zeit muss nichts korrigiert oder erzwungen werden.",
             },
             {
               label: "Mentale & emotionale Haltung",
-              text: "Typ 1 zeigt mentalen Perfektionismus und emotionalen Groll, wenn innere Spannung zu stark wird. Die SE1 lernt, Selbstkontrolle in Selbstkontakt zu verwandeln.",
+              text: "Typ 1 zeigt mentalen Perfektionismus und emotionalen Groll, wenn innere Spannung zu stark wird. Bei der SX1 verwandelt sich dieser Groll in innere Intensität und persönlichen Zeal, gerichtet auf nahe Beziehungen. Sie lernt, Konfrontation in Selbstkontakt zu verwandeln.",
             },
             {
               label: "Flügel",
-              text: "Der 9er-Flügel betont Ruhe, Zurückhaltung und Harmonie. Der 2er-Flügel betont Beziehung, Verantwortung und Hilfsbereitschaft. Beide können die SE1 entlasten, wenn sie nicht zur zusätzlichen Pflicht werden.",
+              text: "Der 9er-Flügel bringt Ruhe und mildert die Konfrontationsbereitschaft der SX1. Der 2er-Flügel verstärkt die persönliche Hingabe und den intensiven Einsatz für den anderen Menschen. Beide können die SX1 entlasten, wenn sie nicht zur zusätzlichen Erwartung werden.",
             },
             {
               label: "Medienfelder",
@@ -409,47 +409,47 @@ export const sx1 = {
         {
           title: "Seite 4 · Heilmittel-Kompass",
           intro:
-            "Der Heilmittel-Kompass übersetzt das SE1-Muster in ein heilkundliches Symbolfeld. Im Zentrum steht die Wandlung von überhöhter Selbstkontrolle, innerem Druck und angespannter Korrektheit hin zu Würde, Milde, innerer Ordnung und lebendiger Integrität.",
+            "Der Heilmittel-Kompass übersetzt das SX1-Muster in ein heilkundliches Symbolfeld. Im Zentrum steht die Wandlung von kompromissloser Intensität, zwischenmenschlichem Druck und konfrontativer Härte hin zu Würde, Milde, innerer Ordnung und leidenschaftlicher Hingabe.",
           entries: [
             {
               label: "Homöopathisches Einzelmittel",
-              text: "Platinum metallicum steht hier für die Regulation umgewandelter Bauchenergie. Es symbolisiert den Weg von innerem Anspruch, Selbstverantwortung und Spannung zu Würde, Demut und echter Integrität.",
+              text: "Platinum metallicum steht hier für die Regulation umgewandelter Bauchenergie. Es symbolisiert den Weg von innerem Anspruch, persönlicher Intensität und Spannung zu Würde, Demut und echter Integrität.",
             },
             {
               label: "Thema",
-              text: "Das Bedürfnis, integer, korrekt und kontrolliert zu bleiben, kann von einem starken inneren Anspruch getragen sein. Der heilende Weg führt von rigider Selbstbeherrschung zu milder, lebendiger Ordnung.",
+              text: "Das Bedürfnis, in engen Beziehungen kompromisslos wahrhaftig und integer zu bleiben, kann von einem starken inneren Anspruch getragen sein. Der heilende Weg führt von rigider Konfrontation zu milder, lebendiger Hingabe.",
             },
             {
               label: "Wirkung auf Lebenskraft und Leidenschaft",
-              text: "Der Impuls unterstützt die Wandlung von angespanntem Perfektionismus, innerer Härte und Selbstüberhöhung in menschliche Präsenz, Selbstannahme und verantwortliche Klarheit.",
+              text: "Der Impuls unterstützt die Wandlung von angespannter Intensität, innerer Härte und Selbstüberhöhung in menschliche Präsenz, Selbstannahme und verantwortliche Klarheit.",
             },
             {
               label: "Ziel",
-              text: "Regulation und Stärkung der Einser-Lebenskraft: Die umgewandelte Bauchenergie soll nicht bekämpft, sondern in klare, ruhige und dienende Integrität verwandelt werden.",
+              text: "Regulation und Stärkung der Einser-Lebenskraft: Die umgewandelte Bauchenergie soll nicht bekämpft, sondern in klare, kraftvolle und hingebungsvolle Integrität verwandelt werden.",
             },
             {
               label: "Mineralstoff-Impuls",
-              text: "Kalium sulfuricum verweist auf Ausgleich, Reinigung und Erneuerung. Es unterstützt symbolisch die Fähigkeit, innere Spannung zu lösen und Ordnung nicht starr, sondern beweglich zu halten.",
+              text: "Kalium sulfuricum verweist auf Ausgleich, Reinigung und Erneuerung. Es unterstützt symbolisch die Fähigkeit, innere Spannung zu lösen und Leidenschaft nicht starr, sondern beweglich zu halten.",
             },
             {
               label: "Bachblüte",
-              text: "Rock Water steht für innere Flexibilität, wenn Ideale, Disziplin und Selbstanspruch zu hart werden. Die Qualität ist: milder werden, ohne die eigene Integrität aufzugeben.",
+              text: "Rock Water steht für innere Flexibilität, wenn Ideale, Disziplin und Selbstanspruch zu hart werden. Die Qualität ist: milder werden, ohne die eigene Wahrhaftigkeit aufzugeben.",
             },
             {
               label: "Edelstein",
-              text: "Amethyst trägt das Feld von Klarheit, Sammlung und geistiger Beruhigung. Er passt zur SE1, wenn die innere Stimme zu streng, bewertend oder kontrollierend wird.",
+              text: "Amethyst trägt das Feld von Klarheit, Sammlung und geistiger Beruhigung. Er passt zur SX1, wenn die innere Stimme in engen Beziehungen zu streng, bewertend oder konfrontativ wird.",
             },
             {
               label: "Tee",
-              text: "Melissentee steht für sanfte Nervenruhe, Entspannung und emotionale Milde. Er ergänzt die SE1 dort, wo Kontrolle durch Beruhigung und weichen Atem abgelöst werden darf.",
+              text: "Melissentee steht für sanfte Nervenruhe, Entspannung und emotionale Milde. Er ergänzt die SX1 dort, wo Intensität durch Beruhigung und weichen Atem abgelöst werden darf.",
             },
             {
               label: "Leidenschaft",
-              text: "Die Leidenschaft der SE1 liegt in der inneren Anspannung, alles richtig machen zu müssen. Fehler, Unordnung oder moralische Unklarheit können körperlich wie Alarm erlebt werden.",
+              text: "Die Leidenschaft der SX1 liegt in der inneren Intensität, für Wahrhaftigkeit und Tiefe in engen Beziehungen einzustehen. Unstimmigkeiten, mangelnde Integrität oder emotionale Distanz können körperlich wie Alarm erlebt werden.",
             },
             {
               label: "Innere Motivation",
-              text: "Die Motivation ist der Wunsch nach Integrität, Sicherheit und verlässlicher Ordnung. Die SE1 möchte stabil, korrekt und verantwortlich handeln.",
+              text: "Die Motivation ist der Wunsch nach kompromissloser Wahrheit, Nähe und leidenschaftlicher Verbindung. Die SX1 möchte intensiv, klar und transformierend wirken.",
             },
             {
               label: "Medien & Wirkweise",
@@ -464,55 +464,55 @@ export const sx1 = {
         {
           title: "Seite 5 · Integration",
           intro:
-            "Seite 5 bündelt das Integrationspotenzial der SE1. Die Bewegung geht von angespannter Selbstkontrolle, Fehlervermeidung und innerem Druck zu ruhiger Integrität, Selbstkontakt, Stabilität und milder Klarheit.",
+            "Seite 5 bündelt das Integrationspotenzial der SX1. Die Bewegung geht von kompromissloser Konfrontation, Perfektionsdruck in Beziehungen und innerem Kampf zu kraftvoller Hingabe, Selbstkontakt, Stabilität und milder Klarheit.",
           entries: [
             {
               label: "Integrationspotenzial",
-              text: "Ruhe und Integrität. Die SE1 muss Ordnung nicht mehr durch Druck erzwingen, sondern findet eine natürliche, verlässliche innere Ausrichtung.",
+              text: "Leidenschaft und Hingabe. Die SX1 muss Wahrhaftigkeit nicht mehr durch Konfrontation erzwingen, sondern findet eine natürliche, kraftvolle Hingabe.",
             },
             {
               label: "Leitquote",
-              text: "Sicherheit entsteht, wenn ich meiner inneren Ordnung vertraue, statt mich dauerhaft korrigieren zu müssen.",
+              text: "Wahre Veränderung beginnt, wenn Leidenschaft einem höheren Zweck dient.",
             },
             {
               label: "Archetypische Essenz",
-              text: "Die SE1 ist der ruhige Hüter der Integrität. Sie schützt Werte, Ordnung und Verantwortung, ohne sich dabei selbst zu verhärten.",
+              text: "Die SX1 ist die kraftvolle Hüterin der Wahrhaftigkeit im direkten Kontakt. Sie schützt Tiefe, Integrität und Verbindung, ohne sich dabei selbst zu verhärten.",
             },
             {
               label: "Verkörperte Qualität",
-              text: "Verantwortungsbewusst, sorgfältig, zuverlässig, strukturiert, gewissenhaft und klar. In der Integration wird diese Qualität wärmer, ruhiger und menschlicher.",
+              text: "Intensiv, wahrhaftig, kompromisslos, fokussiert, hingebungsvoll und klar. In der Integration wird diese Qualität wärmer, ruhiger und menschlicher.",
             },
             {
               label: "Nervensystem-Regulation",
-              text: "Langsame Atmung, weicher Kiefer, Erdung, Grenzen spüren und die innere Kritikerstimme beruhigen. Der Körper lernt, Sicherheit nicht nur über Kontrolle zu erzeugen.",
+              text: "Spannung bewusst regulieren, intensive Energie kanalisieren, zwischen Nähe und Rückzug pendeln, Perfektionismus und Härte lösen, Impuls nicht sofort ausagieren, Leidenschaft in Dienst nehmen, sich selbst weniger unter Druck setzen.",
             },
             {
               label: "Beziehungsebene",
-              text: "Vertrauen entsteht, wenn die SE1 sich zeigen darf, ohne perfekt sein zu müssen. Klarheit bleibt, aber sie wird durch Wärme, Zuhören und echte Nähe ergänzt.",
+              text: "Vertrauen entsteht, wenn die SX1 sich zeigen darf, ohne ständig Intensität beweisen zu müssen. Klarheit bleibt, aber sie wird durch Wärme, Zuhören und echte Sanftheit ergänzt.",
             },
             {
               label: "Neue Fähigkeiten",
-              text: "Fehlerfreundlichkeit, Gelassenheit, innere Milde, flexible Ordnung, Selbstfürsorge, Humor und die Fähigkeit, Verantwortung ohne Überkontrolle zu übernehmen.",
+              text: "Fehlerfreundlichkeit, Gelassenheit, innere Milde, flexible Hingabe, Selbstfürsorge, Humor und die Fähigkeit, Leidenschaft ohne Überkontrolle und Konfrontation zu leben.",
             },
             {
               label: "Integrationssatz",
-              text: "Ich handle integer und klar, ohne mich selbst zu verurteilen. Ich darf richtig handeln und zugleich weich, lebendig und menschlich bleiben.",
+              text: "Ich bleibe meiner inneren Wahrheit treu, ohne mich oder andere zu verurteilen. Ich darf leidenschaftlich sein und zugleich weich, liebevoll und menschlich bleiben.",
             },
             {
               label: "Bewusstseinsraum",
-              text: "Bewusstsein entsteht, wenn die SE1 erkennt, dass wahre Integrität nicht aus Strenge, sondern aus Präsenz, Wahrhaftigkeit und innerer Ruhe kommt.",
+              text: "Bewusstsein entsteht, wenn die SX1 erkennt, dass wahre Integrität im Kontakt nicht aus Konfrontation, sondern aus Präsenz, Wahrhaftigkeit und Hingabe kommt.",
             },
             {
               label: "Ausstrahlung",
-              text: "Ruhige Präsenz, klare Werte, verlässliche Wärme, sorgfältige Verantwortung und eine natürliche Würde, die andere nicht korrigieren muss.",
+              text: "Kraftvolle Präsenz, klare Werte, verlässliche Wärme, leidenschaftliche Verbindung und eine natürliche Würde, die andere nicht korrigieren muss.",
             },
             {
               label: "Archetypische Natur",
-              text: "Der Adler steht für Weitblick und Integrität. In der Integration wird sein Blick nicht nur prüfend, sondern übersichtlich, weise und schützend.",
+              text: "Die Schwarze Mamba steht für Schnelligkeit, Präzision und unmittelbare Wirkung. In der Integration wird ihre Kraft nicht nur konfrontativ, sondern klar, geführt und schützend.",
             },
             {
               label: "Integration bedeutet",
-              text: "Vom Korrigieren zum Erkennen, vom inneren Druck zur Ruhe, vom Perfektionismus zur Menschlichkeit und von Kontrolle zu vertrauensvoller Ordnung.",
+              text: "Vom Konfrontieren zum Erkennen, vom inneren Kampf zur Ruhe, von kompromissloser Härte zur Hingabe und von Kontrolle zu vertrauensvoller Leidenschaft.",
             },
           ],
         },

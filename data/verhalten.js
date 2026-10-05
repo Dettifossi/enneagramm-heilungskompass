@@ -3,7 +3,7 @@ export const VERHALTEN = {
 
   zornverhalten: {
     title: "Das Zornverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/zornverhalten.jpg",
+    imgSrc: "/assets/verhalten/zornverhalten.jpg",
     imgAlt: "Zornverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Zornverhalten und die Art und Weise, wie jeder Enneagrammtyp mit Ärger umgeht, variiert erheblich. Hier ist eine Übersicht, wie die neun Typen des Enneagramms Zorn / Ärger / Wut / Groll tendenziell ausdrücken bzw. verarbeiten:",
     anmerkung: "Das Zornverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U., je nach Subtypvariante (Normaltyp, Verstärkungstyp, Kontratyp), entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken.",
@@ -27,7 +27,7 @@ export const VERHALTEN = {
 
   harmonieverhalten: {
     title: "Das Harmonieverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/harmonieverhalten.jpg",
+    imgSrc: "/assets/verhalten/harmonieverhalten.jpg",
     imgAlt: "Harmonieverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Harmonieverhalten der 9 Enneagrammtypen beschreibt, wie jeder Typ nach innerem und äußerem Gleichgewicht strebt. Die nachfolgende Übersicht zeigt auf, wie jeder der 9 Typen typischerweise Harmonie sucht und herstellt sowie die 9 Prinzipien des Enneagramms:",
     anmerkung: "Das Harmonieverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U., je nach Subtypvariante, entweder entsprechend, verstärkt oder auch genau gegenteilig ausdrücken.",
@@ -51,7 +51,7 @@ export const VERHALTEN = {
 
   individualitaetsverhalten: {
     title: "Das Individualitätsverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/individualitaetsverhalten.jpg",
+    imgSrc: "/assets/verhalten/individualitaetsverhalten.jpg",
     imgAlt: "Individualitätsverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Individualitätsverhalten der 9 Enneagrammtypen beschreibt, wie jeder Typ seine Einzigartigkeit und Besonderheit ausdrückt. Die nachfolgende Übersicht zeigt das typische individuelle Verhalten der 9 Typen auf:",
     anmerkung: "Das Individualit\xe4tsverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U. entweder entsprechend, verst\xe4rkt oder auch genau gegenteilig ausdr\xfccken.",
@@ -75,7 +75,7 @@ export const VERHALTEN = {
 
   machtverhalten: {
     title: "Das Machtverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/machtverhalten.jpg",
+    imgSrc: "/assets/verhalten/machtverhalten.jpg",
     imgAlt: "Machtverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Machtverhalten der 9 Enneagrammtypen beschreibt, wie jeder Typ mit Einfluss, Kontrolle und Autorität umgeht. Die nachfolgende Übersicht zeigt auf, wie jeder der 9 Typen typischerweise seine Macht ausübt:",
     anmerkung: "Das Machtverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U. entweder entsprechend, verst\xe4rkt oder auch genau gegenteilig ausdr\xfccken.",
@@ -99,7 +99,7 @@ export const VERHALTEN = {
 
   sicherheitsverhalten: {
     title: "Das Sicherheitsverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/sicherheitsverhalten.jpg",
+    imgSrc: "/assets/verhalten/sicherheitsverhalten.jpg",
     imgAlt: "Sicherheitsverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Sicherheitsverhalten der 9 Enneagrammtypen beschreibt, wie jeder Typ eine unterschiedliche typspezifische Strategie verfolgt, um Sicherheit herzustellen und sich sicher zu fühlen. Die nachfolgende Übersicht zeigt auf, wie jeder der 9 Typen typischerweise nach Sicherheit strebt:",
     anmerkung: "Das Sicherheitsverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U. entweder entsprechend, verst\xe4rkt oder auch genau gegenteilig ausdr\xfccken.",
@@ -123,7 +123,7 @@ export const VERHALTEN = {
 
   spassverhalten: {
     title: "Das Spassverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/spassverhalten.jpg",
+    imgSrc: "/assets/verhalten/spassverhalten.jpg",
     imgAlt: "Spassverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Spassverhalten der 9 Enneagrammtypen beschreibt, wie jeder Typ Freude und Vergnügen erlebt und ausdrückt. Die nachfolgende Übersicht zeigt auf, wie jeder der 9 Typen typischerweise nach Lebensfreude strebt:",
     anmerkung: "Das Spa\xdfverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U. entweder entsprechend, verst\xe4rkt oder auch genau gegenteilig ausdr\xfccken.",
@@ -147,7 +147,7 @@ export const VERHALTEN = {
 
   wissensverhalten: {
     title: "Das Wissensverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/wissensverhalten.jpg",
+    imgSrc: "/assets/verhalten/wissensverhalten.jpg",
     imgAlt: "Wissensverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Wissensverhalten der 9 Enneagrammtypen beschreibt, wie jeder Typ Wissen sucht, verarbeitet und anwendet. Die nachfolgende Übersicht zeigt auf, wie jeder der 9 Typen typischerweise mit Wissen umgeht:",
     anmerkung: "Das Wissensverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U. entweder entsprechend, verst\xe4rkt oder auch genau gegenteilig ausdr\xfccken.",
@@ -171,7 +171,7 @@ export const VERHALTEN = {
 
   liebesverhalten: {
     title: "Das Liebesverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/liebesverhalten.jpg",
+    imgSrc: "/assets/verhalten/liebesverhalten.jpg",
     imgAlt: "Liebesverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Liebesverhalten und die Art und Weise, wie jeder Enneagrammtyp seine Liebe in romantischen Beziehungen zeigt, variiert erheblich. Auch die unterschiedlichen Liebesbedürfnisse sprechen je nach Typ eine sehr unterschiedliche Sprache:",
     anmerkung: "Das Liebesverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U. entweder entsprechend, verst\xe4rkt oder auch genau gegenteilig ausdr\xfccken.",
@@ -195,7 +195,7 @@ export const VERHALTEN = {
 
   erfolgsverhalten: {
     title: "Das Erfolgsverhalten der 9 Enneagrammtypen",
-    imgSrc: "assets/verhalten/erfolgsverhalten.jpg",
+    imgSrc: "/assets/verhalten/erfolgsverhalten.jpg",
     imgAlt: "Erfolgsverhalten der 9 Enneagrammtypen – Übersicht",
     intro: "Das Erfolgsverhalten der 9 Enneagrammtypen variiert je nach ihren Kernmotiven, Stärken und Schwächen. Nachfolgend eine Übersicht darüber, wie jeder der 9 Enneagrammtypen typischerweise Erfolg anstrebt und erreicht:",
     anmerkung: "Das Erfolgsverhalten im Rahmen der 27 Subtypen des Enneagramms kann sich u. U. entweder entsprechend, verst\xe4rkt oder auch genau gegenteilig ausdr\xfccken. Erfolg dabei weit mehr als nur \xe4u\xdferer und/oder sichtbarer Erfolg.",

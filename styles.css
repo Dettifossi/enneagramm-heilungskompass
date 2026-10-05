@@ -56,7 +56,20 @@ button {
   width: min(1120px, calc(100% - 32px));
   min-height: 100vh;
   margin: 0 auto;
-  padding: 24px 0 56px;
+  /* padding-top/bottom berücksichtigen env(safe-area-inset-*), da die App per
+     manifest.json im "standalone"-Modus (Homescreen-PWA) läuft und der Viewport
+     seit viewport-fit=cover unter die iOS-Statusleiste/Notch reichen kann –
+     ohne diesen Ausgleich würde der Kopfbereich (inkl. Sprachumschalter) dort
+     unsichtbar/unantippbar landen. */
+  padding: calc(24px + env(safe-area-inset-top)) 0 calc(56px + env(safe-area-inset-bottom));
+}
+
+/* Zentriert Seiteninhalte auf breiten Screens (iPad/Desktop) statt sie
+   linksbündig über die volle app-shell-Breite laufen zu lassen. Auf dem
+   iPhone wirkungslos, da der Viewport ohnehin schmaler ist. */
+.page-container {
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 .topline {
@@ -137,9 +150,19 @@ button {
   letter-spacing: 0;
 }
 
-.dashboard h1,
-.narrow h1 {
+.dashboard h1 {
   font-size: clamp(2.5rem, 7vw, 5.2rem);
+}
+
+.narrow h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.narrow h1.h1--tip {
+  font-size: 2rem;
+  line-height: 1.2;
 }
 
 .eyebrow {
@@ -600,9 +623,9 @@ textarea:focus {
 .knowledge-hero h1 {
   margin: 10px 0 0;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: clamp(2.8rem, 7vw, 5.6rem);
-  line-height: 0.95;
-  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 700;
   letter-spacing: 0;
 }
 
@@ -1229,6 +1252,45 @@ textarea:focus {
 .remedy-card__field {
   color: var(--bronze) !important;
   font-weight: 800;
+}
+
+.remedy-card__affiliate {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 0.6rem;
+  padding: 0.55rem 0.7rem;
+  border: 1px solid rgba(126, 85, 49, 0.3);
+  border-radius: 10px;
+  background: rgba(126, 85, 49, 0.06);
+  text-decoration: none;
+}
+
+.remedy-card__affiliate-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid rgba(126, 85, 49, 0.35);
+}
+
+.remedy-card__affiliate-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+
+.remedy-card__affiliate-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.remedy-card__affiliate-note {
+  font-size: 0.68rem;
+  color: var(--muted);
 }
 
 /* Ätherische Öle – eigene Rubrik */
@@ -1956,6 +2018,14 @@ textarea:focus {
     justify-content: center;
   }
 
+  /* Ohne diesen Reset bleibt margin-left:auto aus der Row-Variante aktiv und
+     schiebt den Sprachumschalter in der Column-Variante des Headers weit
+     über den sichtbaren Viewport hinaus – unsichtbar und nicht klickbar. */
+  .lang-switcher {
+    margin-left: 0;
+    align-self: center;
+  }
+
   .tabbar {
     overflow-x: auto;
     justify-content: flex-start;
@@ -2012,9 +2082,7 @@ textarea:focus {
   }
 
   .hero h1,
-  .dashboard h1,
-  .narrow h1,
-  .knowledge-hero h1 {
+  .dashboard h1 {
     font-size: 2.72rem;
   }
 
@@ -4229,7 +4297,7 @@ button.primary:hover::after {
 .diag-result__typ { font-size: 1.8rem; font-weight: 700; color: var(--copper, #a5603d); }
 .diag-scores { list-style: none; padding: 0; margin: 1rem 0; }
 .diag-scores li { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.45rem; font-size: 0.83rem; }
-.diag-scores__label { width: 5rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.diag-scores__label { flex: 0 0 7.5rem; width: 7.5rem; font-weight: 600; white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.25; }
 .diag-scores__bar-wrap { flex: 1; height: 7px; background: rgba(114,102,90,0.15); border-radius: 3px; }
 .diag-scores__bar { height: 7px; border-radius: 3px; background: rgba(114,102,90,0.3); }
 .diag-scores li.is-top .diag-scores__bar { background: var(--copper, #a5603d); }
@@ -4292,10 +4360,10 @@ button.primary:hover::after {
 }
 .krim-tier-badge-wrap img {
   position: absolute;
-  inset: 0;
+  top: -20%;
+  left: -8%; /* Standard-Fallback; wird pro Subtyp per Inline-Style (tierAvatarLeft) überschrieben */
   width: 140%;
   height: 140%;
-  margin: -20%;
   object-fit: cover;
 }
 .psycho-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.75rem; }
@@ -4351,6 +4419,28 @@ button.primary:hover::after {
   min-height: 40px;
 }
 .nav-dropdown__item:last-child { border-bottom: none; }
+.nav-neu-dot {
+  display: inline-block;
+  width: 0.45rem;
+  height: 0.45rem;
+  margin-left: 0.3rem;
+  border-radius: 50%;
+  background: #c9a84c;
+  vertical-align: middle;
+}
+.nav-dropdown__heading {
+  padding: 0.55rem 1.1rem 0.3rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--copper);
+  background: color-mix(in srgb, var(--copper) 7%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--copper) 25%, transparent);
+  pointer-events: none;
+  user-select: none;
+}
+.nav-dropdown__heading:not(:first-child) { margin-top: 0.15rem; border-top: 1px solid color-mix(in srgb, var(--ink) 8%, transparent); }
 .nav-dropdown__item:hover { background: color-mix(in srgb, var(--copper) 8%, transparent); }
 
 .nav-dropdown__search-wrap {
@@ -4466,6 +4556,88 @@ button.primary:hover::after {
   font-size: 1.1rem;
   color: var(--copper);
   flex-shrink: 0;
+}
+
+/* ── Academy-Tipp-Banner (Verweis auf EnneaScholars Academy) ─────────
+   Strukturell wie .book-tip, aber grüner Akzent statt Kupfer, damit
+   optisch klar ist: kein Buchtipp, sondern ein eigenständiges Live-Lernangebot. */
+.academy-tip {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.7rem 0 1.2rem;
+  padding: 0.9rem 1.2rem;
+  background: color-mix(in srgb, #4d6b3a 8%, var(--paper));
+  border: 1px solid color-mix(in srgb, #4d6b3a 28%, transparent);
+  border-left: 4px solid #4d6b3a;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.15s;
+}
+.academy-tip:hover {
+  background: color-mix(in srgb, #4d6b3a 15%, var(--paper));
+  transform: translateY(-1px);
+}
+.academy-tip__icon { font-size: 1.4rem; flex-shrink: 0; }
+.academy-tip__text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.academy-tip__text strong {
+  font-size: 0.95rem;
+  color: #4d6b3a;
+  font-family: var(--font-body, "EB Garamond", serif);
+}
+.academy-tip__text span {
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.academy-tip__arrow {
+  font-size: 1.1rem;
+  color: #4d6b3a;
+  flex-shrink: 0;
+}
+
+/* Buchtipp-Stapel (3+ Buchtipps in Folge) werden per JS (groupBookTips in
+   app.js/en/bundle.js) automatisch in dieses <details>-Aufklappmenü gepackt,
+   statt die Seite mit einer langen Liste vollzuschreiben. */
+.book-tips-group {
+  margin: 0.6rem 0;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.book-tips-group > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.7rem 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-body, "EB Garamond", serif);
+  font-weight: bold;
+  color: var(--copper);
+  background: color-mix(in srgb, var(--copper) 8%, transparent);
+}
+.book-tips-group > summary::-webkit-details-marker { display: none; }
+.book-tips-group > summary::before {
+  content: "▸";
+  transition: transform 0.15s;
+  flex-shrink: 0;
+}
+.book-tips-group[open] > summary::before {
+  transform: rotate(90deg);
+}
+.book-tips-group > summary .book-tips-group__count {
+  font-weight: normal;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.book-tips-group > .book-tip {
+  border-top: 1px solid var(--line, #ddd);
 }
 
 /* ── Register ─────────────────────────────────────────────────────── */
@@ -4700,7 +4872,27 @@ button.primary:hover::after {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
+.bl-card__back {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0,0,0,0.35);
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.bl-card__back:hover { background: rgba(0,0,0,0.55); }
 .bl-card__badge {
   color: #fff;
   font-size: 0.78rem;
@@ -4728,6 +4920,26 @@ button.primary:hover::after {
   color: var(--ink);
   line-height: 1.55;
   margin: 0;
+}
+.bl-card__subtyp {
+  margin-top: 0.7rem;
+  padding-top: 0.6rem;
+  border-top: 1px dashed var(--line);
+}
+.bl-card__subtyp-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--copper);
+  margin: 0 0 0.3rem;
+}
+.bl-card__subtyp-text {
+  font-size: 0.82rem;
+  color: var(--ink);
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.9;
 }
 .bl-fazit {
   background: var(--ivory);
@@ -4991,7 +5203,8 @@ button.primary:hover::after {
 .kf-label {
   font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em;
   text-transform: uppercase; color: var(--muted);
-  width: 5.5rem; flex-shrink: 0;
+  flex-basis: 100%; width: auto; flex-shrink: 0;
+  margin-bottom: 0.2rem;
 }
 .kf-btn {
   padding: 0.25rem 0.65rem; border-radius: 6px;
@@ -5024,6 +5237,7 @@ button.primary:hover::after {
 .kf-btn--tag[data-kf-tag="ALL"].kf-btn--active {
   background: #9a7a2a; border-color: #9a7a2a; color: #fff;
 }
+.kf-btn--subtag { font-size: 0.72rem; padding: 0.2rem 0.55rem; }
 .kf-count {
   font-size: 0.78rem; color: var(--muted);
   margin-top: 0.5rem; text-align: right;
@@ -5060,5 +5274,36 @@ button.primary:hover::after {
   text-decoration: none;
   opacity: 0.75;
   transition: opacity 0.15s;
+  /* Muss über dem Onboarding-Overlay (z-index:9999) erreichbar bleiben,
+     damit englischsprachige Erstbesucher die App sofort umschalten können,
+     bevor sie den deutschen Einführungstext lesen/schließen müssen. */
+  position: relative;
+  z-index: 10000;
 }
 .lang-switcher:hover { opacity: 1; }
+
+/* ── Enneagramm-Rad: responsives Layout ─────────────────────────────────── */
+.rad-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 0 2rem;
+}
+.rad-layout > div:first-child {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  aspect-ratio: 1;
+}
+@media (min-width: 700px) {
+  .rad-layout {
+    display: grid;
+    grid-template-columns: minmax(260px, 1fr) minmax(220px, 320px);
+    align-items: start;
+  }
+  .rad-layout > div:first-child {
+    max-width: none;
+    margin: 0;
+  }
+}

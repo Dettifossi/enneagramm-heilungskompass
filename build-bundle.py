@@ -50,6 +50,7 @@ for fname in [
     "data/typentest.js", "data/motivtest.js", "data/diagnosetest.js",
     "data/beziehungspaarungen.js", "data/differenzierungen.js",
     "data/register.js", "data/tierentsprechungen.js", "data/verhalten.js",
+    "data/situationskompass.js", "data/tierlexikon.js",
     "data/quiz.js",
     "data/zitate.js",
 ]:

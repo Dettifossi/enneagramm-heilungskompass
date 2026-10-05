@@ -1,0 +1,27 @@
+{
+  "version": "0.2",
+  "language": "de,en",
+  "import": [
+    "@cspell/dict-de-de/cspell-ext.json",
+    "@cspell/dict-en-gb/cspell-ext.json"
+  ],
+  "dictionaries": ["de-de", "en-gb", "project-words"],
+  "dictionaryDefinitions": [
+    {
+      "name": "project-words",
+      "path": "./cspell-project-words.txt",
+      "addWords": true
+    }
+  ],
+  "ignoreRegExpList": [
+    "route:\\s*\"[^\"]*\"",
+    "class=\"[^\"]*\"",
+    "href=\"[^\"]*\"",
+    "src=\"[^\"]*\"",
+    "id=\"[^\"]*\"",
+    "style=\"[^\"]*\"",
+    "#[0-9a-fA-F]{3,8}\\b",
+    "https?:\\/\\/\\S+"
+  ],
+  "ignorePaths": ["node_modules", "bundle.js", "en/bundle.js", "ai-prototype/worker/knowledge*.json"]
+}

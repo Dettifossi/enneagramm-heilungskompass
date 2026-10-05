@@ -33,7 +33,14 @@
 <div class="box">
   <h1>⭐ Kompass Admin – Bewertungen</h1>
 
-  <div id="admin-bereich">
+  <div id="login-bereich">
+    <p style="margin:0 0 1rem;color:#666;font-size:.9rem;">Admin-Code eingeben:</p>
+    <input id="code-input" type="password" placeholder="Code…" autofocus>
+    <button onclick="einloggen()">Einloggen</button>
+    <div class="meldung err" id="login-fehler" style="margin-top:1rem;">Falscher Code.</div>
+  </div>
+
+  <div id="admin-bereich" style="display:none;">
     <div class="meldung" id="meldung"></div>
 
     <div class="abschnitt-titel">Ausstehend (noch nicht freigegeben)</div>
@@ -45,41 +52,65 @@
 </div>
 
 <script>
-const KEY       = '$2a$10$LNlgIJOGbl6mnMlsX.luWuOkm/0og9HUbwLyoqdb9hHh9Uk9hbt6O';
-const BIN_WART  = '6a573182f5f4af5e299123ac';
-const BIN_FREI  = '6a573185da38895dfe5f9c4b';
-const ADMIN     = 'rathmer9';
-const API       = 'https://api.jsonbin.io/v3/b/';
-
+const API = 'https://kompass-assistent.9rathmer.workers.dev/reviews';
+let ADMIN_CODE = '';
 let wartend = [], freigegeben = [];
 
-laden();
+// Code merken, damit man nicht bei jedem Öffnen neu eintippen muss
+try {
+  const gespeichert = localStorage.getItem('kompass-admin-code');
+  if (gespeichert) { ADMIN_CODE = gespeichert; zeigeAdminBereich(); }
+} catch (e) {}
 
-async function holen(bin) {
-  const r = await fetch(API + bin + '/latest', { headers: { 'X-Master-Key': KEY } });
+function einloggen() {
+  const v = document.getElementById('code-input').value.trim();
+  if (!v) return;
+  ADMIN_CODE = v;
+  document.getElementById('login-fehler').style.display = 'none';
+  laden(true);
+}
+
+function zeigeAdminBereich() {
+  document.getElementById('login-bereich').style.display = 'none';
+  document.getElementById('admin-bereich').style.display = 'block';
+  laden(false);
+}
+
+async function holenWartend() {
+  const r = await fetch(API + '/wartend', { headers: { 'X-Admin-Code': ADMIN_CODE } });
+  if (r.status === 401) throw new Error('unauthorized');
   const d = await r.json();
-  const rec = d.record;
-  if (Array.isArray(rec)) return rec;
-  if (rec && Array.isArray(rec.reviews)) return rec.reviews;
-  return [];
+  return d.reviews || [];
 }
 
-async function speichern(bin, daten) {
-  await fetch(API + bin, {
-    method: 'PUT',
-    headers: { 'Content-Type': 'application/json', 'X-Master-Key': KEY },
-    body: JSON.stringify({ reviews: daten })
-  });
+async function holenFreigegeben() {
+  const r = await fetch(API + '/freigegeben');
+  const d = await r.json();
+  return d.reviews || [];
 }
 
-async function laden() {
+async function laden(nachLogin) {
   document.getElementById('wartend-liste').innerHTML = '<div class="leer">Wird geladen…</div>';
   document.getElementById('freigegeben-liste').innerHTML = '<div class="leer">Wird geladen…</div>';
   try {
-    [wartend, freigegeben] = await Promise.all([holen(BIN_WART), holen(BIN_FREI)]);
+    [wartend, freigegeben] = await Promise.all([holenWartend(), holenFreigegeben()]);
+    if (nachLogin) {
+      try { localStorage.setItem('kompass-admin-code', ADMIN_CODE); } catch (e) {}
+      zeigeAdminBereich();
+    }
     rendern();
-  } catch(e) {
-    zeigeInfo('Ladefehler: ' + e.message, false);
+  } catch (e) {
+    if (e.message === 'unauthorized') {
+      if (nachLogin) {
+        document.getElementById('login-fehler').style.display = 'block';
+      } else {
+        try { localStorage.removeItem('kompass-admin-code'); } catch (err) {}
+        document.getElementById('admin-bereich').style.display = 'none';
+        document.getElementById('login-bereich').style.display = 'block';
+      }
+    } else {
+      zeigeInfo('Ladefehler: ' + e.message, false);
+    }
   }
 }
 
@@ -111,23 +142,35 @@ function karte(b, i, ausstehend) {
 }
 
 async function freigeben(i) {
-  const b = wartend.splice(i, 1)[0];
-  freigegeben.unshift(b);
+  const vorher = wartend[i];
+  wartend = wartend.filter((_, idx) => idx !== i);
+  freigegeben = [vorher, ...freigegeben];
   rendern();
   try {
-    await Promise.all([speichern(BIN_WART, wartend), speichern(BIN_FREI, freigegeben)]);
+    const r = await fetch(API + '/freigeben', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Admin-Code': ADMIN_CODE },
+      body: JSON.stringify({ index: i })
+    });
+    if (!r.ok) throw new Error((await r.json()).error || 'Fehler');
     zeigeInfo('Bewertung freigegeben.', true);
-  } catch(e) { zeigeInfo('Fehler: ' + e.message, false); }
+    laden(false);
+  } catch (e) { zeigeInfo('Fehler: ' + e.message, false); laden(false); }
 }
 
 async function loeschen(i, ausWartend) {
-  if (ausWartend) wartend.splice(i, 1);
-  else freigegeben.splice(i, 1);
+  if (ausWartend) wartend = wartend.filter((_, idx) => idx !== i);
+  else freigegeben = freigegeben.filter((_, idx) => idx !== i);
   rendern();
   try {
-    await speichern(ausWartend ? BIN_WART : BIN_FREI, ausWartend ? wartend : freigegeben);
+    const r = await fetch(API + '/loeschen', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Admin-Code': ADMIN_CODE },
+      body: JSON.stringify({ index: i, from: ausWartend ? 'wartend' : 'freigegeben' })
+    });
+    if (!r.ok) throw new Error((await r.json()).error || 'Fehler');
     zeigeInfo('Bewertung gelöscht.', true);
-  } catch(e) { zeigeInfo('Fehler: ' + e.message, false); }
+  } catch (e) { zeigeInfo('Fehler: ' + e.message, false); laden(false); }
 }
 
 function zeigeInfo(text, ok) {
@@ -136,10 +179,6 @@ function zeigeInfo(text, ok) {
   el.className = 'meldung ' + (ok ? 'ok' : 'err');
   el.style.display = 'block';
   setTimeout(() => el.style.display = 'none', 3000);
-}
-
-function zeigeMeldung(id, show) {
-  document.getElementById(id).style.display = show ? 'block' : 'none';
 }
 </script>
 </body>

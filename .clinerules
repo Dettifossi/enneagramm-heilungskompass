@@ -1,0 +1,30 @@
+# Projektregeln — Enneagramm-Heilungskompass
+
+Lies vor jeder Aufgabe zuerst die vollständige CLAUDE.md im Projekt-Root — sie enthält die verbindlichen Regeln für dieses Projekt. Die wichtigsten in Kürze:
+
+## Struktur
+- `data/subtypes/` — ein File pro Subtyp (27 Dateien), zusammengeführt über `data/subtypes/index.js`
+- `data/knowledge/` — ein File pro Subtyp mit Wissensinhalt, zusammengeführt über `data/knowledge/index.js`
+- Bei Anfragen zu einem bestimmten Subtyp: nur die jeweilige Einzeldatei öffnen/bearbeiten, nicht `index.js` oder andere Subtyp-Dateien anfassen.
+- Neue Inhalte gehören in die jeweilige Einzeldatei, NIEMALS zurück in eine zentrale Sammeldatei wie `de.js`.
+- Portrait-Seiten (beruehmte-*) sind als Funktionen in `bundle.js` definiert, folgen dem Muster bestehender Portraits (z. B. `davidHumePortraitPage()`): Bild, Name, Subtyp+Flügel, Untertitel, 6 Abschnitte (Tier, Subtyp-Leidenschaft, Flügel, ein biografisches Thema, Licht/Schatten, Abschluss), bookTip-Verweise, relatedLinks.
+
+## Pflichtschritt bei jedem neuen Portrait/Schaubild
+**Jede neue Seite MUSS sofort in `data/register.js` eingetragen werden** (registerEntries-Array), sonst ist sie weder über die Suche noch im Register auffindbar. Format:
+```js
+{ term: "Anzeigename", route: "hash-route-ohne-#", description: "Kurzbeschreibung ~80 Zeichen" },
+```
+- Portraits (beruehmte-*): description beginnt mit "Portrait: SUBTYPCODE · Subtyp · Kurzinfo"
+- Schaubilder: description beginnt mit "Schaubild: …"
+
+## Inhaltsregeln
+- Keine erfundenen Zuordnungen — fachliche Inhalte nur aus belegten Quellen.
+- Unsichere Zuordnungen (z. B. unklarer Flügel) als needs_review markieren, nicht raten.
+- Leidenschaft und Wunde (woundBehindPassion) sauber getrennt halten, nicht vermischen.
+
+## Sprache & Stil
+- App-Texte auf Deutsch, korrekte Umlaute, deutsche Typografie.
+- Keine deutschen Anführungszeichen „…" wenn das schließende Zeichen ein normales `"` (U+0022) ist — das ist ein Syntaxfehler in JS-Strings. Stattdessen `›…‹` verwenden.
+
+## Großdatei-Regel
+- `bundle.js` und `en/bundle.js` sind sehr groß — für Prüfungen bevorzugt `grep -n` / `sed -n 'X,Yp'` statt vollständigem Einlesen der Datei.

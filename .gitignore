@@ -1,2 +1,25 @@
 .env
+node_modules/
 .claude/social-media-cron.log
+.claude/settings.local.json
+.wrangler/
+ai-prototype/worker/.wrangler/
+.DS_Store
+
+# Profiling-Enzyklopädie: geschütztes geistiges Eigentum, niemals ins
+# öffentliche Repo. Extrahierter Text, Chunks und Embeddings bleiben lokal
+# und werden nur direkt per wrangler zu Cloudflare Vectorize hochgeladen.
+ai-prototype/enzyklopaedie-private/
+
+# Porträtbilder: seit der R2-Migration (Schritt 10, 2026-09-05) werden neue
+# Porträts nur noch zu Cloudflare R2 hochgeladen, nicht mehr zusätzlich hier
+# committet, um das GitHub-Repo nicht weiter wachsen zu lassen. Die 596
+# bereits getrackten Bestandsbilder bleiben als Fallback unberührt – dieser
+# Eintrag verhindert nur, dass künftige neue Dateien versehentlich
+# hinzugefügt werden.
+assets/portraits/*-portrait.jpg
+
+# Archiv für Original-Uploadbilder, die von keiner Porträtseite mehr
+# referenziert werden (Live-Version liegt bereits auf R2) – lokales Backup,
+# nicht Teil des Repos.
+assets/portraits-archiv/

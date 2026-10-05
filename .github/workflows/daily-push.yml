@@ -2,8 +2,15 @@ name: Täglicher Push-Impuls
 
 on:
   schedule:
-    # Jeden Morgen um 08:00 Uhr deutscher Zeit (= 06:00 UTC)
-    - cron: "0 6 * * *"
+    # Läuft mitten in der Nacht (= 00:00 UTC / 02:00 Uhr deutscher Sommerzeit)
+    # mit sehr großem Zeitpuffer, da GitHub Actions Cron-Jobs sich um mehrere
+    # Stunden verzögern können (am 2026-08-04 z.B. um 2h36min statt 0 min).
+    # Die tatsächliche Zustellung um 7 Uhr übernimmt OneSignal selbst
+    # (delayed_option/delivery_time_of_day unten) – WICHTIG: Läuft dieser Job
+    # nach 7:00 Uhr Ortszeit eines Nutzers, verschiebt OneSignal die
+    # Zustellung für diesen Nutzer auf den nächsten Tag. Der Puffer muss also
+    # größer sein als die maximal beobachtete GitHub-Cron-Verzögerung.
+    - cron: "0 0 * * *"
   workflow_dispatch: # Manuell auslösbar zum Testen
 
 jobs:
@@ -13,7 +20,7 @@ jobs:
       - name: Push-Benachrichtigung senden
         run: |
           curl -s -X POST "https://onesignal.com/api/v1/notifications" \
-            -H "Authorization: Basic ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
+            -H "Authorization: Key ${{ secrets.ONESIGNAL_REST_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{
               "app_id": "a8616f76-24df-4a4d-970f-59976a11503e",
@@ -23,5 +30,7 @@ jobs:
               "contents": {"en": "Your daily impulse is waiting for you", "de": "Dein Tagesimpuls wartet auf dich"},
               "url": "https://kompass.verlagshausrathmer.com/#dashboard",
               "chrome_web_icon": "https://kompass.verlagshausrathmer.com/apple-touch-icon.png",
-              "isAnyWeb": true
+              "isAnyWeb": true,
+              "delayed_option": "timezone",
+              "delivery_time_of_day": "7:00AM"
             }'

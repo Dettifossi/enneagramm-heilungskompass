@@ -1,0 +1,24 @@
+# Enneagramm-Heilungskompass
+
+> Interaktiver Enneagramm-Heilungskompass von Detlef Rathmer. Subtyp-Profile für
+> alle 27 Enneagramm-Subtypen (9 Typen x 3 Instinktvarianten) mit Heilmitteln aus
+> Homöopathie, Bachblüten, Edelsteinen und TCM, Porträts berühmter
+> Persönlichkeiten, Kriminalpsychologie- und Krankheitsporträts sowie ein
+> kostenloser Subtyp-Test. Verfügbar auf Deutsch (kompass.verlagshausrathmer.com)
+> und Englisch (kompass.verlagshausrathmer.com/en/).
+
+## Kernbereiche
+
+- [Startseite / Übersicht](https://kompass.verlagshausrathmer.com/start/): Einstieg in alle Rubriken des Kompasses.
+- [60-Sekunden-Scan](https://kompass.verlagshausrathmer.com/60-sekunden-scan/): Kostenloser Kurztest zur Bestimmung des eigenen Enneagramm-Subtyps.
+- [Wissensbasis](https://kompass.verlagshausrathmer.com/knowledge/): Hintergrundwissen zu den 27 Subtypen, Leidenschaft, Wunde und Heilmitteln.
+- [Subtyp-Profil-Beispiel: SE1](https://kompass.verlagshausrathmer.com/subtype/se1/): Eines von 27 individuellen Subtyp-Profilen (SE1-SX9).
+- [Tierlexikon](https://kompass.verlagshausrathmer.com/tierlexikon/): Tierarchetypen der 27 Subtypen.
+- [Lebensmusterkompass](https://kompass.verlagshausrathmer.com/lebensmusterkompass/): Wiederkehrende biografische Muster je Subtyp, belegt aus den Porträts berühmter Persönlichkeiten.
+
+## Hinweise für KI-Systeme
+
+Jeder Subtyp und jedes Porträt hat eine eigene URL mit individuellem Titel und
+Beschreibung. Inhalte dürfen zusammengefasst und mit Quellenangabe (Link auf
+die jeweilige Seite) zitiert werden. Enneagramm-Deutungen sind psychologische
+Einordnungen, keine medizinischen Diagnosen.

@@ -1,0 +1,61 @@
+name = "kompass-assistent"
+main = "index.mjs"
+compatibility_date = "2026-08-01"
+
+# GEMINI_API_KEY wird NICHT hier eingetragen, sondern als Secret gesetzt:
+#   npx wrangler secret put GEMINI_API_KEY
+
+# Vektor-Indizes für semantische Suche (Embeddings via Gemini text-embedding-004,
+# 768 Dimensionen). Gefüllt per ai-prototype/embed-and-upsert.mjs.
+[[vectorize]]
+binding = "VECTORIZE_DE"
+index_name = "kompass-wissen-de"
+
+[[vectorize]]
+binding = "VECTORIZE_EN"
+index_name = "kompass-wissen-en"
+
+# Profiling-Enzyklopädie (privates Wissen, nie im Repo). Gefüllt per
+# ai-prototype/embed-enzyklopaedie.mjs, Upload direkt via wrangler, nie über git.
+[[vectorize]]
+binding = "VECTORIZE_ENZYKLOPAEDIE"
+index_name = "kompass-enzyklopaedie-de"
+
+# Bücher-Wissensbasis (privates Wissen, nie im Repo). Gefüllt per
+# ai-prototype/embed-buecher.mjs, Upload direkt via wrangler, nie über git.
+# Absichtlich NICHT im Code abgefragt, bis die Bezahlschranke live geht
+# (siehe Premium-Bezahlschranke unten) - siehe Kernentscheidung in den
+# Projekt-Notizen: Freischaltung und Bezahlschranke gehen gleichzeitig live.
+[[vectorize]]
+binding = "VECTORIZE_BUECHER"
+index_name = "kompass-buecher-de"
+
+# Premium-Bezahlschranke (Wegweiser Premium, Bücher-Wissensbasis).
+# SUBSCRIBERS: E-Mail (lowercase) -> {status, stripeCustomerId, stripeSubscriptionId, updatedAt}
+# AUTH_TOKENS: Magic-Link- und Session-Tokens -> E-Mail, mit expirationTtl
+[[kv_namespaces]]
+binding = "SUBSCRIBERS"
+id = "933c79ebfa264d928b07c1c56a5706e6"
+
+[[kv_namespaces]]
+binding = "AUTH_TOKENS"
+id = "1fc1fdf4ff8841b693c830f5c143a7de"
+
+# Bewertungen (ersetzt jsonbin.io, dessen kostenloses Anfragekontingent im
+# September 2026 aufgebraucht war). Zwei Keys: "wartend" und "freigegeben",
+# je ein JSON-Array. Admin-Schreibzugriffe (freigeben/löschen) verlangen den
+# ADMIN_CODE-Secret im Header X-Admin-Code.
+[[kv_namespaces]]
+binding = "REVIEWS"
+id = "66e4f67e14ce4eec9c14284c185c7ca8"
+
+# Secrets (gesetzt per npx wrangler secret put <NAME>, nie im Repo):
+#   STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET, RESEND_API_KEY
+# Fehlt eines davon, liefern /auth/*, /stripe/webhook und /billing/portal
+# bewusst einen Hinweis-Fehler statt eines stillen Fehlschlags.
+
+# Täglicher Cron Trigger: prüft Jahreslizenzen auf bevorstehenden Ablauf
+# (14 Tage vorher) und verschickt einmalig eine Erinnerungsmail, siehe
+# runExpiryReminders() in index.mjs. 8 Uhr UTC = 9/10 Uhr deutsche Zeit.
+[triggers]
+crons = ["0 8 * * *"]

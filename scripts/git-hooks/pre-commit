@@ -1,0 +1,103 @@
+#!/bin/bash
+# Pre-Commit-Sicherheitsnetz: blockiert Commits, die die Live-App für Nutzer
+# brechen würden (Syntaxfehler, vergessenes Cache-Busting, fehlende Register-Einträge).
+#
+# Installation (einmalig, .git/hooks/ wird nicht von git selbst versioniert):
+#   cp scripts/git-hooks/pre-commit .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+#
+# Umgehen (nur in echten Ausnahmefällen, z. B. reine Doku-Änderung ohne Content-Bezug):
+#   git commit --no-verify
+
+set -uo pipefail
+cd "$(git rev-parse --show-toplevel)"
+
+STAGED="$(git diff --cached --name-only)"
+FAIL=0
+
+file_staged() { printf '%s\n' "$STAGED" | grep -qxF "$1"; }
+
+# 1. Syntax-Checks für ES-Module (bundle.js, en/bundle.js, alle ausgelagerten Teil-Dateien)
+for f in $STAGED; do
+  case "$f" in
+    bundle.js|en/bundle.js|data/beruehmte-de/*.js|data/kriminal-de/*.js|data/krankheitsportraets-de/*.js|en/data/beruehmte-en/*.js|en/data/kriminal-en/*.js|en/data/krankheitsportraets-en/*.js)
+      if [ -f "$f" ]; then
+        if ! node --input-type=module --check < "$f" > /tmp/precommit-synerr-kompass 2>&1; then
+          echo "FEHLER: Syntaxfehler in $f:"
+          cat /tmp/precommit-synerr-kompass
+          FAIL=1
+        fi
+      fi
+      ;;
+  esac
+done
+
+# 2. Cache-Busting-Konsistenz — Pflichtschritt laut CLAUDE.md 1a
+if file_staged "bundle.js"; then
+  if ! file_staged "index.html"; then
+    echo "FEHLER: bundle.js geändert, aber index.html (bundle.js?v=inhalt-vXXXX) nicht mit vorgemerkt."
+    echo "        -> scripts/bump-cache-version.sh --de-only ausführen und index.html + sw.js hinzufügen (git add)."
+    FAIL=1
+  fi
+  if ! file_staged "sw.js"; then
+    echo "FEHLER: bundle.js geändert, aber sw.js (SW_VERSION/BUNDLE_VERSION) nicht mit vorgemerkt."
+    FAIL=1
+  fi
+fi
+
+if file_staged "en/bundle.js"; then
+  if ! file_staged "en/index.html"; then
+    echo "FEHLER: en/bundle.js geändert, aber en/index.html nicht mit vorgemerkt."
+    echo "        -> scripts/bump-cache-version.sh --en-only ausführen und en/index.html + en/sw.js hinzufügen (git add)."
+    FAIL=1
+  fi
+  if ! file_staged "en/sw.js"; then
+    echo "FEHLER: en/bundle.js geändert, aber en/sw.js nicht mit vorgemerkt."
+    FAIL=1
+  fi
+fi
+
+if file_staged "data/changelog.js"; then
+  if ! file_staged "index.html" || ! file_staged "en/index.html"; then
+    echo "FEHLER: data/changelog.js geändert, aber index.html/en/index.html (changelog.js?v=NNN) nicht beide mit vorgemerkt."
+    FAIL=1
+  fi
+fi
+
+if file_staged "data/register.js"; then
+  if ! file_staged "bundle.js" || ! file_staged "en/bundle.js"; then
+    echo "FEHLER: data/register.js geändert, aber bundle.js/en/bundle.js (data/register.js?v=NN-Bump im Import) nicht beide mit vorgemerkt."
+    echo "        -> scripts/bump-cache-version.sh --register ausführen."
+    FAIL=1
+  fi
+fi
+
+# 3. Register-Kontrolle — neue Routen in bundle.js müssen in data/register.js stehen
+if file_staged "bundle.js" || file_staged "data/register.js"; then
+  if [ -f "bundle.js" ] && [ -f "data/register.js" ]; then
+    MISSING="$(python3 -c "
+import re
+t=open('bundle.js',encoding='utf-8').read()
+rr=set(re.findall(r'\"([a-z][a-z0-9\-/]+)\"\s*:\s*\w+Page\b',t))
+rf=open('data/register.js',encoding='utf-8').read()
+rg=set(re.findall(r'route\s*:\s*\"([^\"]+)\"',rf))
+ex={'beruehmte-persoenlichkeiten','favoriten','beruehmte-obama','enneagramm-memory-1','enneagramm-memory-2','enneagramm-memory-3','gemerkte-impulse','wegweiser-premium'}
+miss=[r for r in sorted(rr-rg) if r not in ex]
+print(len(miss))
+for r in miss: print(' ', r)
+")"
+    MISSING_COUNT="$(printf '%s\n' "$MISSING" | head -1)"
+    if [ "$MISSING_COUNT" != "0" ]; then
+      echo "FEHLER: $MISSING_COUNT Route(n) in bundle.js ohne Eintrag in data/register.js:"
+      printf '%s\n' "$MISSING" | tail -n +2
+      FAIL=1
+    fi
+  fi
+fi
+
+if [ "$FAIL" = "1" ]; then
+  echo ""
+  echo "Commit abgebrochen. Mit 'git commit --no-verify' erzwingen (nur in echten Ausnahmefällen)."
+  exit 1
+fi
+
+exit 0

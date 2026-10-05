@@ -3,10 +3,8 @@
   "configurations": [
     {
       "name": "enneagramm-kompass",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": ["/Users/detlefrathmer/enneagramm-heilungskompass/.claude/server.py"],
-      "port": 8006,
-      "open": "preview.html"
+      "url": "http://localhost:4174",
+      "port": 4174
     }
   ]
 }

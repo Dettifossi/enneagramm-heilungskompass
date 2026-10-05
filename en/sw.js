@@ -1,6 +1,6 @@
 // Kompass Service Worker – iOS-kompatibler Auto-Reload
-const SW_VERSION = 'v8';
-const BUNDLE_VERSION = 'v786'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus
+const SW_VERSION = 'v312';
+const BUNDLE_VERSION = 'v2181'; // wird bei jedem Deploy mitaktualisiert → löst Auto-Reload aus, ab jetzt synchron mit en/index.html bundle.js?v=inhalt-vNNNN gepflegt
 const CACHE_NAME = 'kompass-en-cache-' + SW_VERSION;
 
 self.addEventListener('install', event => {
@@ -30,6 +30,9 @@ self.addEventListener('fetch', event => {
     url.pathname.endsWith('/') ||
     url.pathname.endsWith('index.html') ||
     url.pathname.includes('bundle.js') ||
+    url.pathname.includes('/data/beruehmte-en/') ||
+    url.pathname.includes('/data/kriminal-en/') ||
+    url.pathname.includes('/data/krankheitsportraets-en/') ||
     url.pathname.includes('app.js');
 
   if (isAppShell) {

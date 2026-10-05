@@ -254,111 +254,111 @@ export const so1 = {
           ],
         },
         {
-          title: "SE1 · Seite 1 · Subtyp-Profil",
+          title: "SO1 · Seite 1 · Subtyp-Profil",
           intro:
-            "Die SE1 sucht Sicherheit durch Ordnung, Korrektheit und Selbstkontrolle. Der Körper zeigt dabei feine Konzentration, zurückhaltende Präsenz und ein starkes Bedürfnis, stabil und integer zu handeln.",
+            "Die SO1 sucht Integrität im sozialen und gesellschaftlichen Feld: durch Vorbildhaltung, Verantwortung für das große Ganze und den Einsatz für Gerechtigkeit. Der Körper zeigt dabei wache Aufmerksamkeit für das Kollektiv und ein starkes Bedürfnis, Orientierung zu geben, ohne zu richten.",
           entries: [
             {
               label: "Grundthema",
-              text: "Integrität und Ordnung. Das Richtige ist heilig; Prinzipien sollen schützen, stützen und Halt geben.",
+              text: "Integrität im sozialen Feld. Verantwortung für das Richtige übernehmen und als Vorbild für Ordnung, Fairness und Gerechtigkeit wirken.",
             },
             {
               label: "Organismusfrage",
-              text: "Wie kann ich richtig handeln und meine Integrität bewahren, um sicher und stabil zu bleiben?",
+              text: "Wie kann ich Orientierung und Integrität geben, ohne andere oder mich selbst zu verurteilen?",
             },
             {
               label: "Blickqualität",
-              text: "aufmerksam und prüfend; scannt nach Sicherheit und Ordnung; eher bei sich und weniger expansiv; klare, ruhige Präsenz.",
+              text: "klar und wach; beobachtet das Feld; prüfend und bewertend; sucht Fairness und Gerechtigkeit.",
             },
             {
               label: "Mikrospannung",
-              text: "leichte Konzentrationsfalten in der Stirn, fokussierte und kritische Augen, kontrollierter Mund, leicht angespannter Kiefer und aufrechte, zurückhaltende Haltung.",
+              text: "vertikale Konzentrationsfalten in der Stirn, gespannte und fokussierte Augen, kontrollierter und leicht angespannter Mund, fester, zurückhaltender Kiefer, aufrechte, kontrollierte Haltung.",
             },
             {
               label: "Atemrhythmus",
-              text: "tief, ruhig und kontrolliert; neigt zum Anhalten des Atems bei innerer Anspannung; Regulation über Kontrolle.",
+              text: "eher flach und kontrolliert; hält den Atem an bei innerer Anspannung; reguliert den Atem bewusst; Fokus auf Kontrolle und Haltung.",
             },
             {
               label: "Bewegungsinitiierung",
-              text: "überlegt und vorsichtig; prüft erst und handelt dann; schützt Energie und Ressourcen; Bewegung ist zielgerichtet und sparsam.",
+              text: "überlegt und ausgerichtet; plant, bevor sie handelt; strukturiert und geordnet; bewegt sich mit Zweck und Disziplin.",
             },
             {
               label: "Kontaktstil",
-              text: "respektvoll, korrekt und verlässlich; nimmt Distanz wahr, bis Vertrauen da ist; klare Grenzen und klare Worte; hilfsbereit, wenn Sicherheit gegeben ist.",
+              text: "respektvoll und korrekt; klar in Kommunikation und Haltung; vertrauensfördernd durch Verlässlichkeit; orientiert sich an gemeinsamen Werten.",
             },
             {
               label: "Spannungsverteilung",
-              text: "Kopf und Stirn: moralische Anspannung. Nacken und Schultern: Verantwortungslast. Brustbereich: Schutzpanzer. Bauch: Kontrolle und Selbstregulation. Kiefer: zurückgehaltene Spannung.",
+              text: "Kopf und Stirn: Verantwortung für das Kollektiv. Nacken und Schultern: Lastträger für Gruppe und Gemeinschaft. Brustbereich: Vorbildhaltung. Bauch: Kontrolle des eigenen Urteils. Kiefer: zurückgehaltene Kritik.",
             },
             {
               label: "Ressourcenfeld",
-              text: "Selbstfürsorge und Stabilität, klare Werte und Prinzipien, Struktur und Ordnung, verlässliche Routinen, Grenzen und Selbstschutz, Ehrlichkeit und Gewissen.",
+              text: "ruhiger Atem, klarer Blick, offene Brust und Herzraum, mitfühlende Führung, lebendige Gerechtigkeit, verlässliche Werte und Prinzipien.",
             },
           ],
         },
         {
           title: "Seite 2 · 2-Punkte-Integration",
           intro:
-            "Die zentrale Praxis der SE1 verbindet zwei Körperräume: den Solarplexus/Oberbauch als Feld von Ordnung und Ausrichtung mit dem Unterbauch/Beckenbereich als Feld von Sicherheit, Ruhe und Erdung. Die Übung bringt Aufmerksamkeit in beide Pole zugleich, ohne etwas korrigieren zu müssen.",
+            "Die zentrale Praxis der SO1 verbindet zwei Körperräume: den Solarplexus/Oberbauch als Feld von Ordnung, Integrität und Kontrolle mit dem Unterbauch/Beckenbereich als Feld von Sicherheit, Schutz und Verwurzelung. Die Übung bringt Aufmerksamkeit in beide Pole zugleich, ohne etwas korrigieren zu müssen.",
           entries: [
             {
               label: "Punkt 1",
-              text: "Solarplexus / Oberbauch: Bedürfnis nach Klarheit, Ordnung und richtiger Ausrichtung. Dieser Punkt hält die innere Frage, was stimmig, korrekt und verantwortbar ist.",
+              text: "Solarplexus / Oberbauch: Bedürfnis nach Ordnung, Integrität, Kontrolle und innerer Stabilität. Dieser Punkt hält die innere Frage, was für das Ganze richtig und verantwortbar ist.",
             },
             {
               label: "Punkt 2",
-              text: "Unterbauch / Beckenbereich: Bedürfnis nach Sicherheit, Ruhe, Erdung und körperlichem Vertrauen. Dieser Punkt bringt die SE1 aus reiner Kopf- und Kontrollspannung zurück in den Körper.",
+              text: "Unterbauch / Beckenbereich: Bedürfnis nach Sicherheit, Schutz und Verwurzelung. Dieser Punkt bringt die SO1 aus reiner Verantwortungslast zurück in den eigenen Körper.",
             },
             {
               label: "Vorgehen",
-              text: "Eine Hand auf den Solarplexus/Oberbauch legen, die andere auf den Unterbauch/Beckenbereich. Erst Punkt 1 spüren, dann Punkt 2 spüren, danach beide Energiefelder gleichzeitig wahrnehmen. Nichts verändern, nichts korrigieren, den Atem ruhig fließen lassen.",
+              text: "Eine Hand auf den Solarplexus/Oberbauch legen, die andere auf den Unterbauch/Beckenbereich. Erst Punkt 1 spüren, dann Punkt 2 spüren, danach beide Energiefelder gleichzeitig wahrnehmen. Nicht kontrollieren, Milde zulassen, einfach da sein.",
             },
             {
               label: "Handposition",
-              text: "Die Hände dienen nicht der Korrektur, sondern der gleichzeitigen Aufmerksamkeit. Die SE1 erlebt dadurch: Klarheit und Sicherheit müssen nicht gegeneinander arbeiten.",
+              text: "Die Hände dienen nicht der Korrektur, sondern der gleichzeitigen Aufmerksamkeit. Die SO1 erlebt dadurch: Verantwortung lösen und ruhig bleiben, ohne die eigene Integrität aufzugeben.",
             },
             {
               label: "Lebensthema",
-              text: "Du suchst Sicherheit durch Ordnung, Integrität und richtiges Handeln. Gleichzeitig entsteht Druck, wenn Sicherheit nur über Kontrolle und Fehlervermeidung gesucht wird.",
+              text: "Verantwortung übernehmen und das Richtige bewirken wollen. Sich an hohen Idealen orientieren und auch von anderen Integrität und Haltung erwarten. Für Ordnung und Verbesserung kämpfen und dabei leicht streng oder unnachgiebig werden.",
             },
             {
               label: "Unbewusste Strategie",
-              text: "Du versuchst, Stabilität durch Kontrolle, Korrektheit und Vorbereitung herzustellen. Dabei kann der Körper eng werden, obwohl er eigentlich nach Ruhe und Vertrauen sucht.",
+              text: "Starke Orientierung an Regeln, Werten und moralischer Klarheit. Sich und andere kontrollieren, um Fehler oder falsches Verhalten zu vermeiden. Stabilisierung über Disziplin, Verantwortung und hohe Ansprüche, auch wenn innerer Druck entsteht.",
             },
             {
               label: "Integration",
-              text: "Du lernst, Ordnung zuzulassen, ohne dich zu verhärten. Sicherheit entsteht nicht nur durch Richtigkeit, sondern auch durch Körperkontakt, Erdung und inneres Vertrauen.",
+              text: "Erkennen, dass Pflichtgefühl und moralische Kontrolle vom Herzen entfernen können. Mehr Menschlichkeit, Wärme und persönliche Lebendigkeit erlauben. Mitgefühl ersetzt innere Strenge und Bewertung.",
             },
             {
               label: "Prototypen",
-              text: "Die weibliche und männliche SE1-Prototypik zeigt eine ruhige, zurückhaltende und kontrollierte Präsenz. Beide stehen für die Suche nach Stabilität, Verantwortung und innerer Korrektheit.",
+              text: "Die weibliche und männliche SO1-Prototypik zeigt eine engagierte, moralisch klare Präsenz im sozialen Feld. Beide stehen für Verantwortung, Vorbildfunktion und den Einsatz für eine gerechtere Gemeinschaft.",
             },
             {
               label: "Kernsatz",
-              text: "Wenn du deiner inneren Ordnung vertraust, entsteht Ruhe, auch wenn nicht alles perfekt ist.",
+              text: "Wenn du Vorbild bist, ohne zu richten, entsteht Würde, Klarheit und natürliche Autorität.",
             },
             {
               label: "Fußzeile",
-              text: "Selbsterhaltende Eins (SE1): Instinkt der Integrität, Ordnung, Stabilität und körperlichen Selbstsicherung.",
+              text: "Soziale Eins (SO1): Instinkt der Verantwortung, Integrität und Vorbildfunktion im sozialen und gesellschaftlichen Feld.",
             },
           ],
         },
         {
           title: "Seite 3 · Körperarbeit & Akupressur",
           intro:
-            "Diese Seite übersetzt die innere Spannung der SE1 in konkrete Körperarbeit. Der Weg führt von Selbstüberforderung und Kontrolle in mehr Lebendigkeit, Vertrauen und körperliche Entspannung.",
+            "Diese Seite übersetzt die innere Spannung der SO1 in konkrete Körperarbeit. Der Weg führt von moralischem Engagement bis zur Erschöpfung in mehr Menschlichkeit, Vertrauen und körperliche Entspannung.",
           entries: [
             {
               label: "Problem",
-              text: "Du versuchst, korrekt, stabil und vorbereitet zu bleiben. Dabei kann innere Spannung entstehen, weil der Körper ständig prüft, ob etwas falsch, unsicher oder noch nicht gut genug ist.",
+              text: "Du versuchst, für Ordnung und Gerechtigkeit im Kollektiv einzustehen. Dabei kann innere Spannung entstehen, weil du ständig prüfst, ob genug getan wurde und wo noch Missstände bestehen.",
             },
             {
               label: "Wendepunkt",
-              text: "Du erkennst, dass Kontrolle und Selbstkorrektur nicht dasselbe sind wie echte Sicherheit. Die Energie darf ruhiger werden, ohne dass Integrität verloren geht.",
+              text: "Du erkennst, dass Pflichtgefühl und moralische Kontrolle vom Herzen entfernen können. Die Energie darf ruhiger werden, ohne dass Integrität verloren geht.",
             },
             {
               label: "Integration",
-              text: "Du nutzt deine Klarheit bewusst, ohne sie gegen dich selbst zu richten. Ordnung wird zu Orientierung, nicht zu Druck.",
+              text: "Du nutzt deine Klarheit bewusst, ohne sie gegen dich oder andere zu richten. Verantwortung wird zu Orientierung, nicht zu Druck.",
             },
             {
               label: "Gesicht",
@@ -366,23 +366,23 @@ export const so1 = {
             },
             {
               label: "Hand",
-              text: "Handlungskraft und Balance. Die Hand erinnert daran, dass richtiges Handeln nicht aus Verkrampfung entstehen muss.",
+              text: "Handlungskraft und Balance. Die Hand erinnert daran, dass Vorbild sein nicht aus Verkrampfung entstehen muss.",
             },
             {
               label: "Fuß",
-              text: "Erdung und Standfestigkeit. Der Fußpunkt bringt die SE1 aus der Bewertung in körperlichen Boden und tragfähige Orientierung.",
+              text: "Erdung und Standfestigkeit. Der Fußpunkt bringt die SO1 aus der Bewertung des Kollektivs in körperlichen Boden und tragfähige Orientierung.",
             },
             {
               label: "Bauch",
-              text: "Mitte und Entspannung. Der Bauchpunkt reguliert Kontrolle, Druck und innere Anspannung und stärkt eine ruhigere Mitte.",
+              text: "Mitte und Entspannung. Der Bauchpunkt reguliert Kontrolle, Verantwortungsdruck und innere Anspannung und stärkt eine ruhigere Mitte.",
             },
             {
               label: "Finger",
-              text: "Spüren und Loslassen. Der Fingerimpuls unterstützt, Perfektionismus, festgehaltene Korrektur und innere Enge zu lösen.",
+              text: "Spüren und Loslassen. Der Fingerimpuls unterstützt, moralischen Perfektionismus, festgehaltene Korrektur und innere Enge zu lösen.",
             },
             {
               label: "Ohr",
-              text: "Stille und Regulation. Der Ohrpunkt lädt ein, die innere Stimme milder zu hören und nicht nur den inneren Kritiker wahrzunehmen.",
+              text: "Stille und Regulation. Der Ohrpunkt lädt ein, die innere Stimme milder zu hören und nicht nur den inneren Richter über das Kollektiv wahrzunehmen.",
             },
             {
               label: "Anwendung",
@@ -390,15 +390,15 @@ export const so1 = {
             },
             {
               label: "Vollkommen still sitzen",
-              text: "Setze dich für zwei Minuten aufrecht und bequem hin. Der Körper darf seine eigene Intelligenz zeigen; in dieser kurzen Zeit muss nichts verbessert werden.",
+              text: "Setze dich für zwei Minuten aufrecht und bequem hin. Der Körper darf seine eigene Intelligenz zeigen; in dieser kurzen Zeit muss nichts verbessert oder für andere geregelt werden.",
             },
             {
               label: "Mentale & emotionale Haltung",
-              text: "Typ 1 zeigt mentalen Perfektionismus und emotionalen Groll, wenn innere Spannung zu stark wird. Die SE1 lernt, Selbstkontrolle in Selbstkontakt zu verwandeln.",
+              text: "Typ 1 zeigt mentalen Perfektionismus und emotionalen Groll, wenn innere Spannung zu stark wird. Bei der SO1 richtet sich dieser Groll besonders nach außen: auf gesellschaftliche Missstände und mangelnde Verantwortung. Sie lernt, Kontrolle über das Kollektiv in Selbstkontakt zu verwandeln.",
             },
             {
               label: "Flügel",
-              text: "Der 9er-Flügel betont Ruhe, Zurückhaltung und Harmonie. Der 2er-Flügel betont Beziehung, Verantwortung und Hilfsbereitschaft. Beide können die SE1 entlasten, wenn sie nicht zur zusätzlichen Pflicht werden.",
+              text: "Der 9er-Flügel bringt Ruhe und Rückzug aus dem ständigen gesellschaftlichen Engagement. Der 2er-Flügel verstärkt Fürsorge und persönlichen Einsatz für andere innerhalb der sozialen Mission. Beide können die SO1 entlasten, wenn sie nicht zur zusätzlichen Pflicht werden.",
             },
             {
               label: "Medienfelder",
@@ -409,19 +409,19 @@ export const so1 = {
         {
           title: "Seite 4 · Heilmittel-Kompass",
           intro:
-            "Der Heilmittel-Kompass übersetzt das SE1-Muster in ein heilkundliches Symbolfeld. Im Zentrum steht die Wandlung von überhöhter Selbstkontrolle, innerem Druck und angespannter Korrektheit hin zu Würde, Milde, innerer Ordnung und lebendiger Integrität.",
+            "Der Heilmittel-Kompass übersetzt das SO1-Muster in ein heilkundliches Symbolfeld. Im Zentrum steht die Wandlung von überhöhtem moralischem Engagement, äußerem Druck und angespannter Korrektheit hin zu Würde, Milde, innerer Ordnung und lebendiger Integrität.",
           entries: [
             {
               label: "Homöopathisches Einzelmittel",
-              text: "Platinum metallicum steht hier für die Regulation umgewandelter Bauchenergie. Es symbolisiert den Weg von innerem Anspruch, Selbstverantwortung und Spannung zu Würde, Demut und echter Integrität.",
+              text: "Platinum metallicum steht hier für die Regulation umgewandelter Bauchenergie. Es symbolisiert den Weg von innerem Anspruch, gesellschaftlicher Verantwortung und Spannung zu Würde, Demut und echter Integrität.",
             },
             {
               label: "Thema",
-              text: "Das Bedürfnis, integer, korrekt und kontrolliert zu bleiben, kann von einem starken inneren Anspruch getragen sein. Der heilende Weg führt von rigider Selbstbeherrschung zu milder, lebendiger Ordnung.",
+              text: "Das Bedürfnis, für das Kollektiv integer, korrekt und verantwortlich zu bleiben, kann von einem starken inneren Anspruch getragen sein. Der heilende Weg führt von rigidem moralischem Engagement zu milder, lebendiger Ordnung.",
             },
             {
               label: "Wirkung auf Lebenskraft und Leidenschaft",
-              text: "Der Impuls unterstützt die Wandlung von angespanntem Perfektionismus, innerer Härte und Selbstüberhöhung in menschliche Präsenz, Selbstannahme und verantwortliche Klarheit.",
+              text: "Der Impuls unterstützt die Wandlung von angespanntem gesellschaftlichem Perfektionismus, innerer Härte und Selbstüberhöhung in menschliche Präsenz, Selbstannahme und verantwortliche Klarheit.",
             },
             {
               label: "Ziel",
@@ -437,19 +437,19 @@ export const so1 = {
             },
             {
               label: "Edelstein",
-              text: "Amethyst trägt das Feld von Klarheit, Sammlung und geistiger Beruhigung. Er passt zur SE1, wenn die innere Stimme zu streng, bewertend oder kontrollierend wird.",
+              text: "Amethyst trägt das Feld von Klarheit, Sammlung und geistiger Beruhigung. Er passt zur SO1, wenn die innere Stimme über das Kollektiv zu streng, bewertend oder kontrollierend wird.",
             },
             {
               label: "Tee",
-              text: "Melissentee steht für sanfte Nervenruhe, Entspannung und emotionale Milde. Er ergänzt die SE1 dort, wo Kontrolle durch Beruhigung und weichen Atem abgelöst werden darf.",
+              text: "Melissentee steht für sanfte Nervenruhe, Entspannung und emotionale Milde. Er ergänzt die SO1 dort, wo Verantwortungsdruck durch Beruhigung und weichen Atem abgelöst werden darf.",
             },
             {
               label: "Leidenschaft",
-              text: "Die Leidenschaft der SE1 liegt in der inneren Anspannung, alles richtig machen zu müssen. Fehler, Unordnung oder moralische Unklarheit können körperlich wie Alarm erlebt werden.",
+              text: "Die Leidenschaft der SO1 liegt in der inneren Anspannung, für Gerechtigkeit und Ordnung im sozialen Feld einstehen zu müssen. Missstände, Unrecht oder mangelnde Verantwortung anderer können körperlich wie Alarm erlebt werden.",
             },
             {
               label: "Innere Motivation",
-              text: "Die Motivation ist der Wunsch nach Integrität, Sicherheit und verlässlicher Ordnung. Die SE1 möchte stabil, korrekt und verantwortlich handeln.",
+              text: "Die Motivation ist der Wunsch nach Integrität, Orientierung und verlässlicher Ordnung für das Ganze. Die SO1 möchte Vorbild sein und Verantwortung für eine gerechtere Gemeinschaft übernehmen.",
             },
             {
               label: "Medien & Wirkweise",
@@ -464,55 +464,55 @@ export const so1 = {
         {
           title: "Seite 5 · Integration",
           intro:
-            "Seite 5 bündelt das Integrationspotenzial der SE1. Die Bewegung geht von angespannter Selbstkontrolle, Fehlervermeidung und innerem Druck zu ruhiger Integrität, Selbstkontakt, Stabilität und milder Klarheit.",
+            "Seite 5 bündelt das Integrationspotenzial der SO1. Die Bewegung geht von angespanntem moralischem Engagement, Fehlervermeidung im Kollektiv und innerem Druck zu ruhiger Integrität, Selbstkontakt, Stabilität und milder Klarheit.",
           entries: [
             {
               label: "Integrationspotenzial",
-              text: "Ruhe und Integrität. Die SE1 muss Ordnung nicht mehr durch Druck erzwingen, sondern findet eine natürliche, verlässliche innere Ausrichtung.",
+              text: "Mitgefühl und Weisheit. Die SO1 muss Ordnung nicht mehr durch Urteil erzwingen, sondern findet eine natürliche, verlässliche innere Ausrichtung im Dienst am Ganzen.",
             },
             {
               label: "Leitquote",
-              text: "Sicherheit entsteht, wenn ich meiner inneren Ordnung vertraue, statt mich dauerhaft korrigieren zu müssen.",
+              text: "Wahre Veränderung entsteht aus Weisheit, nicht aus Urteil.",
             },
             {
               label: "Archetypische Essenz",
-              text: "Die SE1 ist der ruhige Hüter der Integrität. Sie schützt Werte, Ordnung und Verantwortung, ohne sich dabei selbst zu verhärten.",
+              text: "Die SO1 ist die ruhige Hüterin der Integrität im sozialen Feld. Sie schützt Werte, Ordnung und Verantwortung, ohne sich dabei selbst zu verhärten.",
             },
             {
               label: "Verkörperte Qualität",
-              text: "Verantwortungsbewusst, sorgfältig, zuverlässig, strukturiert, gewissenhaft und klar. In der Integration wird diese Qualität wärmer, ruhiger und menschlicher.",
+              text: "Verantwortungsbewusst, engagiert, zuverlässig, strukturiert, gewissenhaft und klar. In der Integration wird diese Qualität wärmer, ruhiger und menschlicher.",
             },
             {
               label: "Nervensystem-Regulation",
-              text: "Langsame Atmung, weicher Kiefer, Erdung, Grenzen spüren und die innere Kritikerstimme beruhigen. Der Körper lernt, Sicherheit nicht nur über Kontrolle zu erzeugen.",
+              text: "Spannung schneller loslassen, Bewertung in Verständnis wandeln, zwischen Aktivität und Ruhe wechseln, Perfektionismus und Härte lösen, sich selbst weniger verurteilen, Verantwortung entspannter tragen, inneren Druck reduzieren.",
             },
             {
               label: "Beziehungsebene",
-              text: "Vertrauen entsteht, wenn die SE1 sich zeigen darf, ohne perfekt sein zu müssen. Klarheit bleibt, aber sie wird durch Wärme, Zuhören und echte Nähe ergänzt.",
+              text: "Vertrauen entsteht, wenn die SO1 sich zeigen darf, ohne perfekt oder immer im Dienst der Sache sein zu müssen. Klarheit bleibt, aber sie wird durch Wärme, Zuhören und echte Nähe ergänzt.",
             },
             {
               label: "Neue Fähigkeiten",
-              text: "Fehlerfreundlichkeit, Gelassenheit, innere Milde, flexible Ordnung, Selbstfürsorge, Humor und die Fähigkeit, Verantwortung ohne Überkontrolle zu übernehmen.",
+              text: "Fehlerfreundlichkeit, Gelassenheit, innere Milde, flexible Ordnung, Selbstfürsorge, Humor und die Fähigkeit, Verantwortung für das Kollektiv ohne Überkontrolle zu übernehmen.",
             },
             {
               label: "Integrationssatz",
-              text: "Ich handle integer und klar, ohne mich selbst zu verurteilen. Ich darf richtig handeln und zugleich weich, lebendig und menschlich bleiben.",
+              text: "Ich stehe für das Richtige ein, ohne andere oder mich selbst zu verurteilen. Ich darf Vorbild sein und zugleich weich, lebendig und menschlich bleiben.",
             },
             {
               label: "Bewusstseinsraum",
-              text: "Bewusstsein entsteht, wenn die SE1 erkennt, dass wahre Integrität nicht aus Strenge, sondern aus Präsenz, Wahrhaftigkeit und innerer Ruhe kommt.",
+              text: "Bewusstsein entsteht, wenn die SO1 erkennt, dass wahre Integrität im sozialen Feld nicht aus Strenge, sondern aus Präsenz, Wahrhaftigkeit und innerer Ruhe kommt.",
             },
             {
               label: "Ausstrahlung",
-              text: "Ruhige Präsenz, klare Werte, verlässliche Wärme, sorgfältige Verantwortung und eine natürliche Würde, die andere nicht korrigieren muss.",
+              text: "Ruhige Präsenz, klare Werte, verlässliche Wärme, engagierte Verantwortung und eine natürliche Würde, die andere nicht korrigieren muss.",
             },
             {
               label: "Archetypische Natur",
-              text: "Der Adler steht für Weitblick und Integrität. In der Integration wird sein Blick nicht nur prüfend, sondern übersichtlich, weise und schützend.",
+              text: "Die Gans steht für Gemeinschaftssinn, Orientierung und Führung im Verbund. In der Integration wird ihre Führung nicht nur pflichtbewusst, sondern weise, mitfühlend und schützend.",
             },
             {
               label: "Integration bedeutet",
-              text: "Vom Korrigieren zum Erkennen, vom inneren Druck zur Ruhe, vom Perfektionismus zur Menschlichkeit und von Kontrolle zu vertrauensvoller Ordnung.",
+              text: "Vom Richten zum Erkennen, vom äußeren Druck zur Ruhe, vom moralischen Perfektionismus zur Menschlichkeit und von Kontrolle zu vertrauensvoller Ordnung.",
             },
           ],
         },

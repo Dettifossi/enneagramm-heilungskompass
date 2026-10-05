@@ -34,7 +34,7 @@ export const MOTIVTEST = [
   {
     nr: 3,
     thema: "Aufmerksamkeit in Beziehungen",
-    frage: "In zwischenmenschlichen Beziehungen ist meine Aufmerk- samkeit besonders auf folgende zwei Punkte gerichtet:",
+    frage: "In zwischenmenschlichen Beziehungen ist meine Aufmerksamkeit besonders auf folgende zwei Punkte gerichtet:",
     antworten: {
       E: "Die Frage: Was ist an oder in der Situation richtig oder falsch?",
       Z: "Anerkennung für die eigene Person.",
@@ -50,7 +50,7 @@ export const MOTIVTEST = [
   {
     nr: 4,
     thema: "Aufmerksamkeitsrichtungen",
-    frage: "Meine Aufmerksamkeit ist im Allgemeinen besonders auf folgen- de zwei Fragen gerichtet:",
+    frage: "Meine Aufmerksamkeit ist im Allgemeinen besonders auf folgende zwei Fragen gerichtet:",
     antworten: {
       E: "Was ist falsch und muss korrigiert werden?",
       Z: "Was wird benötigt? Welche Bedürfnisse hast du?",
@@ -101,7 +101,7 @@ export const MOTIVTEST = [
     frage: "In welchen beiden der folgenden nonverbalen Äußerungen erkenne ich mich am besten wieder?",
     antworten: {
       E: "angespannter Kiefer, der den Zorn zurückhält, selbstkontrollierte, aufrechte Körperhaltung („Stock verschluckt!“)",
-      Z: "oft abgerundete Schultern mit leicht eingefallener Brust, warmer Augenausdruck, Augen suchen den zwischenmenschlichen Kontakt, lachen, um eine Verbindung zum anderen aufzubauen Äußerungen (nonverbal) In welchen beiden der folgenden nonverbalen Äußerungen erkenne ich mich am besten wieder?",
+      Z: "oft abgerundete Schultern mit leicht eingefallener Brust, warmer Augenausdruck, Augen suchen den zwischenmenschlichen Kontakt, lachen, um eine Verbindung zum anderen aufzubauen",
       D: "Schultern mehr horizontal ausgerichtet als gerundet, energetische Aufmerksamkeit bündelt sich im Gesicht sowie im Oberkörper, selbstsicheres, fokussiertes Auftreten",
       V: "erscheint energetisch mehr nach innen fokussiert und intensiv, feuchter, wässriger Augenausdruck, manchmal verloren wirkend, intensive, mitunter sehr elegante Erscheinung",
       F: "Augenausdruck wissend und nachdenklich nach innen fokussiert, so als ob man sich selbst beobachtet, Kopf scheint energetisch vom Körper unabhängig („wie eine Boje auf dem Meer schwimmt“), wenig geerdet, häufiges Kopfnicken",
@@ -114,9 +114,9 @@ export const MOTIVTEST = [
   {
     nr: 8,
     thema: "Äußerungen (verbal)",
-    frage: "In welchen beiden der folgenden verbalen Äußerungen er- kenne ich mich am besten wieder?",
+    frage: "In welchen beiden der folgenden verbalen Äußerungen erkenne ich mich am besten wieder?",
     antworten: {
-      E: "nutzt wiederholt beurteilende, unbedingte Worte, z.B. „sollte“ , „müsste“ , „richtig“ , „falsch“ , „muss“ , „würde ich am besten“ etc., äußert häufig Meinungen, benutzt eine sehr präzise Sprache Äußerungen (verbal) In welchen beiden der folgenden verbalen Äußerungen erkenne ich mich am besten wieder?",
+      E: "nutzt wiederholt beurteilende, unbedingte Worte, z.B. „sollte“ , „müsste“ , „richtig“ , „falsch“ , „muss“ , „würde ich am besten“ etc., äußert häufig Meinungen, benutzt eine sehr präzise Sprache",
       Z: "häufige Fragen an andere, sanfte Stimme, außer wenn verärgert, macht Komplimente und schmeichelt anderen",
       D: "möchte verbal schnell zum Thema/Punkt kommen, logische, klare und präzise Sprache, stellt Ideen häufig in drei (oder wenigen) Schritten effektiv dar",
       V: "teilt anderen oft persönliche Dinge mit, häufiger Gebrauch der Wort „ich“ , „mein“ , „meins“ , „was mich betrifft“ etc., wohlüberlegt",
@@ -162,7 +162,7 @@ export const MOTIVTEST = [
   {
     nr: 11,
     thema: "Autotypen",
-    frage: "Welche beiden Autotypen-Kategorien bevorzuge ich persön- lich unabhängig von meiner aktuellen Lebenssituation?",
+    frage: "Welche beiden Autotypen-Kategorien bevorzuge ich persönlich unabhängig von meiner aktuellen Lebenssituation?",
     antworten: {
       E: "Elegante Limousine",
       Z: "Wohnmobil",
@@ -210,7 +210,7 @@ export const MOTIVTEST = [
   {
     nr: 14,
     thema: "Berufsausübung",
-    frage: "In meinem Beruf sind mir folgende zwei Aspekte von beson- derer Bedeutung:",
+    frage: "In meinem Beruf sind mir folgende zwei Aspekte von besonderer Bedeutung:",
     antworten: {
       E: "Weltverbesserung",
       Z: "Lebenshilfe für andere",
@@ -226,7 +226,7 @@ export const MOTIVTEST = [
   {
     nr: 15,
     thema: "Besondere Abneigungen",
-    frage: "In meinem Leben gibt es zwei nachfolgende Bereiche, woge- gen ich persönlich eine ganz besondere Abneigung besitze:",
+    frage: "In meinem Leben gibt es zwei nachfolgende Bereiche, wogegen ich persönlich eine ganz besondere Abneigung besitze:",
     antworten: {
       E: "sparsame Ausführung, Laxheit, Verantwortungslosigkeit",
       Z: "nicht anerkannt werden, Abweisung, unfreundliches, unaufmerksames Verhalten",
@@ -290,7 +290,7 @@ export const MOTIVTEST = [
   {
     nr: 19,
     thema: "Blindheit/blinder Fleck",
-    frage: "Manchmal kommt es bei mir zu einer eingeschränkten Wahr- nehmung der Realität, einer „Blindheit/blinder Fleck“ für:",
+    frage: "Manchmal kommt es bei mir zu einer eingeschränkten Wahrnehmung der Realität, einer „Blindheit/blinder Fleck“ für:",
     antworten: {
       E: "emotionale Zwischentöne/eigene Gereiztheit",
       Z: "die Würde anderer/die eigenen Bedürfnisse und Gefühle",
@@ -306,7 +306,7 @@ export const MOTIVTEST = [
   {
     nr: 20,
     thema: "Buchlektüre",
-    frage: "In meiner Freizeit sollte ein gutes Buch auf jeden Fall die folgen- den zwei Kriterien erfüllen:",
+    frage: "In meiner Freizeit sollte ein gutes Buch auf jeden Fall die folgenden zwei Kriterien erfüllen:",
     antworten: {
       E: "anspruchsvoll und weiterbildend",
       Z: "Lebenshilfe gebend",
@@ -434,7 +434,7 @@ export const MOTIVTEST = [
   {
     nr: 28,
     thema: "Erziehungserfahrungen",
-    frage: "In meiner Kindheit musste ich leider besonders zwei der fol- genden Erziehungserfahrungen in schmerzlicher Weise erleben:",
+    frage: "In meiner Kindheit musste ich leider besonders zwei der folgenden Erziehungserfahrungen in schmerzlicher Weise erleben:",
     antworten: {
       E: "Bestrafung – Belohnung!",
       Z: "Liebeskampf!",
@@ -466,7 +466,7 @@ export const MOTIVTEST = [
   {
     nr: 30,
     thema: "Fallen",
-    frage: "Jeder Enneatyp kann auf seiner Sinnsuche einen charakteris- tischen Irrweg einschlagen, welche zwei sind es bei mir vor allem?",
+    frage: "Jeder Enneatyp kann auf seiner Sinnsuche einen charakteristischen Irrweg einschlagen, welche zwei sind es bei mir vor allem?",
     antworten: {
       E: "Meine Pflicht erfüllen, empfindlich sein, innerlich gereizt, starr!",
       Z: "Gute Absichten, Schmeichelei, Gefälligkeit, Mitmenschen manipulieren!",
@@ -524,7 +524,7 @@ export const MOTIVTEST = [
       X: "Ich fühlte mich oft ohnmächtig, durfte nie eigene Entscheidungen treffen.",
       S: "Ich hatte viele Ängste und flüchtete in eine Traum- und Phantasiewelt.",
       A: "Ich musste für mich selbst eintreten und durfte keine Schwäche zeigen.",
-      N: "Ich blieb unbeachtet, meine Meinungen und Gefühle waren nicht wichtig. Gefühle in der Kindheit Welche beiden Grundgefühle herrschten in meiner Kindheit aus meiner heutigen Sichtweise besonders vor?",
+      N: "Ich blieb unbeachtet, meine Meinungen und Gefühle waren nicht wichtig.",
     }
   },
   {
@@ -546,7 +546,7 @@ export const MOTIVTEST = [
   {
     nr: 35,
     thema: "Geschenkideen",
-    frage: "Mit welchen beiden Geschenkideen könnte man mir persön- lich eine besondere Freude bereiten?",
+    frage: "Mit welchen beiden Geschenkideen könnte man mir persönlich eine besondere Freude bereiten?",
     antworten: {
       E: "einen Tagesplaner",
       Z: "ein(en) Wellnesstag oder -wochenende",
@@ -626,7 +626,7 @@ export const MOTIVTEST = [
   {
     nr: 40,
     thema: "Grundängste",
-    frage: "Welche zwei Grundängste, sonstige Befürchtungen und Un- sicherheiten sind in mir besonders verankert?",
+    frage: "Welche zwei Grundängste, sonstige Befürchtungen und Unsicherheiten sind in mir besonders verankert?",
     antworten: {
       E: "verurteilt zu werden, nicht gut genug zu sein, einen Fehler zu begehen",
       Z: "ungeliebt zu sein, vor emotionaler Ablehnung, zurückgewiesen zu werden",
@@ -642,7 +642,7 @@ export const MOTIVTEST = [
   {
     nr: 41,
     thema: "Handlungsbereitschaft",
-    frage: "Bei den folgenden Beschreibungen in Bezug auf meine Hand- lungsbereitschaft sehe ich mich in zwei Punkten besonders:",
+    frage: "Bei den folgenden Beschreibungen in Bezug auf meine Handlungsbereitschaft sehe ich mich in zwei Punkten besonders:",
     antworten: {
       E: "Unnachsichtiger Perfektionist – perfektionsorientiert",
       Z: "Rücksichtsvoller Helfer – liebesorientiert",
@@ -722,7 +722,7 @@ export const MOTIVTEST = [
   {
     nr: 46,
     thema: "Innere Leitsätze",
-    frage: "Folgende innere Leitsätze begründen womöglich innere Wider- stände in mir und verhindern dadurch meine Entwicklung:",
+    frage: "Folgende innere Leitsätze begründen womöglich innere Widerstände in mir und verhindern dadurch meine Entwicklung:",
     antworten: {
       E: "Ich sollte das Richtige tun (Reformer).",
       Z: "Ich sollte anderen helfen (Helfer).",
@@ -786,7 +786,7 @@ export const MOTIVTEST = [
   {
     nr: 50,
     thema: "Kindheitsdefizite",
-    frage: "In meiner Kindheit herrschten zwei der nachfolgenden Kind- heitsdefizite (elterliche Ansprüche) in besonderem Maße vor:",
+    frage: "In meiner Kindheit herrschten zwei der nachfolgenden Kindheitsdefizite (elterliche Ansprüche) in besonderem Maße vor:",
     antworten: {
       E: "Du darfst keine Fehler machen.",
       Z: "Du darfst keine eigenen Bedürfnisse haben!",
@@ -882,7 +882,7 @@ export const MOTIVTEST = [
   {
     nr: 56,
     thema: "Liebe (Ausdrucksweisen)",
-    frage: "Meine Liebe drückt sich vor allem in zwei der folgenden Aus- drucksweisen aus:",
+    frage: "Meine Liebe drückt sich vor allem in zwei der folgenden Ausdrucksweisen aus:",
     antworten: {
       E: "Väterlich-fördernde Liebe (vollkommen)",
       Z: "Mütterlich-unterstützende Liebe (zwischenmenschlich)",
@@ -919,7 +919,7 @@ export const MOTIVTEST = [
       E: "Ich muss mich geliebt fühlen, auch wenn ich nicht vollkommen bin. Mir fällt es schwer, meine Fehler zuzugeben. Ich habe Angst, dass du mich verlässt, wenn ich meine schlechte Seite zeige oder wütend werde – Überlegene Liebe!",
       Z: "Ich habe das Gefühl, dass ich irgendwas tun muss, damit du mich liebst. Ich bin nicht sicher, ob du mich meiner selbst willen liebst. Also tue ich alles, was dir gefallen könnte – Leidenschaftliche Liebe!",
       D: "Ich werde sein, was du haben willst. Du brauchst einen einfühlsamen Partner? Du findest ihn in mir. Frage mich aber bitte nicht, was ich selbst empfinde – Narzisstische Liebe!",
-      V: "Ich freue mich auf dich, aber wenn du dann da bist, fällt es mir schwer, ganz im Jetzt zu leben. Ich will etwas, aber weiß nicht was. Ich habe Angst, dich tief zu lieben, weil ich verletzt werden könnte – Krankhafte Liebe! Liebesbeziehungen & Liebesarten In der Liebesbeziehung zu einem Partner verhalte ich mich vor allem auf folgende zwei Arten und Weisen:",
+      V: "Ich freue mich auf dich, aber wenn du dann da bist, fällt es mir schwer, ganz im Jetzt zu leben. Ich will etwas, aber weiß nicht was. Ich habe Angst, dich tief zu lieben, weil ich verletzt werden könnte – Krankhafte Liebe!",
       F: "Ich halte meine tiefen Gefühle lieber zurück, wenn wir zusammen sind, denn ich muss mich irgendwie schützen. Wenn ich allein bin, denke ich viel an dich – Gleichgültige Liebe!",
       X: "Ich fühle mich sicherer, wenn ich der Gebende bin, denn ich kenne deine Motive nicht wirklich, mir etwas zu geben. Ich lerne nur langsam, dir zu vertrauen – Unterwürfige oder bevormundene Liebe!",
       S: "Ich suche nach Lebensfreude in der Beziehung, möchte dich ablenken, damit du wieder glücklich bist. Bist du niedergeschlagen, dann bin ich nicht so gern bei dir – Lustvolle Liebe!",
@@ -934,7 +934,7 @@ export const MOTIVTEST = [
     antworten: {
       E: "Ich korrigiere andere, weise auf deren Schlechtigkeit und Fehler hin und bestehe auf die Allgemeingültigkeit meiner Meinung.",
       Z: "Ich forsche nach den Bedürfnissen anderer, um Abhängigkeiten zu schaffen.",
-      D: "Ich passe mich dem anderen bestmöglich an und eigne mir jedes Image an, welches „funktioniert“ . Manipulationsstrategien Welcher beiden Manipulationsstrategien bediene ich mich im Alltag bevorzugt (EHRLICH!):",
+      D: "Ich passe mich dem anderen bestmöglich an und eigne mir jedes Image an, welches „funktioniert“ .",
       V: "Ich verhalte mich tendenziell wie eine Mimose und erzwinge damit Rücksichtnahme.",
       F: "Ich gebe mich selbst gedankenverloren und anderen das Gefühl, inkompetent zu sein, um sie emotional auf Abstand zu halten.",
       X: "Ich beschwere mich, kritisiere und teste die mir entgegengebrachte Loyalität.",
@@ -946,14 +946,14 @@ export const MOTIVTEST = [
   {
     nr: 60,
     thema: "Masken",
-    frage: "Welche beiden Masken setze ich gegenüber meinen Mitmen- schen nach außen hin am häufigsten auf?",
+    frage: "Welche beiden Masken setze ich gegenüber meinen Mitmenschen nach außen hin am häufigsten auf?",
     antworten: {
       E: "stets untadelig, vernünftig, gemäßigt, „gut“ , einsichtig, klug, rational, objektiv, moralisch, ethisch, über den Dingen stehend",
       Z: "stets großzügig, liebevoll, überlegt, warmherzig, mitfühlend, selbstlos, besorgt, leidenschaftlich, gutmütig, überlegt",
       D: "stets kompetent, bewundernswert, überragend, begehrenswert, attraktiv, erfolgreich, selbstsicher, unermüdlich, siegessicher",
       V: "stets authentisch, tiefgründig, sensibel, selbstkritisch, tiefsinnig, anders, aufrichtig, einzigartig, intuitiv, sanftmütig, selbstkritisch",
       F: "stets objektiv, einsichtig, zurückhaltend, einfühlsam, aufmerksam, gewitzt, neugierig, klug",
-      X: "stets mutig, zuverlässig, voraussichtig, „in Ordnung“ , vertrauenswürdig, sorgfältig, liebenswert Masken Welche beiden Masken setze ich gegenüber meinen Mitmenschen nach außen hin am häufigsten auf?",
+      X: "stets mutig, zuverlässig, voraussichtig, „in Ordnung“ , vertrauenswürdig, sorgfältig, liebenswert",
       S: "stets optimistisch, enthusiastisch, fröhlich, ungezwungen, lebhaft, positiv, spontan, kontaktfreudig, energisch, positiv, energetisch",
       A: "stets stark, robust, einfallsreich, unabhängig, direkt, ausdauernd, handlungsorientiert, einsatzbereit",
       N: "stets friedliebend, friedfertig, gelassen, stabil, sanft, entspannt, freundlich, ausgeglichen, natürlich, ruhig",
@@ -962,7 +962,7 @@ export const MOTIVTEST = [
   {
     nr: 61,
     thema: "Mimik",
-    frage: "Wenn ich erneut in den Spiegel schaue und meine Mimik wahr- nehme, wie beschreibe ich diese am besten auf zwei Arten:",
+    frage: "Wenn ich erneut in den Spiegel schaue und meine Mimik wahrnehme, wie beschreibe ich diese am besten auf zwei Arten:",
     antworten: {
       E: "Stirnrunzeln, vertikale Falte mittig zwischen den Augen, prüfend",
       Z: "kümmernde, zugewandte, mütterliche, besorgte, wohlwollende Mimik",
@@ -1010,7 +1010,7 @@ export const MOTIVTEST = [
   {
     nr: 64,
     thema: "Naturerscheinungen",
-    frage: "Zwei der nachfolgenden Naturerscheinungen mag ich persön- lich besonders gern:",
+    frage: "Zwei der nachfolgenden Naturerscheinungen mag ich persönlich besonders gern:",
     antworten: {
       E: "gepflegte Parks, englischer Rasen, die natürliche Ordnung der Natur",
       Z: "Heilpflanzen, Heilkräuter, Artenvielfalt der Tiere und Pflanzen",
@@ -1030,7 +1030,7 @@ export const MOTIVTEST = [
     antworten: {
       E: "Sei nicht IMMER nur tadellos, habe nicht STÄNDIG Recht und strebe nicht STETS nach Vollkommenheit!",
       Z: "Achte nicht IMMER nur auf die Bedürfnisse anderer und strebe nicht STETS nach Liebe und Geliebtwerden!",
-      D: "Suche nicht IMMER nur nach Anerkennung und strebe nicht STETS nach Erfolg! Neujahrswünsche Welche beiden Neujahrswünsche zu Beginn eines neuen Jahres würden auf mich am besten passen?",
+      D: "Suche nicht IMMER nur nach Anerkennung und strebe nicht STETS nach Erfolg!",
       V: "Versuche nicht IMMER nur dich selbst zu verstehen und strebe nicht STETS nach Individualität!",
       F: "Versuche nicht IMMER nur die Welt zu verstehen und strebe nicht STETS nach Wissen!",
       X: "Sei nicht IMMER nur vorsichtig und misstrauisch, zweifle nicht STÄNDIG und strebe nicht STETS nach Sicherheit!",
@@ -1047,7 +1047,7 @@ export const MOTIVTEST = [
       E: "Vor: Hoffentlich bringe ich den richtigen Wein mit! Auf: Das Essen ist nicht ausgewogen genug! Nach: Hoffentlich habe ich niemanden mit meinen Bemerkungen beleidigt!",
       Z: "Vor: Hoffentlich mögen mich alle! Auf: Ich helfe gern noch in der Küche oder beim Buffet! Nach: I c h h a b e m i c h t o t a l v e r a u s g a b t , bin aber froh, dass sich alle so gut verstanden haben!",
       D: "Vor: Heute Abend will ich die richtigen Leute zusammenbringen! Auf: Nur schnell essen, dann bin ich weg! Ich bin total überlastet! Nach: Ich habe beim Essen sehr gute Kontakte knüpfen können!",
-      V: "Vor: Ich bin überhaupt nicht in Stimmung für eine Party! Auf: Das Buffet ist doch recht gewöhnlich, was soll man da nur essen? Nach: Es waren doch größtenteils ziemlich banale Gespräche! Partyverhalten (vor, auf und nach der Party) Welche Gedanken habe ich für gewöhnlich vor, auf und nach einer Party, welche beiden Haltungen sind besonders typisch für mich?",
+      V: "Vor: Ich bin überhaupt nicht in Stimmung für eine Party! Auf: Das Buffet ist doch recht gewöhnlich, was soll man da nur essen? Nach: Es waren doch größtenteils ziemlich banale Gespräche!",
       F: "Vor: Ich möchte lieber zu Hause bleiben, auf dem Sofa sitzen und mein Buch lesen! Auf: Irgendwie komme ich intellektuell heute nicht richtig ins Gespräch! Nach: Zum Glück bin ich früh gegangen und konnte noch in meinem Buch schmökern!",
       X: "Vor: Ich darf nicht vergessen, die Katze zu füttern und abzuschließen! Auf: Habe ich gerade zu viel geredet, warum hat sie diese Bemerkung gemacht? Nach: Es ist herrlich, wieder sicher zu Hause angekommen zu sein.",
       S: "Vor: Falls keine Stimmung aufkommt, habe ich noch andere Eisen im Feuer! Auf: Doch ein wenig langweilig hier, mal schauen, ob ich nicht auf eine andere Party gehe! Nach: Ich hatte riesigen Spaß auf der 3. Party, aber noch ist die Nacht jung!",
@@ -1074,7 +1074,7 @@ export const MOTIVTEST = [
   {
     nr: 68,
     thema: "Positive Zustimmungen",
-    frage: "Wenn ich mir ganz bewusst die folgenden Zustimmungen durch- lese, welche beiden berühren mich emotional besonders?",
+    frage: "Wenn ich mir ganz bewusst die folgenden Zustimmungen durchlese, welche beiden berühren mich emotional besonders?",
     antworten: {
       E: "Du bist gut!",
       Z: "Du bist erwünscht!",
@@ -1127,7 +1127,7 @@ export const MOTIVTEST = [
       E: "Bedürfnis, Recht zu haben führt zur Suche nach Wahrheit und Richtigkeit – BERICHTIGUNG – Furcht, verurteilt zu werden, andere werden korrigiert, Bedürfnis, Recht zu haben …",
       Z: "Bedürfnis, geliebt zu werden führt dazu, anderen zu helfen – LIEBE – Furcht, nicht geliebt zu werden, nachtragend sein und andere manipulieren, Bedürfnis, geliebt zu werden …",
       D: "Bedürfnis, bewundert zu werden führt zu Selbstverbesserung – BEWUNDERUNG – Furcht vor Zurückweisung, Erfolgsdruck und Wettbewerb, Bedürfnis, bewundert zu werden …",
-      V: "Bedürfnis, sich selbst zu verstehen führt zu Selbsterforschung – SELBSTVERSTÄNDNIS – Furcht, mangelhaft zu sein, schwelgen in Phantasien, Bedürfnis, sich selbst zu verstehen … Psychodynamischer Kreislauf Welche beiden innerpsychischen Dynamiken sind dir seltsam vertraut, welche entsprechen besonders deiner Persönlichkeit?",
+      V: "Bedürfnis, sich selbst zu verstehen führt zu Selbsterforschung – SELBSTVERSTÄNDNIS – Furcht, mangelhaft zu sein, schwelgen in Phantasien, Bedürfnis, sich selbst zu verstehen …",
       F: "Bedürfnis, die Welt zu verstehen führt zur Beobachtung, Analyse – WELTVERSTÄNDNIS – Furcht, von der Welt überwältigt zu werden, abgelöst, losgelöst von der Welt und anderen, Bedürfnis, die Welt zu verstehen …",
       X: "Bedürfnis nach Sicherheit führt zur Loyalität anderen gegenüber – SICHERHEIT – Furcht, im Stich gelassen zu werden, Misstrauen gegenüber anderen, Bedürfnis nach Sicherheit …",
       S: "Bedürfnis, glücklich zu sein führt zum Erkunden, Genießen und Schätzen der materiellen Welt – LEBENSFREUDE – Furcht, des Glückes beraubt zu werden, positive Sinneseindrücke such und Leid vermeiden, Bedürfnis, glücklich zu sein …",
@@ -1186,7 +1186,7 @@ export const MOTIVTEST = [
   {
     nr: 75,
     thema: "Schwerpunkte im Missverhalten",
-    frage: "Welche zwei Schwerpunkte im Missverhalten sind für mich be- sonders typisch, wenn ich psychisch nicht im Gleichgewicht bin?",
+    frage: "Welche zwei Schwerpunkte im Missverhalten sind für mich besonders typisch, wenn ich psychisch nicht im Gleichgewicht bin?",
     antworten: {
       E: "Ich unterdrücke meine Impulse tendenziell durch Selbstkontrolle.",
       Z: "Ich manipuliere mitunter meine Mitmenschen, auch wenn ich es eigentlich nur gut mit ihnen meine.",
@@ -1314,7 +1314,7 @@ export const MOTIVTEST = [
   {
     nr: 83,
     thema: "Statements des Partners (positiv)",
-    frage: "Welche beiden (positiven) Statement des Partners oder womög- lich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
+    frage: "Welche beiden (positiven) Statement des Partners oder womöglich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
     antworten: {
       E: "Du bist humorvoll, ehrlich, treu, anspruchsvoll und oft mit Leib und Seele bei der Sache.",
       Z: "Du gibst mir das Gefühl, etwas Besonderes zu sein, bist großzügig und liebevoll.",
@@ -1330,13 +1330,13 @@ export const MOTIVTEST = [
   {
     nr: 84,
     thema: "Statements des Partners (negativ)",
-    frage: "Welche beiden (negativen) Statement des Partners oder womög- lich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
+    frage: "Welche beiden (negativen) Statement des Partners oder womöglich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
     antworten: {
       E: "Du kritisierst mich sehr oft, bitte akzeptiere, dass ich nicht perfekt bin!",
       Z: "Du musst mich nicht immer nur dazu bringen, dich zu lieben, zeige mir lieber, was du in Liebesdingen benötigst!",
       D: "Du spielst mir immer etwas vor, deine Arbeit ist stets wichtiger, zeige mir doch einmal, was du wirklich fühlst!",
       V: "Wenn wir uns wirklich nahe kommen, stößt du mich häufig weg!",
-      F: "Wenn ich dir zu nahe komme, ziehst du dich immer sehr zurück! Statements des Partners (negativ) Welche beiden (negativen) Statement des Partners oder womöglich auch anderer naher Mitmenschen höre ich tendenziell öfter?",
+      F: "Wenn ich dir zu nahe komme, ziehst du dich immer sehr zurück!",
       X: "Du bist manchmal sarkastisch und beherrschend und ziehst dich schnell zurück, wenn es dir in Bezug auf mich zu unsicher wird!",
       S: "Wenn ich über meine Probleme reden möchte, wendest du dich ab!",
       A: "Du hast schnell etwas an mir auszusetzen, es fällt dir schwer, dich zu entschuldigen und deine Wutanfälle sind oft unerträglich!",
@@ -1364,15 +1364,15 @@ export const MOTIVTEST = [
     thema: "Subtypenbeschreibungen",
     frage: "In welchen zwei der nachfolgenden Subtypenbeschreibungen finde ich wenigstens eine auf mich passende Beschreibung?",
     antworten: {
-      E: "a) Ich überwinde meine Angst durch harte Arbeit und Selbstperfektion. b) Ich verhalte mich sozial korrekt, aber bin nicht anpassungsfähig. c) Ich bin häufig übergierig, maßlos oder auch sehr eifersüchtig.",
-      Z: "a) Ich fühle mich privilegiert und erwerbe mir Anerkennung durch meine Dienste an Menschen. b) Ich suche nach menschlicher Anerkennung durch großen Ehrgeiz. c) Ich wende Verführung oder Aggression an, um Aufmerksamkeit zu erhalten.",
-      D: "a) Ich erziele und strebe nach Erfolg und finanzieller Sicherheit. b) Ich strebe nach sozialem Erfolg und Prestige. c) Ich verfüge über das beste weibliche oder männliche Image.",
-      V: "a) Ich bin rücksichtslos auf der Jagd nach Authentizität. b) Ich überwinde täglich meine soziale Scham. c) Ich trete in Wettstreit/Konkurrenz durch Stärke oder Stil.",
-      F: "a) Mein Zuhause ist mein Rückzugsort, mein „Zimmer mit Aussicht!“ b) Ich suche geistig abgehoben nach sozialen Symbolen & Systemen. c) Ich behandle Menschen und Dinge mit großer Vertraulichkeit.",
-      X: "a) Ich suche Sicherheit durch Wärme und wohlwollende Zuneigung. b) Ich erfülle meine Aufgaben pflichtbewusst und treu. c) Ich überwinde Furcht durch Aufrechterhaltung von Stärke & Schönheit.",
-      S: "a) Ich genieße den Spaß, das Essen und Trinken sowie die Familie. b) Ich begrenze mich selbst und bringe Opfer für die Gemeinschaft. c) Ideen, Menschen und Produkte faszinieren und beeinflussen mich.",
-      A: "a) Ich beschütze und kontrolliere den Raum und die Familie. b) Ich bin Freunden und der sozialen Gruppe stark verpflichtet. c) Ich habe einen starken Hang zum Besitz (auch von Menschen).",
-      N: "a) Ich habe großen Appetit auf Nahrung und Besitz. b) Trotz großer Belastbarkeit habe ich Probleme bei der gleichberechtigten Teilnahme an sozialen Gruppen. c) Ich strebe nach sexueller und spiritueller Vereinigung, ich habe einen inneren Drang, mit anderen Menschen zu verschmelzen.",
+      E: "<strong>Selbsterhaltung:</strong> Ich überwinde meine Angst durch harte Arbeit und Selbstperfektion.<br><strong>Sozial:</strong> Ich verhalte mich sozial korrekt, aber bin nicht anpassungsfähig.<br><strong>Sexuell:</strong> Ich bin häufig übergierig, maßlos oder auch sehr eifersüchtig.",
+      Z: "<strong>Selbsterhaltung:</strong> Ich fühle mich privilegiert und erwerbe mir Anerkennung durch meine Dienste an Menschen.<br><strong>Sozial:</strong> Ich suche nach menschlicher Anerkennung durch großen Ehrgeiz.<br><strong>Sexuell:</strong> Ich wende Verführung oder Aggression an, um Aufmerksamkeit zu erhalten.",
+      D: "<strong>Selbsterhaltung:</strong> Ich erziele und strebe nach Erfolg und finanzieller Sicherheit.<br><strong>Sozial:</strong> Ich strebe nach sozialem Erfolg und Prestige.<br><strong>Sexuell:</strong> Ich verfüge über das beste weibliche oder männliche Image.",
+      V: "<strong>Selbsterhaltung:</strong> Ich bin rücksichtslos auf der Jagd nach Authentizität.<br><strong>Sozial:</strong> Ich überwinde täglich meine soziale Scham.<br><strong>Sexuell:</strong> Ich trete in Wettstreit/Konkurrenz durch Stärke oder Stil.",
+      F: "<strong>Selbsterhaltung:</strong> Mein Zuhause ist mein Rückzugsort, mein „Zimmer mit Aussicht!“<br><strong>Sozial:</strong> Ich suche geistig abgehoben nach sozialen Symbolen & Systemen.<br><strong>Sexuell:</strong> Ich behandle Menschen und Dinge mit großer Vertraulichkeit.",
+      X: "<strong>Selbsterhaltung:</strong> Ich suche Sicherheit durch Wärme und wohlwollende Zuneigung.<br><strong>Sozial:</strong> Ich erfülle meine Aufgaben pflichtbewusst und treu.<br><strong>Sexuell:</strong> Ich überwinde Furcht durch Aufrechterhaltung von Stärke & Schönheit.",
+      S: "<strong>Selbsterhaltung:</strong> Ich genieße den Spaß, das Essen und Trinken sowie die Familie.<br><strong>Sozial:</strong> Ich begrenze mich selbst und bringe Opfer für die Gemeinschaft.<br><strong>Sexuell:</strong> Ideen, Menschen und Produkte faszinieren und beeinflussen mich.",
+      A: "<strong>Selbsterhaltung:</strong> Ich beschütze und kontrolliere den Raum und die Familie.<br><strong>Sozial:</strong> Ich bin Freunden und der sozialen Gruppe stark verpflichtet.<br><strong>Sexuell:</strong> Ich habe einen starken Hang zum Besitz (auch von Menschen).",
+      N: "<strong>Selbsterhaltung:</strong> Ich habe großen Appetit auf Nahrung und Besitz.<br><strong>Sozial:</strong> Trotz großer Belastbarkeit habe ich Probleme bei der gleichberechtigten Teilnahme an sozialen Gruppen.<br><strong>Sexuell:</strong> Ich strebe nach sexueller und spiritueller Vereinigung, ich habe einen inneren Drang, mit anderen Menschen zu verschmelzen.",
     }
   },
   {
@@ -1394,7 +1394,7 @@ export const MOTIVTEST = [
   {
     nr: 88,
     thema: "Tierentsprechungen",
-    frage: "Mit welchen beiden Aufzählungen von Tieren kann ich mich per- sönlich spontan am besten identifizieren?",
+    frage: "Mit welchen beiden Aufzählungen von Tieren kann ich mich persönlich spontan am besten identifizieren?",
     antworten: {
       E: "Ameise, Kranich, Geier, Gans, Biene, Ziegenbock, Terrier, Elch",
       Z: "Katze, Esel, Schwein, Känguru, Pandabär, Seepferdchen, Schwan, Henne",
@@ -1444,21 +1444,21 @@ export const MOTIVTEST = [
     thema: "Unerlöste, normale & erlöste Haltung",
     frage: "Welche beiden Darstellungen der unerlösten, normalen und erlösten Haltung treffen auf mich am meisten zu?",
     antworten: {
-      E: "a) Unerlöste Haltung: Rechthaberisch, zersetzend, überkritisch b) Normale Haltung: Perfektionistisch, bedenkenvoll c) Erlöste Haltung: Kritisch wach, (heiter) gelassen, ethisch",
-      Z: "a) Unerlöste Haltung: Manipulativ, beherrschend b) Normale Haltung: Mütterlich, gebend, aktiv c) Erlöste Haltung: Fürsorglich, freundlich, originell",
-      D: "a) Unerlöste Haltung: Opportunistisch, betrügerisch b) Normale Haltung: Pragmatisch, statusbewusst c) Erlöste Haltung: Kompetent, wahrhaftig, zuverlässig",
-      V: "a) Unerlöste Haltung: Wehleidig, dekadent, todesverliebt b) Normale Haltung: Ästhetisch, romantisch, stilvoll c) Erlöste Haltung: Kreativ, natürlich, diszipliniert",
-      F: "a) Unerlöste Haltung: Isoliert, nihilistisch, exzentrisch b) Normale Haltung: Analytisch, distanziert, abstrakt c) Erlöste Haltung: Erfinderisch, weise, tatkräftig",
-      X: "a) Unerlöste Haltung: Abhängig, aggressiv, feige b) Normale Haltung: Pflichtbewusst, vorsichtig c) Erlöste Haltung: Treu, mutig, vertrauensvoll",
-      S: "a) Unerlöste Haltung: Exzessiv, rechthaberisch, stümperhaft b) Normale Haltung: Aktiv, genießerisch, oberflächlich c) Erlöste Haltung: Fröhlich, vielseitig, nüchtern",
-      A: "a) Unerlöste Haltung: Tyrannisch, gewalttätig b) Normale Haltung: Kontrollierend, konkurrierend c) Erlöste Haltung: Großzügig, führend, beschützend",
-      N: "a) Unerlöste Haltung: Fatalistisch, desorientiert, stur b) Normale Haltung: Angepasst, unentschlossen c) Erlöste Haltung: Annehmend, friedfertig",
+      E: "<strong>Unerlöste Haltung:</strong> Rechthaberisch, zersetzend, überkritisch<br><strong>Normale Haltung:</strong> Perfektionistisch, bedenkenvoll<br><strong>Erlöste Haltung:</strong> Kritisch wach, (heiter) gelassen, ethisch",
+      Z: "<strong>Unerlöste Haltung:</strong> Manipulativ, beherrschend<br><strong>Normale Haltung:</strong> Mütterlich, gebend, aktiv<br><strong>Erlöste Haltung:</strong> Fürsorglich, freundlich, originell",
+      D: "<strong>Unerlöste Haltung:</strong> Opportunistisch, betrügerisch<br><strong>Normale Haltung:</strong> Pragmatisch, statusbewusst<br><strong>Erlöste Haltung:</strong> Kompetent, wahrhaftig, zuverlässig",
+      V: "<strong>Unerlöste Haltung:</strong> Wehleidig, dekadent, todesverliebt<br><strong>Normale Haltung:</strong> Ästhetisch, romantisch, stilvoll<br><strong>Erlöste Haltung:</strong> Kreativ, natürlich, diszipliniert",
+      F: "<strong>Unerlöste Haltung:</strong> Isoliert, nihilistisch, exzentrisch<br><strong>Normale Haltung:</strong> Analytisch, distanziert, abstrakt<br><strong>Erlöste Haltung:</strong> Erfinderisch, weise, tatkräftig",
+      X: "<strong>Unerlöste Haltung:</strong> Abhängig, aggressiv, feige<br><strong>Normale Haltung:</strong> Pflichtbewusst, vorsichtig<br><strong>Erlöste Haltung:</strong> Treu, mutig, vertrauensvoll",
+      S: "<strong>Unerlöste Haltung:</strong> Exzessiv, rechthaberisch, stümperhaft<br><strong>Normale Haltung:</strong> Aktiv, genießerisch, oberflächlich<br><strong>Erlöste Haltung:</strong> Fröhlich, vielseitig, nüchtern",
+      A: "<strong>Unerlöste Haltung:</strong> Tyrannisch, gewalttätig<br><strong>Normale Haltung:</strong> Kontrollierend, konkurrierend<br><strong>Erlöste Haltung:</strong> Großzügig, führend, beschützend",
+      N: "<strong>Unerlöste Haltung:</strong> Fatalistisch, desorientiert, stur<br><strong>Normale Haltung:</strong> Angepasst, unentschlossen<br><strong>Erlöste Haltung:</strong> Annehmend, friedfertig",
     }
   },
   {
     nr: 92,
     thema: "Unfallreaktionen",
-    frage: "Anlässlich eines Unfalls reagiere ich vor allem auf zwei der fol- genden Arten (Reaktionen auf einen Unfall):",
+    frage: "Anlässlich eines Unfalls reagiere ich vor allem auf zwei der folgenden Arten (Reaktionen auf einen Unfall):",
     antworten: {
       E: "Ich erkenne die ethische Dimension der Situation, frage, wer verantwortlich ist und sammle diesbezüglich Informationen.",
       Z: "Ich erkenne die menschliche Dimension der Situation und frage mich, ob den Unfallbeteiligten etwas passiert ist und wie ich helfen kann.",
@@ -1506,7 +1506,7 @@ export const MOTIVTEST = [
   {
     nr: 95,
     thema: "Vermeidungsstrategien",
-    frage: "Folgende zwei Vermeidungsstrategien sind mir persönlich be- sonders vertraut:",
+    frage: "Folgende zwei Vermeidungsstrategien sind mir persönlich besonders vertraut:",
     antworten: {
       E: "Ich vermeide Zorn/Ärger und suche nach Perfektion!",
       Z: "Ich vermeide Bedürftigkeit und suche nach Liebe und Geliebtsein!",
@@ -1588,7 +1588,7 @@ export const MOTIVTEST = [
     thema: "Zentrale Lebensbereiche",
     frage: "Welche der folgenden zwei zentralen Lebensbereiche sind in meinen Leben immer schon von großer Bedeutung gewesen?",
     antworten: {
-      E: "Ruhm & Vollkommenheit 5. Auswertung des motivationalen EnneagrammTypentestes (Testergebnis) Auswertungstabelle (Datum_____________/Testergebnis Typ _________) GRATULATION – SIE HABEN ES GESCHAFFT! Nun nach getaner Arbeit können Sie Ihren Enneagrammtest mithilfe der obigen Tabelle auswerten, um zum erwünschten Testergebnis zu gelangen. Dabei tragen Sie bitte die Anzahl der Buchstaben, die Sie im Test mit 1 = sehr wichtig gekennzeichnet haben, nach der Auszählung in die linke Spalte (unter Anzahl) unter den jeweiligen Buchstaben E – Z – D – V – F – X – S – A – N nach und nach in die Auswertungstabelle ein. Dasselbe wiederholen Sie bitte mit der Anzahl der Buchstaben, die Sie im Test mit 2 = am zweitwichtigsten kennzeichneten, nachdem Sie diese Anzahl zuvor ausgezählt haben. Anschließend multiplizieren Sie das höchste Ergebnis (den höchsten Buchstabenwert) der linken Spalte (1 = sehr wichtig) mit der Zahl 6, das Ergebnis aus der zweiten Spalte (2 = zweitwichtig) multiplizieren Sie bitte mit der Zahl 3. Und tragen das Ergebnis Ihrer Multiplikation Zählen Sie bitte die Buchstaben nach Wichtigkeit zusammen: Anzahl 1. Platz-Ergebnis (mit 6 multipliziert) 2. Platz-Ergebnis (mit 3 multipliziert) Wieviel mal „E“ (Typ 1): Wieviel mal „Z“ (Typ 2): Wieviel mal „D“ (Typ 3): Wieviel mal „V“ (Typ 4): Wieviel mal „F“ (Typ 5): Wieviel mal „X“ (Typ 6): Wieviel mal „S“ (Typ 7): Wieviel mal „A“ (Typ 8): Wieviel mal „N“ (Typ 9):",
+      E: "Ruhm & Vollkommenheit",
       Z: "Partnerschaft & Geliebtwerden",
       D: "Karriere & Erfolg",
       V: "Hilfreiche Freunde & Individualität",

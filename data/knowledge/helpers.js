@@ -481,13 +481,80 @@ export function type2ContentModules(subtypeCode) {
     ],
     SO2: [
       {
-        title: "SO2 · Extraktion im Aufbau",
+        title: "SO2 · Seite 1 · Subtyp-Profil",
         intro:
-          "Die SO2 ist als Quellenstruktur vollständig sichtbar. Die Tiefenextraktion wird nach dem SE2-Muster gefüllt: Seite 1 Profil, Seite 2 Integration, Seite 3 Körperarbeit, Seite 4 Heilmittel, Seite 5 Integration.",
+          "Die SO2 sucht Zugehörigkeit durch Nützlichkeit im sozialen Feld. Die Zuwendung ist einladend, vernetzend und einflussreich, kann aber in stille Erwartung von Anerkennung oder in Überengagement kippen.",
         entries: [
           {
-            label: "Kernrichtung",
-            text: "Die soziale Zwei sucht Zugehörigkeit, Anerkennung und Verbindung in Gemeinschaften und muss lernen, Liebe nicht über Nützlichkeit zu sichern.",
+            label: "Grundthema",
+            text: "Liebe und Anerkennung im sozialen Feld. Die SO2 möchte Menschen verbinden, Gruppen zusammenhalten und dadurch bedeutsam und unverzichtbar sein.",
+          },
+          {
+            label: "Organismusfrage",
+            text: "Wie kann ich Menschen verbinden und unterstützen, ohne meinen Wert aus dem Gebrauchtwerden zu beziehen?",
+          },
+          {
+            label: "Blickqualität",
+            text: "Warm, weich und einladend, zugleich prüfend: Was braucht der andere? Der Blick sucht Resonanz und Dankbarkeit und öffnet sich, sobald Kontakt entsteht.",
+          },
+          {
+            label: "Mikrospannung",
+            text: "Leichte Wachheit in Stirn und Augen, weicher, freundlicher Mund, Kiefer meist entspannt. Die Haltung ist offen und nach vorn zum Gegenüber gewandt.",
+          },
+          {
+            label: "Atemrhythmus",
+            text: "Eher tief im Brustbereich, atmet mit, wenn Nähe entsteht. Der Atem stockt bei Unsicherheit und reguliert sich über Geben und Verbindung.",
+          },
+          {
+            label: "Bewegungsinitiierung",
+            text: "Geht aktiv auf andere zu und bietet Hilfe an, bevor sie erbeten wird. Bewegt sich mit Bedacht und Herz, orientiert an den Bedürfnissen anderer.",
+          },
+          {
+            label: "Kontaktstil",
+            text: "Herzlich, warm und verbindend. Sucht Nähe, Resonanz und Dankbarkeit, hilft gerne und zuverlässig, kann sich zurücknehmen, wenn Liebe erwidert wird.",
+          },
+          {
+            label: "Spannungsverteilung",
+            text: "Kopf und Stirn: wache Aufmerksamkeit für andere. Brustbereich: aktive Herzenergie und Geben. Schultern und Nacken: Verantwortung fürs soziale Feld.",
+          },
+          {
+            label: "Tierentsprechung",
+            text: "Golden Retriever: freundlich, verbindend, will jedem gefallen und gehört zu jeder Gruppe dazu. Er zeigt Loyalität und Herzenswärme, erinnert aber auch daran, dass Zugehörigkeit kein Verdienst braucht.",
+          },
+          {
+            label: "Ressourcenfeld",
+            text: "Herzöffnung, Mitgefühl, Geborgenheit, praktische Unterstützung und Lebensfreude – ausgerichtet auf das ganze soziale Umfeld.",
+          },
+        ],
+      },
+      {
+        title: "SO2 · Seite 2 · 2-Punkte-Integration",
+        intro:
+          "Die zentrale Praxis der SO2 verbindet den Herzraum mit dem Oberbauch und inneren Raum. Dadurch wird das Engagement für die Gemeinschaft mit Selbstkontakt verbunden.",
+        entries: [
+          {
+            label: "Punkt 1",
+            text: "Herzraum / Brustmitte: Bedürfnis nach Nähe, Verbindung und Resonanz.",
+          },
+          {
+            label: "Punkt 2",
+            text: "Oberbauch / innerer Raum: Bedürfnis nach Selbstkontakt, Ruhe und eigener Grenze.",
+          },
+          {
+            label: "Vorgehen",
+            text: "Eine Hand auf den Herzraum legen, die andere auf den Oberbauch. Erst Punkt 1, dann Punkt 2 spüren und anschließend beide Felder gleichzeitig wahrnehmen, während innerlich „Raum einnehmen“ und „Dich mitnehmen“ mitschwingen.",
+          },
+          {
+            label: "Lebensthema",
+            text: "Du suchst Zugehörigkeit, Anerkennung und Verbindung in Gemeinschaften. Du möchtest für andere da sein und gewinnst darüber leicht deinen eigenen Wert, während du Kontakt zu eigenen Bedürfnissen verlierst.",
+          },
+          {
+            label: "Unbewusste Strategie",
+            text: "Du sicherst sozialen Wert über Nähe und Fürsorge und passt dich stark an Erwartungen anderer an. Du stabilisierst dich über Zustimmung, Hilfe und Zugehörigkeit, auch wenn dabei Abhängigkeit entsteht.",
+          },
+          {
+            label: "Integration",
+            text: "Du erkennst, dass Anerkennung und Gebrauchtwerden nicht deinen inneren Wert bestimmen. Du nimmst dich selbst wichtiger und setzt klare Grenzen, sodass Beziehungen aus Echtheit statt aus Anpassung entstehen.",
           },
           {
             label: "Kernsatz",
@@ -495,20 +562,345 @@ export function type2ContentModules(subtypeCode) {
           },
         ],
       },
+      {
+        title: "SO2 · Seite 3 · Körperarbeit & Akupressur",
+        intro:
+          "Die SO2 bewegt sich von sozialer Unentbehrlichkeit zu freier Zugehörigkeit. Körperarbeit hilft, Engagement und eigene Grenze wieder zusammenzubringen.",
+        entries: [
+          {
+            label: "Problem",
+            text: "Du sicherst dir sozialen Wert über Nähe, Fürsorge und Engagement für die Gemeinschaft. Dabei passt du dich stark an Erwartungen an und hältst eigene Bedürfnisse zurück.",
+          },
+          {
+            label: "Wendepunkt",
+            text: "Du erkennst, dass Status und Anerkennung im sozialen Feld deinen inneren Wert nicht sichern können. Du beginnst, dich selbst wichtiger zu nehmen und klare Grenzen zu setzen.",
+          },
+          {
+            label: "Integration",
+            text: "Du unterstützt andere, ohne dich über Anerkennung oder Gebrauchtwerden zu definieren. Beziehungen entstehen aus Echtheit statt aus Anpassung und Helferrolle.",
+          },
+          {
+            label: "Körperliche Integration",
+            text: "Verbindung / Herz. Die sechs Zugänge sind Gesicht, Hand, Fuß, Bauch, Finger und Ohr.",
+          },
+          {
+            label: "Vollkommen still sitzen",
+            text: "Zwei Minuten aufrecht und bequem sitzen, ohne für jemand anderen im Raum zuständig zu sein. Der Körper darf zeigen, was wesentlich ist, ohne dass sofort geholfen oder vernetzt werden muss.",
+          },
+          {
+            label: "Mentale & emotionale Haltung",
+            text: "Bei der SO2 zeigt sich mental ein falscher Überfluss: Ich habe genug Liebe zu geben. Emotional entsteht Stolz, wenn der eigene Wert über soziale Bedeutung und Unverzichtbarkeit definiert wird.",
+          },
+          {
+            label: "Flügel",
+            text: "SO2 mit 1er-Flügel betont Pflicht, Verlässlichkeit und moralisches Engagement für die Gemeinschaft. SO2 mit 3er-Flügel betont Sichtbarkeit, Networking und zielgerichtete soziale Wirkung.",
+          },
+          {
+            label: "Medienfelder",
+            text: "Die Seite enthält die vorbereitete Struktur für Typ-2-Songs, Subtyp-Songs, biblische Songs, Affirmationen, Flügel und Vertiefungen.",
+          },
+        ],
+      },
+      {
+        title: "SO2 · Seite 4 · Heilmittel-Kompass",
+        intro:
+          "Der Heilmittel-Kompass der SO2 übersetzt sozialen Stolz, Anpassung und die Angst vor Bedeutungslosigkeit in ein heilkundliches Symbolfeld.",
+        entries: [
+          {
+            label: "Homöopathisches Einzelmittel",
+            text: "Hyoscyamus niger steht hier für das verzweifelte Ringen um Aufmerksamkeit, Eifersucht und die Angst, im sozialen Feld übergangen zu werden. Der Weg führt zu einer Liebe, die auf festem inneren Grund steht statt ständig um Bestätigung zu kämpfen.",
+          },
+          {
+            label: "Thema",
+            text: "Das Bedürfnis, im sozialen Raum bedeutsam, einflussreich und unverzichtbar zu sein, wird von der Angst getragen, ohne Engagement den eigenen Platz in der Gemeinschaft zu verlieren.",
+          },
+          {
+            label: "Wirkung auf Lebenskraft und Leidenschaft",
+            text: "Unterstützt symbolisch die Wandlung anklammernden Werbens um soziale Anerkennung in eine Liebe, die aus innerer Sicherheit gibt, statt Zugehörigkeit über Leistung zu sichern.",
+          },
+          {
+            label: "Ziel",
+            text: "Regulation und Stärkung der Zweier-Lebenskraft: Ausgleich der überschießenden, nach außen gerichteten Herzenergie.",
+          },
+          {
+            label: "Mineralstoff-Impuls",
+            text: "Natrium chloratum unterstützt symbolisch die Regulation von Nähe und Rückzug im sozialen Feld sowie emotionales Gleichgewicht und innere Balance.",
+          },
+          {
+            label: "Bachblüte",
+            text: "Chicory fördert bedingungslose Liebe, gesunde Grenzen und emotionale Unabhängigkeit vom Dank der Gemeinschaft.",
+          },
+          {
+            label: "Edelstein",
+            text: "Rosenquarz steht für Selbstliebe, Mitgefühl und die Erlaubnis, auch selbst zu empfangen, ohne sich erst nützlich machen zu müssen.",
+          },
+          {
+            label: "Tee",
+            text: "Rosenblütentee wirkt symbolisch herzöffnend, harmonisierend und sammelnd für Körper, Geist und Seele.",
+          },
+          {
+            label: "Leidenschaft",
+            text: "Stolz zeigt sich bei der SO2 als Bedürfnis, im sozialen Feld bedeutsam und unverzichtbar zu sein – sie gibt, engagiert sich und verbindet und erwartet dafür Anerkennung, die ihren sozialen Wert bestätigt.",
+          },
+          {
+            label: "Innere Motivation",
+            text: "Das innere Streben nach Zugehörigkeit, Anerkennung und Bedeutung ist verbunden mit dem Wunsch, durch Vernetzung und Engagement Liebe und Verbindung zu erfahren.",
+          },
+        ],
+      },
+      {
+        title: "SO2 · Seite 5 · Integration",
+        intro:
+          "Die Integrationsseite der SO2 führt von sozialer Unentbehrlichkeit zu Selbstachtung, Fülle und freier Verbundenheit.",
+        entries: [
+          {
+            label: "Integrationspotenzial",
+            text: "Herz & Verbundenheit. Wahre Zugehörigkeit beginnt bei dir, denn nur aus einem vollen Herzen kannst du wirklich verbinden.",
+          },
+          {
+            label: "Archetypische Essenz",
+            text: "Die Essenz der SO2 ist Liebe. Sie lebt für Zugehörigkeit und Gemeinschaft, in reifer Form aus innerer Fülle statt aus dem Zwang, gebraucht zu werden.",
+          },
+          {
+            label: "Verkörperte Qualität",
+            text: "Warme Ausstrahlung, empathisches Gespür, aufmerksame Zuwendung, loyale Verbundenheit und natürliche Herzlichkeit.",
+          },
+          {
+            label: "Nervensystem-Regulation",
+            text: "Sicherheit durch Beziehung verankern, Grenzen spüren und achten, zwischen Geben und Empfangen balancieren, Überverantwortung loslassen und Bedürfnisse klar kommunizieren.",
+          },
+          {
+            label: "Beziehungsebene",
+            text: "Verbindung durch klare Grenzen, Selbstachtung und echte Gegenseitigkeit statt über Nützlichkeit und Anpassung.",
+          },
+          {
+            label: "Neue Fähigkeiten",
+            text: "Den eigenen Wert nicht über Zustimmung definieren, dazugehören dürfen ohne sich ständig nützlich zu machen, Bedürfnisse ausdrücken und echte Gegenseitigkeit zulassen.",
+          },
+          {
+            label: "Integrationssatz",
+            text: "Ich gebe aus Liebe – und empfange mit offenem Herzen.",
+          },
+          {
+            label: "Bewusstseinsraum",
+            text: "Integration bedeutet, sich nicht mehr über soziale Bedeutung beweisen zu müssen und mehr aus echter Fülle zu geben. Der Wunsch zu verbinden wird bewusst und frei.",
+          },
+          {
+            label: "Ausstrahlung",
+            text: "Warme Autorität, verbindende Präsenz, nährende Wärme, geerdete Zugewandtheit und menschliche Würde ohne Werben um Anerkennung.",
+          },
+        ],
+      },
     ],
     SX2: [
       {
-        title: "SX2 · Extraktion im Aufbau",
+        title: "SX2 · Seite 1 · Subtyp-Profil",
         intro:
-          "Die SX2 ist als Quellenstruktur vollständig sichtbar. Die Tiefenextraktion wird nach dem SE2-Muster gefüllt: Seite 1 Profil, Seite 2 Integration, Seite 3 Körperarbeit, Seite 4 Heilmittel, Seite 5 Integration.",
+          "Die SX2 sucht tiefe, exklusive Nähe zu einem einzelnen Menschen. Die Zuwendung ist intensiv, magnetisch und hingebungsvoll, kann aber in Klammern, Eifersucht oder Verschmelzung kippen.",
         entries: [
           {
-            label: "Kernrichtung",
-            text: "Die sexuelle Zwei sucht intensive Nähe, besondere Resonanz und emotionale Anziehung und muss lernen, Liebe nicht durch Geben oder Verführung sichern zu müssen.",
+            label: "Grundthema",
+            text: "Liebe und Hingabe im intensiven 1:1-Kontakt. Die SX2 möchte für einen bestimmten Menschen einzigartig und unersetzbar sein.",
+          },
+          {
+            label: "Organismusfrage",
+            text: "Wie kann ich tiefe Nähe und Liebe zulassen, ohne sie durch Geben, Locken oder Kümmern sichern zu müssen?",
+          },
+          {
+            label: "Blickqualität",
+            text: "Warm, intensiv und einladend, zugleich prüfend: Wer ist mir wirklich wichtig? Der Blick sucht Tiefe, Resonanz und Exklusivität und öffnet sich erst ganz, wenn Vertrauen entsteht.",
+          },
+          {
+            label: "Mikrospannung",
+            text: "Konzentrierte Stirn, intensive, suchende Augen, weicher und sinnlicher Mund. Die Haltung ist offen, hingezogen und präsent gegenüber dem einen wichtigen Menschen.",
+          },
+          {
+            label: "Atemrhythmus",
+            text: "Eher tief im Brust- und Bauchbereich, atmet mit, wenn Verbindung entsteht. Der Atem stockt bei Distanz oder Ablehnung und reguliert sich über Nähe, Berührung und Tiefe.",
+          },
+          {
+            label: "Bewegungsinitiierung",
+            text: "Geht aktiv auf Menschen zu, die sie oder er mag, und sucht körperliche Nähe und Kontakt. Bewegt sich mit Anziehung und Präsenz, orientiert an intensiven Bindungen.",
+          },
+          {
+            label: "Kontaktstil",
+            text: "Herzlich, persönlich und einnehmend. Sucht Tiefe, Resonanz und Hingabe, kann klammern oder eifersüchtig werden und zieht sich zurück, wenn sie oder er sich abgelehnt fühlt.",
+          },
+          {
+            label: "Spannungsverteilung",
+            text: "Zwischen dem Wunsch, gebraucht und einzigartig zu sein, und der Angst, nicht die wichtigste Person zu sein oder verlassen zu werden. Hauptspannung im Brust- und Bauchraum.",
+          },
+          {
+            label: "Tierentsprechung",
+            text: "Kamel: trägt viel, hält lange durch und bindet sich treu an sein Herdenleittier. Es zeigt Ausdauer und Hingabe, erinnert aber auch daran, die eigene Last nicht allein für die Bindung zu tragen.",
+          },
+          {
+            label: "Ressourcenfeld",
+            text: "Herzöffnung, Mitgefühl, Treue, Sinn für Nähe und emotionale Tiefe – ausgerichtet auf die eine besondere Verbindung.",
+          },
+        ],
+      },
+      {
+        title: "SX2 · Seite 2 · 2-Punkte-Integration",
+        intro:
+          "Die zentrale Praxis der SX2 verbindet den Herzraum mit dem Oberbauch und inneren Raum. Dadurch wird Hingabe mit Selbstkontakt verbunden.",
+        entries: [
+          {
+            label: "Punkt 1",
+            text: "Herzraum / Brustmitte: Bedürfnis nach Nähe, Verbindung und Resonanz.",
+          },
+          {
+            label: "Punkt 2",
+            text: "Oberbauch / innerer Raum: Bedürfnis nach Selbstkontakt, Ruhe und eigener Grenze.",
+          },
+          {
+            label: "Vorgehen",
+            text: "Eine Hand auf den Herzraum legen, die andere auf den Oberbauch. Erst Punkt 1, dann Punkt 2 spüren und anschließend beide Felder gleichzeitig wahrnehmen, während innerlich „Nicht verschmelzen“ und „Bei dir bleiben“ mitschwingen.",
+          },
+          {
+            label: "Lebensthema",
+            text: "Du suchst intensive Nähe und besondere emotionale Verbindung. Du gibst viel Liebe und Aufmerksamkeit und erwartest dafür tiefe Resonanz, während du bei Verschmelzung und Hingabe leicht deine innere Unabhängigkeit verlierst.",
+          },
+          {
+            label: "Unbewusste Strategie",
+            text: "Du willst über besondere Nähe emotionale Bedeutung bekommen und bindest dich stark an einzelne Menschen, wobei du leicht Eigenständigkeit verlierst. Du stabilisierst dich über Aufmerksamkeit, Intensität und Verführung, auch wenn Abhängigkeit entsteht.",
+          },
+          {
+            label: "Integration",
+            text: "Du erkennst, dass intensive Bindung und Verführung keine echte Selbstliebe ersetzen können. Du zeigst dich authentisch und verletzlich, ohne dich beweisen zu müssen, sodass Nähe durch Wahrhaftigkeit statt durch Verschmelzung entsteht.",
           },
           {
             label: "Kernsatz",
             text: "Wenn du Liebe nicht erobern musst, kann echte Verbundenheit dich wirklich erreichen.",
+          },
+        ],
+      },
+      {
+        title: "SX2 · Seite 3 · Körperarbeit & Akupressur",
+        intro:
+          "Die SX2 bewegt sich von Verschmelzung zu freier Hingabe. Körperarbeit hilft, Intensität und eigene Grenze wieder zusammenzubringen.",
+        entries: [
+          {
+            label: "Problem",
+            text: "Du willst über besondere Nähe emotionale Bedeutung gewinnen und bindest dich stark an einzelne Menschen. Dabei verlierst du leicht deine Eigenständigkeit und eigene Bedürfnisse.",
+          },
+          {
+            label: "Wendepunkt",
+            text: "Du erkennst, dass intensive Bindung und Verführung keine echte Selbstliebe ersetzen können. Du beginnst, authentisch und verletzlich zu sein, ohne dich beweisen zu müssen.",
+          },
+          {
+            label: "Integration",
+            text: "Du begegnest anderen offen und herzlich, ohne dich über Bindung oder Verführung zu definieren. Wärme und lebendige Nähe entstehen aus Wahrhaftigkeit und Selbstliebe.",
+          },
+          {
+            label: "Körperliche Integration",
+            text: "Verbindung / Herz. Die sechs Zugänge sind Gesicht, Hand, Fuß, Bauch, Finger und Ohr.",
+          },
+          {
+            label: "Vollkommen still sitzen",
+            text: "Zwei Minuten aufrecht und bequem sitzen, ohne auf den einen wichtigen Menschen ausgerichtet zu sein. Der Körper darf zeigen, was wesentlich ist, ohne dass sofort Nähe hergestellt werden muss.",
+          },
+          {
+            label: "Mentale & emotionale Haltung",
+            text: "Bei der SX2 zeigt sich mental ein falscher Überfluss: Ich habe genug Liebe zu geben. Emotional entsteht Stolz, wenn der eigene Wert über Unersetzbarkeit in der einen Bindung definiert wird.",
+          },
+          {
+            label: "Flügel",
+            text: "SX2 mit 1er-Flügel betont Verantwortlichkeit, Verlässlichkeit und moralischen Anspruch in der Bindung. SX2 mit 3er-Flügel betont Ausstrahlung, Anziehungskraft und aktives Werben um Nähe.",
+          },
+          {
+            label: "Medienfelder",
+            text: "Die Seite enthält die vorbereitete Struktur für Typ-2-Songs, Subtyp-Songs, biblische Songs, Affirmationen, Flügel und Vertiefungen.",
+          },
+        ],
+      },
+      {
+        title: "SX2 · Seite 4 · Heilmittel-Kompass",
+        intro:
+          "Der Heilmittel-Kompass der SX2 übersetzt Eifersucht, Besitzanspruch und die Angst vor Verlassenwerden in ein heilkundliches Symbolfeld.",
+        entries: [
+          {
+            label: "Homöopathisches Einzelmittel",
+            text: "Hyoscyamus niger steht hier für Eifersucht, das Bedürfnis, gesehen zu werden, und die Angst, verlassen oder übergangen zu werden. Der Weg führt zu einer Liebe, die auf festem inneren Grund steht statt ständig um Bestätigung zu kämpfen.",
+          },
+          {
+            label: "Thema",
+            text: "Der intensive Wunsch, für eine bestimmte Person einzigartig und unersetzbar zu sein, wird von der Angst getragen, ersetzt oder nicht als Wichtigste erlebt zu werden.",
+          },
+          {
+            label: "Wirkung auf Lebenskraft und Leidenschaft",
+            text: "Unterstützt symbolisch die Wandlung anklammernder Hingabe in eine Liebe, die aus innerer Sicherheit gibt, statt Verbundenheit über vollständige Hingabe sichern zu müssen.",
+          },
+          {
+            label: "Ziel",
+            text: "Regulation und Stärkung der Zweier-Lebenskraft: Ausgleich der überschießenden, auf die eine Bindung fixierten Herzenergie.",
+          },
+          {
+            label: "Mineralstoff-Impuls",
+            text: "Natrium chloratum unterstützt symbolisch die Regulation von Nähe und Rückzug in der intensiven Bindung sowie emotionales Gleichgewicht und innere Balance.",
+          },
+          {
+            label: "Bachblüte",
+            text: "Chicory fördert bedingungslose Liebe, gesunde Grenzen und emotionale Unabhängigkeit vom Spiegel der einen Beziehung.",
+          },
+          {
+            label: "Edelstein",
+            text: "Rosenquarz steht für Selbstliebe, Mitgefühl und die Erlaubnis, auch selbst zu empfangen, ohne sich erst unentbehrlich machen zu müssen.",
+          },
+          {
+            label: "Tee",
+            text: "Rosenblütentee wirkt symbolisch herzöffnend, harmonisierend und sammelnd für Körper, Geist und Seele.",
+          },
+          {
+            label: "Leidenschaft",
+            text: "Stolz zeigt sich bei der SX2 als intensiver Wunsch, für eine bestimmte Person einzigartig und unersetzbar zu sein – sie gibt sich voll hin und erwartet dafür, als die Wichtigste erlebt zu werden.",
+          },
+          {
+            label: "Innere Motivation",
+            text: "Das innere Streben nach Tiefe, Exklusivität und emotionaler Bedeutung ist verbunden mit dem Wunsch, durch vollständige Hingabe Liebe und Verschmelzung zu erfahren.",
+          },
+        ],
+      },
+      {
+        title: "SX2 · Seite 5 · Integration",
+        intro:
+          "Die Integrationsseite der SX2 führt von Verschmelzung und Bedürftigkeit zu innerer Freiheit, Tiefe und echter Hingabe.",
+        entries: [
+          {
+            label: "Integrationspotenzial",
+            text: "Tiefe & Hingabe. Wahre Verbundenheit beginnt bei dir, denn nur aus innerer Freiheit kannst du dich wirklich hingeben.",
+          },
+          {
+            label: "Archetypische Essenz",
+            text: "Die Essenz der SX2 ist Hingabe. Sie lebt für intensive Nähe und Verschmelzung, in reifer Form aus innerer Fülle statt aus dem Zwang, unersetzbar zu sein.",
+          },
+          {
+            label: "Verkörperte Qualität",
+            text: "Magnetische Ausstrahlung, intensive Präsenz, tiefe emotionale Intelligenz, leidenschaftliche Liebe und schützende Hingabe.",
+          },
+          {
+            label: "Nervensystem-Regulation",
+            text: "Spannung im Körper regulieren, Eifersucht und Besitzdenken lösen, zwischen Nähe und Freiheit balancieren und innere Grenzen stärken.",
+          },
+          {
+            label: "Beziehungsebene",
+            text: "Nähe zulassen, ohne sich selbst dabei zu verlieren, und Verbindung durch innere Freiheit, Selbstachtung und echte Gegenseitigkeit finden.",
+          },
+          {
+            label: "Neue Fähigkeiten",
+            text: "Nicht unentbehrlich sein müssen, um geliebt zu werden, eigene Gefühle und Grenzen wahrnehmen und Bedürfnisse klar kommunizieren.",
+          },
+          {
+            label: "Integrationssatz",
+            text: "Ich gebe mich ganz hin und empfange echte Verbindung.",
+          },
+          {
+            label: "Bewusstseinsraum",
+            text: "Integration bedeutet, sich nicht mehr über Unersetzbarkeit beweisen zu müssen und mehr aus echter Fülle hinzugeben. Der Wunsch nach Tiefe wird bewusst und frei.",
+          },
+          {
+            label: "Ausstrahlung",
+            text: "Magnetische Präsenz, warme Intensität, geerdete Leidenschaft und menschliche Tiefe ohne Klammern.",
           },
         ],
       },

@@ -239,6 +239,169 @@ Doch wenn er sich zu sehr verliert, findet er sich selbst nicht mehr. Die Frage 
   },
 };
 
+export const SUBTYP_IMPULSE_EN = {
+  se1: {
+    text: `The SE1 subtype carries the inner critic loudest – but directs its strictness at himself first. He plans ahead, prepares, checks – and still always finds a point where it isn't good enough.
+
+This strictness comes from a deep care: for himself, for the world. The first step toward healing isn't to silence the inner critic. It's to thank it – and then gently tell it: this is enough.`,
+    impuls: `What have you already done right today? Name three things. Out loud or silently.`,
+  },
+  so1: {
+    text: `The SO1 has a mission. He knows how the world should be – and he doesn't stop until he's made others understand it too. That can be inspiring. It can also divide.
+
+The question that may accompany him: is it more important that I'm right – or that we understand each other? Standing up for values takes courage. But values that build no bridge become walls.`,
+    impuls: `Is there someone whose path you can accept today – even if you walk a different one?`,
+  },
+  sx1: {
+    text: `The SX1 burns. His convictions aren't opinions – they're fire. He loves passionately, fights passionately, demands passionately.
+
+But fire can warm – or burn. The SX1 may learn to regulate the flame: not to extinguish it, but to direct it. The energy he puts into the fight carries within it the greatest potential for transformation.`,
+    impuls: `Where is something burning in you right now? Ask yourself: is this fire burning me up – or is it lighting the way for something?`,
+  },
+  se2: {
+    text: `The SE2 is the least recognized Helper. From outside they can seem self-focused – yet they're only seeking their own place in the world. They give, but they also take care of themselves. That's not a flaw. That's health.
+
+The SE2's growth lies in learning what they need – without detours. Not through indirect giving that hopes for something in return. But through clear, loving asking.`,
+    impuls: `What do you actually need right now? Can you say it directly today – without earning it first?`,
+  },
+  so2: {
+    text: `The SO2 loves people – and knows how to inspire them. They build connections, move groups, become indispensable. That's a real gift.
+
+But sometimes they wonder: do they love me – or just what I do for them? That question isn't vanity. It's the core of their wound. True belonging needs no performance. It needs presence.`,
+    impuls: `Today, organize nothing, offer nothing. Just be there. See if you're still welcome anyway.`,
+  },
+  sx2: {
+    text: `The SX2 loves intensely. They seek the one connection that means everything – and they do everything to get it. That's not weakness. It's the power of the heart.
+
+But love that fights sometimes loses itself. Real connection isn't born from conquest – it's born from letting go.`,
+    impuls: `Is there someone in your life you're currently giving too much to – and yourself too little? What would it mean to take a step back today?`,
+  },
+  se3: {
+    text: `The SE3 doesn't want to be the loudest. They want to be the reliable one. The one who's always there, gets everything done, makes no mistakes – and hardly stands out.
+
+But this modesty is often itself an image. A protective cloak. Whoever never shines can't lose. The SE3's growth: allowing themselves to be seen – not for what they achieve, but for who they are.`,
+    impuls: `What would you do today if you were allowed to be seen – not for your performance, but for yourself?`,
+  },
+  so3: {
+    text: `The stage is his home. The SO3 knows exactly which image he needs to project – and he delivers it with perfection. He's the type who knows, in any room, who he needs to be right now.
+
+But behind the stage, silence waits. And in the silence, the question: who am I when no one is watching? That's not a threatening question. It's the most liberating question a person can ask themselves.`,
+    impuls: `Give yourself a moment today without an audience. And see: what remains?`,
+  },
+  sx3: {
+    text: `The SX3 embodies magnetism. They know exactly how they come across – and use it consciously. Not out of vanity, but because they've learned: this is me. This is my path.
+
+But attractiveness that bends itself to please eventually loses its center. The deepest attraction doesn't come from the image – it comes from authenticity.`,
+    impuls: `What would be the most authentic thing you could show today – regardless of how it lands?`,
+  },
+  se4: {
+    text: `The SE4 suffers – but doesn't show it. They're the quiet one among the Fours. They carry, endure, keep going. That's real strength.
+
+But this strength has a price: their own vulnerability stays hidden. Even from themselves. Eventually the body asks what the soul was never allowed to express.`,
+    impuls: `What are you carrying right now that you could actually set down? Who could you entrust it to today?`,
+  },
+  so4: {
+    text: `The SO4 compares. They see what others have, what they are, how they come across – and measure themselves against it. The result is usually the same: they fall short.
+
+But this comparison is a lie. Not because the math is wrong – but because it's the wrong equation. You aren't a comparison. You're an original. And originals have no comparative value.`,
+    impuls: `Try, just for today, not comparing yourself. Just today. And see how that feels.`,
+  },
+  sx4: {
+    text: `The SX4 lives in tension. They want connection – and fear not being good enough. So they exaggerate: become better, bigger, more intense. Or they withdraw. Both are the same coin. Both are protection from the deepest fear: being truly seen.`,
+    impuls: `What would happen if today you neither fought nor withdrew – but simply were there?`,
+  },
+  se5: {
+    text: `The SE5 carefully builds their inner castle. They know exactly how much they need – and how much they can give. That's not coldness. That's self-protection.
+
+But sometimes the castle becomes so secure that no one can get in anymore. Not even they can find the door. Connection needs no weakness. It needs an open door.`,
+    impuls: `Who could you invite in today – even just briefly? What would be the smallest thing you could share?`,
+  },
+  so5: {
+    text: `The SO5 belongs – but through ideas, not through the heart. They find community in systems, theories, values. That's their path into connection.
+
+That's valuable. But sometimes the concept isn't enough. Sometimes a person needs another person – not a shared conviction.`,
+    impuls: `Is there someone you could show yourself to today, without a topic, without a theory – just as you are?`,
+  },
+  sx5: {
+    text: `The SX5 opens up – but only to the one. The one they truly trust. Then they share everything: thoughts, secrets, worlds. That's a rare and precious gift.
+
+But when that one person is missing or leaves, the SX5 withdraws deeply. The inner connection must not depend on a single person.`,
+    impuls: `What gives you ground today – beyond a single person? Where do you find yourself?`,
+  },
+  se6: {
+    text: `The SE6 is the friendliest among the Sixes. They build relationships – warm, reliable, often lifelong. That's their safety net.
+
+But sometimes, behind the warmth, lies a question: will you stay even when I'm not so nice anymore? When I set boundaries? When I show who I really am?`,
+    impuls: `Show yourself today, to someone you trust, in a moment when you're not perfect. And see if they stay.`,
+  },
+  so6: {
+    text: `The SO6 follows the rules. They know what they're supposed to do – and they do it. Reliable, loyal, dutiful. Everyone who knows them values this.
+
+But sometimes they wonder: what do I actually want? What do I think, when I'm not thinking about the rule? Duty matters. But a life made only of duty is not a free life.`,
+    impuls: `What would you do today if there were no rules – and no one would be disappointed?`,
+  },
+  sx6: {
+    text: `The SX6 shows no fear. They move toward it, face it, overcome it – again and again. From outside they seem brave. Sometimes even fearless.
+
+But the strength they show is often the opposite of what they feel. The next step: not just overcoming fear – but accepting it. Getting to know it as part of themselves.`,
+    impuls: `What's frightening you right now that you haven't looked at yet? Can you simply look at it for a moment today?`,
+  },
+  se7: {
+    text: `The SE7 is practical. They know who they need to know, what they need, how to get it. They build networks the way others tend gardens – with persistence and joy.
+
+But sometimes they lose something in the process: depth. The friendship that isn't useful. The break that accomplishes nothing.`,
+    impuls: `Call someone you like today – with no agenda. Just because. And enjoy having no plan at all.`,
+  },
+  so7: {
+    text: `The SO7 is the surprising one among the Sevens. They sacrifice. They forgo their own joy for the good of others, for ideals, for the community. That's true greatness.
+
+But sometimes they forget themselves in the process. Whoever sacrifices themselves permanently burns out. Even the highest ideal needs a living person to carry it.`,
+    impuls: `What have you last done purely for yourself – out of pure joy, without justification?`,
+  },
+  sx7: {
+    text: `The SX7 lives in a world full of possibilities – and people they idealize. They fall in love easily: with ideas, with projects, with people. That's their gift.
+
+But ideals are images. People are people. Eventually the image meets reality. The SX7's growth: to love what is – not what could be.`,
+    impuls: `Is there someone or something in your life you're currently idealizing? What do you see when you look closer?`,
+  },
+  se8: {
+    text: `The SE8 wants enough. Good food, a reliable roof, people they can trust. They're the most grounded among the Eights.
+
+But "enough" is sometimes more than just the material. Sometimes "enough" also means: I'm allowed to be vulnerable. I'm allowed to be soft. I don't have to control everything.`,
+    impuls: `What would be "enough" today – without needing more? Can you rest in that for a moment?`,
+  },
+  so8: {
+    text: `The SO8 fights – but not for themselves. They fight for those they love, for the weak, for their group. That's their path of strength.
+
+But sometimes they keep fighting even after the fight is over. When there's no enemy left. When it would be time to lay down the weapons.`,
+    impuls: `Is there a fight in your life you could let go of? One where you no longer need anyone to defeat?`,
+  },
+  sx8: {
+    text: `The SX8 loves with full force. What they love, they hold on to. What they want, they fight for. This intensity is unmistakable – and deeply moving.
+
+But love that possesses loses what it loves most. What truly belongs doesn't flee. What's truly connected needs no chain.`,
+    impuls: `Is there someone or something in your life you could give more freedom to – out of strength, not indifference?`,
+  },
+  se9: {
+    text: `The SE9 finds peace in small things: in the cup of coffee, in the favorite show, in the familiar routine. That's not a flaw – it's a form of wisdom.
+
+But sometimes the routine is also numbing. A way of not meeting the life that's calling.`,
+    impuls: `What's calling you right now that you're not quite hearing yet? Take five minutes of silence today. And listen.`,
+  },
+  so9: {
+    text: `The SO9 is part of everything. They fit in, keep the peace, make sure everyone is content. But when are they not part of it? When are they simply themselves?
+
+The SO9's deepest work: learning that they still belong even when they disagree.`,
+    impuls: `Gently disagree with someone today – and see if the connection remains anyway. Usually, it does.`,
+  },
+  sx9: {
+    text: `The SX9 merges. With the partner, with the idea, with the moment. That's a rare gift: truly being with someone, truly arriving.
+
+But when they lose themselves too much, they can no longer find themselves. The question isn't: where are you? But: who are you – when you're not with someone?`,
+    impuls: `Take an hour today just for yourself. No partner, no topic, no obligation. Just you. And see who's there.`,
+  },
+};
+
 export const TYP_IMPULSE_EN = {
   1: {
     text: `There is an inner judge who never takes a break. It examines, evaluates, corrects — and it is rarely satisfied. The Type 1 part within all of us knows this judge well.
